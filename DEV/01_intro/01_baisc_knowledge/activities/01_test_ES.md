@@ -1,4 +1,4 @@
 # Test tit castellano
-Dificultad: :honey_pot:
+Dificultad: :sunflower:
 Aprendizaje: :honey_pot::honey_pot:
 Tiempo: :stopwatch:
