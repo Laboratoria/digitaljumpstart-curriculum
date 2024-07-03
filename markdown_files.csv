@@ -1,5 +1,5 @@
 track,skill,module,title,path,type,difficulty,learning,time,discord_URL_ES,discord_URL_PT
-,,,digitaljumpstart test test,README.md,container,,,,,
+,,,digitaljumpstart test test test,README.md,container,,,,,
 DEV,,,Web Development,DEV/README.md,container,,,,,
 DEV,01_intro,,DEV : introduction,DEV/01_intro/README.md,container,,,,,
 DEV,01_intro,01_baisc_knowledge,DEV : introduction : basic knowledge,DEV/01_intro/01_baisc_knowledge/README.md,container,,,,,
