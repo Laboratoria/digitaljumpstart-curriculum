@@ -3,7 +3,7 @@ name: Generate Markdown List
 on:
   push:
     branches:
-      - main  # la rama que corresp
+      - main  # Cambia a la rama que prefieras
 
 jobs:
   generate-list:
@@ -25,7 +25,8 @@ jobs:
 
       - name: Generate markdown files list
         run: |
-          echo "import os
+          echo "
+import os
 import yaml
 import json
 import pandas as pd
@@ -61,4 +62,3 @@ df.to_csv('markdown_files.csv', index=False)
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
