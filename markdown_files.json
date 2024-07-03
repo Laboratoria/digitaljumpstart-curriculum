@@ -1,4 +1,10 @@
 [
-    "README.md",
-    "folder_01/readme.md"
+    {
+        "Path": "README.md",
+        "Header1": "digitaljumpstart"
+    },
+    {
+        "Path": "folder_01/readme.md",
+        "Header1": null
+    }
 ]
