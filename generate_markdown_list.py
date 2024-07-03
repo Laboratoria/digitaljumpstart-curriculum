@@ -1,5 +1,7 @@
 import os
 import json
+import csv
+import yaml
 
 def generate_markdown_list(root_dir):
     markdown_list = []
@@ -30,8 +32,25 @@ def get_levels(file_path):
         return parts[-4], parts[-3], parts[-2]
     return None, None, None
 
+def save_to_csv(data, filename):
+    keys = data[0].keys()
+    with open(filename, 'w', newline='') as output_file:
+        dict_writer = csv.DictWriter(output_file, keys)
+        dict_writer.writeheader()
+        dict_writer.writerows(data)
+
+def save_to_json(data, filename):
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=2)
+
+def save_to_yaml(data, filename):
+    with open(filename, 'w') as f:
+        yaml.dump(data, f, default_flow_style=False)
+
 if __name__ == "__main__":
     root_dir = "path/to/your/markdown/files"
     markdown_list = generate_markdown_list(root_dir)
-    with open("markdown_list.json", "w") as f:
-        json.dump(markdown_list, f, indent=2)
+    
+    save_to_csv(markdown_list, "markdown_files.csv")
+    save_to_json(markdown_list, "markdown_files.json")
+    save_to_yaml(markdown_list, "markdown_files.yaml")
