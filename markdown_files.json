@@ -12,6 +12,10 @@
         "Header1": "Desarrollo Web"
     },
     {
+        "Path": "DEV/topics/README.md",
+        "Header1": "Tópicos"
+    },
+    {
         "Path": "DEV/activities/README.md",
         "Header1": "Actividades"
     }
