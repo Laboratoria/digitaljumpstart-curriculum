@@ -17,6 +17,7 @@ def generate_markdown_list(root_dir):
                     "skill": skill,
                     "module": module
                 })
+    print(f"Markdown files found: {len(markdown_list)}")  # Debugging
     return markdown_list
 
 def get_header(file_path):
@@ -33,22 +34,34 @@ def get_levels(file_path):
     return None, None, None
 
 def save_to_csv(data, filename):
-    keys = data[0].keys() if data else []
+    if not data:
+        print(f"No data to write to {filename}")
+        return
+    keys = data[0].keys()
     with open(filename, 'w', newline='') as output_file:
         dict_writer = csv.DictWriter(output_file, keys)
         dict_writer.writeheader()
         dict_writer.writerows(data)
+    print(f"CSV file saved: {filename}")  # Debugging
 
 def save_to_json(data, filename):
+    if not data:
+        print(f"No data to write to {filename}")
+        return
     with open(filename, 'w') as f:
         json.dump(data, f, indent=2)
+    print(f"JSON file saved: {filename}")  # Debugging
 
 def save_to_yaml(data, filename):
+    if not data:
+        print(f"No data to write to {filename}")
+        return
     with open(filename, 'w') as f:
         yaml.dump(data, f, default_flow_style=False)
+    print(f"YAML file saved: {filename}")  # Debugging
 
 if __name__ == "__main__":
-    root_dir = "path/to/your/markdown/files"
+    root_dir = "path/to/your/markdown/files"  # Make sure this path is correct
     markdown_list = generate_markdown_list(root_dir)
 
     save_to_csv(markdown_list, "markdown_files.csv")
