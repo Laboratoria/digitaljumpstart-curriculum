@@ -1,5 +1,5 @@
 track,skill,module,title,path
-README.md,,,digitaljumpstart test AAAA bbb cc,./README.md
+README.md,,,digitaljumpstart test,./README.md
 DEV,README.md,,Web Development,./DEV/README.md
 DEV,01_intro,README.md,DEV : introduction,./DEV/01_intro/README.md
 DEV,01_intro,01_baisc_knowledge,DEV : introduction : basic knowledge,./DEV/01_intro/01_baisc_knowledge/README.md

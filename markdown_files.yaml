@@ -1,7 +1,7 @@
 - module: null
   path: ./README.md
   skill: null
-  title: digitaljumpstart test AAAA bbb cc
+  title: digitaljumpstart test
   track: README.md
 - module: null
   path: ./DEV/README.md
