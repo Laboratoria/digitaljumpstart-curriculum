@@ -9,7 +9,7 @@ def generate_markdown_list(root_dir):
         for file in files:
             if file.endswith(".md"):
                 file_path = os.path.join(subdir, file)
-                track, skill, module = get_levels(file_path)
+                track, skill, module = get_levels(file_path, root_dir)
                 title = get_header(file_path)
                 markdown_list.append({
                     "track": track,
@@ -27,15 +27,18 @@ def get_header(file_path):
                 return line[2:].strip()
     return None
 
-def get_levels(file_path):
-    parts = file_path.split(os.sep)
-    track = parts[1] if len(parts) > 1 else None
-    skill = parts[2] if len(parts) > 2 else None
-    module = parts[3] if len(parts) > 3 else None
+def get_levels(file_path, root_dir):
+    parts = os.path.relpath(file_path, root_dir).split(os.sep)
+    track = parts[0] if len(parts) > 0 else None
+    skill = parts[1] if len(parts) > 1 else None
+    module = parts[2] if len(parts) > 2 else None
     return track, skill, module
 
 def save_to_csv(data, filename):
-    keys = data[0].keys() if data else []
+    if not data:
+        print(f"No data to write to {filename}")
+        return
+    keys = data[0].keys()
     with open(filename, 'w', newline='') as output_file:
         dict_writer = csv.DictWriter(output_file, keys)
         dict_writer.writeheader()
