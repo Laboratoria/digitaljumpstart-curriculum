@@ -1,10 +1,10 @@
-track,skill,module,type,title,path
-,,,container,digitaljumpstart test,./README.md
-DEV,,,container,Web Development,./DEV/README.md
-DEV,01_intro,,container,DEV : introduction,./DEV/01_intro/README.md
-DEV,01_intro,01_baisc_knowledge,container,DEV : introduction : basic knowledge,./DEV/01_intro/01_baisc_knowledge/README.md
-DEV,01_intro,01_baisc_knowledge,topic,DEV : introduction : basic knoledge : topics,./DEV/01_intro/01_baisc_knowledge/topics/README.md
-DEV,01_intro,01_baisc_knowledge,topic,Título topic xyz,./DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md
-DEV,01_intro,01_baisc_knowledge,activity,,./DEV/01_intro/01_baisc_knowledge/activities/01_test_CONFIG.md
-DEV,01_intro,01_baisc_knowledge,activity,DEV : introduction : basic knowledge : activities,./DEV/01_intro/01_baisc_knowledge/activities/README.md
-DEV,01_intro,01_baisc_knowledge,activity,Test tit castellano,./DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md
+track,skill,module,title,path,type
+,,,digitaljumpstart test,./README.md,container
+DEV,,,Web Development,./DEV/README.md,container
+DEV,01_intro,,DEV : introduction,./DEV/01_intro/README.md,container
+DEV,01_intro,01_baisc_knowledge,DEV : introduction : basic knowledge,./DEV/01_intro/01_baisc_knowledge/README.md,container
+DEV,01_intro,01_baisc_knowledge,DEV : introduction : basic knoledge : topics,./DEV/01_intro/01_baisc_knowledge/topics/README.md,topic
+DEV,01_intro,01_baisc_knowledge,Título topic xyz,./DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md,topic
+DEV,01_intro,01_baisc_knowledge,,./DEV/01_intro/01_baisc_knowledge/activities/01_test_CONFIG.md,config
+DEV,01_intro,01_baisc_knowledge,DEV : introduction : basic knowledge : activities,./DEV/01_intro/01_baisc_knowledge/activities/README.md,container
+DEV,01_intro,01_baisc_knowledge,Test tit castellano,./DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md,container
