@@ -4,10 +4,6 @@
         "Header1": "digitaljumpstart"
     },
     {
-        "Path": "folder_01/readme.md",
-        "Header1": "encabezado test para verrrrrr al amigo Pyton"
-    },
-    {
         "Path": "DEV/README.md",
         "Header1": "Desarrollo Web"
     },
@@ -16,7 +12,7 @@
         "Header1": "Intro a Web Dev"
     },
     {
-        "Path": "DEV/01_intro/topics/README.md",
+        "Path": "DEV/01_intro/topics/README_ES.md",
         "Header1": "Tópicos"
     },
     {
