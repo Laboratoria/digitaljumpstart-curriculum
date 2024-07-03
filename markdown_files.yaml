@@ -1,1 +1,50 @@
-[]
+- module: null
+  path: ./README.md
+  skill: null
+  title: digitaljumpstart test AAAA bbb cc
+  track: README.md
+- module: null
+  path: ./DEV/README.md
+  skill: README.md
+  title: Web Development
+  track: DEV
+- module: README.md
+  path: ./DEV/01_intro/README.md
+  skill: 01_intro
+  title: 'DEV : introduction'
+  track: DEV
+- module: 01_baisc_knowledge
+  path: ./DEV/01_intro/01_baisc_knowledge/README.md
+  skill: 01_intro
+  title: 'DEV : introduction : basic knowledge'
+  track: DEV
+- module: 01_baisc_knowledge
+  path: ./DEV/01_intro/01_baisc_knowledge/topics/README.md
+  skill: 01_intro
+  title: 'DEV : introduction : basic knoledge : topics'
+  track: DEV
+- module: 01_baisc_knowledge
+  path: ./DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md
+  skill: 01_intro
+  title: "T\xEDtulo topic xyz"
+  track: DEV
+- module: 01_baisc_knowledge
+  path: ./DEV/01_intro/01_baisc_knowledge/activities/01_test_CONFIG.md
+  skill: 01_intro
+  title: null
+  track: DEV
+- module: 01_baisc_knowledge
+  path: ./DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md
+  skill: 01_intro
+  title: Test tit port
+  track: DEV
+- module: 01_baisc_knowledge
+  path: ./DEV/01_intro/01_baisc_knowledge/activities/README.md
+  skill: 01_intro
+  title: 'DEV : introduction : basic knowledge : activities'
+  track: DEV
+- module: 01_baisc_knowledge
+  path: ./DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md
+  skill: 01_intro
+  title: Test tit castellano
+  track: DEV
