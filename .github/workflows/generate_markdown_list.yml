@@ -25,4 +25,4 @@ jobs:
         pip install markdown
 
     - name: Run script
-      run: python generate_markdown_list.py
+      run: python generate_markdown_list.py ${{ github.workspace }}
