@@ -12,15 +12,15 @@
         "Header1": "Desarrollo Web"
     },
     {
-        "Path": "DEV/topics/README.md",
+        "Path": "DEV/01_intro/README.md",
+        "Header1": "Intro a Web Dev"
+    },
+    {
+        "Path": "DEV/01_intro/topics/README.md",
         "Header1": "Tópicos"
     },
     {
-        "Path": "DEV/activities/README.md",
+        "Path": "DEV/01_intro/activities/README.md",
         "Header1": "Actividades"
-    },
-    {
-        "Path": "DEV/01_intro/README.md",
-        "Header1": "Intro a Web Dev"
     }
 ]

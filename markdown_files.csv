@@ -2,6 +2,6 @@ Path,Header1
 README.md,digitaljumpstart
 folder_01/readme.md,encabezado test para verrrrrr al amigo Pyton
 DEV/README.md,Desarrollo Web
-DEV/topics/README.md,Tópicos
-DEV/activities/README.md,Actividades
 DEV/01_intro/README.md,Intro a Web Dev
+DEV/01_intro/topics/README.md,Tópicos
+DEV/01_intro/activities/README.md,Actividades
