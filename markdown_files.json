@@ -60,14 +60,6 @@
     "skill": "01_intro",
     "module": "01_baisc_knowledge",
     "type": "activity",
-    "title": "Test tit port",
-    "path": "./DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md"
-  },
-  {
-    "track": "DEV",
-    "skill": "01_intro",
-    "module": "01_baisc_knowledge",
-    "type": "activity",
     "title": "DEV : introduction : basic knowledge : activities",
     "path": "./DEV/01_intro/01_baisc_knowledge/activities/README.md"
   },
