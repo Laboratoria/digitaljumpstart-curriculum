@@ -1,4 +1,4 @@
-# digitaljumpstart test test test
+# digitaljumpstart test test
 dijital-jumpstart
 test com
 test 2
