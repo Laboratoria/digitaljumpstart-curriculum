@@ -1,5 +1,8 @@
 import os
 import sys
+import csv
+import json
+import yaml
 
 def get_first_h2_from_markdown(md_content):
     lines = md_content.split('\n')
@@ -85,6 +88,21 @@ def generate_markdown_list(root_dir):
                                             records.append(record)
     return records
 
+def save_to_csv(records, filename):
+    keys = records[0].keys()
+    with open(filename, 'w', newline='') as output_file:
+        dict_writer = csv.DictWriter(output_file, fieldnames=keys)
+        dict_writer.writeheader()
+        dict_writer.writerows(records)
+
+def save_to_json(records, filename):
+    with open(filename, 'w') as output_file:
+        json.dump(records, output_file, indent=2)
+
+def save_to_yaml(records, filename):
+    with open(filename, 'w') as output_file:
+        yaml.dump(records, output_file)
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python generate_markdown_list.py <root_directory>")
@@ -93,5 +111,8 @@ if __name__ == "__main__":
     root_dir = sys.argv[1]
     records = generate_markdown_list(root_dir)
 
-    import json
-    print(json.dumps(records, indent=2))
+    save_to_csv(records, 'markdown_files.csv')
+    save_to_json(records, 'markdown_files.json')
+    save_to_yaml(records, 'markdown_files.yaml')
+
+    print("Files have been saved: markdown_files.csv, markdown_files.json, markdown_files.yaml")
