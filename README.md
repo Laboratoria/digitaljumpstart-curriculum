@@ -1,4 +1,4 @@
-# digitaljumpstart test AAAA bbb
+# digitaljumpstart test AAAA bbb cc
 dijital-jumpstart
 test com
 test 2
