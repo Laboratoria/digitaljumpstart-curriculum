@@ -9,6 +9,7 @@ def generate_markdown_list(root_dir):
         for file in files:
             if file.endswith(".md"):
                 file_path = os.path.join(subdir, file)
+                print(f"Processing file: {file_path}")  # Debugging
                 track, skill, module = get_levels(file_path)
                 markdown_list.append({
                     "path": file_path,
