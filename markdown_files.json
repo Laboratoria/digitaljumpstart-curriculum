@@ -3,6 +3,7 @@
     "track": null,
     "skill": null,
     "module": null,
+    "type": "container",
     "title": "digitaljumpstart test",
     "path": "./README.md"
   },
@@ -10,6 +11,7 @@
     "track": "DEV",
     "skill": null,
     "module": null,
+    "type": "container",
     "title": "Web Development",
     "path": "./DEV/README.md"
   },
@@ -17,6 +19,7 @@
     "track": "DEV",
     "skill": "01_intro",
     "module": null,
+    "type": "container",
     "title": "DEV : introduction",
     "path": "./DEV/01_intro/README.md"
   },
@@ -24,6 +27,7 @@
     "track": "DEV",
     "skill": "01_intro",
     "module": "01_baisc_knowledge",
+    "type": "container",
     "title": "DEV : introduction : basic knowledge",
     "path": "./DEV/01_intro/01_baisc_knowledge/README.md"
   },
@@ -31,6 +35,7 @@
     "track": "DEV",
     "skill": "01_intro",
     "module": "01_baisc_knowledge",
+    "type": "topic",
     "title": "DEV : introduction : basic knoledge : topics",
     "path": "./DEV/01_intro/01_baisc_knowledge/topics/README.md"
   },
@@ -38,6 +43,7 @@
     "track": "DEV",
     "skill": "01_intro",
     "module": "01_baisc_knowledge",
+    "type": "topic",
     "title": "T\u00edtulo topic xyz",
     "path": "./DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md"
   },
@@ -45,6 +51,7 @@
     "track": "DEV",
     "skill": "01_intro",
     "module": "01_baisc_knowledge",
+    "type": "activity",
     "title": null,
     "path": "./DEV/01_intro/01_baisc_knowledge/activities/01_test_CONFIG.md"
   },
@@ -52,6 +59,7 @@
     "track": "DEV",
     "skill": "01_intro",
     "module": "01_baisc_knowledge",
+    "type": "activity",
     "title": "Test tit port",
     "path": "./DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md"
   },
@@ -59,6 +67,7 @@
     "track": "DEV",
     "skill": "01_intro",
     "module": "01_baisc_knowledge",
+    "type": "activity",
     "title": "DEV : introduction : basic knowledge : activities",
     "path": "./DEV/01_intro/01_baisc_knowledge/activities/README.md"
   },
@@ -66,6 +75,7 @@
     "track": "DEV",
     "skill": "01_intro",
     "module": "01_baisc_knowledge",
+    "type": "activity",
     "title": "Test tit castellano",
     "path": "./DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md"
   }
