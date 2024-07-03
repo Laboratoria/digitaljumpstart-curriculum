@@ -5,42 +5,28 @@ import yaml
 
 def generate_markdown_list(root_dir):
     markdown_list = []
-    config_data = {}
-    
     for subdir, _, files in os.walk(root_dir):
         for file in files:
             if file.endswith(".md"):
                 file_path = os.path.join(subdir, file)
-                rel_file_path = os.path.relpath(file_path, root_dir)
-                track, skill, module = get_levels(rel_file_path)
+                track, skill, module = get_levels(file_path, root_dir)
                 title = get_header(file_path)
                 file_type = get_file_type(file_path)
-                difficulty, learning, time, discord_URL_ES, discord_URL_PT = (None, None, None, None, None)
-                
-                if "activity" in file_path:
-                    base_name = file.rsplit("_", 1)[0]
-                    config_file = os.path.join(subdir, f"{base_name}_CONFIG.md")
-                    if config_file not in config_data:
-                        config_data[config_file] = parse_config_file(config_file)
-                    config_values = config_data.get(config_file, {})
-                    difficulty = config_values.get("difficulty")
-                    learning = config_values.get("learning")
-                    time = config_values.get("time")
-                    discord_URL_ES = config_values.get("discord_URL_ES")
-                    discord_URL_PT = config_values.get("discord_URL_PT")
-                
+                additional_info = get_additional_info(file_path) if file_type == "activity" else {
+                    "difficulty": None,
+                    "learning": None,
+                    "time": None,
+                    "discord_URL_ES": None,
+                    "discord_URL_PT": None
+                }
                 markdown_list.append({
                     "track": track,
                     "skill": skill,
                     "module": module,
                     "title": title,
-                    "path": rel_file_path,
+                    "path": file_path[2:],  # Remove the leading "./"
                     "type": file_type,
-                    "difficulty": difficulty,
-                    "learning": learning,
-                    "time": time,
-                    "discord_URL_ES": discord_URL_ES,
-                    "discord_URL_PT": discord_URL_PT
+                    **additional_info
                 })
     return markdown_list
 
@@ -51,8 +37,9 @@ def get_header(file_path):
                 return line[2:].strip()
     return None
 
-def get_levels(file_path):
-    parts = file_path.split(os.sep)
+def get_levels(file_path, root_dir):
+    parts = os.path.relpath(file_path, root_dir).split(os.sep)
+    # Excluir el archivo del conteo, considerar solo carpetas
     if parts[-1].endswith(".md"):
         parts = parts[:-1]
     track = parts[0] if len(parts) > 0 else None
@@ -73,17 +60,31 @@ def get_file_type(file_path):
     else:
         return "container"
 
-def parse_config_file(file_path):
-    config = {}
-    if os.path.exists(file_path):
-        with open(file_path, 'r') as f:
-            for line in f:
-                if line.startswith("# "):
-                    break
+def get_additional_info(file_path):
+    base_name = file_path.rsplit("_", 1)[0]  # Get base name before the suffix
+    config_path = f"{base_name}_CONFIG.md"
+    if os.path.exists(config_path):
+        with open(config_path, 'r') as f:
+            lines = f.readlines()
+            info = {}
+            for line in lines:
                 if ":" in line:
                     key, value = line.split(":", 1)
-                    config[key.strip()] = value.strip()
-    return config
+                    info[key.strip()] = value.strip() if value.strip().lower() != "null" else None
+            return {
+                "difficulty": info.get("difficulty"),
+                "learning": info.get("learning"),
+                "time": info.get("time"),
+                "discord_URL_ES": info.get("discord_URL_ES"),
+                "discord_URL_PT": info.get("discord_URL_PT")
+            }
+    return {
+        "difficulty": None,
+        "learning": None,
+        "time": None,
+        "discord_URL_ES": None,
+        "discord_URL_PT": None
+    }
 
 def save_to_csv(data, filename):
     if not data:
@@ -110,6 +111,7 @@ if __name__ == "__main__":
     save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
     save_to_yaml(markdown_list, "markdown_files.yaml")
+
 
 
 """
