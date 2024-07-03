@@ -1,54 +1,99 @@
-- module: null
-  path: ./README.md
+- difficulty: null
+  discord_URL_ES: null
+  discord_URL_PT: null
+  learning: null
+  module: null
+  path: README.md
   skill: null
+  time: null
   title: digitaljumpstart test
   track: null
   type: container
-- module: null
-  path: ./DEV/README.md
+- difficulty: null
+  discord_URL_ES: null
+  discord_URL_PT: null
+  learning: null
+  module: null
+  path: DEV/README.md
   skill: null
+  time: null
   title: Web Development
   track: DEV
   type: container
-- module: null
-  path: ./DEV/01_intro/README.md
+- difficulty: null
+  discord_URL_ES: null
+  discord_URL_PT: null
+  learning: null
+  module: null
+  path: DEV/01_intro/README.md
   skill: 01_intro
+  time: null
   title: 'DEV : introduction'
   track: DEV
   type: container
-- module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/README.md
+- difficulty: null
+  discord_URL_ES: null
+  discord_URL_PT: null
+  learning: null
+  module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/README.md
   skill: 01_intro
+  time: null
   title: 'DEV : introduction : basic knowledge'
   track: DEV
   type: container
-- module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/topics/README.md
+- difficulty: null
+  discord_URL_ES: null
+  discord_URL_PT: null
+  learning: null
+  module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/topics/README.md
   skill: 01_intro
+  time: null
   title: 'DEV : introduction : basic knoledge : topics'
   track: DEV
   type: topic
-- module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md
+- difficulty: null
+  discord_URL_ES: null
+  discord_URL_PT: null
+  learning: null
+  module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md
   skill: 01_intro
+  time: null
   title: "T\xEDtulo topic xyz"
   track: DEV
   type: topic
-- module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/activities/01_test_CONFIG.md
+- difficulty: null
+  discord_URL_ES: null
+  discord_URL_PT: null
+  learning: null
+  module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/activities/01_test_CONFIG.md
   skill: 01_intro
+  time: null
   title: null
   track: DEV
   type: config
-- module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/activities/README.md
+- difficulty: null
+  discord_URL_ES: null
+  discord_URL_PT: null
+  learning: null
+  module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/activities/README.md
   skill: 01_intro
+  time: null
   title: 'DEV : introduction : basic knowledge : activities'
   track: DEV
   type: container
-- module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md
+- difficulty: null
+  discord_URL_ES: null
+  discord_URL_PT: null
+  learning: null
+  module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md
   skill: 01_intro
+  time: null
   title: Test tit castellano
   track: DEV
   type: container
