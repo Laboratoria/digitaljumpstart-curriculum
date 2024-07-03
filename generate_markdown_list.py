@@ -9,15 +9,16 @@ def generate_markdown_list(root_dir):
         for file in files:
             if file.endswith(".md"):
                 file_path = os.path.join(subdir, file)
-                track, skill, module, file_type = get_levels_and_type(file_path, root_dir)
+                track, skill, module = get_levels(file_path, root_dir)
                 title = get_header(file_path)
+                file_type = get_file_type(file_path)
                 markdown_list.append({
                     "track": track,
                     "skill": skill,
                     "module": module,
-                    "type": file_type,
                     "title": title,
-                    "path": file_path
+                    "path": file_path,
+                    "type": file_type
                 })
     return markdown_list
 
@@ -28,7 +29,7 @@ def get_header(file_path):
                 return line[2:].strip()
     return None
 
-def get_levels_and_type(file_path, root_dir):
+def get_levels(file_path, root_dir):
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
     # Excluir el archivo del conteo, considerar solo carpetas
     if parts[-1].endswith(".md"):
@@ -36,15 +37,20 @@ def get_levels_and_type(file_path, root_dir):
     track = parts[0] if len(parts) > 0 else None
     skill = parts[1] if len(parts) > 1 else None
     module = parts[2] if len(parts) > 2 else None
+    return track, skill, module
 
-    # Determinar el tipo
-    file_type = "container"
-    if "activities" in parts:
-        file_type = "activity"
+def get_file_type(file_path):
+    parts = file_path.split(os.sep)
+    if "activity" in parts:
+        return "activity"
     elif "topics" in parts:
-        file_type = "topic"
-
-    return track, skill, module, file_type
+        return "topic"
+    elif file_path.endswith("README.md"):
+        return "container"
+    elif file_path.endswith("CONFIG.md"):
+        return "config"
+    else:
+        return "container"
 
 def save_to_csv(data, filename):
     if not data:
