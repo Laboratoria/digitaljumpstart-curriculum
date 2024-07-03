@@ -61,23 +61,24 @@ def get_file_type(file_path):
         return "container"
 
 def get_additional_info(file_path):
-    base_name = file_path.rsplit("_", 1)[0]  # Get base name before the suffix
-    config_path = f"{base_name}_CONFIG.md"
-    if os.path.exists(config_path):
-        with open(config_path, 'r') as f:
-            lines = f.readlines()
-            info = {}
-            for line in lines:
-                if ":" in line:
-                    key, value = line.split(":", 1)
-                    info[key.strip()] = value.strip() if value.strip().lower() != "null" else None
-            return {
-                "difficulty": info.get("difficulty"),
-                "learning": info.get("learning"),
-                "time": info.get("time"),
-                "discord_URL_ES": info.get("discord_URL_ES"),
-                "discord_URL_PT": info.get("discord_URL_PT")
-            }
+    if "_ES.md" in file_path or "_PT.md" in file_path:
+        base_name = file_path.rsplit("_", 1)[0]  # Get base name before the suffix
+        config_path = f"{base_name}_CONFIG.md"
+        if os.path.exists(config_path):
+            with open(config_path, 'r') as f:
+                lines = f.readlines()
+                info = {}
+                for line in lines:
+                    if ":" in line:
+                        key, value = line.split(":", 1)
+                        info[key.strip()] = value.strip() if value.strip().lower() != "null" else None
+                return {
+                    "difficulty": info.get("difficulty"),
+                    "learning": info.get("learning"),
+                    "time": info.get("time"),
+                    "discord_URL_ES": info.get("discord_URL_ES"),
+                    "discord_URL_PT": info.get("discord_URL_PT")
+                }
     return {
         "difficulty": None,
         "learning": None,
@@ -111,6 +112,7 @@ if __name__ == "__main__":
     save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
     save_to_yaml(markdown_list, "markdown_files.yaml")
+
 
 
 
