@@ -63,3 +63,8 @@ if __name__ == "__main__":
     save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
     save_to_yaml(markdown_list, "markdown_files.yaml")
+
+# Git commands to add and commit the generated files if they have changed
+os.system('git add markdown_files.csv markdown_files.json markdown_files.yaml')
+os.system('git commit -m "Add generated markdown list" || echo "No changes to commit"')
+os.system('git push origin main')
