@@ -29,6 +29,9 @@ def get_header(file_path):
 
 def get_levels(file_path, root_dir):
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
+    # Excluir el archivo del conteo, considerar solo carpetas
+    if parts[-1].endswith(".md"):
+        parts = parts[:-1]
     track = parts[0] if len(parts) > 0 else None
     skill = parts[1] if len(parts) > 1 else None
     module = parts[2] if len(parts) > 2 else None
