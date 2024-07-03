@@ -2,13 +2,13 @@
   path: ./README.md
   skill: null
   title: digitaljumpstart test
-  track: README.md
+  track: null
 - module: null
   path: ./DEV/README.md
-  skill: README.md
+  skill: null
   title: Web Development
   track: DEV
-- module: README.md
+- module: null
   path: ./DEV/01_intro/README.md
   skill: 01_intro
   title: 'DEV : introduction'
