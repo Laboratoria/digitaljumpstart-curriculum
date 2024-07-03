@@ -64,6 +64,7 @@ def get_additional_info(file_path):
     if "_ES.md" in file_path or "_PT.md" in file_path:
         base_name = file_path.rsplit("_", 1)[0]  # Get base name before the suffix
         config_path = f"{base_name}_CONFIG.md"
+        print(f"Checking config file: {config_path}")  # Debugging output
         if os.path.exists(config_path):
             with open(config_path, 'r') as f:
                 lines = f.readlines()
@@ -72,6 +73,7 @@ def get_additional_info(file_path):
                     if ":" in line:
                         key, value = line.split(":", 1)
                         info[key.strip()] = value.strip() if value.strip().lower() != "null" else None
+                print(f"Config info for {file_path}: {info}")  # Debugging output
                 return {
                     "difficulty": info.get("difficulty"),
                     "learning": info.get("learning"),
