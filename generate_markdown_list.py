@@ -1,37 +1,37 @@
 import os
-import yaml
 import json
-import pandas as pd
 
-repo_path = '.'
+def generate_markdown_list(root_dir):
+    markdown_list = []
+    for subdir, dirs, files in os.walk(root_dir):
+        for file in files:
+            if file.endswith(".md"):
+                file_path = os.path.join(subdir, file)
+                track, skill, module = get_levels(file_path)
+                markdown_list.append({
+                    "path": file_path,
+                    "title": get_header(file_path),
+                    "track": track,
+                    "skill": skill,
+                    "module": module
+                })
+    return markdown_list
 
-markdown_files = []
+def get_header(file_path):
+    with open(file_path, 'r') as f:
+        for line in f:
+            if line.startswith("# "):
+                return line[2:].strip()
+    return None
 
-for root, dirs, files in os.walk(repo_path):
-    for file in files:
-        if file.endswith('.md'):
-            full_path = os.path.join(root, file)
-            relative_path = os.path.relpath(full_path, repo_path)
-            
-            # Leer el contenido del archivo y extraer el header1
-            with open(full_path, 'r', encoding='utf-8') as md_file:
-                for line in md_file:
-                    if line.startswith('# '):
-                        header1 = line.strip().lstrip('# ').strip()
-                        break
-                else:
-                    header1 = None  # No se encontró un encabezado de nivel 1
+def get_levels(file_path):
+    parts = file_path.split(os.sep)
+    if len(parts) >= 4:
+        return parts[-4], parts[-3], parts[-2]
+    return None, None, None
 
-            markdown_files.append({'Path': relative_path, 'Header1': header1})
-
-# Guardar en YAML
-with open('markdown_files.yaml', 'w') as yaml_file:
-    yaml.dump(markdown_files, yaml_file, default_flow_style=False, allow_unicode=True)
-
-# Guardar en JSON
-with open('markdown_files.json', 'w') as json_file:
-    json.dump(markdown_files, json_file, indent=4, ensure_ascii=False)
-
-# Guardar en CSV
-df = pd.DataFrame(markdown_files)
-df.to_csv('markdown_files.csv', index=False)
+if __name__ == "__main__":
+    root_dir = "path/to/your/markdown/files"
+    markdown_list = generate_markdown_list(root_dir)
+    with open("markdown_list.json", "w") as f:
+        json.dump(markdown_list, f, indent=2)
