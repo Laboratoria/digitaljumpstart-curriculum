@@ -18,5 +18,9 @@
     {
         "Path": "DEV/01_intro/activities/README.md",
         "Header1": "Activities"
+    },
+    {
+        "Path": "DEV/01_intro/activities/01_test_ES.md",
+        "Header1": "Test tit castellano"
     }
 ]
