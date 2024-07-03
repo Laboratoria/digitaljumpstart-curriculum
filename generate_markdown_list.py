@@ -33,6 +33,9 @@ def get_levels(file_path):
     return None, None, None
 
 def save_to_csv(data, filename):
+    if not data:
+        print(f"No data to write to {filename}")
+        return
     keys = data[0].keys()
     with open(filename, 'w', newline='') as output_file:
         dict_writer = csv.DictWriter(output_file, keys)
@@ -40,10 +43,16 @@ def save_to_csv(data, filename):
         dict_writer.writerows(data)
 
 def save_to_json(data, filename):
+    if not data:
+        print(f"No data to write to {filename}")
+        return
     with open(filename, 'w') as f:
         json.dump(data, f, indent=2)
 
 def save_to_yaml(data, filename):
+    if not data:
+        print(f"No data to write to {filename}")
+        return
     with open(filename, 'w') as f:
         yaml.dump(data, f, default_flow_style=False)
 
