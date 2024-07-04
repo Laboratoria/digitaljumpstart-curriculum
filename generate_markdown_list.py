@@ -49,15 +49,13 @@ def get_levels(file_path, root_dir):
 def get_file_type(file_path):
     if file_path.endswith("_CONFIG.json"):
         return "config"
-    parts = file_path.split(os.sep)
-    if "activity" in parts:
+    if "activities" in file_path.split(os.sep):
         return "activity"
-    elif "topics" in parts:
+    if "topics" in file_path.split(os.sep):
         return "topic"
-    elif file_path.endswith("README.md"):
+    if file_path.endswith("README.md"):
         return "container"
-    else:
-        return "container"
+    return "container"
 
 def save_to_csv(data, filename):
     if not data:
