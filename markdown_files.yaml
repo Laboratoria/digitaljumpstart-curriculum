@@ -69,17 +69,6 @@
   discord_URL_PT: null
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/01_test_CONFIG.md
-  skill: 01_intro
-  time: null
-  title: null
-  track: DEV
-  type: config
-- difficulty: null
-  discord_URL_ES: null
-  discord_URL_PT: null
-  learning: null
-  module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/activities/README.md
   skill: 01_intro
   time: null
