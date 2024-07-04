@@ -24,9 +24,19 @@ def generate_markdown_list(root_dir):
                     additional_info = get_config_content(file_path)
                     config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
                     config_data[config_prefix] = additional_info
-                else:
-                    config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
-                    additional_info = config_data.get(config_prefix, {})
+
+                config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
+                additional_info = config_data.get(config_prefix, {})
+
+                if file.endswith(".md") and file_type == "activity" and not additional_info:
+                    logging.warning(f"No config file found for {file_path}. Setting default values.")
+                    additional_info = {
+                        "difficulty": None,
+                        "learning": None,
+                        "time": None,
+                        "discord_URL_ES": None,
+                        "discord_URL_PT": None
+                    }
 
                 markdown_entry = {
                     "track": track,
