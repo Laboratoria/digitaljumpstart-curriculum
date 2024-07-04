@@ -74,8 +74,8 @@ def get_additional_info(file_path):
         
         if os.path.exists(config_path):
             logging.debug(f"Config file found: {config_path}")
-            with open(config_path, 'r', encoding='utf-8') as f:
-                try:
+            try:
+                with open(config_path, 'r', encoding='utf-8') as f:
                     config = json.load(f)  # Leer el archivo JSON
                     logging.debug(f"Config info for {file_path}: {config}")  # Salida de depuración
                     return {
@@ -85,8 +85,10 @@ def get_additional_info(file_path):
                         "discord_URL_ES": config.get("discord_URL", {}).get("ES"),
                         "discord_URL_PT": config.get("discord_URL", {}).get("PT")
                     }
-                except json.JSONDecodeError as e:
-                    logging.error(f"Error reading JSON from {config_path}: {e}")
+            except json.JSONDecodeError as e:
+                logging.error(f"Error reading JSON from {config_path}: {e}")
+            except Exception as e:
+                logging.error(f"Unexpected error reading {config_path}: {e}")
         else:
             logging.warning(f"Config file not found: {config_path}")
     
@@ -97,6 +99,7 @@ def get_additional_info(file_path):
         "discord_URL_ES": None,
         "discord_URL_PT": None
     }
+
 
 def save_to_csv(data, filename):
     if not data:
