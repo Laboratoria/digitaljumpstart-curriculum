@@ -66,16 +66,23 @@ def get_file_type(file_path):
     else:
         return "container"
 
+import os
+import json
+import logging
+
 def get_additional_info(file_path):
     if "_ES.md" in file_path or "_PT.md" in file_path:
         base_name = file_path.rsplit("_", 1)[0]  # Obtener el nombre base antes del sufijo
         config_path = f"{base_name}_CONFIG.json"  # Cambiar la extensión a .json
-        logging.debug(f"Checking config file: {config_path}")  # Salida de depuración
+        directory = os.path.dirname(file_path)  # Obtener el directorio del archivo
+        config_file_path = os.path.join(directory, config_path)  # Construir la ruta completa
         
-        if os.path.exists(config_path):
-            logging.debug(f"Config file found: {config_path}")
+        logging.debug(f"Checking config file: {config_file_path}")  # Salida de depuración
+        
+        if os.path.exists(config_file_path):
+            logging.debug(f"Config file found: {config_file_path}")
             try:
-                with open(config_path, 'r', encoding='utf-8') as f:
+                with open(config_file_path, 'r', encoding='utf-8') as f:
                     config = json.load(f)  # Leer el archivo JSON
                     logging.debug(f"Config info for {file_path}: {config}")  # Salida de depuración
                     return {
@@ -86,11 +93,11 @@ def get_additional_info(file_path):
                         "discord_URL_PT": config.get("discord_URL", {}).get("PT")
                     }
             except json.JSONDecodeError as e:
-                logging.error(f"Error reading JSON from {config_path}: {e}")
+                logging.error(f"Error reading JSON from {config_file_path}: {e}")
             except Exception as e:
-                logging.error(f"Unexpected error reading {config_path}: {e}")
+                logging.error(f"Unexpected error reading {config_file_path}: {e}")
         else:
-            logging.warning(f"Config file not found: {config_path}")
+            logging.warning(f"Config file not found: {config_file_path}")
     
     return {
         "difficulty": None,
