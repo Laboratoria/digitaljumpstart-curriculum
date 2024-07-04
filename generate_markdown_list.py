@@ -73,9 +73,10 @@ import logging
 def get_additional_info(file_path):
     if "_ES.md" in file_path or "_PT.md" in file_path:
         base_name = file_path.rsplit("_", 1)[0]  # Obtener el nombre base antes del sufijo
-        config_path = f"{base_name}_CONFIG.json"  # Cambiar la extensión a .json
         directory = os.path.dirname(file_path)  # Obtener el directorio del archivo
-        config_file_path = os.path.join(directory, config_path)  # Construir la ruta completa
+        activities_directory = os.path.join(directory, "activities")  # Asegurar que se busca en la carpeta 'activities'
+        config_file_name = f"{os.path.basename(base_name)}_CONFIG.json"  # Obtener el nombre del archivo de configuración
+        config_file_path = os.path.join(activities_directory, config_file_name)  # Construir la ruta completa
         
         logging.debug(f"Checking config file: {config_file_path}")  # Salida de depuración
         
