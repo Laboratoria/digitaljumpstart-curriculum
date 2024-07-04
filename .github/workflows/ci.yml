@@ -22,4 +22,4 @@ jobs:
 
     - name: Run script with debug
       run: |
-        python your_script.py
+        python generate_markdown_list.py
