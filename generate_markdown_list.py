@@ -1,7 +1,12 @@
+
 import os
 import json
 import csv
 import yaml
+import logging
+
+# Configuración del logger
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def generate_markdown_list(root_dir):
     markdown_list = []
@@ -19,7 +24,7 @@ def generate_markdown_list(root_dir):
                     "discord_URL_ES": None,
                     "discord_URL_PT": None
                 }
-                markdown_list.append({
+                markdown_entry = {
                     "track": track,
                     "skill": skill,
                     "module": module,
@@ -27,7 +32,9 @@ def generate_markdown_list(root_dir):
                     "path": file_path[2:],  # Remove the leading "./"
                     "type": file_type,
                     **additional_info
-                })
+                }
+                logging.debug(f"Appending entry: {markdown_entry}")  # Debugging output
+                markdown_list.append(markdown_entry)
     return markdown_list
 
 def get_header(file_path):
@@ -59,18 +66,15 @@ def get_file_type(file_path):
     else:
         return "container"
 
-import os
-import json
-
 def get_additional_info(file_path):
     if "_ES.md" in file_path or "_PT.md" in file_path:
         base_name = file_path.rsplit("_", 1)[0]  # Obtener el nombre base antes del sufijo
         config_path = f"{base_name}_CONFIG.json"  # Cambiar la extensión a .json
-        print(f"Checking config file: {config_path}")  # Salida de depuración
+        logging.debug(f"Checking config file: {config_path}")  # Salida de depuración
         if os.path.exists(config_path):
             with open(config_path, 'r', encoding='utf-8') as f:
                 config = json.load(f)  # Leer el archivo JSON
-                print(f"Config info for {file_path}: {config}")  # Salida de depuración
+                logging.debug(f"Config info for {file_path}: {config}")  # Salida de depuración
                 return {
                     "difficulty": config.get("difficulty"),
                     "learning": config.get("learning"),
@@ -88,21 +92,24 @@ def get_additional_info(file_path):
 
 def save_to_csv(data, filename):
     if not data:
-        print(f"No data to write to {filename}")
+        logging.warning(f"No data to write to {filename}")
         return
     keys = data[0].keys()
     with open(filename, 'w', newline='') as output_file:
         dict_writer = csv.DictWriter(output_file, keys)
         dict_writer.writeheader()
         dict_writer.writerows(data)
+    logging.info(f"Data saved to {filename}")
 
 def save_to_json(data, filename):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=2)
+    logging.info(f"Data saved to {filename}")
 
 def save_to_yaml(data, filename):
     with open(filename, 'w') as f:
         yaml.dump(data, f, default_flow_style=False)
+    logging.info(f"Data saved to {filename}")
 
 if __name__ == "__main__":
     root_dir = "."  # Asegúrate de estar en la raíz del repositorio
