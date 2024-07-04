@@ -27,13 +27,13 @@
   skill: 01_intro
   title: 'DEV : introduction : basic knoledge : topics'
   track: DEV
-  type: topic
+  type: container
 - module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md
   skill: 01_intro
   title: "T\xEDtulo topic xyz"
   track: DEV
-  type: topic
+  type: container
 - module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/activities/01_test_CONFIG.json
   skill: 01_intro
@@ -45,7 +45,7 @@
   skill: 01_intro
   title: 'DEV : introduction : basic knowledge : activities'
   track: DEV
-  type: activity
+  type: container
 - module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md
   skill: 01_intro
