@@ -69,7 +69,7 @@
   track: DEV
   type: activity
 - difficulty: 1
-  discord_URL:
+  discord_URL: &id001
     ES: https://discord.com/channels/1209273049304666113/1253004726539259925
     PT: 'null'
   learning: 2
@@ -90,13 +90,13 @@
   title: 'DEV : introduction : basic knowledge : activities'
   track: DEV
   type: container
-- difficulty: null
-  discord_URL: null
-  learning: null
+- difficulty: 1
+  discord_URL: *id001
+  learning: 2
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md
   skill: 01_intro
-  time: null
+  time: 3
   title: Test tit castellano
   track: DEV
   type: activity

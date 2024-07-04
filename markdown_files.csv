@@ -1,4 +1,4 @@
-track,skill,module,title,path,type,time,learning,difficulty,discord_URL
+track,skill,module,title,path,type,time,discord_URL,learning,difficulty
 ,,,digitaljumpstart,README.md,container,,,,
 DEV,,,Web Development,DEV/README.md,container,,,,
 DEV,01_intro,,DEV : introduction,DEV/01_intro/README.md,container,,,,
@@ -6,6 +6,6 @@ DEV,01_intro,01_baisc_knowledge,DEV : introduction : basic knowledge,DEV/01_intr
 DEV,01_intro,01_baisc_knowledge,DEV : introduction : basic knoledge : topics,DEV/01_intro/01_baisc_knowledge/topics/README.md,container,,,,
 DEV,01_intro,01_baisc_knowledge,Título topic xyz,DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md,container,,,,
 DEV,01_intro,01_baisc_knowledge,Testitulo portugue,DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md,activity,,,,
-DEV,01_intro,01_baisc_knowledge,01_test_CONFIG.json,DEV/01_intro/01_baisc_knowledge/activities/01_test_CONFIG.json,config,3,2,1,"{'ES': 'https://discord.com/channels/1209273049304666113/1253004726539259925', 'PT': 'null'}"
+DEV,01_intro,01_baisc_knowledge,01_test_CONFIG.json,DEV/01_intro/01_baisc_knowledge/activities/01_test_CONFIG.json,config,3,"{'ES': 'https://discord.com/channels/1209273049304666113/1253004726539259925', 'PT': 'null'}",2,1
 DEV,01_intro,01_baisc_knowledge,DEV : introduction : basic knowledge : activities,DEV/01_intro/01_baisc_knowledge/activities/README.md,container,,,,
-DEV,01_intro,01_baisc_knowledge,Test tit castellano,DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md,activity,,,,
+DEV,01_intro,01_baisc_knowledge,Test tit castellano,DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md,activity,3,"{'ES': 'https://discord.com/channels/1209273049304666113/1253004726539259925', 'PT': 'null'}",2,1

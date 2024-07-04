@@ -7,9 +7,9 @@
     "path": "README.md",
     "type": "container",
     "time": null,
+    "discord_URL": null,
     "learning": null,
-    "difficulty": null,
-    "discord_URL": null
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -19,9 +19,9 @@
     "path": "DEV/README.md",
     "type": "container",
     "time": null,
+    "discord_URL": null,
     "learning": null,
-    "difficulty": null,
-    "discord_URL": null
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -31,9 +31,9 @@
     "path": "DEV/01_intro/README.md",
     "type": "container",
     "time": null,
+    "discord_URL": null,
     "learning": null,
-    "difficulty": null,
-    "discord_URL": null
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -43,9 +43,9 @@
     "path": "DEV/01_intro/01_baisc_knowledge/README.md",
     "type": "container",
     "time": null,
+    "discord_URL": null,
     "learning": null,
-    "difficulty": null,
-    "discord_URL": null
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -55,9 +55,9 @@
     "path": "DEV/01_intro/01_baisc_knowledge/topics/README.md",
     "type": "container",
     "time": null,
+    "discord_URL": null,
     "learning": null,
-    "difficulty": null,
-    "discord_URL": null
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -67,9 +67,9 @@
     "path": "DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md",
     "type": "container",
     "time": null,
+    "discord_URL": null,
     "learning": null,
-    "difficulty": null,
-    "discord_URL": null
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -79,9 +79,9 @@
     "path": "DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md",
     "type": "activity",
     "time": null,
+    "discord_URL": null,
     "learning": null,
-    "difficulty": null,
-    "discord_URL": null
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -106,9 +106,9 @@
     "path": "DEV/01_intro/01_baisc_knowledge/activities/README.md",
     "type": "container",
     "time": null,
+    "discord_URL": null,
     "learning": null,
-    "difficulty": null,
-    "discord_URL": null
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -117,9 +117,12 @@
     "title": "Test tit castellano",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md",
     "type": "activity",
-    "time": null,
-    "learning": null,
-    "difficulty": null,
-    "discord_URL": null
+    "difficulty": 1,
+    "learning": 2,
+    "time": 3,
+    "discord_URL": {
+      "ES": "https://discord.com/channels/1209273049304666113/1253004726539259925",
+      "PT": "null"
+    }
   }
 ]
