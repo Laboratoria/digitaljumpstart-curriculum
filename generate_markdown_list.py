@@ -1,4 +1,3 @@
-
 import os
 import json
 import csv
@@ -18,13 +17,19 @@ def generate_markdown_list(root_dir):
                 title = get_header(file_path) if file.endswith(".md") else file
                 file_type = get_file_type(file_path)
                 
+                if file_type == "config":
+                    additional_info = get_config_content(file_path)
+                else:
+                    additional_info = {}
+
                 markdown_entry = {
                     "track": track,
                     "skill": skill,
                     "module": module,
                     "title": title,
                     "path": file_path[2:],  # Remove the leading "./"
-                    "type": file_type
+                    "type": file_type,
+                    **additional_info
                 }
                 logging.debug(f"Appending entry: {markdown_entry}")  # Debugging output
                 markdown_list.append(markdown_entry)
@@ -55,6 +60,18 @@ def get_file_type(file_path):
     if file_path.endswith("README.md"):
         return "container"
     return "container"
+
+def get_config_content(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            config = json.load(f)
+            logging.debug(f"Config content for {file_path}: {config}")  # Debugging output
+            return config
+    except json.JSONDecodeError as e:
+        logging.error(f"Error reading JSON from {file_path}: {e}")
+    except Exception as e:
+        logging.error(f"Unexpected error reading {file_path}: {e}")
+    return {}
 
 def save_to_csv(data, filename):
     if not data:
