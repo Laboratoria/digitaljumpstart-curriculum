@@ -1,4 +1,3 @@
-
 import os
 import json
 import csv
@@ -66,10 +65,6 @@ def get_file_type(file_path):
     else:
         return "container"
 
-import os
-import json
-import logging
-
 def get_additional_info(file_path):
     if "_ES.md" in file_path or "_PT.md" in file_path:
         base_name = file_path.rsplit("_", 1)[0]  # Obtener el nombre base antes del sufijo
@@ -108,7 +103,6 @@ def get_additional_info(file_path):
         "discord_URL_PT": None
     }
 
-
 def save_to_csv(data, filename):
     if not data:
         logging.warning(f"No data to write to {filename}")
@@ -137,7 +131,6 @@ if __name__ == "__main__":
     save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
     save_to_yaml(markdown_list, "markdown_files.yaml")
-
 
 
 """
