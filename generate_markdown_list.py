@@ -11,41 +11,35 @@ def generate_markdown_list(root_dir):
     markdown_list = []
     for subdir, _, files in os.walk(root_dir):
         for file in files:
-            if file.endswith(".md"):
+            if file.endswith(".md") or file.endswith("_CONFIG.json"):
                 file_path = os.path.join(subdir, file)
                 track, skill, module = get_levels(file_path, root_dir)
-                title = get_header(file_path)
+                title = get_header(file_path) if file.endswith(".md") else file
                 file_type = get_file_type(file_path)
-                additional_info = get_additional_info(file_path) if file_type == "activity" else {
-                    "difficulty": None,
-                    "learning": None,
-                    "time": None,
-                    "discord_URL_ES": None,
-                    "discord_URL_PT": None
-                }
+                
                 markdown_entry = {
                     "track": track,
                     "skill": skill,
                     "module": module,
                     "title": title,
                     "path": file_path[2:],  # Remove the leading "./"
-                    "type": file_type,
-                    **additional_info
+                    "type": file_type
                 }
                 logging.debug(f"Appending entry: {markdown_entry}")  # Debugging output
                 markdown_list.append(markdown_entry)
     return markdown_list
 
 def get_header(file_path):
-    with open(file_path, 'r') as f:
-        for line in f:
-            if line.startswith("# "):
-                return line[2:].strip()
+    if file_path.endswith(".md"):
+        with open(file_path, 'r') as f:
+            for line in f:
+                if line.startswith("# "):
+                    return line[2:].strip()
     return None
 
 def get_levels(file_path, root_dir):
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
-    if parts[-1].endswith(".md"):
+    if parts[-1].endswith(".md") or parts[-1].endswith("_CONFIG.json"):
         parts = parts[:-1]
     track = parts[0] if len(parts) > 0 else None
     skill = parts[1] if len(parts) > 1 else None
@@ -53,6 +47,8 @@ def get_levels(file_path, root_dir):
     return track, skill, module
 
 def get_file_type(file_path):
+    if file_path.endswith("_CONFIG.json"):
+        return "config"
     parts = file_path.split(os.sep)
     if "activity" in parts:
         return "activity"
@@ -60,48 +56,8 @@ def get_file_type(file_path):
         return "topic"
     elif file_path.endswith("README.md"):
         return "container"
-    elif file_path.endswith("CONFIG.md"):
-        return "config"
     else:
         return "container"
-
-def get_additional_info(file_path):
-    if "_ES.md" in file_path or "_PT.md" in file_path:
-        base_name = file_path.rsplit("_", 1)[0]  # Obtener el nombre base antes del sufijo
-        directory = os.path.dirname(file_path)  # Obtener el directorio del archivo
-        activities_directory = os.path.join(directory, "activities")  # Asegurar que se busca en la carpeta 'activities'
-        config_file_name = f"{os.path.basename(base_name)}_CONFIG.json"  # Obtener el nombre del archivo de configuración
-        config_file_path = os.path.join(activities_directory, config_file_name)  # Construir la ruta completa
-        
-        logging.debug(f"Checking config file: {config_file_path}")  # Salida de depuración
-        
-        if os.path.exists(config_file_path):
-            logging.debug(f"Config file found: {config_file_path}")
-            try:
-                with open(config_file_path, 'r', encoding='utf-8') as f:
-                    config = json.load(f)  # Leer el archivo JSON
-                    logging.debug(f"Config info for {file_path}: {config}")  # Salida de depuración
-                    return {
-                        "difficulty": config.get("difficulty"),
-                        "learning": config.get("learning"),
-                        "time": config.get("time"),
-                        "discord_URL_ES": config.get("discord_URL", {}).get("ES"),
-                        "discord_URL_PT": config.get("discord_URL", {}).get("PT")
-                    }
-            except json.JSONDecodeError as e:
-                logging.error(f"Error reading JSON from {config_file_path}: {e}")
-            except Exception as e:
-                logging.error(f"Unexpected error reading {config_file_path}: {e}")
-        else:
-            logging.warning(f"Config file not found: {config_file_path}")
-    
-    return {
-        "difficulty": None,
-        "learning": None,
-        "time": None,
-        "discord_URL_ES": None,
-        "discord_URL_PT": None
-    }
 
 def save_to_csv(data, filename):
     if not data:
