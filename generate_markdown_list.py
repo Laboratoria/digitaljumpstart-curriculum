@@ -59,26 +59,24 @@ def get_file_type(file_path):
     else:
         return "container"
 
+import os
+import json
+
 def get_additional_info(file_path):
     if "_ES.md" in file_path or "_PT.md" in file_path:
-        base_name = file_path.rsplit("_", 1)[0]  # Get base name before the suffix
-        config_path = f"{base_name}_CONFIG.md"
-        print(f"Checking config file: {config_path}")  # Debugging output
+        base_name = file_path.rsplit("_", 1)[0]  # Obtener el nombre base antes del sufijo
+        config_path = f"{base_name}_CONFIG.json"  # Cambiar la extensión a .json
+        print(f"Checking config file: {config_path}")  # Salida de depuración
         if os.path.exists(config_path):
-            with open(config_path, 'r') as f:
-                lines = f.readlines()
-                info = {}
-                for line in lines:
-                    if ":" in line:
-                        key, value = line.split(":", 1)
-                        info[key.strip()] = value.strip() if value.strip().lower() != "null" else None
-                print(f"Config info for {file_path}: {info}")  # Debugging output
+            with open(config_path, 'r', encoding='utf-8') as f:
+                config = json.load(f)  # Leer el archivo JSON
+                print(f"Config info for {file_path}: {config}")  # Salida de depuración
                 return {
-                    "difficulty": info.get("difficulty"),
-                    "learning": info.get("learning"),
-                    "time": info.get("time"),
-                    "discord_URL_ES": info.get("discord_URL_ES"),
-                    "discord_URL_PT": info.get("discord_URL_PT")
+                    "difficulty": config.get("difficulty"),
+                    "learning": config.get("learning"),
+                    "time": config.get("time"),
+                    "discord_URL_ES": config.get("discord_URL", {}).get("ES"),
+                    "discord_URL_PT": config.get("discord_URL", {}).get("PT")
                 }
     return {
         "difficulty": None,
