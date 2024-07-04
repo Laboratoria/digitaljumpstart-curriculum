@@ -1,4 +1,3 @@
-
 import os
 import json
 import csv
@@ -11,6 +10,8 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 def generate_markdown_list(root_dir):
     markdown_list = []
     keys = set()
+    config_data = {}  # Para almacenar temporalmente los datos del archivo de configuración
+
     for subdir, _, files in os.walk(root_dir):
         for file in files:
             if file.endswith(".md") or file.endswith("_CONFIG.json"):
@@ -18,11 +19,14 @@ def generate_markdown_list(root_dir):
                 track, skill, module = get_levels(file_path, root_dir)
                 title = get_header(file_path) if file.endswith(".md") else file
                 file_type = get_file_type(file_path)
-                
+
                 if file_type == "config":
                     additional_info = get_config_content(file_path)
+                    config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
+                    config_data[config_prefix] = additional_info
                 else:
-                    additional_info = {}
+                    config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
+                    additional_info = config_data.get(config_prefix, {})
 
                 markdown_entry = {
                     "track": track,
@@ -111,7 +115,6 @@ if __name__ == "__main__":
     save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
     save_to_yaml(markdown_list, "markdown_files.yaml")
-
 
 """
 import os
