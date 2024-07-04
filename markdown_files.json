@@ -3,9 +3,13 @@
     "track": null,
     "skill": null,
     "module": null,
-    "title": null,
+    "title": "digitaljumpstart",
     "path": "README.md",
-    "type": "container"
+    "type": "container",
+    "difficulty": null,
+    "learning": null,
+    "discord_URL": null,
+    "time": null
   },
   {
     "track": "DEV",
@@ -13,7 +17,11 @@
     "module": null,
     "title": "Web Development",
     "path": "DEV/README.md",
-    "type": "container"
+    "type": "container",
+    "difficulty": null,
+    "learning": null,
+    "discord_URL": null,
+    "time": null
   },
   {
     "track": "DEV",
@@ -21,7 +29,11 @@
     "module": null,
     "title": "DEV : introduction",
     "path": "DEV/01_intro/README.md",
-    "type": "container"
+    "type": "container",
+    "difficulty": null,
+    "learning": null,
+    "discord_URL": null,
+    "time": null
   },
   {
     "track": "DEV",
@@ -29,7 +41,11 @@
     "module": "01_baisc_knowledge",
     "title": "DEV : introduction : basic knowledge",
     "path": "DEV/01_intro/01_baisc_knowledge/README.md",
-    "type": "container"
+    "type": "container",
+    "difficulty": null,
+    "learning": null,
+    "discord_URL": null,
+    "time": null
   },
   {
     "track": "DEV",
@@ -37,7 +53,11 @@
     "module": "01_baisc_knowledge",
     "title": "DEV : introduction : basic knoledge : topics",
     "path": "DEV/01_intro/01_baisc_knowledge/topics/README.md",
-    "type": "container"
+    "type": "container",
+    "difficulty": null,
+    "learning": null,
+    "discord_URL": null,
+    "time": null
   },
   {
     "track": "DEV",
@@ -45,7 +65,11 @@
     "module": "01_baisc_knowledge",
     "title": "T\u00edtulo topic xyz",
     "path": "DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md",
-    "type": "container"
+    "type": "container",
+    "difficulty": null,
+    "learning": null,
+    "discord_URL": null,
+    "time": null
   },
   {
     "track": "DEV",
@@ -53,7 +77,14 @@
     "module": "01_baisc_knowledge",
     "title": "01_test_CONFIG.json",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/01_test_CONFIG.json",
-    "type": "config"
+    "type": "config",
+    "difficulty": 1,
+    "learning": 2,
+    "time": 3,
+    "discord_URL": {
+      "ES": "https://discord.com/channels/1209273049304666113/1253004726539259925",
+      "PT": "null"
+    }
   },
   {
     "track": "DEV",
@@ -61,7 +92,11 @@
     "module": "01_baisc_knowledge",
     "title": "DEV : introduction : basic knowledge : activities",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/README.md",
-    "type": "container"
+    "type": "container",
+    "difficulty": null,
+    "learning": null,
+    "discord_URL": null,
+    "time": null
   },
   {
     "track": "DEV",
@@ -69,6 +104,10 @@
     "module": "01_baisc_knowledge",
     "title": "Test tit castellano",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md",
-    "type": "activity"
+    "type": "activity",
+    "difficulty": null,
+    "learning": null,
+    "discord_URL": null,
+    "time": null
   }
 ]
