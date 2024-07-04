@@ -6,10 +6,10 @@
     "title": "digitaljumpstart",
     "path": "README.md",
     "type": "container",
-    "difficulty": null,
+    "time": null,
     "learning": null,
-    "discord_URL": null,
-    "time": null
+    "difficulty": null,
+    "discord_URL": null
   },
   {
     "track": "DEV",
@@ -18,10 +18,10 @@
     "title": "Web Development",
     "path": "DEV/README.md",
     "type": "container",
-    "difficulty": null,
+    "time": null,
     "learning": null,
-    "discord_URL": null,
-    "time": null
+    "difficulty": null,
+    "discord_URL": null
   },
   {
     "track": "DEV",
@@ -30,10 +30,10 @@
     "title": "DEV : introduction",
     "path": "DEV/01_intro/README.md",
     "type": "container",
-    "difficulty": null,
+    "time": null,
     "learning": null,
-    "discord_URL": null,
-    "time": null
+    "difficulty": null,
+    "discord_URL": null
   },
   {
     "track": "DEV",
@@ -42,10 +42,10 @@
     "title": "DEV : introduction : basic knowledge",
     "path": "DEV/01_intro/01_baisc_knowledge/README.md",
     "type": "container",
-    "difficulty": null,
+    "time": null,
     "learning": null,
-    "discord_URL": null,
-    "time": null
+    "difficulty": null,
+    "discord_URL": null
   },
   {
     "track": "DEV",
@@ -54,10 +54,10 @@
     "title": "DEV : introduction : basic knoledge : topics",
     "path": "DEV/01_intro/01_baisc_knowledge/topics/README.md",
     "type": "container",
-    "difficulty": null,
+    "time": null,
     "learning": null,
-    "discord_URL": null,
-    "time": null
+    "difficulty": null,
+    "discord_URL": null
   },
   {
     "track": "DEV",
@@ -66,10 +66,22 @@
     "title": "T\u00edtulo topic xyz",
     "path": "DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md",
     "type": "container",
-    "difficulty": null,
+    "time": null,
     "learning": null,
-    "discord_URL": null,
-    "time": null
+    "difficulty": null,
+    "discord_URL": null
+  },
+  {
+    "track": "DEV",
+    "skill": "01_intro",
+    "module": "01_baisc_knowledge",
+    "title": "Testitulo portugue",
+    "path": "DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md",
+    "type": "activity",
+    "time": null,
+    "learning": null,
+    "difficulty": null,
+    "discord_URL": null
   },
   {
     "track": "DEV",
@@ -93,10 +105,10 @@
     "title": "DEV : introduction : basic knowledge : activities",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/README.md",
     "type": "container",
-    "difficulty": null,
+    "time": null,
     "learning": null,
-    "discord_URL": null,
-    "time": null
+    "difficulty": null,
+    "discord_URL": null
   },
   {
     "track": "DEV",
@@ -105,9 +117,9 @@
     "title": "Test tit castellano",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md",
     "type": "activity",
-    "difficulty": null,
+    "time": null,
     "learning": null,
-    "discord_URL": null,
-    "time": null
+    "difficulty": null,
+    "discord_URL": null
   }
 ]

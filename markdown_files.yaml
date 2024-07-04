@@ -58,6 +58,16 @@
   title: "T\xEDtulo topic xyz"
   track: DEV
   type: container
+- difficulty: null
+  discord_URL: null
+  learning: null
+  module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md
+  skill: 01_intro
+  time: null
+  title: Testitulo portugue
+  track: DEV
+  type: activity
 - difficulty: 1
   discord_URL:
     ES: https://discord.com/channels/1209273049304666113/1253004726539259925
