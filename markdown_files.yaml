@@ -45,10 +45,10 @@
   skill: 01_intro
   title: 'DEV : introduction : basic knowledge : activities'
   track: DEV
-  type: container
+  type: activity
 - module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md
   skill: 01_intro
   title: Test tit castellano
   track: DEV
-  type: container
+  type: activity

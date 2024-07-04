@@ -61,7 +61,7 @@
     "module": "01_baisc_knowledge",
     "title": "DEV : introduction : basic knowledge : activities",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/README.md",
-    "type": "container"
+    "type": "activity"
   },
   {
     "track": "DEV",
@@ -69,6 +69,6 @@
     "module": "01_baisc_knowledge",
     "title": "Test tit castellano",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md",
-    "type": "container"
+    "type": "activity"
   }
 ]
