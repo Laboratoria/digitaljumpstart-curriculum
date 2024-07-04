@@ -1,3 +1,4 @@
+
 import os
 import json
 import csv
@@ -49,10 +50,8 @@ def get_levels(file_path, root_dir):
 def get_file_type(file_path):
     if file_path.endswith("_CONFIG.json"):
         return "config"
-    if "activities" in file_path.split(os.sep):
+    if "activities" in file_path and file_path.endswith(".md") and not file_path.endswith("README.md"):
         return "activity"
-    if "topics" in file_path.split(os.sep):
-        return "topic"
     if file_path.endswith("README.md"):
         return "container"
     return "container"
