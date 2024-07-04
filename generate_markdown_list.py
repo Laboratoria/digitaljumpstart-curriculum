@@ -1,3 +1,4 @@
+
 import os
 import json
 import csv
@@ -9,6 +10,7 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 
 def generate_markdown_list(root_dir):
     markdown_list = []
+    keys = set()
     for subdir, _, files in os.walk(root_dir):
         for file in files:
             if file.endswith(".md") or file.endswith("_CONFIG.json"):
@@ -31,8 +33,16 @@ def generate_markdown_list(root_dir):
                     "type": file_type,
                     **additional_info
                 }
+                keys.update(markdown_entry.keys())
                 logging.debug(f"Appending entry: {markdown_entry}")  # Debugging output
                 markdown_list.append(markdown_entry)
+    
+    # Asegurar que todos los diccionarios tengan las mismas llaves
+    for entry in markdown_list:
+        for key in keys:
+            if key not in entry:
+                entry[key] = None
+
     return markdown_list
 
 def get_header(file_path):
