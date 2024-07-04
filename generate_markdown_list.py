@@ -71,17 +71,25 @@ def get_additional_info(file_path):
         base_name = file_path.rsplit("_", 1)[0]  # Obtener el nombre base antes del sufijo
         config_path = f"{base_name}_CONFIG.json"  # Cambiar la extensión a .json
         logging.debug(f"Checking config file: {config_path}")  # Salida de depuración
+        
         if os.path.exists(config_path):
+            logging.debug(f"Config file found: {config_path}")
             with open(config_path, 'r', encoding='utf-8') as f:
-                config = json.load(f)  # Leer el archivo JSON
-                logging.debug(f"Config info for {file_path}: {config}")  # Salida de depuración
-                return {
-                    "difficulty": config.get("difficulty"),
-                    "learning": config.get("learning"),
-                    "time": config.get("time"),
-                    "discord_URL_ES": config.get("discord_URL", {}).get("ES"),
-                    "discord_URL_PT": config.get("discord_URL", {}).get("PT")
-                }
+                try:
+                    config = json.load(f)  # Leer el archivo JSON
+                    logging.debug(f"Config info for {file_path}: {config}")  # Salida de depuración
+                    return {
+                        "difficulty": config.get("difficulty"),
+                        "learning": config.get("learning"),
+                        "time": config.get("time"),
+                        "discord_URL_ES": config.get("discord_URL", {}).get("ES"),
+                        "discord_URL_PT": config.get("discord_URL", {}).get("PT")
+                    }
+                except json.JSONDecodeError as e:
+                    logging.error(f"Error reading JSON from {config_path}: {e}")
+        else:
+            logging.warning(f"Config file not found: {config_path}")
+    
     return {
         "difficulty": None,
         "learning": None,
