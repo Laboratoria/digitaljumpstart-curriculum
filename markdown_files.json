@@ -6,12 +6,12 @@
     "title": "digitaljumpstart",
     "path": "README.md",
     "type": "container",
-    "discord_URL_PT": null,
-    "discord_URL": null,
     "time": null,
+    "learning": null,
+    "discord_URL": null,
     "discord_URL_ES": null,
-    "difficulty": null,
-    "learning": null
+    "discord_URL_PT": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -20,12 +20,12 @@
     "title": "Web Development",
     "path": "DEV/README.md",
     "type": "container",
-    "discord_URL_PT": null,
-    "discord_URL": null,
     "time": null,
+    "learning": null,
+    "discord_URL": null,
     "discord_URL_ES": null,
-    "difficulty": null,
-    "learning": null
+    "discord_URL_PT": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -34,12 +34,12 @@
     "title": "DEV : introduction",
     "path": "DEV/01_intro/README.md",
     "type": "container",
-    "discord_URL_PT": null,
-    "discord_URL": null,
     "time": null,
+    "learning": null,
+    "discord_URL": null,
     "discord_URL_ES": null,
-    "difficulty": null,
-    "learning": null
+    "discord_URL_PT": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -48,12 +48,12 @@
     "title": "DEV : introduction : basic knowledge",
     "path": "DEV/01_intro/01_baisc_knowledge/README.md",
     "type": "container",
-    "discord_URL_PT": null,
-    "discord_URL": null,
     "time": null,
+    "learning": null,
+    "discord_URL": null,
     "discord_URL_ES": null,
-    "difficulty": null,
-    "learning": null
+    "discord_URL_PT": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -62,12 +62,12 @@
     "title": "DEV : introduction : basic knoledge : topics",
     "path": "DEV/01_intro/01_baisc_knowledge/topics/README.md",
     "type": "container",
-    "discord_URL_PT": null,
-    "discord_URL": null,
     "time": null,
+    "learning": null,
+    "discord_URL": null,
     "discord_URL_ES": null,
-    "difficulty": null,
-    "learning": null
+    "discord_URL_PT": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -76,12 +76,12 @@
     "title": "T\u00edtulo topic xyz",
     "path": "DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md",
     "type": "container",
-    "discord_URL_PT": null,
-    "discord_URL": null,
     "time": null,
+    "learning": null,
+    "discord_URL": null,
     "discord_URL_ES": null,
-    "difficulty": null,
-    "learning": null
+    "discord_URL_PT": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -111,8 +111,8 @@
       "ES": "https://discord.com/channels/1209273049304666113/1253004726539259925",
       "PT": "null"
     },
-    "discord_URL_PT": null,
-    "discord_URL_ES": null
+    "discord_URL_ES": null,
+    "discord_URL_PT": null
   },
   {
     "track": "DEV",
@@ -121,12 +121,12 @@
     "title": "DEV : introduction : basic knowledge : activities",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/README.md",
     "type": "container",
-    "discord_URL_PT": null,
-    "discord_URL": null,
     "time": null,
+    "learning": null,
+    "discord_URL": null,
     "discord_URL_ES": null,
-    "difficulty": null,
-    "learning": null
+    "discord_URL_PT": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -142,7 +142,7 @@
       "ES": "https://discord.com/channels/1209273049304666113/1253004726539259925",
       "PT": "null"
     },
-    "discord_URL_PT": null,
-    "discord_URL_ES": null
+    "discord_URL_ES": null,
+    "discord_URL_PT": null
   }
 ]
