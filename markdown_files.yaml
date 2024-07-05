@@ -103,6 +103,20 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md
+  sequence: null
+  skill: 01_intro
+  time: null
+  title: null
+  track: DEV
+  type: container
+- difficulty: null
+  discord_URL: null
+  discord_URL_ES: null
+  discord_URL_PT: null
+  lang: ES
+  learning: null
+  module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/topics/README.md
   sequence: null
   skill: 01_intro
@@ -122,20 +136,6 @@
   skill: 01_intro
   time: null
   title: "T\xF3picos"
-  track: DEV
-  type: container
-- difficulty: null
-  discord_URL: null
-  discord_URL_ES: null
-  discord_URL_PT: null
-  lang: null
-  learning: null
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md
-  sequence: null
-  skill: 01_intro
-  time: null
-  title: null
   track: DEV
   type: container
 - difficulty: 1

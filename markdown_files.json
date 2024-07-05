@@ -8,12 +8,12 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "time": null,
+    "discord_URL_ES": null,
     "discord_URL_PT": null,
     "sequence": null,
-    "difficulty": null,
     "learning": null,
-    "discord_URL_ES": null
+    "time": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -24,12 +24,12 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "time": null,
+    "discord_URL_ES": null,
     "discord_URL_PT": null,
     "sequence": null,
-    "difficulty": null,
     "learning": null,
-    "discord_URL_ES": null
+    "time": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -40,12 +40,12 @@
     "type": "container",
     "lang": "PT",
     "discord_URL": null,
-    "time": null,
+    "discord_URL_ES": null,
     "discord_URL_PT": null,
     "sequence": null,
-    "difficulty": null,
     "learning": null,
-    "discord_URL_ES": null
+    "time": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -56,12 +56,12 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "time": null,
+    "discord_URL_ES": null,
     "discord_URL_PT": null,
     "sequence": null,
-    "difficulty": null,
     "learning": null,
-    "discord_URL_ES": null
+    "time": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -72,12 +72,12 @@
     "type": "container",
     "lang": "PT",
     "discord_URL": null,
-    "time": null,
+    "discord_URL_ES": null,
     "discord_URL_PT": null,
     "sequence": null,
-    "difficulty": null,
     "learning": null,
-    "discord_URL_ES": null
+    "time": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -88,12 +88,12 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "time": null,
+    "discord_URL_ES": null,
     "discord_URL_PT": null,
     "sequence": null,
-    "difficulty": null,
     "learning": null,
-    "discord_URL_ES": null
+    "time": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -104,12 +104,28 @@
     "type": "container",
     "lang": "PT",
     "discord_URL": null,
-    "time": null,
+    "discord_URL_ES": null,
     "discord_URL_PT": null,
     "sequence": null,
-    "difficulty": null,
     "learning": null,
-    "discord_URL_ES": null
+    "time": null,
+    "difficulty": null
+  },
+  {
+    "track": "DEV",
+    "skill": "01_intro",
+    "module": "01_baisc_knowledge",
+    "title": null,
+    "path": "DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md",
+    "type": "container",
+    "lang": "ES",
+    "sequence": null,
+    "discord_URL": null,
+    "discord_URL_ES": null,
+    "discord_URL_PT": null,
+    "learning": null,
+    "time": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -120,12 +136,12 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "time": null,
+    "discord_URL_ES": null,
     "discord_URL_PT": null,
     "sequence": null,
-    "difficulty": null,
     "learning": null,
-    "discord_URL_ES": null
+    "time": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -136,28 +152,12 @@
     "type": "container",
     "lang": "PT",
     "discord_URL": null,
-    "time": null,
+    "discord_URL_ES": null,
     "discord_URL_PT": null,
     "sequence": null,
-    "difficulty": null,
     "learning": null,
-    "discord_URL_ES": null
-  },
-  {
-    "track": "DEV",
-    "skill": "01_intro",
-    "module": "01_baisc_knowledge",
-    "title": null,
-    "path": "DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md",
-    "type": "container",
-    "lang": null,
-    "sequence": null,
-    "discord_URL": null,
     "time": null,
-    "discord_URL_PT": null,
-    "difficulty": null,
-    "learning": null,
-    "discord_URL_ES": null
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -184,12 +184,12 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "time": null,
+    "discord_URL_ES": null,
     "discord_URL_PT": null,
     "sequence": null,
-    "difficulty": null,
     "learning": null,
-    "discord_URL_ES": null
+    "time": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -200,12 +200,12 @@
     "type": "container",
     "lang": "PT",
     "discord_URL": null,
-    "time": null,
+    "discord_URL_ES": null,
     "discord_URL_PT": null,
     "sequence": null,
-    "difficulty": null,
     "learning": null,
-    "discord_URL_ES": null
+    "time": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
