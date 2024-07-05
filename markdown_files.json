@@ -7,12 +7,13 @@
     "path": "README.md",
     "type": "container",
     "lang": "ES",
-    "sequence": null,
-    "discord_URL_ES": null,
-    "learning": null,
+    "discord_URL": null,
+    "time": null,
     "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "time": null
+    "learning": null,
+    "discord_URL_ES": null
   },
   {
     "track": "DEV",
@@ -22,12 +23,13 @@
     "path": "DEV/README.md",
     "type": "container",
     "lang": "ES",
-    "sequence": null,
-    "discord_URL_ES": null,
-    "learning": null,
+    "discord_URL": null,
+    "time": null,
     "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "time": null
+    "learning": null,
+    "discord_URL_ES": null
   },
   {
     "track": "DEV",
@@ -37,12 +39,13 @@
     "path": "DEV/README.md",
     "type": "container",
     "lang": "PT",
-    "sequence": null,
-    "discord_URL_ES": null,
-    "learning": null,
+    "discord_URL": null,
+    "time": null,
     "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "time": null
+    "learning": null,
+    "discord_URL_ES": null
   },
   {
     "track": "DEV",
@@ -52,12 +55,13 @@
     "path": "DEV/01_intro/README.md",
     "type": "container",
     "lang": "ES",
-    "sequence": null,
-    "discord_URL_ES": null,
-    "learning": null,
+    "discord_URL": null,
+    "time": null,
     "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "time": null
+    "learning": null,
+    "discord_URL_ES": null
   },
   {
     "track": "DEV",
@@ -67,12 +71,13 @@
     "path": "DEV/01_intro/README.md",
     "type": "container",
     "lang": "PT",
-    "sequence": null,
-    "discord_URL_ES": null,
-    "learning": null,
+    "discord_URL": null,
+    "time": null,
     "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "time": null
+    "learning": null,
+    "discord_URL_ES": null
   },
   {
     "track": "DEV",
@@ -82,12 +87,13 @@
     "path": "DEV/01_intro/01_baisc_knowledge/README.md",
     "type": "container",
     "lang": "ES",
-    "sequence": null,
-    "discord_URL_ES": null,
-    "learning": null,
+    "discord_URL": null,
+    "time": null,
     "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "time": null
+    "learning": null,
+    "discord_URL_ES": null
   },
   {
     "track": "DEV",
@@ -97,12 +103,13 @@
     "path": "DEV/01_intro/01_baisc_knowledge/README.md",
     "type": "container",
     "lang": "PT",
-    "sequence": null,
-    "discord_URL_ES": null,
-    "learning": null,
+    "discord_URL": null,
+    "time": null,
     "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "time": null
+    "learning": null,
+    "discord_URL_ES": null
   },
   {
     "track": "DEV",
@@ -112,12 +119,13 @@
     "path": "DEV/01_intro/01_baisc_knowledge/topics/README.md",
     "type": "container",
     "lang": "ES",
-    "sequence": null,
-    "discord_URL_ES": null,
-    "learning": null,
+    "discord_URL": null,
+    "time": null,
     "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "time": null
+    "learning": null,
+    "discord_URL_ES": null
   },
   {
     "track": "DEV",
@@ -127,12 +135,13 @@
     "path": "DEV/01_intro/01_baisc_knowledge/topics/README.md",
     "type": "container",
     "lang": "PT",
-    "sequence": null,
-    "discord_URL_ES": null,
-    "learning": null,
+    "discord_URL": null,
+    "time": null,
     "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "time": null
+    "learning": null,
+    "discord_URL_ES": null
   },
   {
     "track": "DEV",
@@ -143,11 +152,12 @@
     "type": "container",
     "lang": null,
     "sequence": null,
-    "discord_URL_ES": null,
-    "learning": null,
+    "discord_URL": null,
+    "time": null,
     "discord_URL_PT": null,
     "difficulty": null,
-    "time": null
+    "learning": null,
+    "discord_URL_ES": null
   },
   {
     "track": "DEV",
@@ -158,6 +168,7 @@
     "type": "activity",
     "lang": "PT",
     "sequence": "01",
+    "discord_URL": "null",
     "difficulty": 1,
     "learning": 2,
     "time": 3,
@@ -172,12 +183,13 @@
     "path": "DEV/01_intro/01_baisc_knowledge/activities/README.md",
     "type": "container",
     "lang": "ES",
-    "sequence": null,
-    "discord_URL_ES": null,
-    "learning": null,
+    "discord_URL": null,
+    "time": null,
     "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "time": null
+    "learning": null,
+    "discord_URL_ES": null
   },
   {
     "track": "DEV",
@@ -187,12 +199,13 @@
     "path": "DEV/01_intro/01_baisc_knowledge/activities/README.md",
     "type": "container",
     "lang": "PT",
-    "sequence": null,
-    "discord_URL_ES": null,
-    "learning": null,
+    "discord_URL": null,
+    "time": null,
     "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "time": null
+    "learning": null,
+    "discord_URL_ES": null
   },
   {
     "track": "DEV",
@@ -203,6 +216,7 @@
     "type": "activity",
     "lang": "ES",
     "sequence": "01",
+    "discord_URL": "https://discord.com/channels/1209273049304666113/1253004726539259925",
     "difficulty": 1,
     "learning": 2,
     "time": 3,
