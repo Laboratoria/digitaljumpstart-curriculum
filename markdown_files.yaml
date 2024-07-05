@@ -4,7 +4,7 @@
   learning: null
   module: null
   path: DEV/README.md
-  sequence: null
+  sequence: '00'
   skill: null
   time: null
   title: Desarrollo Web
@@ -16,7 +16,7 @@
   learning: null
   module: null
   path: DEV/README.md
-  sequence: null
+  sequence: '00'
   skill: null
   time: null
   title: Desenvolvimento Web
@@ -28,7 +28,7 @@
   learning: null
   module: null
   path: DEV/01_intro/README.md
-  sequence: null
+  sequence: '00'
   skill: 01_intro
   time: null
   title: "Introducci\xF3n al Desarrollo Web"
@@ -40,7 +40,7 @@
   learning: null
   module: null
   path: DEV/01_intro/README.md
-  sequence: null
+  sequence: '00'
   skill: 01_intro
   time: null
   title: "Introdu\xE7\xE3o ao desenvolvimento web"
@@ -52,7 +52,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/README.md
-  sequence: null
+  sequence: '00'
   skill: 01_intro
   time: null
   title: "M\xF3dulo 1: Todo sobre el desarrollo Web"
@@ -64,7 +64,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/README.md
-  sequence: null
+  sequence: '00'
   skill: 01_intro
   time: null
   title: "M\xF3dulo 1: Tudo sobre desenvolvimento Web"
@@ -88,7 +88,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/topics/README.md
-  sequence: null
+  sequence: '00'
   skill: 01_intro
   time: null
   title: "T\xF3picos"
@@ -100,7 +100,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/topics/README.md
-  sequence: null
+  sequence: '00'
   skill: 01_intro
   time: null
   title: "T\xF3picos"
@@ -124,7 +124,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/activities/README.md
-  sequence: RE
+  sequence: '00'
   skill: 01_intro
   time: null
   title: Actividades
@@ -136,7 +136,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/activities/README.md
-  sequence: RE
+  sequence: '00'
   skill: 01_intro
   time: null
   title: Actividades
