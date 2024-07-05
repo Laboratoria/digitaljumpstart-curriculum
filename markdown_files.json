@@ -8,11 +8,12 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "discord_URL_PT": null,
+    "discord_URL_ES": null,
     "learning": null,
-    "time": null,
+    "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "sequence": null
+    "time": null
   },
   {
     "track": "DEV",
@@ -23,11 +24,12 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "discord_URL_PT": null,
+    "discord_URL_ES": null,
     "learning": null,
-    "time": null,
+    "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "sequence": null
+    "time": null
   },
   {
     "track": "DEV",
@@ -38,11 +40,12 @@
     "type": "container",
     "lang": "PT",
     "discord_URL": null,
-    "discord_URL_PT": null,
+    "discord_URL_ES": null,
     "learning": null,
-    "time": null,
+    "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "sequence": null
+    "time": null
   },
   {
     "track": "DEV",
@@ -53,11 +56,12 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "discord_URL_PT": null,
+    "discord_URL_ES": null,
     "learning": null,
-    "time": null,
+    "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "sequence": null
+    "time": null
   },
   {
     "track": "DEV",
@@ -68,11 +72,12 @@
     "type": "container",
     "lang": "PT",
     "discord_URL": null,
-    "discord_URL_PT": null,
+    "discord_URL_ES": null,
     "learning": null,
-    "time": null,
+    "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "sequence": null
+    "time": null
   },
   {
     "track": "DEV",
@@ -83,11 +88,12 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "discord_URL_PT": null,
+    "discord_URL_ES": null,
     "learning": null,
-    "time": null,
+    "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "sequence": null
+    "time": null
   },
   {
     "track": "DEV",
@@ -98,11 +104,12 @@
     "type": "container",
     "lang": "PT",
     "discord_URL": null,
-    "discord_URL_PT": null,
+    "discord_URL_ES": null,
     "learning": null,
-    "time": null,
+    "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "sequence": null
+    "time": null
   },
   {
     "track": "DEV",
@@ -114,25 +121,43 @@
     "lang": "ES",
     "sequence": null,
     "discord_URL": null,
-    "discord_URL_PT": null,
+    "discord_URL_ES": null,
     "learning": null,
-    "time": null,
-    "difficulty": null
+    "discord_URL_PT": null,
+    "difficulty": null,
+    "time": null
   },
   {
     "track": "DEV",
     "skill": "01_intro",
     "module": "01_baisc_knowledge",
-    "title": "DEV : introduction : basic knoledge : topics",
+    "title": "T\u00f3picos",
     "path": "DEV/01_intro/01_baisc_knowledge/topics/README.md",
-    "type": "topic",
-    "lang": null,
-    "sequence": null,
+    "type": "container",
+    "lang": "ES",
     "discord_URL": null,
-    "discord_URL_PT": null,
+    "discord_URL_ES": null,
     "learning": null,
-    "time": null,
-    "difficulty": null
+    "discord_URL_PT": null,
+    "sequence": null,
+    "difficulty": null,
+    "time": null
+  },
+  {
+    "track": "DEV",
+    "skill": "01_intro",
+    "module": "01_baisc_knowledge",
+    "title": "T\u00f3picos",
+    "path": "DEV/01_intro/01_baisc_knowledge/topics/README.md",
+    "type": "container",
+    "lang": "PT",
+    "discord_URL": null,
+    "discord_URL_ES": null,
+    "learning": null,
+    "discord_URL_PT": null,
+    "sequence": null,
+    "difficulty": null,
+    "time": null
   },
   {
     "track": "DEV",
@@ -143,10 +168,11 @@
     "type": "activity",
     "lang": "PT",
     "sequence": "01",
-    "discord_URL": "https://discord.com/channels/1209273049304666113/1253004726539259925",
+    "discord_URL": "null",
     "difficulty": 1,
     "learning": 2,
     "time": 3,
+    "discord_URL_ES": "https://discord.com/channels/1209273049304666113/1253004726539259925",
     "discord_URL_PT": "null"
   },
   {
@@ -158,11 +184,12 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "discord_URL_PT": null,
+    "discord_URL_ES": null,
     "learning": null,
-    "time": null,
+    "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "sequence": null
+    "time": null
   },
   {
     "track": "DEV",
@@ -173,11 +200,12 @@
     "type": "container",
     "lang": "PT",
     "discord_URL": null,
-    "discord_URL_PT": null,
+    "discord_URL_ES": null,
     "learning": null,
-    "time": null,
+    "discord_URL_PT": null,
+    "sequence": null,
     "difficulty": null,
-    "sequence": null
+    "time": null
   },
   {
     "track": "DEV",
@@ -192,6 +220,7 @@
     "difficulty": 1,
     "learning": 2,
     "time": 3,
+    "discord_URL_ES": "https://discord.com/channels/1209273049304666113/1253004726539259925",
     "discord_URL_PT": "null"
   }
 ]
