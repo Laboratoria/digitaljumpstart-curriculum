@@ -31,10 +31,15 @@ def generate_markdown_list(root_dir):
                 track, skill, module = get_levels(file_path, root_dir)
                 file_type = get_file_type(file_path, subdir, file)
                 config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
-                additional_info = config_data.get(config_prefix, {})
+                additional_info = config_data.get(config_prefix, {
+                    "difficulty": None,
+                    "learning": None,
+                    "time": None,
+                    "discord_URL": None
+                })
 
                 lang = get_lang(file)
-                sequence = get_sequence(subdir, file)
+                sequence = get_sequence(subdir, file, file_type)
                 title = get_title(file_path, file_type)
 
                 if file_type == "container":
@@ -85,7 +90,9 @@ def get_lang(file):
         return "PT"
     return None
 
-def get_sequence(subdir, file):
+def get_sequence(subdir, file, file_type):
+    if file_type == "container":
+        return "00"
     if "activities" in subdir:
         return file[:2]
     return None
@@ -170,7 +177,6 @@ if __name__ == "__main__":
     save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
     save_to_yaml(markdown_list, "markdown_files.yaml")
-
 
 
 """
