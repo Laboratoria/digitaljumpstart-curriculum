@@ -3,14 +3,13 @@
     "track": null,
     "skill": null,
     "module": null,
-    "title": "digitaljumpstart",
+    "title": "digitaljumpstart twest",
     "path": "README.md",
     "type": "container",
-    "time": null,
     "learning": null,
-    "discord_URL": null,
-    "discord_URL_ES": null,
     "discord_URL_PT": null,
+    "discord_URL_ES": null,
+    "time": null,
     "difficulty": null
   },
   {
@@ -20,11 +19,10 @@
     "title": "Web Development",
     "path": "DEV/README.md",
     "type": "container",
-    "time": null,
     "learning": null,
-    "discord_URL": null,
-    "discord_URL_ES": null,
     "discord_URL_PT": null,
+    "discord_URL_ES": null,
+    "time": null,
     "difficulty": null
   },
   {
@@ -34,11 +32,10 @@
     "title": "DEV : introduction",
     "path": "DEV/01_intro/README.md",
     "type": "container",
-    "time": null,
     "learning": null,
-    "discord_URL": null,
-    "discord_URL_ES": null,
     "discord_URL_PT": null,
+    "discord_URL_ES": null,
+    "time": null,
     "difficulty": null
   },
   {
@@ -48,11 +45,10 @@
     "title": "DEV : introduction : basic knowledge",
     "path": "DEV/01_intro/01_baisc_knowledge/README.md",
     "type": "container",
-    "time": null,
     "learning": null,
-    "discord_URL": null,
-    "discord_URL_ES": null,
     "discord_URL_PT": null,
+    "discord_URL_ES": null,
+    "time": null,
     "difficulty": null
   },
   {
@@ -62,11 +58,10 @@
     "title": "DEV : introduction : basic knoledge : topics",
     "path": "DEV/01_intro/01_baisc_knowledge/topics/README.md",
     "type": "container",
-    "time": null,
     "learning": null,
-    "discord_URL": null,
-    "discord_URL_ES": null,
     "discord_URL_PT": null,
+    "discord_URL_ES": null,
+    "time": null,
     "difficulty": null
   },
   {
@@ -76,11 +71,10 @@
     "title": "T\u00edtulo topic xyz",
     "path": "DEV/01_intro/01_baisc_knowledge/topics/topic_xyz.md",
     "type": "container",
-    "time": null,
     "learning": null,
-    "discord_URL": null,
-    "discord_URL_ES": null,
     "discord_URL_PT": null,
+    "discord_URL_ES": null,
+    "time": null,
     "difficulty": null
   },
   {
@@ -90,29 +84,11 @@
     "title": "Testitulo portugue",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md",
     "type": "activity",
-    "difficulty": null,
-    "learning": null,
-    "time": null,
-    "discord_URL_ES": null,
-    "discord_URL_PT": null,
-    "discord_URL": null
-  },
-  {
-    "track": "DEV",
-    "skill": "01_intro",
-    "module": "01_baisc_knowledge",
-    "title": "01_test_CONFIG.json",
-    "path": "DEV/01_intro/01_baisc_knowledge/activities/01_test_CONFIG.json",
-    "type": "config",
     "difficulty": 1,
     "learning": 2,
     "time": 3,
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1253004726539259925",
-      "PT": "null"
-    },
-    "discord_URL_ES": null,
-    "discord_URL_PT": null
+    "discord_URL_ES": "https://discord.com/channels/1209273049304666113/1253004726539259925",
+    "discord_URL_PT": "null"
   },
   {
     "track": "DEV",
@@ -121,12 +97,11 @@
     "title": "DEV : introduction : basic knowledge : activities",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/README.md",
     "type": "container",
-    "time": null,
+    "difficulty": null,
     "learning": null,
-    "discord_URL": null,
+    "time": null,
     "discord_URL_ES": null,
-    "discord_URL_PT": null,
-    "difficulty": null
+    "discord_URL_PT": null
   },
   {
     "track": "DEV",
@@ -138,11 +113,7 @@
     "difficulty": 1,
     "learning": 2,
     "time": 3,
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1253004726539259925",
-      "PT": "null"
-    },
-    "discord_URL_ES": null,
-    "discord_URL_PT": null
+    "discord_URL_ES": "https://discord.com/channels/1209273049304666113/1253004726539259925",
+    "discord_URL_PT": "null"
   }
 ]

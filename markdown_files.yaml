@@ -1,5 +1,4 @@
 - difficulty: null
-  discord_URL: null
   discord_URL_ES: null
   discord_URL_PT: null
   learning: null
@@ -7,11 +6,10 @@
   path: README.md
   skill: null
   time: null
-  title: digitaljumpstart
+  title: digitaljumpstart twest
   track: null
   type: container
 - difficulty: null
-  discord_URL: null
   discord_URL_ES: null
   discord_URL_PT: null
   learning: null
@@ -23,7 +21,6 @@
   track: DEV
   type: container
 - difficulty: null
-  discord_URL: null
   discord_URL_ES: null
   discord_URL_PT: null
   learning: null
@@ -35,7 +32,6 @@
   track: DEV
   type: container
 - difficulty: null
-  discord_URL: null
   discord_URL_ES: null
   discord_URL_PT: null
   learning: null
@@ -47,7 +43,6 @@
   track: DEV
   type: container
 - difficulty: null
-  discord_URL: null
   discord_URL_ES: null
   discord_URL_PT: null
   learning: null
@@ -59,7 +54,6 @@
   track: DEV
   type: container
 - difficulty: null
-  discord_URL: null
   discord_URL_ES: null
   discord_URL_PT: null
   learning: null
@@ -70,34 +64,18 @@
   title: "T\xEDtulo topic xyz"
   track: DEV
   type: container
-- difficulty: null
-  discord_URL: null
-  discord_URL_ES: null
-  discord_URL_PT: null
-  learning: null
+- difficulty: 1
+  discord_URL_ES: https://discord.com/channels/1209273049304666113/1253004726539259925
+  discord_URL_PT: 'null'
+  learning: 2
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md
   skill: 01_intro
-  time: null
+  time: 3
   title: Testitulo portugue
   track: DEV
   type: activity
-- difficulty: 1
-  discord_URL: &id001
-    ES: https://discord.com/channels/1209273049304666113/1253004726539259925
-    PT: 'null'
-  discord_URL_ES: null
-  discord_URL_PT: null
-  learning: 2
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/01_test_CONFIG.json
-  skill: 01_intro
-  time: 3
-  title: 01_test_CONFIG.json
-  track: DEV
-  type: config
 - difficulty: null
-  discord_URL: null
   discord_URL_ES: null
   discord_URL_PT: null
   learning: null
@@ -109,9 +87,8 @@
   track: DEV
   type: container
 - difficulty: 1
-  discord_URL: *id001
-  discord_URL_ES: null
-  discord_URL_PT: null
+  discord_URL_ES: https://discord.com/channels/1209273049304666113/1253004726539259925
+  discord_URL_PT: 'null'
   learning: 2
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md
