@@ -139,7 +139,7 @@ def get_file_type(file_path):
         return "config"
     if "activities" in file_path and file_path.endswith(".md") and not file_path.endswith("README.md"):
         return "activity"
-    if "topics" in file_path and file_path.endswith(".md"):
+    if "topics" in file_path and file_path.endswith(".md") and not file_path.endswith("README.md"):
         return "topic"
     if file_path.endswith("README.md"):
         return "container"
@@ -154,7 +154,7 @@ def get_config_content(file_path):
                 "difficulty": config.get("difficulty"),
                 "learning": config.get("learning"),
                 "time": config.get("time"),
-                "discord_URL": config.get("discord_URL", {}).get("ES"),  # Ajustar para ES o PT según lang
+                "discord_URL_ES": config.get("discord_URL", {}).get("ES"),
                 "discord_URL_PT": config.get("discord_URL", {}).get("PT")
             }
     except json.JSONDecodeError as e:
@@ -335,6 +335,8 @@ def get_file_type(file_path):
         return "config"
     if "activities" in file_path and file_path.endswith(".md") and not file_path.endswith("README.md"):
         return "activity"
+    if "topics" in file_path and file_path.endswith(".md"):
+        return "topic"
     if file_path.endswith("README.md"):
         return "container"
     return "container"
@@ -348,7 +350,7 @@ def get_config_content(file_path):
                 "difficulty": config.get("difficulty"),
                 "learning": config.get("learning"),
                 "time": config.get("time"),
-                "discord_URL_ES": config.get("discord_URL", {}).get("ES"),
+                "discord_URL": config.get("discord_URL", {}).get("ES"),  # Ajustar para ES o PT según lang
                 "discord_URL_PT": config.get("discord_URL", {}).get("PT")
             }
     except json.JSONDecodeError as e:
