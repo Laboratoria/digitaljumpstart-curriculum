@@ -1,6 +1,5 @@
 - difficulty: null
   discord_URL: null
-  discord_URL_ES: null
   discord_URL_PT: null
   lang: ES
   learning: null
@@ -14,7 +13,6 @@
   type: container
 - difficulty: null
   discord_URL: null
-  discord_URL_ES: null
   discord_URL_PT: null
   lang: ES
   learning: null
@@ -28,7 +26,6 @@
   type: container
 - difficulty: null
   discord_URL: null
-  discord_URL_ES: null
   discord_URL_PT: null
   lang: PT
   learning: null
@@ -42,7 +39,6 @@
   type: container
 - difficulty: null
   discord_URL: null
-  discord_URL_ES: null
   discord_URL_PT: null
   lang: ES
   learning: null
@@ -56,7 +52,6 @@
   type: container
 - difficulty: null
   discord_URL: null
-  discord_URL_ES: null
   discord_URL_PT: null
   lang: PT
   learning: null
@@ -70,7 +65,6 @@
   type: container
 - difficulty: null
   discord_URL: null
-  discord_URL_ES: null
   discord_URL_PT: null
   lang: ES
   learning: null
@@ -84,7 +78,6 @@
   type: container
 - difficulty: null
   discord_URL: null
-  discord_URL_ES: null
   discord_URL_PT: null
   lang: PT
   learning: null
@@ -98,7 +91,6 @@
   type: container
 - difficulty: null
   discord_URL: null
-  discord_URL_ES: null
   discord_URL_PT: null
   lang: ES
   learning: null
@@ -107,40 +99,24 @@
   sequence: null
   skill: 01_intro
   time: null
-  title: null
+  title: "T\xEDtulo topic xyz"
   track: DEV
-  type: container
+  type: topic
 - difficulty: null
   discord_URL: null
-  discord_URL_ES: null
   discord_URL_PT: null
-  lang: ES
+  lang: null
   learning: null
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/topics/README.md
   sequence: null
   skill: 01_intro
   time: null
-  title: "T\xF3picos"
+  title: 'DEV : introduction : basic knoledge : topics'
   track: DEV
-  type: container
-- difficulty: null
-  discord_URL: null
-  discord_URL_ES: null
-  discord_URL_PT: null
-  lang: PT
-  learning: null
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/topics/README.md
-  sequence: null
-  skill: 01_intro
-  time: null
-  title: "T\xF3picos"
-  track: DEV
-  type: container
+  type: topic
 - difficulty: 1
-  discord_URL: 'null'
-  discord_URL_ES: https://discord.com/channels/1209273049304666113/1253004726539259925
+  discord_URL: https://discord.com/channels/1209273049304666113/1253004726539259925
   discord_URL_PT: 'null'
   lang: PT
   learning: 2
@@ -154,7 +130,6 @@
   type: activity
 - difficulty: null
   discord_URL: null
-  discord_URL_ES: null
   discord_URL_PT: null
   lang: ES
   learning: null
@@ -168,7 +143,6 @@
   type: container
 - difficulty: null
   discord_URL: null
-  discord_URL_ES: null
   discord_URL_PT: null
   lang: PT
   learning: null
@@ -182,7 +156,6 @@
   type: container
 - difficulty: 1
   discord_URL: https://discord.com/channels/1209273049304666113/1253004726539259925
-  discord_URL_ES: https://discord.com/channels/1209273049304666113/1253004726539259925
   discord_URL_PT: 'null'
   lang: ES
   learning: 2
