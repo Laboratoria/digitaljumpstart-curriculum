@@ -139,6 +139,8 @@ def get_file_type(file_path):
         return "config"
     if "activities" in file_path and file_path.endswith(".md") and not file_path.endswith("README.md"):
         return "activity"
+    if "topics" in file_path and file_path.endswith(".md"):
+        return "topic"
     if file_path.endswith("README.md"):
         return "container"
     return "container"
@@ -152,7 +154,7 @@ def get_config_content(file_path):
                 "difficulty": config.get("difficulty"),
                 "learning": config.get("learning"),
                 "time": config.get("time"),
-                "discord_URL_ES": config.get("discord_URL", {}).get("ES"),
+                "discord_URL": config.get("discord_URL", {}).get("ES"),  # Ajustar para ES o PT según lang
                 "discord_URL_PT": config.get("discord_URL", {}).get("PT")
             }
     except json.JSONDecodeError as e:
@@ -221,22 +223,60 @@ def generate_markdown_list(root_dir):
             if file.endswith(".md"):
                 file_path = os.path.join(subdir, file)
                 track, skill, module = get_levels(file_path, root_dir)
-                title = get_header(file_path)
                 file_type = get_file_type(file_path)
 
                 config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
                 additional_info = config_data.get(config_prefix, {})
 
-                # Si el archivo está en una carpeta de actividades y no tiene información adicional
-                if "activities" in subdir and not additional_info:
-                    logging.warning(f"No config file found for {file_path}. Setting default values.")
-                    additional_info = {
-                        "difficulty": None,
-                        "learning": None,
-                        "time": None,
-                        "discord_URL_ES": None,
-                        "discord_URL_PT": None
-                    }
+                # Determinar el campo "lang"
+                lang = None
+                discord_url = None
+                if file.endswith("_ES.md"):
+                    lang = "ES"
+                    discord_url = additional_info.get("discord_URL_ES")
+                elif file.endswith("_PT.md"):
+                    lang = "PT"
+                    discord_url = additional_info.get("discord_URL_PT")
+
+                # Determinar el campo "sequence" para archivos en carpetas "activities"
+                sequence = None
+                if "activities" in subdir:
+                    sequence = file[:2]
+
+                # Obtener el título adecuado
+                if file_type in ["activity", "topic"]:
+                    title = get_header(file_path)
+                elif file_type == "container":
+                    titles = get_container_titles(file_path)
+                    if titles:
+                        markdown_list.append({
+                            "track": track,
+                            "skill": skill,
+                            "module": module,
+                            "title": titles[0],
+                            "path": file_path[2:],  # Remove the leading "./"
+                            "type": file_type,
+                            "lang": "ES",
+                            "discord_URL": additional_info.get("discord_URL_ES"),
+                            **additional_info
+                        })
+                        if len(titles) > 1:
+                            markdown_list.append({
+                                "track": track,
+                                "skill": skill,
+                                "module": module,
+                                "title": titles[1],
+                                "path": file_path[2:],  # Remove the leading "./"
+                                "type": file_type,
+                                "lang": "PT",
+                                "discord_URL": additional_info.get("discord_URL_PT"),
+                                **additional_info
+                            })
+                        continue
+                    else:
+                        title = None
+                else:
+                    title = None
 
                 markdown_entry = {
                     "track": track,
@@ -245,6 +285,9 @@ def generate_markdown_list(root_dir):
                     "title": title,
                     "path": file_path[2:],  # Remove the leading "./"
                     "type": file_type,
+                    "lang": lang,
+                    "sequence": sequence,
+                    "discord_URL": discord_url,
                     **additional_info
                 }
                 keys.update(markdown_entry.keys())
@@ -266,6 +309,17 @@ def get_header(file_path):
                 if line.startswith("# "):
                     return line[2:].strip()
     return None
+
+def get_container_titles(file_path):
+    titles = []
+    if file_path.endswith(".md"):
+        with open(file_path, 'r') as f:
+            for line in f:
+                if line.startswith("## "):
+                    titles.append(line[3:].strip())
+                if len(titles) == 2:
+                    break
+    return titles
 
 def get_levels(file_path, root_dir):
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
@@ -331,5 +385,6 @@ if __name__ == "__main__":
     save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
     save_to_yaml(markdown_list, "markdown_files.yaml")
+
 
 """
