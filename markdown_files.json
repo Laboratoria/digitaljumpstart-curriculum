@@ -8,11 +8,11 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "time": null,
-    "sequence": null,
     "discord_URL_PT": null,
+    "learning": null,
+    "time": null,
     "difficulty": null,
-    "learning": null
+    "sequence": null
   },
   {
     "track": "DEV",
@@ -23,11 +23,11 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "time": null,
-    "sequence": null,
     "discord_URL_PT": null,
+    "learning": null,
+    "time": null,
     "difficulty": null,
-    "learning": null
+    "sequence": null
   },
   {
     "track": "DEV",
@@ -38,11 +38,11 @@
     "type": "container",
     "lang": "PT",
     "discord_URL": null,
-    "time": null,
-    "sequence": null,
     "discord_URL_PT": null,
+    "learning": null,
+    "time": null,
     "difficulty": null,
-    "learning": null
+    "sequence": null
   },
   {
     "track": "DEV",
@@ -53,11 +53,11 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "time": null,
-    "sequence": null,
     "discord_URL_PT": null,
+    "learning": null,
+    "time": null,
     "difficulty": null,
-    "learning": null
+    "sequence": null
   },
   {
     "track": "DEV",
@@ -68,11 +68,11 @@
     "type": "container",
     "lang": "PT",
     "discord_URL": null,
-    "time": null,
-    "sequence": null,
     "discord_URL_PT": null,
+    "learning": null,
+    "time": null,
     "difficulty": null,
-    "learning": null
+    "sequence": null
   },
   {
     "track": "DEV",
@@ -83,11 +83,11 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "time": null,
-    "sequence": null,
     "discord_URL_PT": null,
+    "learning": null,
+    "time": null,
     "difficulty": null,
-    "learning": null
+    "sequence": null
   },
   {
     "track": "DEV",
@@ -98,11 +98,11 @@
     "type": "container",
     "lang": "PT",
     "discord_URL": null,
-    "time": null,
-    "sequence": null,
     "discord_URL_PT": null,
+    "learning": null,
+    "time": null,
     "difficulty": null,
-    "learning": null
+    "sequence": null
   },
   {
     "track": "DEV",
@@ -114,10 +114,10 @@
     "lang": "ES",
     "sequence": null,
     "discord_URL": null,
-    "time": null,
     "discord_URL_PT": null,
-    "difficulty": null,
-    "learning": null
+    "learning": null,
+    "time": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -129,10 +129,10 @@
     "lang": null,
     "sequence": null,
     "discord_URL": null,
-    "time": null,
     "discord_URL_PT": null,
-    "difficulty": null,
-    "learning": null
+    "learning": null,
+    "time": null,
+    "difficulty": null
   },
   {
     "track": "DEV",
@@ -158,11 +158,11 @@
     "type": "container",
     "lang": "ES",
     "discord_URL": null,
-    "time": null,
-    "sequence": null,
     "discord_URL_PT": null,
+    "learning": null,
+    "time": null,
     "difficulty": null,
-    "learning": null
+    "sequence": null
   },
   {
     "track": "DEV",
@@ -173,11 +173,11 @@
     "type": "container",
     "lang": "PT",
     "discord_URL": null,
-    "time": null,
-    "sequence": null,
     "discord_URL_PT": null,
+    "learning": null,
+    "time": null,
     "difficulty": null,
-    "learning": null
+    "sequence": null
   },
   {
     "track": "DEV",

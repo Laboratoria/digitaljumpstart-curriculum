@@ -1,4 +1,4 @@
-track,skill,module,title,path,type,lang,discord_URL,time,sequence,discord_URL_PT,difficulty,learning
+track,skill,module,title,path,type,lang,discord_URL,discord_URL_PT,learning,time,difficulty,sequence
 ,,,test,README.md,container,ES,,,,,,
 DEV,,,Desarrollo Web,DEV/README.md,container,ES,,,,,,
 DEV,,,Desenvolvimento Web,DEV/README.md,container,PT,,,,,,
@@ -8,7 +8,7 @@ DEV,01_intro,01_baisc_knowledge,Módulo 1: Todo sobre el desarrollo Web,DEV/01_i
 DEV,01_intro,01_baisc_knowledge,Módulo 1: Tudo sobre desenvolvimento Web,DEV/01_intro/01_baisc_knowledge/README.md,container,PT,,,,,,
 DEV,01_intro,01_baisc_knowledge,Título topic xyz,DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md,topic,ES,,,,,,
 DEV,01_intro,01_baisc_knowledge,DEV : introduction : basic knoledge : topics,DEV/01_intro/01_baisc_knowledge/topics/README.md,topic,,,,,,,
-DEV,01_intro,01_baisc_knowledge,Testitulo portugue,DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md,activity,PT,https://discord.com/channels/1209273049304666113/1253004726539259925,3,01,null,1,2
+DEV,01_intro,01_baisc_knowledge,Testitulo portugue,DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md,activity,PT,https://discord.com/channels/1209273049304666113/1253004726539259925,null,2,3,1,01
 DEV,01_intro,01_baisc_knowledge,Actividades,DEV/01_intro/01_baisc_knowledge/activities/README.md,container,ES,,,,,,
 DEV,01_intro,01_baisc_knowledge,Actividades,DEV/01_intro/01_baisc_knowledge/activities/README.md,container,PT,,,,,,
-DEV,01_intro,01_baisc_knowledge,Test tit castellano,DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md,activity,ES,https://discord.com/channels/1209273049304666113/1253004726539259925,3,01,null,1,2
+DEV,01_intro,01_baisc_knowledge,Test tit castellano,DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md,activity,ES,https://discord.com/channels/1209273049304666113/1253004726539259925,null,2,3,1,01
