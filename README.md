@@ -1,7 +1,6 @@
-# digitaljumpstart test
-dijital-jumpstart
-test com
-test 2
-test3
-test 4
-test5
+# digital jumpstart contenido
+Estructura de navegación, tópicos, actividades y retos + config
+
+## Definiciones, estructura, etc:
+El script python ....
+La estructura de carpetas y filenames.... 
