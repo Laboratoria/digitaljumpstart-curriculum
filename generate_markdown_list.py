@@ -34,10 +34,13 @@ def generate_markdown_list(root_dir):
 
                 # Determinar el campo "lang"
                 lang = None
+                discord_url = None
                 if file.endswith("_ES.md"):
                     lang = "ES"
+                    discord_url = additional_info.get("discord_URL_ES")
                 elif file.endswith("_PT.md"):
                     lang = "PT"
+                    discord_url = additional_info.get("discord_URL_PT")
 
                 # Determinar el campo "sequence" para archivos en carpetas "activities"
                 sequence = None
@@ -58,6 +61,7 @@ def generate_markdown_list(root_dir):
                             "path": file_path[2:],  # Remove the leading "./"
                             "type": file_type,
                             "lang": "ES",
+                            "discord_URL": additional_info.get("discord_URL_ES"),
                             **additional_info
                         })
                         if len(titles) > 1:
@@ -69,6 +73,7 @@ def generate_markdown_list(root_dir):
                                 "path": file_path[2:],  # Remove the leading "./"
                                 "type": file_type,
                                 "lang": "PT",
+                                "discord_URL": additional_info.get("discord_URL_PT"),
                                 **additional_info
                             })
                         continue
@@ -86,6 +91,7 @@ def generate_markdown_list(root_dir):
                     "type": file_type,
                     "lang": lang,
                     "sequence": sequence,
+                    "discord_URL": discord_url,
                     **additional_info
                 }
                 keys.update(markdown_entry.keys())
