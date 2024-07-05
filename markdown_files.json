@@ -1,19 +1,5 @@
 [
   {
-    "track": null,
-    "skill": null,
-    "module": null,
-    "title": "test",
-    "type": "container",
-    "lang": "ES",
-    "sequence": null,
-    "learning": null,
-    "difficulty": null,
-    "time": null,
-    "path": "README.md",
-    "discord_URL": null
-  },
-  {
     "track": "DEV",
     "skill": null,
     "module": null,
