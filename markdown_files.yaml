@@ -88,7 +88,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md
-  sequence: null
+  sequence: '01'
   skill: 01_intro
   time: null
   title: "T\xEDtulo topic xyz"

@@ -104,7 +104,7 @@
     "title": "T\u00edtulo topic xyz",
     "type": "topic",
     "lang": "ES",
-    "sequence": null,
+    "sequence": "01",
     "learning": null,
     "difficulty": null,
     "time": null,
