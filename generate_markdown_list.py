@@ -12,23 +12,29 @@ def generate_markdown_list(root_dir):
     keys = set()
     config_data = {}  # Para almacenar temporalmente los datos del archivo de configuración
 
+    # Primero recorrer para cargar los archivos de configuración
     for subdir, _, files in os.walk(root_dir):
         for file in files:
-            if file.endswith(".md") or file.endswith("_CONFIG.json"):
+            if file.endswith("_CONFIG.json") and "activities" in subdir:
+                file_path = os.path.join(subdir, file)
+                additional_info = get_config_content(file_path)
+                config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
+                config_data[config_prefix] = additional_info
+
+    # Luego recorrer para cargar los archivos markdown
+    for subdir, _, files in os.walk(root_dir):
+        for file in files:
+            if file.endswith(".md"):
                 file_path = os.path.join(subdir, file)
                 track, skill, module = get_levels(file_path, root_dir)
-                title = get_header(file_path) if file.endswith(".md") else file
+                title = get_header(file_path)
                 file_type = get_file_type(file_path)
-
-                if file_type == "config":
-                    additional_info = get_config_content(file_path)
-                    config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
-                    config_data[config_prefix] = additional_info
 
                 config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
                 additional_info = config_data.get(config_prefix, {})
 
-                if file.endswith(".md") and file_type == "activity" and not additional_info:
+                # Si el archivo está en una carpeta de actividades y no tiene información adicional
+                if "activities" in subdir and not additional_info:
                     logging.warning(f"No config file found for {file_path}. Setting default values.")
                     additional_info = {
                         "difficulty": None,
@@ -90,7 +96,13 @@ def get_config_content(file_path):
         with open(file_path, 'r', encoding='utf-8') as f:
             config = json.load(f)
             logging.debug(f"Config content for {file_path}: {config}")  # Debugging output
-            return config
+            return {
+                "difficulty": config.get("difficulty"),
+                "learning": config.get("learning"),
+                "time": config.get("time"),
+                "discord_URL_ES": config.get("discord_URL", {}).get("ES"),
+                "discord_URL_PT": config.get("discord_URL", {}).get("PT")
+            }
     except json.JSONDecodeError as e:
         logging.error(f"Error reading JSON from {file_path}: {e}")
     except Exception as e:
