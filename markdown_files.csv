@@ -1,4 +1,5 @@
 track,skill,module,title,type,lang,sequence,learning,difficulty,time,path,discord_URL
+,,,"Definiciones, estructura, etc:",container,ES,00,,,,README.md,
 DEV,,,Desarrollo Web,container,ES,00,,,,DEV/README.md,
 DEV,,,Desenvolvimento Web,container,PT,00,,,,DEV/README.md,
 DEV,01_intro,,Introducción al Desarrollo Web,container,ES,00,,,,DEV/01_intro/README.md,

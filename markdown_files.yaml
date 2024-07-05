@@ -3,6 +3,18 @@
   lang: ES
   learning: null
   module: null
+  path: README.md
+  sequence: '00'
+  skill: null
+  time: null
+  title: 'Definiciones, estructura, etc:'
+  track: null
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: ES
+  learning: null
+  module: null
   path: DEV/README.md
   sequence: '00'
   skill: null
