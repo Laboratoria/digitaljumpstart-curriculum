@@ -91,15 +91,13 @@ def get_lang(file):
     return None
 
 def get_sequence(subdir, file, file_type):
-    if file_type in ["activity", "topics"]:
+    if file_type in ["activity", "topics", "topic"]:
         return file[:2]
     elif file_type == "container":
         if "activities" in subdir or "topics" in subdir:
             return "00"
         return os.path.basename(subdir)[:2]
     return None
-
-
 
 def get_header(file_path):
     with open(file_path, 'r') as f:
