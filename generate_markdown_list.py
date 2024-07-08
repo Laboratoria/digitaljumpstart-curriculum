@@ -149,10 +149,17 @@ def get_sequence(subdir, file, file_type):
     return ""
 
 def get_title(file_path, file_type):
-    # Implement the logic to determine the title of the file
-    if file_type == "container":
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.readlines()
+            if file_type == "container":
+                titles = [line.strip() for line in content if line.startswith("#")]
+                if titles:
+                    return titles[0]  # Use the first title found
+            return os.path.splitext(os.path.basename(file_path))[0]
+    except Exception as e:
+        logging.error(f"Error reading title from {file_path}: {e}")
         return os.path.splitext(os.path.basename(file_path))[0]
-    return os.path.splitext(os.path.basename(file_path))[0]
 
 def get_container_titles(file_path):
     try:
@@ -183,6 +190,7 @@ if __name__ == "__main__":
     save_to_yaml(programs, "programs.yml")
 
     logging.info("All files have been saved.")
+
 
 """
 import os
