@@ -42,15 +42,11 @@ def generate_markdown_list(root_dir):
                 sequence = get_sequence(subdir, file, file_type)
                 title = get_title(file_path, file_type)
 
-                if file_type == "container":
-                    titles = get_container_titles(file_path)
-                    for i, t in enumerate(titles):
-                        lang_key = "ES" if i == 0 else "PT"
-                        markdown_list.append(create_entry(
-                            track, skill, module, t, file_type, lang_key, sequence,
-                            additional_info["learning"], additional_info["difficulty"],
-                            additional_info["time"], file_path, additional_info["discord_URL"]
-                        ))
+                markdown_list.append(create_entry(
+                    track, skill, module, title, file_type, lang, sequence,
+                    additional_info["learning"], additional_info["difficulty"],
+                    additional_info["time"], file_path, additional_info["discord_URL"]
+                ))
 
     return markdown_list
 
@@ -143,13 +139,16 @@ def save_to_yaml(data, filename):
     logging.info(f"Data saved to {filename}")
 
 def filter_data(markdown_list, track_cond, skill_cond, module_cond):
-    return [
-        entry for entry in markdown_list
-        if (entry["type"] == "container" and
-            (track_cond is None or entry["track"] != track_cond) and
-            (skill_cond is None or entry["skill"] != skill_cond) and
-            (module_cond is None or entry["module"] != module_cond))
-    ]
+    filtered_data = []
+    for entry in markdown_list:
+        if entry["type"] == "container":
+            track_valid = (track_cond == "not_null" and entry["track"] is not None) or (track_cond == "null" and entry["track"] is None)
+            skill_valid = (skill_cond == "not_null" and entry["skill"] is not None) or (skill_cond == "null" and entry["skill"] is None)
+            module_valid = (module_cond == "not_null" and entry["module"] is not None) or (module_cond == "null" and entry["module"] is None)
+            
+            if track_valid and skill_valid and module_valid:
+                filtered_data.append(entry)
+    return filtered_data
 
 if __name__ == "__main__":
     root_dir = "."
@@ -159,9 +158,9 @@ if __name__ == "__main__":
     save_to_json(markdown_list, "markdown_files.json")
     save_to_yaml(markdown_list, "markdown_files.yaml")
 
-    programs = filter_data(markdown_list, None, "null", "null")
-    skills = filter_data(markdown_list, None, None, "null")
-    modules = filter_data(markdown_list, None, None, None)
+    programs = filter_data(markdown_list, "not_null", "null", "null")
+    skills = filter_data(markdown_list, "not_null", "not_null", "null")
+    modules = filter_data(markdown_list, "not_null", "not_null", "not_null")
 
     save_to_csv(programs, "programs.csv")
     save_to_json(programs, "programs.json")
@@ -174,6 +173,7 @@ if __name__ == "__main__":
     save_to_csv(modules, "modules.csv")
     save_to_json(modules, "modules.json")
     save_to_yaml(modules, "modules.yml")
+
 
 """
 import os
