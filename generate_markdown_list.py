@@ -149,13 +149,22 @@ def get_sequence(subdir, file, file_type):
 
 def get_title(file_path, file_type):
     # Implement the logic to determine the title of the file
-    # As a placeholder, let's return the filename without extension
+    if file_type == "container":
+        return os.path.splitext(os.path.basename(file_path))[0]
     return os.path.splitext(os.path.basename(file_path))[0]
 
 def get_container_titles(file_path):
     # Implement the logic to get titles for container type files
-    # As a placeholder, let's return a list with the filename without extension
-    return [os.path.splitext(os.path.basename(file_path))[0]]
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.readlines()
+            titles = [line.strip() for line in content if line.startswith("#")]
+            if not titles:
+                titles = [os.path.splitext(os.path.basename(file_path))[0]]
+            return titles
+    except Exception as e:
+        logging.error(f"Error reading container titles from {file_path}: {e}")
+        return [os.path.splitext(os.path.basename(file_path))[0]]
 
 if __name__ == "__main__":
     root_dir = "."
@@ -170,7 +179,6 @@ if __name__ == "__main__":
     save_to_csv(programs, "programs.csv")
     save_to_json(programs, "programs.json")
     save_to_yaml(programs, "programs.yml")
-
 
 """
 import os
