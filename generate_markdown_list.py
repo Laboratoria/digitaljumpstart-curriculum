@@ -47,13 +47,16 @@ def generate_markdown_list(root_dir):
                     for i, t in enumerate(titles):
                         lang_key = "ES" if i == 0 else "PT"
                         markdown_list.append(create_entry(
-                            track, skill, module, t, file_type, lang_key, sequence, additional_info, file_path[2:]
+                            track, skill, module, t, file_type, lang_key, sequence,
+                            additional_info["learning"], additional_info["difficulty"],
+                            additional_info["time"], file_path, additional_info["discord_URL"]
                         ))
                 else:
                     markdown_list.append(create_entry(
-                        track, skill, module, title, file_type, lang, sequence, additional_info, file_path[2:]
+                        track, skill, module, title, file_type, lang, sequence,
+                        additional_info["learning"], additional_info["difficulty"],
+                        additional_info["time"], file_path, additional_info["discord_URL"]
                     ))
-                
     return markdown_list
 
 def create_entry(track, skill, module, title, file_type, lang, sequence, learning, difficulty, time, path, discord_URL):
