@@ -132,7 +132,9 @@ def save_to_yaml(data, filename):
     logging.info(f"Data saved to {filename}")
 
 def filter_programs(data):
-    return [entry for entry in data if entry['type'] == 'container' and entry['track'] is not None and entry['skill'] is None and entry['module'] is None]
+    programs = [entry for entry in data if entry['type'] == 'container' and entry['track'] is not None and entry['skill'] is None and entry['module'] is None]
+    logging.info(f"Programs filtered: {programs}")
+    return programs
 
 def get_lang(file):
     if file.endswith("_ES.md"):
@@ -168,6 +170,8 @@ if __name__ == "__main__":
     root_dir = "."
     markdown_list = generate_markdown_list(root_dir)
     
+    logging.info(f"Total markdown files: {len(markdown_list)}")
+    
     save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
     save_to_yaml(markdown_list, "markdown_files.yaml")
@@ -177,6 +181,8 @@ if __name__ == "__main__":
     save_to_csv(programs, "programs.csv")
     save_to_json(programs, "programs.json")
     save_to_yaml(programs, "programs.yml")
+
+    logging.info("All files have been saved.")
 
 """
 import os
