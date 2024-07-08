@@ -142,6 +142,21 @@ def get_lang(file):
     else:
         return "EN"
 
+def get_sequence(subdir, file, file_type):
+    # Implement the logic to determine the sequence of the file
+    # As a placeholder, let's return an empty string
+    return ""
+
+def get_title(file_path, file_type):
+    # Implement the logic to determine the title of the file
+    # As a placeholder, let's return the filename without extension
+    return os.path.splitext(os.path.basename(file_path))[0]
+
+def get_container_titles(file_path):
+    # Implement the logic to get titles for container type files
+    # As a placeholder, let's return a list with the filename without extension
+    return [os.path.splitext(os.path.basename(file_path))[0]]
+
 if __name__ == "__main__":
     root_dir = "."
     markdown_list = generate_markdown_list(root_dir)
@@ -155,6 +170,7 @@ if __name__ == "__main__":
     save_to_csv(programs, "programs.csv")
     save_to_json(programs, "programs.json")
     save_to_yaml(programs, "programs.yml")
+
 
 """
 import os
