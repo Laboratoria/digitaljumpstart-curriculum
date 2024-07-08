@@ -100,7 +100,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/topics/README.md
-  sequence: '00'
+  sequence: to
   skill: 01_intro
   time: null
   title: "T\xF3picos"
@@ -112,7 +112,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/topics/README.md
-  sequence: '00'
+  sequence: to
   skill: 01_intro
   time: null
   title: "T\xF3picos"
@@ -172,7 +172,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/activities/README.md
-  sequence: '00'
+  sequence: ac
   skill: 01_intro
   time: null
   title: Actividades
@@ -184,7 +184,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/activities/README.md
-  sequence: '00'
+  sequence: ac
   skill: 01_intro
   time: null
   title: Actividades
