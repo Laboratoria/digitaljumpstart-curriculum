@@ -1,3 +1,3 @@
 track,skill,module,title,type,lang,sequence,learning,difficulty,time,path,discord_URL
-DEV,01_intro,,Introducción al Desarrollo Web,container,ES,00,,,,DEV/01_intro/README.md,
-DEV,01_intro,,Introdução ao desenvolvimento web,container,PT,00,,,,DEV/01_intro/README.md,
+DEV,01_intro,,Introducción al Desarrollo Web,container,ES,01,,,,DEV/01_intro/README.md,
+DEV,01_intro,,Introdução ao desenvolvimento web,container,PT,01,,,,DEV/01_intro/README.md,
