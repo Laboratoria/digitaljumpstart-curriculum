@@ -4,7 +4,7 @@
   learning: null
   module: null
   path: ./README.md
-  sequence: 1
+  sequence: ''
   skill: null
   time: null
   title: README
@@ -16,7 +16,7 @@
   learning: null
   module: null
   path: ./DEV/README.md
-  sequence: 1
+  sequence: ''
   skill: README.md
   time: null
   title: README
@@ -28,7 +28,7 @@
   learning: null
   module: README.md
   path: ./DEV/01_intro/README.md
-  sequence: 1
+  sequence: ''
   skill: 01_intro
   time: null
   title: README
@@ -40,7 +40,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: ./DEV/01_intro/01_baisc_knowledge/README.md
-  sequence: 1
+  sequence: ''
   skill: 01_intro
   time: null
   title: README
@@ -52,7 +52,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: ./DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md
-  sequence: 1
+  sequence: ''
   skill: 01_intro
   time: null
   title: 01_topic_xyz_ES
@@ -64,7 +64,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: ./DEV/01_intro/01_baisc_knowledge/topics/README.md
-  sequence: 1
+  sequence: ''
   skill: 01_intro
   time: null
   title: README
@@ -72,11 +72,11 @@
   type: container
 - difficulty: null
   discord_URL: null
-  lang: ES
+  lang: EN
   learning: null
   module: 01_baisc_knowledge
   path: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev.md
-  sequence: 1
+  sequence: ''
   skill: 01_intro
   time: null
   title: 00_01_02_web_dev
@@ -84,11 +84,11 @@
   type: activity
 - difficulty: null
   discord_URL: null
-  lang: ES
+  lang: EN
   learning: null
   module: 01_baisc_knowledge
   path: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life.md
-  sequence: 1
+  sequence: ''
   skill: 01_intro
   time: null
   title: 00_01_03_dev_life
@@ -96,11 +96,11 @@
   type: activity
 - difficulty: null
   discord_URL: null
-  lang: ES
+  lang: EN
   learning: null
   module: 01_baisc_knowledge
   path: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends.md
-  sequence: 1
+  sequence: ''
   skill: 01_intro
   time: null
   title: 00_01_04_dev_trends
@@ -112,7 +112,7 @@
   learning: 2
   module: 01_baisc_knowledge
   path: ./DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md
-  sequence: 1
+  sequence: ''
   skill: 01_intro
   time: 3
   title: 01_test_PT
@@ -124,7 +124,7 @@
   learning: null
   module: 01_baisc_knowledge
   path: ./DEV/01_intro/01_baisc_knowledge/activities/README.md
-  sequence: 1
+  sequence: ''
   skill: 01_intro
   time: null
   title: README
@@ -132,11 +132,11 @@
   type: container
 - difficulty: null
   discord_URL: null
-  lang: ES
+  lang: EN
   learning: null
   module: 01_baisc_knowledge
   path: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools.md
-  sequence: 1
+  sequence: ''
   skill: 01_intro
   time: null
   title: 00_01_05_dev_tools
@@ -148,7 +148,7 @@
   learning: 2
   module: 01_baisc_knowledge
   path: ./DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md
-  sequence: 1
+  sequence: ''
   skill: 01_intro
   time: 3
   title: 01_test_ES
@@ -156,11 +156,11 @@
   type: activity
 - difficulty: null
   discord_URL: null
-  lang: ES
+  lang: EN
   learning: null
   module: 01_baisc_knowledge
   path: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_00_all_about.md
-  sequence: 1
+  sequence: ''
   skill: 01_intro
   time: null
   title: 00_01_00_all_about
@@ -168,11 +168,11 @@
   type: activity
 - difficulty: null
   discord_URL: null
-  lang: ES
+  lang: EN
   learning: null
   module: 01_baisc_knowledge
   path: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web.md
-  sequence: 1
+  sequence: ''
   skill: 01_intro
   time: null
   title: 00_01_01_internet_web
