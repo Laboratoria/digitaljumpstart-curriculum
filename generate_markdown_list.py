@@ -11,7 +11,7 @@ def generate_markdown_list(root_dir):
     programs = []
     skills = []
     modules = []
-    markdown_files = []  # Agregar esta línea para seguir generando markdown_files
+    markdown_files = []
     keys = [
         "track", "skill", "module", "title", "type", "lang", "sequence",
         "learning", "difficulty", "time", "path", "discord_URL"
@@ -49,6 +49,8 @@ def generate_markdown_list(root_dir):
                     track, skill, module, title, file_type, lang, sequence, additional_info, file_path[2:]
                 )
 
+                markdown_files.append(entry)
+
                 if file_type == "container":
                     if track and not skill and not module:
                         programs.append(entry)
@@ -57,10 +59,8 @@ def generate_markdown_list(root_dir):
                     elif track and skill and module:
                         modules.append(entry)
 
-                markdown_files.append(entry)  # Agregar cada entrada a markdown_files
-
     # Asegurar llaves consistentes
-    for entry in (programs + skills + modules):
+    for entry in (programs + skills + modules + markdown_files):
         for key in keys:
             if key not in entry:
                 entry[key] = None
@@ -70,7 +70,7 @@ def generate_markdown_list(root_dir):
     logging.debug(f"Modules: {modules}")
     logging.debug(f"Markdown files: {markdown_files}")
 
-    return programs, skills, modules, markdown_files  # Retornar markdown_files
+    return programs, skills, modules, markdown_files
 
 def create_entry(track, skill, module, title, file_type, lang, sequence, additional_info, path):
     return {
@@ -203,7 +203,6 @@ if __name__ == "__main__":
     save_to_csv(markdown_files, "markdown_files.csv")
     save_to_json(markdown_files, "markdown_files.json")
     save_to_yaml(markdown_files, "markdown_files.yaml")
-
 
 """
 import os
