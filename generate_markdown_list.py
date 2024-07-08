@@ -183,6 +183,14 @@ def filter_modules(data):
     logging.info(f"Modules filtered: {modules}")
     return modules
 
+def filter_activities(data):
+    activities = [
+        entry for entry in data
+        if entry['type'] == 'activity' 
+    ]
+    logging.info(f"Activities filtered: {activities}")
+    return activities
+
 def save_to_csv(data, filename):
     if not data:
         logging.warning(f"No data to write to {filename}")
@@ -231,5 +239,11 @@ if __name__ == "__main__":
     save_to_csv(modules, "modules.csv")
     save_to_json(modules, "modules.json")
     save_to_yaml(modules, "modules.yml")
+
+    # Filtrar y guardar actividades
+    modules = filter_activities(markdown_list)
+    filter_activities(modules, "filter_activities.csv")
+    filter_activities(modules, "filter_activities.json")
+    filter_activities(modules, "filter_activities.yml")
 
     logging.info("All files have been saved.")
