@@ -1,79 +1,192 @@
 import os
-import csv
 import json
+import csv
 import yaml
-import markdown2
+import logging
 
-# Function to get all markdown files in the repository
-def get_markdown_files(root_dir):
-    markdown_files = []
-    for subdir, _, files in os.walk(root_dir):
-        for file in files:
-            if file.endswith(".md"):
-                markdown_files.append(os.path.join(subdir, file))
-    return markdown_files
+# Configuración del logger
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Function to parse metadata from a markdown file
-def parse_metadata(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        content = file.read()
-        metadata = markdown2.markdown(content, extras=["metadata"]).metadata
-    return metadata
-
-# Function to save data in CSV format
-def save_csv(data, file_path):
-    with open(file_path, 'w', newline='', encoding='utf-8') as file:
-        writer = csv.DictWriter(file, fieldnames=data[0].keys())
-        writer.writeheader()
-        writer.writerows(data)
-
-# Function to save data in JSON format
-def save_json(data, file_path):
-    with open(file_path, 'w', encoding='utf-8') as file:
-        json.dump(data, file, indent=4)
-
-# Function to save data in YAML format
-def save_yaml(data, file_path):
-    with open(file_path, 'w', encoding='utf-8') as file:
-        yaml.dump(data, file, default_flow_style=False, allow_unicode=True)
-
-# Main function to generate the lists
-def generate_lists(root_dir):
-    markdown_files = get_markdown_files(root_dir)
-
+def generate_markdown_list(root_dir):
     programs = []
     skills = []
     modules = []
+    keys = [
+        "track", "skill", "module", "title", "type", "lang", "sequence",
+        "learning", "difficulty", "time", "path", "discord_URL"
+    ]
+    config_data = {}
 
-    for file_path in markdown_files:
-        metadata = parse_metadata(file_path)
-        
-        if 'TRACK' in metadata and metadata['TRACK']:
-            if 'SKILL' not in metadata or not metadata['SKILL']:
-                programs.append(metadata)
-            elif 'MODULE' not in metadata or not metadata['MODULE']:
-                skills.append(metadata)
-            else:
-                modules.append(metadata)
+    # Cargar archivos de configuración
+    for subdir, _, files in os.walk(root_dir):
+        for file in files:
+            if file.endswith("_CONFIG.json") and "activities" in subdir:
+                file_path = os.path.join(subdir, file)
+                config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
+                config_data[config_prefix] = get_config_content(file_path)
 
-    if programs:
-        save_csv(programs, os.path.join(root_dir, 'programs.csv'))
-        save_json(programs, os.path.join(root_dir, 'programs.json'))
-        save_yaml(programs, os.path.join(root_dir, 'programs.yml'))
+    # Cargar archivos markdown
+    for subdir, _, files in os.walk(root_dir):
+        for file in files:
+            if file.endswith(".md"):
+                file_path = os.path.join(subdir, file)
+                track, skill, module = get_levels(file_path, root_dir)
+                file_type = get_file_type(file_path, subdir, file)
+                config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
+                additional_info = config_data.get(config_prefix, {
+                    "difficulty": None,
+                    "learning": None,
+                    "time": None,
+                    "discord_URL": None
+                })
 
-    if skills:
-        save_csv(skills, os.path.join(root_dir, 'skills.csv'))
-        save_json(skills, os.path.join(root_dir, 'skills.json'))
-        save_yaml(skills, os.path.join(root_dir, 'skills.yml'))
+                lang = get_lang(file)
+                sequence = get_sequence(subdir, file, file_type)
+                title = get_title(file_path, file_type)
 
-    if modules:
-        save_csv(modules, os.path.join(root_dir, 'modules.csv'))
-        save_json(modules, os.path.join(root_dir, 'modules.json'))
-        save_yaml(modules, os.path.join(root_dir, 'modules.yml'))
+                entry = create_entry(
+                    track, skill, module, title, file_type, lang, sequence, additional_info, file_path[2:]
+                )
+
+                if file_type == "container":
+                    if track and not skill and not module:
+                        programs.append(entry)
+                    elif track and skill and not module:
+                        skills.append(entry)
+                    elif track and skill and module:
+                        modules.append(entry)
+
+    # Asegurar llaves consistentes
+    for entry in (programs + skills + modules):
+        for key in keys:
+            if key not in entry:
+                entry[key] = None
+
+    return programs, skills, modules
+
+def create_entry(track, skill, module, title, file_type, lang, sequence, additional_info, path):
+    return {
+        "track": track,
+        "skill": skill,
+        "module": module,
+        "title": title,
+        "type": file_type,
+        "lang": lang,
+        "sequence": sequence,
+        "learning": additional_info.get("learning"),
+        "difficulty": additional_info.get("difficulty"),
+        "time": additional_info.get("time"),
+        "path": path,
+        "discord_URL": additional_info.get("discord_URL") if lang == "ES" else additional_info.get("discord_URL_PT")
+    }
+
+def get_title(file_path, file_type):
+    if file_type in ["activity", "topic"]:
+        return get_header(file_path)
+    return None
+
+def get_lang(file):
+    if file.endswith("_ES.md"):
+        return "ES"
+    elif file.endswith("_PT.md"):
+        return "PT"
+    return None
+
+def get_sequence(subdir, file, file_type):
+    if file_type == "container":
+        return "00"
+    if "activities" in subdir or "topics" in subdir:
+        return file[:2]
+    return None
+
+def get_header(file_path):
+    with open(file_path, 'r') as f:
+        for line in f:
+            if line.startswith("# "):
+                return line[2:].strip()
+    return None
+
+def get_container_titles(file_path):
+    titles = []
+    with open(file_path, 'r') as f:
+        for line in f:
+            if line.startswith("## "):
+                titles.append(line[3:].strip())
+                if len(titles) == 2:
+                    break
+    return titles
+
+def get_levels(file_path, root_dir):
+    parts = os.path.relpath(file_path, root_dir).split(os.sep)
+    if parts[-1].endswith((".md", "_CONFIG.json")):
+        parts = parts[:-1]
+    return (parts[0] if len(parts) > 0 else None,
+            parts[1] if len(parts) > 1 else None,
+            parts[2] if len(parts) > 2 else None)
+
+def get_file_type(file_path, subdir, file):
+    if file.endswith("_CONFIG.json"):
+        return "config"
+    if "activities" in subdir and file.endswith(".md") and not file.endswith("README.md"):
+        return "activity"
+    if "topics" in subdir and file.endswith(".md") and not file.endswith("README.md"):
+        return "topic"
+    if file.endswith("README.md"):
+        return "container"
+    return "container"
+
+def get_config_content(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            config = json.load(f)
+            logging.debug(f"Config content for {file_path}: {config}")
+            return {
+                "difficulty": config.get("difficulty"),
+                "learning": config.get("learning"),
+                "time": config.get("time"),
+                "discord_URL": config.get("discord_URL", {}).get("ES"),
+                "discord_URL_PT": config.get("discord_URL", {}).get("PT")
+            }
+    except (json.JSONDecodeError, Exception) as e:
+        logging.error(f"Error reading JSON from {file_path}: {e}")
+    return {}
+
+def save_to_csv(data, filename):
+    if not data:
+        logging.warning(f"No data to write to {filename}")
+        return
+    keys = data[0].keys()
+    with open(filename, 'w', newline='') as output_file:
+        dict_writer = csv.DictWriter(output_file, keys)
+        dict_writer.writeheader()
+        dict_writer.writerows(data)
+    logging.info(f"Data saved to {filename}")
+
+def save_to_json(data, filename):
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=2)
+    logging.info(f"Data saved to {filename}")
+
+def save_to_yaml(data, filename):
+    with open(filename, 'w') as f:
+        yaml.dump(data, f, default_flow_style=False)
+    logging.info(f"Data saved to {filename}")
 
 if __name__ == "__main__":
-    root_directory = '.'  # Set the root directory of your repo
-    generate_lists(root_directory)
+    root_dir = "."
+    programs, skills, modules = generate_markdown_list(root_dir)
+
+    save_to_csv(programs, "programs.csv")
+    save_to_json(programs, "programs.json")
+    save_to_yaml(programs, "programs.yml")
+
+    save_to_csv(skills, "skills.csv")
+    save_to_json(skills, "skills.json")
+    save_to_yaml(skills, "skills.yml")
+
+    save_to_csv(modules, "modules.csv")
+    save_to_json(modules, "modules.json")
+    save_to_yaml(modules, "modules.yml")
 
 
 """
