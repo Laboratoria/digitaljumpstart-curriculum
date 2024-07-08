@@ -31,109 +31,25 @@ def generate_markdown_list(root_dir):
         for file in files:
             if file.endswith(".md"):
                 file_path = os.path.join(subdir, file)
-                track, skill, module = get_levels(file_path, root_dir)
-                file_type = get_file_type(file_path, subdir, file)
-                config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
-                additional_info = config_data.get(config_prefix, {
-                    "difficulty": None,
-                    "learning": None,
-                    "time": None,
-                    "discord_URL": None
+                markdown_type = classify_markdown(subdir, file)
+                markdown_files.append({
+                    "track": "",
+                    "skill": "",
+                    "module": "",
+                    "title": os.path.splitext(file)[0],
+                    "type": markdown_type,
+                    "lang": "",
+                    "sequence": "",
+                    "learning": config_data.get(file_path, {}).get("learning"),
+                    "difficulty": config_data.get(file_path, {}).get("difficulty"),
+                    "time": config_data.get(file_path, {}).get("time"),
+                    "path": file_path,
+                    "discord_URL": config_data.get(file_path, {}).get("discord_URL")
                 })
+    return markdown_files
 
-                lang = get_lang(file)
-                sequence = get_sequence(subdir, file, file_type)
-                title = get_title(file_path, file_type)
-
-                entry = create_entry(
-                    track, skill, module, title, file_type, lang, sequence, additional_info, file_path[2:]
-                )
-
-                markdown_files.append(entry)
-
-                if file_type == "container":
-                    if track and not skill and not module:
-                        programs.append(entry)
-                    elif track and skill and not module:
-                        skills.append(entry)
-                    elif track and skill and module:
-                        modules.append(entry)
-
-    # Asegurar llaves consistentes
-    for entry in (programs + skills + modules + markdown_files):
-        for key in keys:
-            if key not in entry:
-                entry[key] = None
-
-    logging.debug(f"Programs: {programs}")
-    logging.debug(f"Skills: {skills}")
-    logging.debug(f"Modules: {modules}")
-    logging.debug(f"Markdown files: {markdown_files}")
-
-    return programs, skills, modules, markdown_files
-
-def create_entry(track, skill, module, title, file_type, lang, sequence, additional_info, path):
-    return {
-        "track": track,
-        "skill": skill,
-        "module": module,
-        "title": title,
-        "type": file_type,
-        "lang": lang,
-        "sequence": sequence,
-        "learning": additional_info.get("learning"),
-        "difficulty": additional_info.get("difficulty"),
-        "time": additional_info.get("time"),
-        "path": path,
-        "discord_URL": additional_info.get("discord_URL") if lang == "ES" else additional_info.get("discord_URL_PT")
-    }
-
-def get_title(file_path, file_type):
-    if file_type in ["activity", "topic"]:
-        return get_header(file_path)
-    return None
-
-def get_lang(file):
-    if file.endswith("_ES.md"):
-        return "ES"
-    elif file.endswith("_PT.md"):
-        return "PT"
-    return None
-
-def get_sequence(subdir, file, file_type):
-    if file_type == "container":
-        return "00"
-    if "activities" in subdir or "topics" in subdir:
-        return file[:2]
-    return None
-
-def get_header(file_path):
-    with open(file_path, 'r') as f:
-        for line in f:
-            if line.startswith("# "):
-                return line[2:].strip()
-    return None
-
-def get_container_titles(file_path):
-    titles = []
-    with open(file_path, 'r') as f:
-        for line in f:
-            if line.startswith("## "):
-                titles.append(line[3:].strip())
-                if len(titles) == 2:
-                    break
-    return titles
-
-def get_levels(file_path, root_dir):
-    parts = os.path.relpath(file_path, root_dir).split(os.sep)
-    if parts[-1].endswith((".md", "_CONFIG.json")):
-        parts = parts[:-1]
-    return (parts[0] if len(parts) > 0 else None,
-            parts[1] if len(parts) > 1 else None,
-            parts[2] if len(parts) > 2 else None)
-
-def get_file_type(file_path, subdir, file):
-    if file.endswith("_CONFIG.json"):
+def classify_markdown(subdir, file):
+    if "config" in subdir.lower():
         return "config"
     if "activities" in subdir and file.endswith(".md") and not file.endswith("README.md"):
         return "activity"
@@ -181,28 +97,14 @@ def save_to_yaml(data, filename):
     logging.info(f"Data saved to {filename}")
 
 if __name__ == "__main__":
-    root_dir = "."
-    programs, skills, modules, markdown_files = generate_markdown_list(root_dir)
+    root_dir = os.getenv('GITHUB_WORKSPACE', os.path.dirname(os.path.abspath(__file__)))
+    logging.info(f"Current working directory: {os.getcwd()}")
+    logging.info(f"Repository root directory: {root_dir}")
+    markdown_list = generate_markdown_list(root_dir)
 
-    logging.info("Saving programs data...")
-    save_to_csv(programs, "programs.csv")
-    save_to_json(programs, "programs.json")
-    save_to_yaml(programs, "programs.yml")
-
-    logging.info("Saving skills data...")
-    save_to_csv(skills, "skills.csv")
-    save_to_json(skills, "skills.json")
-    save_to_yaml(skills, "skills.yml")
-
-    logging.info("Saving modules data...")
-    save_to_csv(modules, "modules.csv")
-    save_to_json(modules, "modules.json")
-    save_to_yaml(modules, "modules.yml")
-
-    logging.info("Saving markdown_files data...")
-    save_to_csv(markdown_files, "markdown_files.csv")
-    save_to_json(markdown_files, "markdown_files.json")
-    save_to_yaml(markdown_files, "markdown_files.yaml")
+    save_to_csv(markdown_list, os.path.join(root_dir, "markdown_files.csv"))
+    save_to_json(markdown_list, os.path.join(root_dir, "markdown_files.json"))
+    save_to_yaml(markdown_list, os.path.join(root_dir, "markdown_files.yaml"))
 
 """
 import os
