@@ -1,16 +1,30 @@
 [
   {
     "track": "DEV",
-    "skill": "README.md",
+    "skill": "01_intro",
     "module": null,
-    "title": "README",
+    "title": "Introducci\u00f3n al Desarrollo Web",
     "type": "container",
     "lang": "ES",
-    "sequence": 1,
+    "sequence": "00",
     "learning": null,
     "difficulty": null,
     "time": null,
-    "path": "./DEV/README.md",
+    "path": "DEV/01_intro/README.md",
+    "discord_URL": null
+  },
+  {
+    "track": "DEV",
+    "skill": "01_intro",
+    "module": null,
+    "title": "Introdu\u00e7\u00e3o ao desenvolvimento web",
+    "type": "container",
+    "lang": "PT",
+    "sequence": "00",
+    "learning": null,
+    "difficulty": null,
+    "time": null,
+    "path": "DEV/01_intro/README.md",
     "discord_URL": null
   }
 ]
