@@ -160,8 +160,15 @@ def filter_skills(data):
     return skills
 
 def filter_modules(data):
-    modules = [entry for entry in data if entry['type'] == 'container' and entry['track'] is not None and entry['skill'] is not None and entry['module'] is not None]
-    logging.info(f"Modules filtered: {skills}")
+    modules = [
+        entry for entry in data
+        if entry['type'] == 'container' 
+        and entry['track'] is not None 
+        and entry['skill'] is not None 
+        and entry['module'] is not None 
+        and not ("activities" in entry['path'] or "topics" in entry['path'])
+    ]
+    logging.info(f"Modules filtered: {modules}")
     return modules
 
 def save_to_csv(data, filename):
