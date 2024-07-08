@@ -30,6 +30,6 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add markdown_files.csv markdown_files.json markdown_files.yaml
+        git add programs.csv programs.json programs.yml skills.csv skills.json skills.yml modules.csv modules.json modules.yml
         git diff-index --quiet HEAD || git commit -m "Update generated markdown files"
         git push
