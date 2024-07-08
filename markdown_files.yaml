@@ -120,6 +120,18 @@
   type: container
 - difficulty: null
   discord_URL: null
+  lang: PT
+  learning: null
+  module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_PT.md
+  sequence: null
+  skill: 01_intro
+  time: null
+  title: "T\xEDtulo"
+  track: DEV
+  type: topic
+- difficulty: null
+  discord_URL: null
   lang: ES
   learning: null
   module: 01_baisc_knowledge

@@ -9,6 +9,7 @@ DEV,01_intro,01_baisc_knowledge,Módulo 1: Tudo sobre desenvolvimento Web,contai
 DEV,01_intro,01_baisc_knowledge,Título topic xyz,topic,ES,,,,,DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md,
 DEV,01_intro,01_baisc_knowledge,Tópicos,container,ES,00,,,,DEV/01_intro/01_baisc_knowledge/topics/README.md,
 DEV,01_intro,01_baisc_knowledge,Tópicos,container,PT,00,,,,DEV/01_intro/01_baisc_knowledge/topics/README.md,
+DEV,01_intro,01_baisc_knowledge,Título,topic,PT,,,,,DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_PT.md,
 DEV,01_intro,01_baisc_knowledge,Título,topic,ES,,,,,DEV/01_intro/01_baisc_knowledge/topics/02_topic_abc_ES.md,
 DEV,01_intro,01_baisc_knowledge,🔹Qué es el desarrollo web front-end y qué es el back-end,activity,,00,,,,DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev.md,
 DEV,01_intro,01_baisc_knowledge,El impacto del Desarrollo Web en la vida cotidiana,activity,,00,,,,DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life.md,
