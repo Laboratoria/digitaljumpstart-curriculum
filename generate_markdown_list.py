@@ -92,7 +92,7 @@ def get_lang(file):
 
 def get_sequence(subdir, file, file_type):
     if file_type == "container":
-        return "00"
+        return os.path.basename(subdir)[:2]
     if "activities" in subdir or "topics" in subdir:
         return file[:2]
     return None
