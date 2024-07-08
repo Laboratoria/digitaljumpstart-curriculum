@@ -48,6 +48,7 @@ def generate_markdown_list(root_dir):
                     additional_info["time"], file_path, additional_info["discord_URL"]
                 ))
 
+    logging.debug(f"Generated markdown list: {markdown_list}")
     return markdown_list
 
 def create_entry(track, skill, module, title, file_type, lang, sequence, learning, difficulty, time, path, discord_URL):
@@ -150,6 +151,7 @@ def filter_data(markdown_list, track_cond, skill_cond, module_cond):
             
             if track_valid and skill_valid and module_valid:
                 filtered_data.append(entry)
+    logging.debug(f"Filtered data ({track_cond}, {skill_cond}, {module_cond}): {filtered_data}")
     return filtered_data
 
 if __name__ == "__main__":
@@ -163,6 +165,10 @@ if __name__ == "__main__":
     programs = filter_data(markdown_list, "not_null", "null", "null")
     skills = filter_data(markdown_list, "not_null", "not_null", "null")
     modules = filter_data(markdown_list, "not_null", "not_null", "not_null")
+
+    logging.info(f"Programs data: {programs}")
+    logging.info(f"Skills data: {skills}")
+    logging.info(f"Modules data: {modules}")
 
     save_to_csv(programs, "programs.csv")
     save_to_json(programs, "programs.json")
