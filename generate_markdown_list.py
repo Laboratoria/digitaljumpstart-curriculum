@@ -9,6 +9,9 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 
 def generate_markdown_list(root_dir):
     markdown_list = []
+    programs = []
+    skills = []
+    modules = []
     keys = [
         "track", "skill", "module", "title", "type", "lang", "sequence",
         "learning", "difficulty", "time", "path", "discord_URL"
@@ -42,37 +45,31 @@ def generate_markdown_list(root_dir):
                 sequence = get_sequence(subdir, file, file_type)
                 title = get_title(file_path, file_type)
 
-                markdown_list.append(create_entry(
+                entry = create_entry(
                     track, skill, module, title, file_type, lang, sequence,
                     additional_info["learning"], additional_info["difficulty"],
                     additional_info["time"], file_path, additional_info["discord_URL"]
-                ))
+                )
 
-    logging.debug(f"Generated markdown list: {markdown_list}")
-    return markdown_list
+                markdown_list.append(entry)
 
-def create_entry(track, skill, module, title, file_type, lang, sequence, learning, difficulty, time, path, discord_URL):
-    return {
-        "track": track,
-        "skill": skill,
-        "module": module,
-        "title": title,
-        "type": file_type,
-        "lang": lang,
-        "sequence": sequence,
-        "learning": learning,
-        "difficulty": difficulty,
-        "time": time,
-        "path": path,
-        "discord_URL": discord_URL
-    }
+                # Clasificar en programs, skills y modules
+                if file_type == "container" and track:
+                    if not skill and not module:
+                        programs.append(entry)
+                    elif skill and not module:
+                        skills.append(entry)
+                    elif skill and module:
+                        modules.append(entry)
+
+    return markdown_list, programs, skills, modules
 
 def get_levels(file_path, root_dir):
-    rel_path = os.path.relpath(file_path, root_dir)
-    parts = rel_path.split(os.sep)
-    track = parts[0] if len(parts) > 0 else None
-    skill = parts[1] if len(parts) > 1 else None
-    module = parts[2] if len(parts) > 2 else None
+    relative_path = os.path.relpath(file_path, root_dir)
+    parts = relative_path.split(os.sep)
+    track = parts[1] if len(parts) > 1 else None
+    skill = parts[2] if len(parts) > 2 else None
+    module = parts[3] if len(parts) > 3 else None
     return track, skill, module
 
 def get_file_type(file_path, subdir, file):
@@ -102,24 +99,6 @@ def get_config_content(file_path):
         logging.error(f"Error reading JSON from {file_path}: {e}")
     return {}
 
-def get_lang(file):
-    if file.endswith("_ES.md"):
-        return "ES"
-    if file.endswith("_PT.md"):
-        return "PT"
-    return "ES"
-
-def get_sequence(subdir, file, file_type):
-    return 1  # Placeholder value for sequence
-
-def get_title(file_path, file_type):
-    if file_type == "container":
-        return "README"
-    return os.path.splitext(os.path.basename(file_path))[0]
-
-def get_container_titles(file_path):
-    return [get_title(file_path, "container")]
-
 def save_to_csv(data, filename):
     if not data:
         logging.warning(f"No data to write to {filename}")
@@ -141,34 +120,13 @@ def save_to_yaml(data, filename):
         yaml.dump(data, f, default_flow_style=False)
     logging.info(f"Data saved to {filename}")
 
-def filter_data(markdown_list, track_cond, skill_cond, module_cond):
-    filtered_data = []
-    for entry in markdown_list:
-        if entry["type"] == "container":
-            track_valid = (track_cond == "not_null" and entry["track"] is not None) or (track_cond == "null" and entry["track"] is None)
-            skill_valid = (skill_cond == "not_null" and entry["skill"] is not None) or (skill_cond == "null" and entry["skill"] is None)
-            module_valid = (module_cond == "not_null" and entry["module"] is not None) or (module_cond == "null" and entry["module"] is None)
-            
-            if track_valid and skill_valid and module_valid:
-                filtered_data.append(entry)
-    logging.debug(f"Filtered data ({track_cond}, {skill_cond}, {module_cond}): {filtered_data}")
-    return filtered_data
-
 if __name__ == "__main__":
     root_dir = "."
-    markdown_list = generate_markdown_list(root_dir)
+    markdown_list, programs, skills, modules = generate_markdown_list(root_dir)
 
     save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
     save_to_yaml(markdown_list, "markdown_files.yaml")
-
-    programs = filter_data(markdown_list, "not_null", "null", "null")
-    skills = filter_data(markdown_list, "not_null", "not_null", "null")
-    modules = filter_data(markdown_list, "not_null", "not_null", "not_null")
-
-    logging.info(f"Programs data: {programs}")
-    logging.info(f"Skills data: {skills}")
-    logging.info(f"Modules data: {modules}")
 
     save_to_csv(programs, "programs.csv")
     save_to_json(programs, "programs.json")
