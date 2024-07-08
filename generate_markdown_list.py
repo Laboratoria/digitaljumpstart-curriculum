@@ -9,9 +9,6 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 
 def generate_markdown_list(root_dir):
     markdown_list = []
-    programs = []
-    skills = []
-    modules = []
     keys = [
         "track", "skill", "module", "title", "type", "lang", "sequence",
         "learning", "difficulty", "time", "path", "discord_URL"
@@ -45,31 +42,45 @@ def generate_markdown_list(root_dir):
                 sequence = get_sequence(subdir, file, file_type)
                 title = get_title(file_path, file_type)
 
-                entry = create_entry(
-                    track, skill, module, title, file_type, lang, sequence,
-                    additional_info["learning"], additional_info["difficulty"],
-                    additional_info["time"], file_path, additional_info["discord_URL"]
-                )
+                if file_type == "container":
+                    titles = get_container_titles(file_path)
+                    for i, t in enumerate(titles):
+                        lang_key = "ES" if i == 0 else "PT"
+                        markdown_list.append(create_entry(
+                            track, skill, module, t, file_type, lang_key, sequence,
+                            additional_info["learning"], additional_info["difficulty"],
+                            additional_info["time"], file_path, additional_info["discord_URL"]
+                        ))
+                else:
+                    markdown_list.append(create_entry(
+                        track, skill, module, title, file_type, lang, sequence,
+                        additional_info["learning"], additional_info["difficulty"],
+                        additional_info["time"], file_path, additional_info["discord_URL"]
+                    ))
+    return markdown_list
 
-                markdown_list.append(entry)
-
-                # Clasificar en programs, skills y modules
-                if file_type == "container" and track:
-                    if not skill and not module:
-                        programs.append(entry)
-                    elif skill and not module:
-                        skills.append(entry)
-                    elif skill and module:
-                        modules.append(entry)
-
-    return markdown_list, programs, skills, modules
+def create_entry(track, skill, module, title, file_type, lang, sequence, learning, difficulty, time, path, discord_URL):
+    return {
+        "track": track,
+        "skill": skill,
+        "module": module,
+        "title": title,
+        "type": file_type,
+        "lang": lang,
+        "sequence": sequence,
+        "learning": learning,
+        "difficulty": difficulty,
+        "time": time,
+        "path": path,
+        "discord_URL": discord_URL
+    }
 
 def get_levels(file_path, root_dir):
     relative_path = os.path.relpath(file_path, root_dir)
     parts = relative_path.split(os.sep)
-    track = parts[1] if len(parts) > 1 else None
-    skill = parts[2] if len(parts) > 2 else None
-    module = parts[3] if len(parts) > 3 else None
+    track = parts[0] if len(parts) > 0 else None
+    skill = parts[1] if len(parts) > 1 else None
+    module = parts[2] if len(parts) > 2 else None
     return track, skill, module
 
 def get_file_type(file_path, subdir, file):
@@ -120,25 +131,22 @@ def save_to_yaml(data, filename):
         yaml.dump(data, f, default_flow_style=False)
     logging.info(f"Data saved to {filename}")
 
+def filter_programs(data):
+    return [entry for entry in data if entry['type'] == 'container' and entry['track'] is not None and entry['skill'] is None and entry['module'] is None]
+
 if __name__ == "__main__":
     root_dir = "."
-    markdown_list, programs, skills, modules = generate_markdown_list(root_dir)
-
+    markdown_list = generate_markdown_list(root_dir)
+    
     save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
     save_to_yaml(markdown_list, "markdown_files.yaml")
 
+    # Filtrar y guardar programas
+    programs = filter_programs(markdown_list)
     save_to_csv(programs, "programs.csv")
     save_to_json(programs, "programs.json")
     save_to_yaml(programs, "programs.yml")
-
-    save_to_csv(skills, "skills.csv")
-    save_to_json(skills, "skills.json")
-    save_to_yaml(skills, "skills.yml")
-
-    save_to_csv(modules, "modules.csv")
-    save_to_json(modules, "modules.json")
-    save_to_yaml(modules, "modules.yml")
 
 
 """
