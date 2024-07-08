@@ -1,0 +1,24 @@
+- difficulty: null
+  discord_URL: null
+  lang: ES
+  learning: null
+  module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/README.md
+  sequence: '01'
+  skill: 01_intro
+  time: null
+  title: "M\xF3dulo 1: Todo sobre el desarrollo Web"
+  track: DEV
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/README.md
+  sequence: '01'
+  skill: 01_intro
+  time: null
+  title: "M\xF3dulo 1: Tudo sobre desenvolvimento Web"
+  track: DEV
+  type: container
