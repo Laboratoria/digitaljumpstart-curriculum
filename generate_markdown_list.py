@@ -1,3 +1,4 @@
+
 import os
 import json
 import csv
@@ -61,6 +62,10 @@ def generate_markdown_list(root_dir):
         for key in keys:
             if key not in entry:
                 entry[key] = None
+
+    logging.debug(f"Programs: {programs}")
+    logging.debug(f"Skills: {skills}")
+    logging.debug(f"Modules: {modules}")
 
     return programs, skills, modules
 
@@ -176,14 +181,17 @@ if __name__ == "__main__":
     root_dir = "."
     programs, skills, modules = generate_markdown_list(root_dir)
 
+    logging.info("Saving programs data...")
     save_to_csv(programs, "programs.csv")
     save_to_json(programs, "programs.json")
     save_to_yaml(programs, "programs.yml")
 
+    logging.info("Saving skills data...")
     save_to_csv(skills, "skills.csv")
     save_to_json(skills, "skills.json")
     save_to_yaml(skills, "skills.yml")
 
+    logging.info("Saving modules data...")
     save_to_csv(modules, "modules.csv")
     save_to_json(modules, "modules.json")
     save_to_yaml(modules, "modules.yml")
