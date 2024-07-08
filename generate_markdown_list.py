@@ -144,7 +144,6 @@ def get_lang(file):
 
 def get_sequence(subdir, file, file_type):
     # Implement the logic to determine the sequence of the file
-    # As a placeholder, let's return an empty string
     return ""
 
 def get_title(file_path, file_type):
@@ -154,7 +153,6 @@ def get_title(file_path, file_type):
     return os.path.splitext(os.path.basename(file_path))[0]
 
 def get_container_titles(file_path):
-    # Implement the logic to get titles for container type files
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.readlines()
