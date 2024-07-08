@@ -3,35 +3,23 @@
   lang: ES
   learning: null
   module: null
-  path: ./README.md
-  sequence: ''
+  path: README.md
+  sequence: '00'
   skill: null
   time: null
-  title: '# digital jumpstart contenido'
-  track: README.md
+  title: 'Definiciones, estructura, etc:'
+  track: null
   type: container
 - difficulty: null
   discord_URL: null
-  lang: PT
+  lang: ES
   learning: null
   module: null
-  path: ./README.md
-  sequence: ''
+  path: DEV/README.md
+  sequence: '00'
   skill: null
   time: null
-  title: '## Definiciones, estructura, etc:'
-  track: README.md
-  type: container
-- difficulty: null
-  discord_URL: null
-  lang: ES
-  learning: null
-  module: null
-  path: ./DEV/README.md
-  sequence: ''
-  skill: README.md
-  time: null
-  title: '# Web Development'
+  title: Desarrollo Web
   track: DEV
   type: container
 - difficulty: null
@@ -39,11 +27,23 @@
   lang: PT
   learning: null
   module: null
-  path: ./DEV/README.md
-  sequence: ''
-  skill: README.md
+  path: DEV/README.md
+  sequence: '00'
+  skill: null
   time: null
-  title: '## Desarrollo Web'
+  title: Desenvolvimento Web
+  track: DEV
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: ES
+  learning: null
+  module: null
+  path: DEV/01_intro/README.md
+  sequence: '00'
+  skill: 01_intro
+  time: null
+  title: "Introducci\xF3n al Desarrollo Web"
   track: DEV
   type: container
 - difficulty: null
@@ -51,47 +51,11 @@
   lang: PT
   learning: null
   module: null
-  path: ./DEV/README.md
-  sequence: ''
-  skill: README.md
-  time: null
-  title: '## Desenvolvimento Web'
-  track: DEV
-  type: container
-- difficulty: null
-  discord_URL: null
-  lang: ES
-  learning: null
-  module: README.md
-  path: ./DEV/01_intro/README.md
-  sequence: ''
+  path: DEV/01_intro/README.md
+  sequence: '00'
   skill: 01_intro
   time: null
-  title: '# DEV : introduction'
-  track: DEV
-  type: container
-- difficulty: null
-  discord_URL: null
-  lang: PT
-  learning: null
-  module: README.md
-  path: ./DEV/01_intro/README.md
-  sequence: ''
-  skill: 01_intro
-  time: null
-  title: "## Introducci\xF3n al Desarrollo Web"
-  track: DEV
-  type: container
-- difficulty: null
-  discord_URL: null
-  lang: PT
-  learning: null
-  module: README.md
-  path: ./DEV/01_intro/README.md
-  sequence: ''
-  skill: 01_intro
-  time: null
-  title: "## Introdu\xE7\xE3o ao desenvolvimento web"
+  title: "Introdu\xE7\xE3o ao desenvolvimento web"
   track: DEV
   type: container
 - difficulty: null
@@ -99,11 +63,11 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/README.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/README.md
+  sequence: '00'
   skill: 01_intro
   time: null
-  title: '# DEV : introduction : basic knowledge'
+  title: "M\xF3dulo 1: Todo sobre el desarrollo Web"
   track: DEV
   type: container
 - difficulty: null
@@ -111,23 +75,11 @@
   lang: PT
   learning: null
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/README.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/README.md
+  sequence: '00'
   skill: 01_intro
   time: null
-  title: "## M\xF3dulo 1: Todo sobre el desarrollo Web"
-  track: DEV
-  type: container
-- difficulty: null
-  discord_URL: null
-  lang: PT
-  learning: null
-  module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/README.md
-  sequence: ''
-  skill: 01_intro
-  time: null
-  title: "## M\xF3dulo 1: Tudo sobre desenvolvimento Web"
+  title: "M\xF3dulo 1: Tudo sobre desenvolvimento Web"
   track: DEV
   type: container
 - difficulty: null
@@ -135,11 +87,11 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md
+  sequence: '01'
   skill: 01_intro
   time: null
-  title: 01_topic_xyz_ES
+  title: "T\xEDtulo topic xyz"
   track: DEV
   type: topic
 - difficulty: null
@@ -147,11 +99,11 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/topics/README.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/topics/README.md
+  sequence: '00'
   skill: 01_intro
   time: null
-  title: '# DEV : introduction : basic knoledge : topics'
+  title: "T\xF3picos"
   track: DEV
   type: container
 - difficulty: null
@@ -159,71 +111,59 @@
   lang: PT
   learning: null
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/topics/README.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/topics/README.md
+  sequence: '00'
   skill: 01_intro
   time: null
-  title: "## T\xF3picos"
+  title: "T\xF3picos"
   track: DEV
   type: container
 - difficulty: null
   discord_URL: null
-  lang: PT
+  lang: null
   learning: null
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/topics/README.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev.md
+  sequence: '00'
   skill: 01_intro
   time: null
-  title: "## T\xF3picos"
-  track: DEV
-  type: container
-- difficulty: null
-  discord_URL: null
-  lang: EN
-  learning: null
-  module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev.md
-  sequence: ''
-  skill: 01_intro
-  time: null
-  title: 00_01_02_web_dev
+  title: "\U0001F539Qu\xE9 es el desarrollo web front-end y qu\xE9 es el back-end"
   track: DEV
   type: activity
 - difficulty: null
   discord_URL: null
-  lang: EN
+  lang: null
   learning: null
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life.md
+  sequence: '00'
   skill: 01_intro
   time: null
-  title: 00_01_03_dev_life
+  title: El impacto del Desarrollo Web en la vida cotidiana
   track: DEV
   type: activity
 - difficulty: null
   discord_URL: null
-  lang: EN
+  lang: null
   learning: null
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends.md
+  sequence: '00'
   skill: 01_intro
   time: null
-  title: 00_01_04_dev_trends
+  title: Tendencias actuales y futuras en el Desarrollo Web
   track: DEV
   type: activity
 - difficulty: 1
-  discord_URL: https://discord.com/channels/1209273049304666113/1253004726539259925
+  discord_URL: 'null'
   lang: PT
   learning: 2
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md
+  sequence: '01'
   skill: 01_intro
   time: 3
-  title: 01_test_PT
+  title: Testitulo portugue
   track: DEV
   type: activity
 - difficulty: null
@@ -231,11 +171,11 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/activities/README.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/activities/README.md
+  sequence: '00'
   skill: 01_intro
   time: null
-  title: '# DEV : introduction : basic knowledge : activities'
+  title: Actividades
   track: DEV
   type: container
 - difficulty: null
@@ -243,35 +183,23 @@
   lang: PT
   learning: null
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/activities/README.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/activities/README.md
+  sequence: '00'
   skill: 01_intro
   time: null
-  title: '## Actividades'
+  title: Actividades
   track: DEV
   type: container
 - difficulty: null
   discord_URL: null
-  lang: PT
+  lang: null
   learning: null
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/activities/README.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools.md
+  sequence: '00'
   skill: 01_intro
   time: null
-  title: '## Actividades'
-  track: DEV
-  type: container
-- difficulty: null
-  discord_URL: null
-  lang: EN
-  learning: null
-  module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools.md
-  sequence: ''
-  skill: 01_intro
-  time: null
-  title: 00_01_05_dev_tools
+  title: "Herramientas y tecnolog\xEDas b\xE1sicas del Desarrollo Web"
   track: DEV
   type: activity
 - difficulty: 1
@@ -279,34 +207,34 @@
   lang: ES
   learning: 2
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md
+  sequence: '01'
   skill: 01_intro
   time: 3
-  title: 01_test_ES
+  title: Test tit castellano
   track: DEV
   type: activity
 - difficulty: null
   discord_URL: null
-  lang: EN
+  lang: null
   learning: null
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_00_all_about.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_00_all_about.md
+  sequence: '00'
   skill: 01_intro
   time: null
-  title: 00_01_00_all_about
+  title: "M\xF3dulo 1: Todo sobre el desarrollo Web"
   track: DEV
   type: activity
 - difficulty: null
   discord_URL: null
-  lang: EN
+  lang: null
   learning: null
   module: 01_baisc_knowledge
-  path: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web.md
-  sequence: ''
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web.md
+  sequence: '00'
   skill: 01_intro
   time: null
-  title: 00_01_01_internet_web
+  title: "\U0001F539Entendiendo Internet y la Web"
   track: DEV
   type: activity

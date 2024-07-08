@@ -1,30 +1,30 @@
 [
   {
-    "track": "README.md",
+    "track": "DEV",
     "skill": null,
     "module": null,
-    "title": "# digital jumpstart contenido",
+    "title": "Desarrollo Web",
     "type": "container",
     "lang": "ES",
-    "sequence": "",
+    "sequence": "00",
     "learning": null,
     "difficulty": null,
     "time": null,
-    "path": "./README.md",
+    "path": "DEV/README.md",
     "discord_URL": null
   },
   {
-    "track": "README.md",
+    "track": "DEV",
     "skill": null,
     "module": null,
-    "title": "## Definiciones, estructura, etc:",
+    "title": "Desenvolvimento Web",
     "type": "container",
     "lang": "PT",
-    "sequence": "",
+    "sequence": "00",
     "learning": null,
     "difficulty": null,
     "time": null,
-    "path": "./README.md",
+    "path": "DEV/README.md",
     "discord_URL": null
   }
 ]

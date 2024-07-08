@@ -3,22 +3,22 @@
   lang: ES
   learning: null
   module: null
-  path: ./README.md
-  sequence: ''
+  path: DEV/README.md
+  sequence: '00'
   skill: null
   time: null
-  title: '# digital jumpstart contenido'
-  track: README.md
+  title: Desarrollo Web
+  track: DEV
   type: container
 - difficulty: null
   discord_URL: null
   lang: PT
   learning: null
   module: null
-  path: ./README.md
-  sequence: ''
+  path: DEV/README.md
+  sequence: '00'
   skill: null
   time: null
-  title: '## Definiciones, estructura, etc:'
-  track: README.md
+  title: Desenvolvimento Web
+  track: DEV
   type: container
