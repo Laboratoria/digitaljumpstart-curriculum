@@ -1,0 +1,44 @@
+[
+  {
+    "track": "DEV",
+    "skill": "01_intro",
+    "module": "01_baisc_knowledge",
+    "title": null,
+    "type": "container",
+    "lang": null,
+    "sequence": "00",
+    "learning": null,
+    "difficulty": null,
+    "time": null,
+    "path": "DEV/01_intro/01_baisc_knowledge/README.md",
+    "discord_URL": null
+  },
+  {
+    "track": "DEV",
+    "skill": "01_intro",
+    "module": "01_baisc_knowledge",
+    "title": null,
+    "type": "container",
+    "lang": null,
+    "sequence": "00",
+    "learning": null,
+    "difficulty": null,
+    "time": null,
+    "path": "DEV/01_intro/01_baisc_knowledge/topics/README.md",
+    "discord_URL": null
+  },
+  {
+    "track": "DEV",
+    "skill": "01_intro",
+    "module": "01_baisc_knowledge",
+    "title": null,
+    "type": "container",
+    "lang": null,
+    "sequence": "00",
+    "learning": null,
+    "difficulty": null,
+    "time": null,
+    "path": "DEV/01_intro/01_baisc_knowledge/activities/README.md",
+    "discord_URL": null
+  }
+]

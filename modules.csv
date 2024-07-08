@@ -1,0 +1,4 @@
+track,skill,module,title,type,lang,sequence,learning,difficulty,time,path,discord_URL
+DEV,01_intro,01_baisc_knowledge,,container,,00,,,,DEV/01_intro/01_baisc_knowledge/README.md,
+DEV,01_intro,01_baisc_knowledge,,container,,00,,,,DEV/01_intro/01_baisc_knowledge/topics/README.md,
+DEV,01_intro,01_baisc_knowledge,,container,,00,,,,DEV/01_intro/01_baisc_knowledge/activities/README.md,
