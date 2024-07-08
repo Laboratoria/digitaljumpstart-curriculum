@@ -134,6 +134,14 @@ def save_to_yaml(data, filename):
 def filter_programs(data):
     return [entry for entry in data if entry['type'] == 'container' and entry['track'] is not None and entry['skill'] is None and entry['module'] is None]
 
+def get_lang(file):
+    if file.endswith("_ES.md"):
+        return "ES"
+    elif file.endswith("_PT.md"):
+        return "PT"
+    else:
+        return "EN"
+
 if __name__ == "__main__":
     root_dir = "."
     markdown_list = generate_markdown_list(root_dir)
@@ -147,7 +155,6 @@ if __name__ == "__main__":
     save_to_csv(programs, "programs.csv")
     save_to_json(programs, "programs.json")
     save_to_yaml(programs, "programs.yml")
-
 
 """
 import os
