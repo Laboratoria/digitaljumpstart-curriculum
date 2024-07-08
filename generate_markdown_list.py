@@ -54,6 +54,9 @@ def generate_markdown_list(root_dir):
                         track, skill, module, title, file_type, lang, sequence, additional_info, file_path[2:]
                     ))
 
+    # Ordenar la lista markdown_list
+    markdown_list.sort(key=lambda x: (x['track'], x['skill'], x['module'], x['type'], x['sequence']))
+
     # Asegurar llaves consistentes
     for entry in markdown_list:
         for key in keys:
