@@ -112,6 +112,8 @@ def get_sequence(subdir, file, file_type):
     return 1  # Placeholder value for sequence
 
 def get_title(file_path, file_type):
+    if file_type == "container":
+        return "README"
     return os.path.splitext(os.path.basename(file_path))[0]
 
 def get_container_titles(file_path):
