@@ -1,19 +1,5 @@
 [
   {
-    "track": "README.md",
-    "skill": null,
-    "module": null,
-    "title": "README",
-    "type": "container",
-    "lang": "ES",
-    "sequence": 1,
-    "learning": null,
-    "difficulty": null,
-    "time": null,
-    "path": "./README.md",
-    "discord_URL": null
-  },
-  {
     "track": "DEV",
     "skill": "README.md",
     "module": null,
@@ -25,62 +11,6 @@
     "difficulty": null,
     "time": null,
     "path": "./DEV/README.md",
-    "discord_URL": null
-  },
-  {
-    "track": "DEV",
-    "skill": "01_intro",
-    "module": "README.md",
-    "title": "README",
-    "type": "container",
-    "lang": "ES",
-    "sequence": 1,
-    "learning": null,
-    "difficulty": null,
-    "time": null,
-    "path": "./DEV/01_intro/README.md",
-    "discord_URL": null
-  },
-  {
-    "track": "DEV",
-    "skill": "01_intro",
-    "module": "01_baisc_knowledge",
-    "title": "README",
-    "type": "container",
-    "lang": "ES",
-    "sequence": 1,
-    "learning": null,
-    "difficulty": null,
-    "time": null,
-    "path": "./DEV/01_intro/01_baisc_knowledge/README.md",
-    "discord_URL": null
-  },
-  {
-    "track": "DEV",
-    "skill": "01_intro",
-    "module": "01_baisc_knowledge",
-    "title": "README",
-    "type": "container",
-    "lang": "ES",
-    "sequence": 1,
-    "learning": null,
-    "difficulty": null,
-    "time": null,
-    "path": "./DEV/01_intro/01_baisc_knowledge/topics/README.md",
-    "discord_URL": null
-  },
-  {
-    "track": "DEV",
-    "skill": "01_intro",
-    "module": "01_baisc_knowledge",
-    "title": "README",
-    "type": "container",
-    "lang": "ES",
-    "sequence": 1,
-    "learning": null,
-    "difficulty": null,
-    "time": null,
-    "path": "./DEV/01_intro/01_baisc_knowledge/activities/README.md",
     "discord_URL": null
   }
 ]

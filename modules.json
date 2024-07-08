@@ -1,33 +1,5 @@
 [
   {
-    "track": "README.md",
-    "skill": null,
-    "module": null,
-    "title": "README",
-    "type": "container",
-    "lang": "ES",
-    "sequence": 1,
-    "learning": null,
-    "difficulty": null,
-    "time": null,
-    "path": "./README.md",
-    "discord_URL": null
-  },
-  {
-    "track": "DEV",
-    "skill": "README.md",
-    "module": null,
-    "title": "README",
-    "type": "container",
-    "lang": "ES",
-    "sequence": 1,
-    "learning": null,
-    "difficulty": null,
-    "time": null,
-    "path": "./DEV/README.md",
-    "discord_URL": null
-  },
-  {
     "track": "DEV",
     "skill": "01_intro",
     "module": "README.md",

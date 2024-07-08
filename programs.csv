@@ -1,7 +1,2 @@
 track,skill,module,title,type,lang,sequence,learning,difficulty,time,path,discord_URL
 README.md,,,README,container,ES,1,,,,./README.md,
-DEV,README.md,,README,container,ES,1,,,,./DEV/README.md,
-DEV,01_intro,README.md,README,container,ES,1,,,,./DEV/01_intro/README.md,
-DEV,01_intro,01_baisc_knowledge,README,container,ES,1,,,,./DEV/01_intro/01_baisc_knowledge/README.md,
-DEV,01_intro,01_baisc_knowledge,README,container,ES,1,,,,./DEV/01_intro/01_baisc_knowledge/topics/README.md,
-DEV,01_intro,01_baisc_knowledge,README,container,ES,1,,,,./DEV/01_intro/01_baisc_knowledge/activities/README.md,
