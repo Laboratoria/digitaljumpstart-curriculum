@@ -94,8 +94,9 @@ def get_sequence(subdir, file, file_type):
     if file_type in ["activity", "topics"]:
         return file[:2]
     elif file_type == "container":
+        # Revisar si está dentro de "activities" o "topics"
         if "activities" in subdir or "topics" in subdir:
-            return "00"
+            return os.path.basename(subdir)[:2]
         return os.path.basename(subdir)[:2]
     return None
 
