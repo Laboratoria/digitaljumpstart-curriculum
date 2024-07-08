@@ -7,7 +7,19 @@
   sequence: ''
   skill: null
   time: null
-  title: README
+  title: '# digital jumpstart contenido'
+  track: README.md
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: null
+  path: ./README.md
+  sequence: ''
+  skill: null
+  time: null
+  title: '## Definiciones, estructura, etc:'
   track: README.md
   type: container
 - difficulty: null
@@ -19,7 +31,31 @@
   sequence: ''
   skill: README.md
   time: null
-  title: README
+  title: '# Web Development'
+  track: DEV
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: null
+  path: ./DEV/README.md
+  sequence: ''
+  skill: README.md
+  time: null
+  title: '## Desarrollo Web'
+  track: DEV
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: null
+  path: ./DEV/README.md
+  sequence: ''
+  skill: README.md
+  time: null
+  title: '## Desenvolvimento Web'
   track: DEV
   type: container
 - difficulty: null
@@ -31,7 +67,31 @@
   sequence: ''
   skill: 01_intro
   time: null
-  title: README
+  title: '# DEV : introduction'
+  track: DEV
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: README.md
+  path: ./DEV/01_intro/README.md
+  sequence: ''
+  skill: 01_intro
+  time: null
+  title: "## Introducci\xF3n al Desarrollo Web"
+  track: DEV
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: README.md
+  path: ./DEV/01_intro/README.md
+  sequence: ''
+  skill: 01_intro
+  time: null
+  title: "## Introdu\xE7\xE3o ao desenvolvimento web"
   track: DEV
   type: container
 - difficulty: null
@@ -43,7 +103,31 @@
   sequence: ''
   skill: 01_intro
   time: null
-  title: README
+  title: '# DEV : introduction : basic knowledge'
+  track: DEV
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: 01_baisc_knowledge
+  path: ./DEV/01_intro/01_baisc_knowledge/README.md
+  sequence: ''
+  skill: 01_intro
+  time: null
+  title: "## M\xF3dulo 1: Todo sobre el desarrollo Web"
+  track: DEV
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: 01_baisc_knowledge
+  path: ./DEV/01_intro/01_baisc_knowledge/README.md
+  sequence: ''
+  skill: 01_intro
+  time: null
+  title: "## M\xF3dulo 1: Tudo sobre desenvolvimento Web"
   track: DEV
   type: container
 - difficulty: null
@@ -67,7 +151,31 @@
   sequence: ''
   skill: 01_intro
   time: null
-  title: README
+  title: '# DEV : introduction : basic knoledge : topics'
+  track: DEV
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: 01_baisc_knowledge
+  path: ./DEV/01_intro/01_baisc_knowledge/topics/README.md
+  sequence: ''
+  skill: 01_intro
+  time: null
+  title: "## T\xF3picos"
+  track: DEV
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: 01_baisc_knowledge
+  path: ./DEV/01_intro/01_baisc_knowledge/topics/README.md
+  sequence: ''
+  skill: 01_intro
+  time: null
+  title: "## T\xF3picos"
   track: DEV
   type: container
 - difficulty: null
@@ -127,7 +235,31 @@
   sequence: ''
   skill: 01_intro
   time: null
-  title: README
+  title: '# DEV : introduction : basic knowledge : activities'
+  track: DEV
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: 01_baisc_knowledge
+  path: ./DEV/01_intro/01_baisc_knowledge/activities/README.md
+  sequence: ''
+  skill: 01_intro
+  time: null
+  title: '## Actividades'
+  track: DEV
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: 01_baisc_knowledge
+  path: ./DEV/01_intro/01_baisc_knowledge/activities/README.md
+  sequence: ''
+  skill: 01_intro
+  time: null
+  title: '## Actividades'
   track: DEV
   type: container
 - difficulty: null

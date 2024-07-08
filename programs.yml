@@ -7,6 +7,18 @@
   sequence: ''
   skill: null
   time: null
-  title: README
+  title: '# digital jumpstart contenido'
+  track: README.md
+  type: container
+- difficulty: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: null
+  path: ./README.md
+  sequence: ''
+  skill: null
+  time: null
+  title: '## Definiciones, estructura, etc:'
   track: README.md
   type: container
