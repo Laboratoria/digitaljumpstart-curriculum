@@ -154,6 +154,16 @@ def filter_programs(data):
     logging.info(f"Programs filtered: {programs}")
     return programs
 
+def filter_skills(data):
+    skills = [entry for entry in data if entry['type'] == 'container' and entry['track'] is not None and entry['skill'] is not None and entry['module'] is None]
+    logging.info(f"Skills filtered: {skills}")
+    return skills
+
+def filter_modules(data):
+    modules = [entry for entry in data if entry['type'] == 'container' and entry['track'] is not None and entry['skill'] is not None and entry['module'] is not None]
+    logging.info(f"Modules filtered: {skills}")
+    return modules
+
 def save_to_csv(data, filename):
     if not data:
         logging.warning(f"No data to write to {filename}")
@@ -190,5 +200,17 @@ if __name__ == "__main__":
     save_to_csv(programs, "programs.csv")
     save_to_json(programs, "programs.json")
     save_to_yaml(programs, "programs.yml")
+
+    # Filtrar y guardar skills
+    skills = filter_skills(markdown_list)
+    save_to_csv(skills, "skills.csv")
+    save_to_json(skills, "skills.json")
+    save_to_yaml(skills, "skills.yml")
+
+    # Filtrar y guardar modulos
+    modules = filter_modules(markdown_list)
+    save_to_csv(modules, "modules.csv")
+    save_to_json(modules, "modules.json")
+    save_to_yaml(modules, "modules.yml")
 
     logging.info("All files have been saved.")
