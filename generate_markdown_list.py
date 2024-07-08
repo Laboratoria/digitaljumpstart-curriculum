@@ -122,8 +122,8 @@ def save_to_yaml(data, filename):
 
 if __name__ == "__main__":
     root_dir = "."
-    markdown_list = generate_markdown_list(root_dir)  
-    
+    markdown_list, programs, skills, modules = generate_markdown_list(root_dir)
+
     save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
     save_to_yaml(markdown_list, "markdown_files.yaml")
