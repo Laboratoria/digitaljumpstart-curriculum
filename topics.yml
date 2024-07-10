@@ -6,6 +6,7 @@
   path: DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md
   sequence: '01'
   skill: 01_intro
+  slug: dev-01_intro-01_baisc_knowledge-topic-es
   time: null
   title: "T\xEDtulo topic xyz"
   track: DEV
@@ -18,6 +19,7 @@
   path: DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_PT.md
   sequence: '01'
   skill: 01_intro
+  slug: dev-01_intro-01_baisc_knowledge-topic-pt
   time: null
   title: "T\xEDtulo"
   track: DEV
@@ -30,6 +32,7 @@
   path: DEV/01_intro/01_baisc_knowledge/topics/02_topic_abc_ES.md
   sequence: '02'
   skill: 01_intro
+  slug: dev-01_intro-01_baisc_knowledge-topic-es
   time: null
   title: "T\xEDtulo"
   track: DEV

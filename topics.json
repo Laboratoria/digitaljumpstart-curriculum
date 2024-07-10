@@ -11,7 +11,8 @@
     "difficulty": null,
     "time": null,
     "path": "DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md",
-    "discord_URL": null
+    "discord_URL": null,
+    "slug": "dev-01_intro-01_baisc_knowledge-topic-es"
   },
   {
     "track": "DEV",
@@ -25,7 +26,8 @@
     "difficulty": null,
     "time": null,
     "path": "DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_PT.md",
-    "discord_URL": null
+    "discord_URL": null,
+    "slug": "dev-01_intro-01_baisc_knowledge-topic-pt"
   },
   {
     "track": "DEV",
@@ -39,6 +41,7 @@
     "difficulty": null,
     "time": null,
     "path": "DEV/01_intro/01_baisc_knowledge/topics/02_topic_abc_ES.md",
-    "discord_URL": null
+    "discord_URL": null,
+    "slug": "dev-01_intro-01_baisc_knowledge-topic-es"
   }
 ]
