@@ -73,7 +73,7 @@ def generate_markdown_list(root_dir):
 
     return markdown_list
 
-def create_entry(track, skill, module, title, file_type, lang, sequence, additional_info, path):
+def create_entry(track, skill, module, title, file_type, lang, sequence, learning, difficulty, time, path, discord_URL, slug):
     return {
         "track": track,
         "skill": skill,
@@ -82,12 +82,14 @@ def create_entry(track, skill, module, title, file_type, lang, sequence, additio
         "type": file_type,
         "lang": lang,
         "sequence": sequence,
-        "learning": additional_info.get("learning"),
-        "difficulty": additional_info.get("difficulty"),
-        "time": additional_info.get("time"),
+        "learning": learning,
+        "difficulty": difficulty,
+        "time": time,
         "path": path,
-        "discord_URL": additional_info.get("discord_URL") if lang == "ES" else additional_info.get("discord_URL_PT")
+        "discord_URL": discord_URL,
+        "slug": slug
     }
+
 
 def get_title(file_path, file_type):
     if file_type in ["activity", "topic"]:
