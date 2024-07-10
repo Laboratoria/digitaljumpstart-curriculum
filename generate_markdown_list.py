@@ -242,8 +242,14 @@ if __name__ == "__main__":
 
     # Filtrar y guardar actividades
     activities = filter_activities(markdown_list)
-    save_to_csv(modules, "activities.csv")
-    save_to_json(modules, "activities.json")
-    save_to_yaml(modules, "activities.yml")
+    save_to_csv(activities, "activities.csv")
+    save_to_json(activities, "activities.json")
+    save_to_yaml(activities, "activities.yml")
+
+    # Filtrar y guardar topics
+    topics = filter_topics(markdown_list)
+    save_to_csv(topics, "topics.csv")
+    save_to_json(topics, "topics.json")
+    save_to_yaml(topics, "topics.yml")
 
     logging.info("All files have been saved.")
