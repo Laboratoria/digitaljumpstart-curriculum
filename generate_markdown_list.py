@@ -191,6 +191,14 @@ def filter_activities(data):
     logging.info(f"Activities filtered: {activities}")
     return activities
 
+def filter_topics(data):
+    topics = [
+        entry for entry in data
+        if entry['type'] == 'topic' 
+    ]
+    logging.info(f"Topics filtered: {topics}")
+    return topics
+
 def save_to_csv(data, filename):
     if not data:
         logging.warning(f"No data to write to {filename}")
