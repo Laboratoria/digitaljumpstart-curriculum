@@ -3,7 +3,6 @@ import json
 import csv
 import yaml
 import logging
-import uuid  # Importar el módulo uuid
 
 # Configuración del logger
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -12,7 +11,7 @@ def generate_markdown_list(root_dir):
     markdown_list = []
     keys = [
         "track", "skill", "module", "title", "type", "lang", "sequence",
-        "learning", "difficulty", "time", "path", "discord_URL", "id"
+        "learning", "difficulty", "time", "path", "discord_URL", "slug"
     ]
     config_data = {}
 
@@ -43,25 +42,61 @@ def generate_markdown_list(root_dir):
                 sequence = get_sequence(subdir, file, file_type)
                 title = get_title(file_path, file_type)
 
-                unique_id = str(uuid.uuid4())  # Generar un identificador único
-
                 if file_type == "container":
                     titles = get_container_titles(file_path)
                     for i, t in enumerate(titles):
                         lang_key = "ES" if i == 0 else "PT"
+                        slug = f"{track}-{skill}-{module}-{t}-{file_type}-{lang_key}".lower().replace(' ', '-')
                         markdown_list.append(create_entry(
                             track, skill, module, t, file_type, lang_key,
-                            sequence, additional_info, file_path, unique_id
+                            sequence, additional_info["learning"], additional_info["difficulty"],
+                            additional_info["time"], file_path, additional_info["discord_URL"], slug
                         ))
                 else:
+                    slug = f"{track}-{skill}-{module}-{title}-{file_type}-{lang}".lower().replace(' ', '-')
                     markdown_list.append(create_entry(
                         track, skill, module, title, file_type, lang,
-                        sequence, additional_info, file_path, unique_id
+                        sequence, additional_info["learning"], additional_info["difficulty"],
+                        additional_info["time"], file_path, additional_info["discord_URL"], slug
                     ))
 
     return markdown_list
 
-def create_entry(track, skill, module, title, file_type, lang, sequence, additional_info, path, unique_id):
+def get_config_content(file_path):
+    with open(file_path, 'r') as f:
+        return json.load(f)
+
+def get_levels(file_path, root_dir):
+    # Placeholder function to extract track, skill, and module from the file path
+    # Implement your logic here
+    return "track", "skill", "module"
+
+def get_file_type(file_path, subdir, file):
+    # Placeholder function to determine the file type
+    # Implement your logic here
+    return "type"
+
+def get_lang(file):
+    # Placeholder function to determine the language
+    # Implement your logic here
+    return "lang"
+
+def get_sequence(subdir, file, file_type):
+    # Placeholder function to determine the sequence
+    # Implement your logic here
+    return "sequence"
+
+def get_title(file_path, file_type):
+    # Placeholder function to determine the title
+    # Implement your logic here
+    return "title"
+
+def get_container_titles(file_path):
+    # Placeholder function to extract container titles
+    # Implement your logic here
+    return ["title1", "title2"]
+
+def create_entry(track, skill, module, title, file_type, lang, sequence, learning, difficulty, time, path, discord_URL, slug):
     return {
         "track": track,
         "skill": skill,
@@ -70,15 +105,31 @@ def create_entry(track, skill, module, title, file_type, lang, sequence, additio
         "type": file_type,
         "lang": lang,
         "sequence": sequence,
-        "learning": additional_info.get("learning"),
-        "difficulty": additional_info.get("difficulty"),
-        "time": additional_info.get("time"),
+        "learning": learning,
+        "difficulty": difficulty,
+        "time": time,
         "path": path,
-        "discord_URL": additional_info.get("discord_URL"),
-        "id": unique_id  # Añadir el identificador único a la entrada
+        "discord_URL": discord_URL,
+        "slug": slug
     }
 
-# El resto del script permanece igual
+def save_to_csv(data, filename):
+    keys = data[0].keys()
+    with open(filename, 'w', newline='') as output_file:
+        dict_writer = csv.DictWriter(output_file, keys)
+        dict_writer.writeheader()
+        dict_writer.writerows(data)
+    logging.info(f"Data saved to {filename}")
+
+def save_to_json(data, filename):
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=2)
+    logging.info(f"Data saved to {filename}")
+
+def save_to_yaml(data, filename):
+    with open(filename, 'w') as f:
+        yaml.dump(data, f, default_flow_style=False)
+    logging.info(f"Data saved to {filename}")
 
 if __name__ == "__main__":
     root_dir = "."
