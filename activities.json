@@ -11,7 +11,8 @@
     "difficulty": null,
     "time": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends.md",
-    "discord_URL": null
+    "discord_URL": null,
+    "slug": "dev-01_intro-01_baisc_knowledge-activity-none"
   },
   {
     "track": "DEV",
@@ -25,7 +26,8 @@
     "difficulty": null,
     "time": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev.md",
-    "discord_URL": null
+    "discord_URL": null,
+    "slug": "dev-01_intro-01_baisc_knowledge-activity-none"
   },
   {
     "track": "DEV",
@@ -39,7 +41,8 @@
     "difficulty": null,
     "time": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life.md",
-    "discord_URL": null
+    "discord_URL": null,
+    "slug": "dev-01_intro-01_baisc_knowledge-activity-none"
   },
   {
     "track": "DEV",
@@ -53,7 +56,8 @@
     "difficulty": null,
     "time": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools.md",
-    "discord_URL": null
+    "discord_URL": null,
+    "slug": "dev-01_intro-01_baisc_knowledge-activity-none"
   },
   {
     "track": "DEV",
@@ -67,7 +71,8 @@
     "difficulty": null,
     "time": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web.md",
-    "discord_URL": null
+    "discord_URL": null,
+    "slug": "dev-01_intro-01_baisc_knowledge-activity-none"
   },
   {
     "track": "DEV",
@@ -81,7 +86,8 @@
     "difficulty": 1,
     "time": 3,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md",
-    "discord_URL": "null"
+    "discord_URL": "null",
+    "slug": "dev-01_intro-01_baisc_knowledge-activity-pt"
   },
   {
     "track": "DEV",
@@ -95,7 +101,8 @@
     "difficulty": 1,
     "time": 3,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md",
-    "discord_URL": "https://discord.com/channels/1209273049304666113/1253004726539259925"
+    "discord_URL": "https://discord.com/channels/1209273049304666113/1253004726539259925",
+    "slug": "dev-01_intro-01_baisc_knowledge-activity-es"
   },
   {
     "track": "DEV",
@@ -109,6 +116,7 @@
     "difficulty": null,
     "time": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/01_01_00_all_about.md",
-    "discord_URL": null
+    "discord_URL": null,
+    "slug": "dev-01_intro-01_baisc_knowledge-activity-none"
   }
 ]

@@ -6,6 +6,7 @@
   path: DEV/01_intro/01_baisc_knowledge/README.md
   sequence: '01'
   skill: 01_intro
+  slug: dev-01_intro-01_baisc_knowledge-container-none
   time: null
   title: "M\xF3dulo 1: Todo sobre el desarrollo Web"
   track: DEV
@@ -18,6 +19,7 @@
   path: DEV/01_intro/01_baisc_knowledge/README.md
   sequence: '01'
   skill: 01_intro
+  slug: dev-01_intro-01_baisc_knowledge-container-none
   time: null
   title: "M\xF3dulo 1: Tudo sobre desenvolvimento Web"
   track: DEV

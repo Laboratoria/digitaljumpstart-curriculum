@@ -11,7 +11,8 @@
     "difficulty": null,
     "time": null,
     "path": "DEV/README.md",
-    "discord_URL": null
+    "discord_URL": null,
+    "slug": "dev-none-none-container-none"
   },
   {
     "track": "DEV",
@@ -25,6 +26,7 @@
     "difficulty": null,
     "time": null,
     "path": "DEV/README.md",
-    "discord_URL": null
+    "discord_URL": null,
+    "slug": "dev-none-none-container-none"
   }
 ]

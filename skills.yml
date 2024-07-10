@@ -6,6 +6,7 @@
   path: DEV/01_intro/README.md
   sequence: '01'
   skill: 01_intro
+  slug: dev-01_intro-none-container-none
   time: null
   title: "Introducci\xF3n al Desarrollo Web"
   track: DEV
@@ -18,6 +19,7 @@
   path: DEV/01_intro/README.md
   sequence: '01'
   skill: 01_intro
+  slug: dev-01_intro-none-container-none
   time: null
   title: "Introdu\xE7\xE3o ao desenvolvimento web"
   track: DEV
