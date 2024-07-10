@@ -51,6 +51,7 @@ def generate_markdown_list(root_dir):
                             track, skill, module, t, file_type, lang_key, sequence, additional_info, file_path[2:], slug
                         ))
                 else:
+                    slug = f"{track}-{skill}-{module}-{t}-{file_type}-{lang_key}".lower().replace(' ', '-')
                     markdown_list.append(create_entry(
                         track, skill, module, title, file_type, lang, sequence, additional_info, file_path[2:], slug
                     ))
