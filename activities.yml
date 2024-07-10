@@ -1,104 +1,39 @@
 - difficulty: null
   discord_URL: null
-  lang: null
-  learning: null
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends.md
-  sequence: '00'
-  skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-activity-none
-  time: null
-  title: Tendencias actuales y futuras en el Desarrollo Web
-  track: DEV
-  type: activity
-- difficulty: null
-  discord_URL: null
-  lang: null
-  learning: null
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev.md
-  sequence: '00'
-  skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-activity-none
-  time: null
-  title: "\U0001F539Qu\xE9 es el desarrollo web front-end y qu\xE9 es el back-end"
-  track: DEV
-  type: activity
-- difficulty: null
-  discord_URL: null
-  lang: null
-  learning: null
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life.md
-  sequence: '00'
-  skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-activity-none
-  time: null
-  title: El impacto del Desarrollo Web en la vida cotidiana
-  track: DEV
-  type: activity
-- difficulty: null
-  discord_URL: null
-  lang: null
-  learning: null
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools.md
-  sequence: '00'
-  skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-activity-none
-  time: null
-  title: "Herramientas y tecnolog\xEDas b\xE1sicas del Desarrollo Web"
-  track: DEV
-  type: activity
-- difficulty: null
-  discord_URL: null
-  lang: null
-  learning: null
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web.md
-  sequence: '00'
-  skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-activity-none
-  time: null
-  title: "\U0001F539Entendiendo Internet y la Web"
-  track: DEV
-  type: activity
-- difficulty: 1
-  discord_URL: 'null'
-  lang: PT
-  learning: 2
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md
-  sequence: '01'
-  skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-activity-pt
-  time: 3
-  title: Testitulo portugue
-  track: DEV
-  type: activity
-- difficulty: 1
-  discord_URL: https://discord.com/channels/1209273049304666113/1253004726539259925
   lang: ES
-  learning: 2
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md
-  sequence: '01'
-  skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-activity-es
-  time: 3
-  title: Test tit castellano
-  track: DEV
-  type: activity
-- difficulty: null
-  discord_URL: null
-  lang: null
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/01_01_00_all_about.md
+  path: DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md
   sequence: '01'
   skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-activity-none
+  slug: dev-01_intro-01_baisc_knowledge-topic-es
   time: null
-  title: "M\xF3dulo 1: Todo sobre el desarrollo Web"
+  title: "T\xEDtulo topic xyz"
   track: DEV
-  type: activity
+  type: topic
+- difficulty: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_PT.md
+  sequence: '01'
+  skill: 01_intro
+  slug: dev-01_intro-01_baisc_knowledge-topic-pt
+  time: null
+  title: "T\xEDtulo"
+  track: DEV
+  type: topic
+- difficulty: null
+  discord_URL: null
+  lang: ES
+  learning: null
+  module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/topics/02_topic_abc_ES.md
+  sequence: '02'
+  skill: 01_intro
+  slug: dev-01_intro-01_baisc_knowledge-topic-es
+  time: null
+  title: "T\xEDtulo"
+  track: DEV
+  type: topic
