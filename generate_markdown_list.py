@@ -258,8 +258,8 @@ if __name__ == "__main__":
 
     # Filtrar y guardar tópicos
     topics = filter_topics(markdown_list)
-    save_to_csv(topics, "activities.csv")
-    save_to_json(topics, "activities.json")
-    save_to_yaml(topics, "activities.yml")
+    save_to_csv(topics, "topics.csv")
+    save_to_json(topics, "topics.json")
+    save_to_yaml(topics, "topics.yml")
 
     logging.info("All files have been saved.")
