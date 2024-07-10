@@ -11,7 +11,7 @@ def generate_markdown_list(root_dir):
     markdown_list = []
     keys = [
         "track", "skill", "module", "title", "type", "lang", "sequence",
-        "learning", "difficulty", "time", "path", "discord_URL", "slug"
+        "learning", "difficulty", "time", "path", "discord_URL"
     ]
     config_data = {}
 
@@ -46,57 +46,33 @@ def generate_markdown_list(root_dir):
                     titles = get_container_titles(file_path)
                     for i, t in enumerate(titles):
                         lang_key = "ES" if i == 0 else "PT"
-                        slug = f"{track}-{skill}-{module}-{t}-{file_type}-{lang_key}".lower().replace(' ', '-')
                         markdown_list.append(create_entry(
-                            track, skill, module, t, file_type, lang_key,
-                            sequence, additional_info["learning"], additional_info["difficulty"],
-                            additional_info["time"], file_path, additional_info["discord_URL"], slug
+                            track, skill, module, t, file_type, lang_key, sequence, additional_info, file_path[2:]
                         ))
                 else:
-                    slug = f"{track}-{skill}-{module}-{title}-{file_type}-{lang}".lower().replace(' ', '-')
                     markdown_list.append(create_entry(
-                        track, skill, module, title, file_type, lang,
-                        sequence, additional_info["learning"], additional_info["difficulty"],
-                        additional_info["time"], file_path, additional_info["discord_URL"], slug
+                        track, skill, module, title, file_type, lang, sequence, additional_info, file_path[2:]
                     ))
+
+    # Ordenar la lista markdown_list
+    markdown_list.sort(key=lambda x: (
+        x['track'] or '', 
+        x['skill'] or '', 
+        x['module'] or '', 
+        x['type'] or '', 
+        x['sequence'] or ''
+    ))
+
+
+    # Asegurar llaves consistentes
+    for entry in markdown_list:
+        for key in keys:
+            if key not in entry:
+                entry[key] = None
 
     return markdown_list
 
-def get_config_content(file_path):
-    with open(file_path, 'r') as f:
-        return json.load(f)
-
-def get_levels(file_path, root_dir):
-    # Placeholder function to extract track, skill, and module from the file path
-    # Implement your logic here
-    return "track", "skill", "module"
-
-def get_file_type(file_path, subdir, file):
-    # Placeholder function to determine the file type
-    # Implement your logic here
-    return "type"
-
-def get_lang(file):
-    # Placeholder function to determine the language
-    # Implement your logic here
-    return "lang"
-
-def get_sequence(subdir, file, file_type):
-    # Placeholder function to determine the sequence
-    # Implement your logic here
-    return "sequence"
-
-def get_title(file_path, file_type):
-    # Placeholder function to determine the title
-    # Implement your logic here
-    return "title"
-
-def get_container_titles(file_path):
-    # Placeholder function to extract container titles
-    # Implement your logic here
-    return ["title1", "title2"]
-
-def create_entry(track, skill, module, title, file_type, lang, sequence, learning, difficulty, time, path, discord_URL, slug):
+def create_entry(track, skill, module, title, file_type, lang, sequence, additional_info, path):
     return {
         "track": track,
         "skill": skill,
@@ -105,15 +81,128 @@ def create_entry(track, skill, module, title, file_type, lang, sequence, learnin
         "type": file_type,
         "lang": lang,
         "sequence": sequence,
-        "learning": learning,
-        "difficulty": difficulty,
-        "time": time,
+        "learning": additional_info.get("learning"),
+        "difficulty": additional_info.get("difficulty"),
+        "time": additional_info.get("time"),
         "path": path,
-        "discord_URL": discord_URL,
-        "slug": slug
+        "discord_URL": additional_info.get("discord_URL") if lang == "ES" else additional_info.get("discord_URL_PT")
     }
 
+def get_title(file_path, file_type):
+    if file_type in ["activity", "topic"]:
+        return get_header(file_path)
+    return None
+
+def get_lang(file):
+    if file.endswith("_ES.md"):
+        return "ES"
+    elif file.endswith("_PT.md"):
+        return "PT"
+    return None
+
+def get_sequence(subdir, file, file_type):
+    if file_type in ["activity", "topics", "topic"]:
+        return file[:2]
+    elif file_type == "container":
+        if "activities" in subdir or "topics" in subdir:
+            return "00"
+        return os.path.basename(subdir)[:2]
+    return None
+
+def get_header(file_path):
+    with open(file_path, 'r') as f:
+        for line in f:
+            if line.startswith("# "):
+                return line[2:].strip()
+    return None
+
+def get_container_titles(file_path):
+    titles = []
+    with open(file_path, 'r') as f:
+        for line in f:
+            if line.startswith("## "):
+                titles.append(line[3:].strip())
+                if len(titles) == 2:
+                    break
+    return titles
+
+def get_levels(file_path, root_dir):
+    parts = os.path.relpath(file_path, root_dir).split(os.sep)
+    if parts[-1].endswith((".md", "_CONFIG.json")):
+        parts = parts[:-1]
+    return (parts[0] if len(parts) > 0 else None,
+            parts[1] if len(parts) > 1 else None,
+            parts[2] if len(parts) > 2 else None)
+
+def get_file_type(file_path, subdir, file):
+    if file.endswith("_CONFIG.json"):
+        return "config"
+    if "activities" in subdir and file.endswith(".md") and not file.endswith("README.md"):
+        return "activity"
+    if "topics" in subdir and file.endswith(".md") and not file.endswith("README.md"):
+        return "topic"
+    if file.endswith("README.md"):
+        return "container"
+    return "container"
+
+def get_config_content(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            config = json.load(f)
+            logging.debug(f"Config content for {file_path}: {config}")
+            return {
+                "difficulty": config.get("difficulty"),
+                "learning": config.get("learning"),
+                "time": config.get("time"),
+                "discord_URL": config.get("discord_URL", {}).get("ES"),
+                "discord_URL_PT": config.get("discord_URL", {}).get("PT")
+            }
+    except (json.JSONDecodeError, Exception) as e:
+        logging.error(f"Error reading JSON from {file_path}: {e}")
+    return {}
+
+def filter_programs(data):
+    programs = [entry for entry in data if entry['type'] == 'container' and entry['track'] is not None and entry['skill'] is None and entry['module'] is None]
+    logging.info(f"Programs filtered: {programs}")
+    return programs
+
+def filter_skills(data):
+    skills = [entry for entry in data if entry['type'] == 'container' and entry['track'] is not None and entry['skill'] is not None and entry['module'] is None]
+    logging.info(f"Skills filtered: {skills}")
+    return skills
+
+def filter_modules(data):
+    modules = [
+        entry for entry in data
+        if entry['type'] == 'container' 
+        and entry['track'] is not None 
+        and entry['skill'] is not None 
+        and entry['module'] is not None 
+        and not ("activities" in entry['path'] or "topics" in entry['path'])
+    ]
+    logging.info(f"Modules filtered: {modules}")
+    return modules
+
+def filter_activities(data):
+    activities = [
+        entry for entry in data
+        if entry['type'] == 'activity' 
+    ]
+    logging.info(f"Activities filtered: {activities}")
+    return activities
+
+def filter_topics(data):
+    topics = [
+        entry for entry in data
+        if entry['type'] == 'topic' 
+    ]
+    logging.info(f"Topics filtered: {topics}")
+    return topics
+
 def save_to_csv(data, filename):
+    if not data:
+        logging.warning(f"No data to write to {filename}")
+        return
     keys = data[0].keys()
     with open(filename, 'w', newline='') as output_file:
         dict_writer = csv.DictWriter(output_file, keys)
