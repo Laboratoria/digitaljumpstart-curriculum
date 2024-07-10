@@ -11,7 +11,7 @@ def generate_markdown_list(root_dir):
     markdown_list = []
     keys = [
         "track", "skill", "module", "title", "type", "lang", "sequence",
-        "learning", "difficulty", "time", "path", "discord_URL"
+        "learning", "difficulty", "time", "path", "discord_URL", "slug"
     ]
     config_data = {}
 
@@ -46,12 +46,13 @@ def generate_markdown_list(root_dir):
                     titles = get_container_titles(file_path)
                     for i, t in enumerate(titles):
                         lang_key = "ES" if i == 0 else "PT"
+                        slug = f"{track}-{skill}-{module}-{t}-{file_type}-{lang_key}".lower().replace(' ', '-')
                         markdown_list.append(create_entry(
-                            track, skill, module, t, file_type, lang_key, sequence, additional_info, file_path[2:]
+                            track, skill, module, t, file_type, lang_key, sequence, additional_info, file_path[2:], slug
                         ))
                 else:
                     markdown_list.append(create_entry(
-                        track, skill, module, title, file_type, lang, sequence, additional_info, file_path[2:]
+                        track, skill, module, title, file_type, lang, sequence, additional_info, file_path[2:], slug
                     ))
 
     # Ordenar la lista markdown_list
