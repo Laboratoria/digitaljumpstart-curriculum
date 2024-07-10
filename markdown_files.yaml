@@ -63,6 +63,18 @@
   lang: null
   learning: null
   module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends.md
+  sequence: '00'
+  skill: 01_intro
+  time: null
+  title: Tendencias actuales y futuras en el Desarrollo Web
+  track: DEV
+  type: activity
+- difficulty: null
+  discord_URL: null
+  lang: null
+  learning: null
+  module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev.md
   sequence: '00'
   skill: 01_intro
@@ -80,18 +92,6 @@
   skill: 01_intro
   time: null
   title: El impacto del Desarrollo Web en la vida cotidiana
-  track: DEV
-  type: activity
-- difficulty: null
-  discord_URL: null
-  lang: null
-  learning: null
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends.md
-  sequence: '00'
-  skill: 01_intro
-  time: null
-  title: Tendencias actuales y futuras en el Desarrollo Web
   track: DEV
   type: activity
 - difficulty: null
@@ -159,11 +159,11 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/topics/README.md
+  path: DEV/01_intro/01_baisc_knowledge/activities/README.md
   sequence: '00'
   skill: 01_intro
   time: null
-  title: "T\xF3picos"
+  title: Actividades
   track: DEV
   type: container
 - difficulty: null
@@ -171,11 +171,11 @@
   lang: PT
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/topics/README.md
+  path: DEV/01_intro/01_baisc_knowledge/activities/README.md
   sequence: '00'
   skill: 01_intro
   time: null
-  title: "T\xF3picos"
+  title: Actividades
   track: DEV
   type: container
 - difficulty: null
@@ -183,11 +183,11 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/README.md
+  path: DEV/01_intro/01_baisc_knowledge/topics/README.md
   sequence: '00'
   skill: 01_intro
   time: null
-  title: Actividades
+  title: "T\xF3picos"
   track: DEV
   type: container
 - difficulty: null
@@ -195,11 +195,11 @@
   lang: PT
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/README.md
+  path: DEV/01_intro/01_baisc_knowledge/topics/README.md
   sequence: '00'
   skill: 01_intro
   time: null
-  title: Actividades
+  title: "T\xF3picos"
   track: DEV
   type: container
 - difficulty: null
