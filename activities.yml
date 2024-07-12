@@ -39,13 +39,13 @@
   type: activity
 - difficulty: null
   discord_URL: null
-  lang: null
+  lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life.md
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life_ES.md
   sequence: '00'
   skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-activity-none
+  slug: dev-01_intro-01_baisc_knowledge-activity-es
   time: null
   title: El impacto del Desarrollo Web en la vida cotidiana
   track: DEV

@@ -2,7 +2,7 @@ track,skill,module,title,type,lang,sequence,learning,difficulty,time,path,discor
 DEV,01_intro,01_baisc_knowledge,Tendencias actuales y futuras en el Desarrollo Web,activity,,00,,,,DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends.md,,dev-01_intro-01_baisc_knowledge-activity-none
 DEV,01_intro,01_baisc_knowledge,🔹Qué es el desarrollo web front-end y qué es el back-end,activity,ES,00,,,,DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev_ES.md,,dev-01_intro-01_baisc_knowledge-activity-es
 DEV,01_intro,01_baisc_knowledge,🔹Entendiendo Internet y la Web,activity,ES,00,,,,DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web_ES.md,,dev-01_intro-01_baisc_knowledge-activity-es
-DEV,01_intro,01_baisc_knowledge,El impacto del Desarrollo Web en la vida cotidiana,activity,,00,,,,DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life.md,,dev-01_intro-01_baisc_knowledge-activity-none
+DEV,01_intro,01_baisc_knowledge,El impacto del Desarrollo Web en la vida cotidiana,activity,ES,00,,,,DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life_ES.md,,dev-01_intro-01_baisc_knowledge-activity-es
 DEV,01_intro,01_baisc_knowledge,Herramientas y tecnologías básicas del Desarrollo Web,activity,,00,,,,DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools.md,,dev-01_intro-01_baisc_knowledge-activity-none
 DEV,01_intro,01_baisc_knowledge,Testitulo portugue,activity,PT,01,2,1,3,DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md,null,dev-01_intro-01_baisc_knowledge-activity-pt
 DEV,01_intro,01_baisc_knowledge,Test tit castellano,activity,ES,01,2,1,3,DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md,https://discord.com/channels/1209273049304666113/1253004726539259925,dev-01_intro-01_baisc_knowledge-activity-es
