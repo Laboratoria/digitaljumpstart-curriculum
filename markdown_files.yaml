@@ -91,6 +91,19 @@
   type: activity
 - difficulty: null
   discord_URL: null
+  lang: ES
+  learning: null
+  module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web_ES.md
+  sequence: '00'
+  skill: 01_intro
+  slug: dev-01_intro-01_baisc_knowledge-activity-es
+  time: null
+  title: "\U0001F539Entendiendo Internet y la Web"
+  track: DEV
+  type: activity
+- difficulty: null
+  discord_URL: null
   lang: null
   learning: null
   module: 01_baisc_knowledge
@@ -113,19 +126,6 @@
   slug: dev-01_intro-01_baisc_knowledge-activity-none
   time: null
   title: "Herramientas y tecnolog\xEDas b\xE1sicas del Desarrollo Web"
-  track: DEV
-  type: activity
-- difficulty: null
-  discord_URL: null
-  lang: null
-  learning: null
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web.md
-  sequence: '00'
-  skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-activity-none
-  time: null
-  title: "\U0001F539Entendiendo Internet y la Web"
   track: DEV
   type: activity
 - difficulty: 1
