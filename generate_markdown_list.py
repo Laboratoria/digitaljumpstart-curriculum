@@ -35,6 +35,7 @@ def generate_markdown_list(root_dir):
                     "difficulty": None,
                     "learning": None,
                     "time": None,
+                    "directions": None,
                     "discord_URL": None
                 })
 
@@ -156,6 +157,7 @@ def get_config_content(file_path):
                 "difficulty": config.get("difficulty"),
                 "learning": config.get("learning"),
                 "time": config.get("time"),
+                "directions": config.get("directions"),
                 "discord_URL": config.get("discord_URL", {}).get("ES"),
                 "discord_URL_PT": config.get("discord_URL", {}).get("PT")
             }
