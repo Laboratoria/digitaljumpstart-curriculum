@@ -10,6 +10,7 @@
     "learning": null,
     "difficulty": null,
     "time": null,
+    "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends.md",
     "discord_URL": null,
     "slug": "dev-01_intro-01_baisc_knowledge-activity-none"
@@ -25,6 +26,7 @@
     "learning": null,
     "difficulty": null,
     "time": null,
+    "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev_ES.md",
     "discord_URL": null,
     "slug": "dev-01_intro-01_baisc_knowledge-activity-es"
@@ -40,6 +42,7 @@
     "learning": 1,
     "difficulty": 1,
     "time": 1,
+    "directions": "Estas son las instruccoines bla bla bla ",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web_ES.md",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1210625595638284328",
     "slug": "dev-01_intro-01_baisc_knowledge-activity-es"
@@ -55,6 +58,7 @@
     "learning": null,
     "difficulty": null,
     "time": null,
+    "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life_ES.md",
     "discord_URL": null,
     "slug": "dev-01_intro-01_baisc_knowledge-activity-es"
@@ -70,6 +74,7 @@
     "learning": null,
     "difficulty": null,
     "time": null,
+    "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools.md",
     "discord_URL": null,
     "slug": "dev-01_intro-01_baisc_knowledge-activity-none"
@@ -85,6 +90,7 @@
     "learning": 2,
     "difficulty": 1,
     "time": 3,
+    "directions": "Estas son las instruccoines bla bla bla ",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md",
     "discord_URL": "null",
     "slug": "dev-01_intro-01_baisc_knowledge-activity-pt"
@@ -100,6 +106,7 @@
     "learning": 2,
     "difficulty": 1,
     "time": 3,
+    "directions": "Estas son las instruccoines bla bla bla ",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1253004726539259925",
     "slug": "dev-01_intro-01_baisc_knowledge-activity-es"
@@ -115,6 +122,7 @@
     "learning": null,
     "difficulty": null,
     "time": null,
+    "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/01_01_00_all_about.md",
     "discord_URL": null,
     "slug": "dev-01_intro-01_baisc_knowledge-activity-none"

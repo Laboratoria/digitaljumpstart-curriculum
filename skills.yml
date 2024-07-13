@@ -1,4 +1,5 @@
 - difficulty: null
+  directions: null
   discord_URL: null
   lang: ES
   learning: null
@@ -12,6 +13,7 @@
   track: DEV
   type: container
 - difficulty: null
+  directions: null
   discord_URL: null
   lang: PT
   learning: null
