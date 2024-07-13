@@ -86,6 +86,7 @@ def create_entry(track, skill, module, title, file_type, lang, sequence, additio
         "learning": additional_info.get("learning"),
         "difficulty": additional_info.get("difficulty"),
         "time": additional_info.get("time"),
+        "directions": additional_info.get("directions"),
         "path": path,
         "discord_URL": additional_info.get("discord_URL") if lang == "ES" else additional_info.get("discord_URL_PT"),
         "slug": slug
