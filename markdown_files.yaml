@@ -325,6 +325,34 @@
   discord_URL: null
   lang: ES
   learning: null
+  module: 02_learning_bydoing
+  path: DEV/01_intro/02_learning_bydoing/README.md
+  sequence: '02'
+  skill: 01_intro
+  slug: dev-01_intro-02_learning_bydoing-container-none
+  time: null
+  title: "M\xF3dulo 2"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  lang: PT
+  learning: null
+  module: 02_learning_bydoing
+  path: DEV/01_intro/02_learning_bydoing/README.md
+  sequence: '02'
+  skill: 01_intro
+  slug: dev-01_intro-02_learning_bydoing-container-none
+  time: null
+  title: "M\xF3dulo 2"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  lang: ES
+  learning: null
   module: null
   path: DEV/02_responsive/README.md
   sequence: '02'

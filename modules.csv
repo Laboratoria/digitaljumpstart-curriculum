@@ -1,6 +1,8 @@
 track,skill,module,title,type,lang,sequence,learning,difficulty,time,directions,path,discord_URL,slug
 DEV,01_intro,01_baisc_knowledge,Módulo 1: Todo sobre el desarrollo Web,container,ES,01,,,,,DEV/01_intro/01_baisc_knowledge/README.md,,dev-01_intro-01_baisc_knowledge-container-none
 DEV,01_intro,01_baisc_knowledge,Módulo 1: Tudo sobre desenvolvimento Web,container,PT,01,,,,,DEV/01_intro/01_baisc_knowledge/README.md,,dev-01_intro-01_baisc_knowledge-container-none
+DEV,01_intro,02_learning_bydoing,Módulo 2,container,ES,02,,,,,DEV/01_intro/02_learning_bydoing/README.md,,dev-01_intro-02_learning_bydoing-container-none
+DEV,01_intro,02_learning_bydoing,Módulo 2,container,PT,02,,,,,DEV/01_intro/02_learning_bydoing/README.md,,dev-01_intro-02_learning_bydoing-container-none
 DEV,02_responsive,01_your_first_web,Meta de Aprendizaje,container,ES,01,,,,,DEV/02_responsive/01_your_first_web/01_01_03_project_semantic_HTML.md,,dev-02_responsive-01_your_first_web-container-none
 DEV,02_responsive,01_your_first_web,Descripción,container,PT,01,,,,,DEV/02_responsive/01_your_first_web/01_01_03_project_semantic_HTML.md,,dev-02_responsive-01_your_first_web-container-none
 DEV,02_responsive,01_your_first_web,Introducción,container,ES,01,,,,,DEV/02_responsive/01_your_first_web/01_01_00_modulo_myFirstWeb.md,,dev-02_responsive-01_your_first_web-container-none
