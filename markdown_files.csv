@@ -4,14 +4,12 @@ DEV,,,Desarrollo Web,container,ES,DE,,,,,DEV/README.md,,dev-none-none-container-
 DEV,,,Desenvolvimento Web,container,PT,DE,,,,,DEV/README.md,,dev-none-none-container-none
 DEV,01_intro,,Introducción al Desarrollo Web,container,ES,01,,,,,DEV/01_intro/README.md,,dev-01_intro-none-container-none
 DEV,01_intro,,Introdução ao desenvolvimento web,container,PT,01,,,,,DEV/01_intro/README.md,,dev-01_intro-none-container-none
-DEV,01_intro,01_baisc_knowledge,Tendencias actuales y futuras en el Desarrollo Web,activity,,00,,,,,DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends.md,,dev-01_intro-01_baisc_knowledge-activity-none
+DEV,01_intro,01_baisc_knowledge,Herramientas y tecnologías básicas del Desarrollo Web,activity,ES,00,,,,,DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools_ES.md,,dev-01_intro-01_baisc_knowledge-activity-es
 DEV,01_intro,01_baisc_knowledge,🔹Qué es el desarrollo web front-end y qué es el back-end,activity,ES,00,,,,,DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev_ES.md,,dev-01_intro-01_baisc_knowledge-activity-es
 DEV,01_intro,01_baisc_knowledge,🔹Entendiendo Internet y la Web,activity,ES,00,1,1,1,Estas son las instruccoines bla bla bla ,DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web_ES.md,https://discord.com/channels/1209273049304666113/1210625595638284328,dev-01_intro-01_baisc_knowledge-activity-es
 DEV,01_intro,01_baisc_knowledge,El impacto del Desarrollo Web en la vida cotidiana,activity,ES,00,,,,,DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life_ES.md,,dev-01_intro-01_baisc_knowledge-activity-es
-DEV,01_intro,01_baisc_knowledge,Herramientas y tecnologías básicas del Desarrollo Web,activity,,00,,,,,DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools.md,,dev-01_intro-01_baisc_knowledge-activity-none
-DEV,01_intro,01_baisc_knowledge,Testitulo portugue,activity,PT,01,2,1,3,Estas son las instruccoines bla bla bla ,DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md,null,dev-01_intro-01_baisc_knowledge-activity-pt
-DEV,01_intro,01_baisc_knowledge,Test tit castellano,activity,ES,01,2,1,3,Estas son las instruccoines bla bla bla ,DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md,https://discord.com/channels/1209273049304666113/1253004726539259925,dev-01_intro-01_baisc_knowledge-activity-es
-DEV,01_intro,01_baisc_knowledge,Módulo 1: Todo sobre el desarrollo Web,activity,,01,,,,,DEV/01_intro/01_baisc_knowledge/activities/01_01_00_all_about.md,,dev-01_intro-01_baisc_knowledge-activity-none
+DEV,01_intro,01_baisc_knowledge,Tendencias actuales y futuras en el Desarrollo Web,activity,ES,00,,,,,DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends_ES.md,,dev-01_intro-01_baisc_knowledge-activity-es
+DEV,01_intro,01_baisc_knowledge,Módulo 1: Todo sobre el desarrollo Web,activity,ES,01,,,,,DEV/01_intro/01_baisc_knowledge/activities/01_01_00_all_about_ES.md,,dev-01_intro-01_baisc_knowledge-activity-es
 DEV,01_intro,01_baisc_knowledge,Actividades,container,ES,00,,,,,DEV/01_intro/01_baisc_knowledge/activities/README.md,,dev-01_intro-01_baisc_knowledge-container-none
 DEV,01_intro,01_baisc_knowledge,Actividades,container,PT,00,,,,,DEV/01_intro/01_baisc_knowledge/activities/README.md,,dev-01_intro-01_baisc_knowledge-container-none
 DEV,01_intro,01_baisc_knowledge,Tópicos,container,ES,00,,,,,DEV/01_intro/01_baisc_knowledge/topics/README.md,,dev-01_intro-01_baisc_knowledge-container-none
@@ -21,3 +19,18 @@ DEV,01_intro,01_baisc_knowledge,Módulo 1: Tudo sobre desenvolvimento Web,contai
 DEV,01_intro,01_baisc_knowledge,Título topic xyz,topic,ES,01,,,,,DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md,,dev-01_intro-01_baisc_knowledge-topic-es
 DEV,01_intro,01_baisc_knowledge,Título,topic,PT,01,,,,,DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_PT.md,,dev-01_intro-01_baisc_knowledge-topic-pt
 DEV,01_intro,01_baisc_knowledge,Título,topic,ES,02,,,,,DEV/01_intro/01_baisc_knowledge/topics/02_topic_abc_ES.md,,dev-01_intro-01_baisc_knowledge-topic-es
+DEV,01_intro,02_learning_bydoing,Aprende haciendo,activity,ES,00,,,,,DEV/01_intro/02_learning_bydoing/activities/00_02_00_practice_ES.md,,dev-01_intro-02_learning_bydoing-activity-es
+DEV,01_intro,02_learning_bydoing,Reflexiona y comenta,activity,ES,00,,,,,DEV/01_intro/02_learning_bydoing/activities/00_02_02_close_ES.md,,dev-01_intro-02_learning_bydoing-activity-es
+DEV,01_intro,02_learning_bydoing,:small_blue_diamond: Reto 2.1 : Mi Primera Página HTML,activity,ES,00,,,,,DEV/01_intro/02_learning_bydoing/activities/00_02_01_myfirst_ES.md,,dev-01_intro-02_learning_bydoing-activity-es
+DEV,02_responsive,,Introducción al Desarrollo Web,container,ES,02,,,,,DEV/02_responsive/README.md,,dev-02_responsive-none-container-none
+DEV,02_responsive,,Introdução ao desenvolvimento web,container,PT,02,,,,,DEV/02_responsive/README.md,,dev-02_responsive-none-container-none
+DEV,02_responsive,01_your_first_web,Meta de Aprendizaje,container,ES,01,,,,,DEV/02_responsive/01_your_first_web/01_01_03_project_semantic_HTML.md,,dev-02_responsive-01_your_first_web-container-none
+DEV,02_responsive,01_your_first_web,Descripción,container,PT,01,,,,,DEV/02_responsive/01_your_first_web/01_01_03_project_semantic_HTML.md,,dev-02_responsive-01_your_first_web-container-none
+DEV,02_responsive,01_your_first_web,Introducción,container,ES,01,,,,,DEV/02_responsive/01_your_first_web/01_01_00_modulo_myFirstWeb.md,,dev-02_responsive-01_your_first_web-container-none
+DEV,02_responsive,01_your_first_web,Lo que aprenderás,container,PT,01,,,,,DEV/02_responsive/01_your_first_web/01_01_00_modulo_myFirstWeb.md,,dev-02_responsive-01_your_first_web-container-none
+DEV,02_responsive,01_your_first_web,Meta de Aprendizaje,container,ES,01,,,,,DEV/02_responsive/01_your_first_web/01_01_02_project_add_CSS.md,,dev-02_responsive-01_your_first_web-container-none
+DEV,02_responsive,01_your_first_web,Descripción,container,PT,01,,,,,DEV/02_responsive/01_your_first_web/01_01_02_project_add_CSS.md,,dev-02_responsive-01_your_first_web-container-none
+DEV,02_responsive,01_your_first_web,Meta de Aprendizaje,container,ES,01,,,,,DEV/02_responsive/01_your_first_web/01_01_01_project_myFirstWeb.md,,dev-02_responsive-01_your_first_web-container-none
+DEV,02_responsive,01_your_first_web,Descripción,container,PT,01,,,,,DEV/02_responsive/01_your_first_web/01_01_01_project_myFirstWeb.md,,dev-02_responsive-01_your_first_web-container-none
+DEV,02_responsive,02_your_first_form,Meta de Aprendizaje,container,ES,02,,,,,DEV/02_responsive/02_your_first_form/01_02_01_project_formulario.md,,dev-02_responsive-02_your_first_form-container-none
+DEV,02_responsive,02_your_first_form,Descripción,container,PT,02,,,,,DEV/02_responsive/02_your_first_form/01_02_01_project_formulario.md,,dev-02_responsive-02_your_first_form-container-none

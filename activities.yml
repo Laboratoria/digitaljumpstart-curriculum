@@ -1,15 +1,15 @@
 - difficulty: null
   directions: null
   discord_URL: null
-  lang: null
+  lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends.md
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools_ES.md
   sequence: '00'
   skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-activity-none
+  slug: dev-01_intro-01_baisc_knowledge-activity-es
   time: null
-  title: Tendencias actuales y futuras en el Desarrollo Web
+  title: "Herramientas y tecnolog\xEDas b\xE1sicas del Desarrollo Web"
   track: DEV
   type: activity
 - difficulty: null
@@ -57,56 +57,70 @@
 - difficulty: null
   directions: null
   discord_URL: null
-  lang: null
+  lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools.md
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends_ES.md
   sequence: '00'
   skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-activity-none
-  time: null
-  title: "Herramientas y tecnolog\xEDas b\xE1sicas del Desarrollo Web"
-  track: DEV
-  type: activity
-- difficulty: 1
-  directions: 'Estas son las instruccoines bla bla bla '
-  discord_URL: 'null'
-  lang: PT
-  learning: 2
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/01_test_PT.md
-  sequence: '01'
-  skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-activity-pt
-  time: 3
-  title: Testitulo portugue
-  track: DEV
-  type: activity
-- difficulty: 1
-  directions: 'Estas son las instruccoines bla bla bla '
-  discord_URL: https://discord.com/channels/1209273049304666113/1253004726539259925
-  lang: ES
-  learning: 2
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/01_test_ES.md
-  sequence: '01'
-  skill: 01_intro
   slug: dev-01_intro-01_baisc_knowledge-activity-es
-  time: 3
-  title: Test tit castellano
+  time: null
+  title: Tendencias actuales y futuras en el Desarrollo Web
   track: DEV
   type: activity
 - difficulty: null
   directions: null
   discord_URL: null
-  lang: null
+  lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/01_01_00_all_about.md
+  path: DEV/01_intro/01_baisc_knowledge/activities/01_01_00_all_about_ES.md
   sequence: '01'
   skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-activity-none
+  slug: dev-01_intro-01_baisc_knowledge-activity-es
   time: null
   title: "M\xF3dulo 1: Todo sobre el desarrollo Web"
+  track: DEV
+  type: activity
+- difficulty: null
+  directions: null
+  discord_URL: null
+  lang: ES
+  learning: null
+  module: 02_learning_bydoing
+  path: DEV/01_intro/02_learning_bydoing/activities/00_02_00_practice_ES.md
+  sequence: '00'
+  skill: 01_intro
+  slug: dev-01_intro-02_learning_bydoing-activity-es
+  time: null
+  title: Aprende haciendo
+  track: DEV
+  type: activity
+- difficulty: null
+  directions: null
+  discord_URL: null
+  lang: ES
+  learning: null
+  module: 02_learning_bydoing
+  path: DEV/01_intro/02_learning_bydoing/activities/00_02_02_close_ES.md
+  sequence: '00'
+  skill: 01_intro
+  slug: dev-01_intro-02_learning_bydoing-activity-es
+  time: null
+  title: Reflexiona y comenta
+  track: DEV
+  type: activity
+- difficulty: null
+  directions: null
+  discord_URL: null
+  lang: ES
+  learning: null
+  module: 02_learning_bydoing
+  path: DEV/01_intro/02_learning_bydoing/activities/00_02_01_myfirst_ES.md
+  sequence: '00'
+  skill: 01_intro
+  slug: dev-01_intro-02_learning_bydoing-activity-es
+  time: null
+  title: ":small_blue_diamond: Reto 2.1 : Mi Primera P\xE1gina HTML"
   track: DEV
   type: activity

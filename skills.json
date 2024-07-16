@@ -30,5 +30,37 @@
     "path": "DEV/01_intro/README.md",
     "discord_URL": null,
     "slug": "dev-01_intro-none-container-none"
+  },
+  {
+    "track": "DEV",
+    "skill": "02_responsive",
+    "module": null,
+    "title": "Introducci\u00f3n al Desarrollo Web",
+    "type": "container",
+    "lang": "ES",
+    "sequence": "02",
+    "learning": null,
+    "difficulty": null,
+    "time": null,
+    "directions": null,
+    "path": "DEV/02_responsive/README.md",
+    "discord_URL": null,
+    "slug": "dev-02_responsive-none-container-none"
+  },
+  {
+    "track": "DEV",
+    "skill": "02_responsive",
+    "module": null,
+    "title": "Introdu\u00e7\u00e3o ao desenvolvimento web",
+    "type": "container",
+    "lang": "PT",
+    "sequence": "02",
+    "learning": null,
+    "difficulty": null,
+    "time": null,
+    "directions": null,
+    "path": "DEV/02_responsive/README.md",
+    "discord_URL": null,
+    "slug": "dev-02_responsive-none-container-none"
   }
 ]
