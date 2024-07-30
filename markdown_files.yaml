@@ -74,12 +74,12 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools_ES.md
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life_ES.md
   sequence: '00'
   skill: 01_intro
   slug: dev-01_intro-01_baisc_knowledge-activity-es
   time: null
-  title: "Herramientas y tecnolog\xEDas b\xE1sicas del Desarrollo Web"
+  title: El impacto del Desarrollo Web en la vida cotidiana
   track: DEV
   type: activity
 - difficulty: null
@@ -88,12 +88,12 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev_ES.md
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools_ES.md
   sequence: '00'
   skill: 01_intro
   slug: dev-01_intro-01_baisc_knowledge-activity-es
   time: null
-  title: "\U0001F539Qu\xE9 es el desarrollo web front-end y qu\xE9 es el back-end"
+  title: "Herramientas y tecnolog\xEDas b\xE1sicas del Desarrollo Web"
   track: DEV
   type: activity
 - difficulty: 1
@@ -116,12 +116,12 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life_ES.md
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev_ES.md
   sequence: '00'
   skill: 01_intro
   slug: dev-01_intro-01_baisc_knowledge-activity-es
   time: null
-  title: El impacto del Desarrollo Web en la vida cotidiana
+  title: "\U0001F539Qu\xE9 es el desarrollo web front-end y qu\xE9 es el back-end"
   track: DEV
   type: activity
 - difficulty: null
@@ -158,12 +158,12 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/README.md
+  path: DEV/01_intro/01_baisc_knowledge/topics/README.md
   sequence: '00'
   skill: 01_intro
   slug: dev-01_intro-01_baisc_knowledge-container-none
   time: null
-  title: Actividades
+  title: "T\xF3picos"
   track: DEV
   type: container
 - difficulty: null
@@ -172,12 +172,12 @@
   lang: PT
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/README.md
+  path: DEV/01_intro/01_baisc_knowledge/topics/README.md
   sequence: '00'
   skill: 01_intro
   slug: dev-01_intro-01_baisc_knowledge-container-none
   time: null
-  title: Actividades
+  title: "T\xF3picos"
   track: DEV
   type: container
 - difficulty: null
@@ -186,12 +186,12 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/topics/README.md
+  path: DEV/01_intro/01_baisc_knowledge/activities/README.md
   sequence: '00'
   skill: 01_intro
   slug: dev-01_intro-01_baisc_knowledge-container-none
   time: null
-  title: "T\xF3picos"
+  title: Actividades
   track: DEV
   type: container
 - difficulty: null
@@ -200,12 +200,12 @@
   lang: PT
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/topics/README.md
+  path: DEV/01_intro/01_baisc_knowledge/activities/README.md
   sequence: '00'
   skill: 01_intro
   slug: dev-01_intro-01_baisc_knowledge-container-none
   time: null
-  title: "T\xF3picos"
+  title: Actividades
   track: DEV
   type: container
 - difficulty: null
@@ -239,20 +239,6 @@
 - difficulty: null
   directions: null
   discord_URL: null
-  lang: ES
-  learning: null
-  module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md
-  sequence: '01'
-  skill: 01_intro
-  slug: dev-01_intro-01_baisc_knowledge-topic-es
-  time: null
-  title: "T\xEDtulo topic xyz"
-  track: DEV
-  type: topic
-- difficulty: null
-  directions: null
-  discord_URL: null
   lang: PT
   learning: null
   module: 01_baisc_knowledge
@@ -270,6 +256,20 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md
+  sequence: '01'
+  skill: 01_intro
+  slug: dev-01_intro-01_baisc_knowledge-topic-es
+  time: null
+  title: "T\xEDtulo topic xyz"
+  track: DEV
+  type: topic
+- difficulty: null
+  directions: null
+  discord_URL: null
+  lang: ES
+  learning: null
+  module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/topics/02_topic_abc_ES.md
   sequence: '02'
   skill: 01_intro
@@ -278,6 +278,20 @@
   title: "T\xEDtulo"
   track: DEV
   type: topic
+- difficulty: null
+  directions: null
+  discord_URL: null
+  lang: ES
+  learning: null
+  module: 02_learning_bydoing
+  path: DEV/01_intro/02_learning_bydoing/activities/00_02_01_myfirst_ES.md
+  sequence: '00'
+  skill: 01_intro
+  slug: dev-01_intro-02_learning_bydoing-activity-es
+  time: null
+  title: ":small_blue_diamond: Reto 2.1 : Mi Primera P\xE1gina HTML"
+  track: DEV
+  type: activity
 - difficulty: null
   directions: null
   discord_URL: null
@@ -304,20 +318,6 @@
   slug: dev-01_intro-02_learning_bydoing-activity-es
   time: null
   title: Reflexiona y comenta
-  track: DEV
-  type: activity
-- difficulty: null
-  directions: null
-  discord_URL: null
-  lang: ES
-  learning: null
-  module: 02_learning_bydoing
-  path: DEV/01_intro/02_learning_bydoing/activities/00_02_01_myfirst_ES.md
-  sequence: '00'
-  skill: 01_intro
-  slug: dev-01_intro-02_learning_bydoing-activity-es
-  time: null
-  title: ":small_blue_diamond: Reto 2.1 : Mi Primera P\xE1gina HTML"
   track: DEV
   type: activity
 - difficulty: null
