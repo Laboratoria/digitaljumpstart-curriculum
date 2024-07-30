@@ -9,5 +9,4 @@ etc........
 etc
 etc
 etc
-AS
-oiu
+etc
