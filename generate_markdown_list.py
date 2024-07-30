@@ -288,7 +288,7 @@ if __name__ == "__main__":
     save_to_yaml(topics, "topics.yml")
 
     # Enviar datos al endpoint
-    endpoint_url = "https://us-central1-laboratoria-prologue.cloudfunctions.net/dj-curriculum-get" endpoint CF
+    endpoint_url = "https://us-central1-laboratoria-prologue.cloudfunctions.net/dj-curriculum-get" 
     if endpoint_url:
         send_data_to_endpoint(endpoint_url, markdown_list)
     else:
