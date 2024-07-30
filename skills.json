@@ -13,6 +13,8 @@
     "directions": null,
     "path": "DEV/01_intro/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-none-container-none"
   },
   {
@@ -29,6 +31,8 @@
     "directions": null,
     "path": "DEV/01_intro/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-none-container-none"
   },
   {
@@ -45,6 +49,8 @@
     "directions": null,
     "path": "DEV/02_responsive/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-none-container-none"
   },
   {
@@ -61,6 +67,8 @@
     "directions": null,
     "path": "DEV/02_responsive/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-none-container-none"
   }
 ]

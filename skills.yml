@@ -1,6 +1,8 @@
 - difficulty: null
   directions: null
   discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
   lang: ES
   learning: null
   module: null
@@ -15,6 +17,8 @@
 - difficulty: null
   directions: null
   discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
   lang: PT
   learning: null
   module: null
@@ -29,6 +33,8 @@
 - difficulty: null
   directions: null
   discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
   lang: ES
   learning: null
   module: null
@@ -43,6 +49,8 @@
 - difficulty: null
   directions: null
   discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
   lang: PT
   learning: null
   module: null

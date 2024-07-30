@@ -1,6 +1,8 @@
 - difficulty: null
   directions: null
   discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
   lang: ES
   learning: null
   module: 01_baisc_knowledge
@@ -15,6 +17,8 @@
 - difficulty: null
   directions: null
   discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
   lang: ES
   learning: null
   module: 01_baisc_knowledge
@@ -29,6 +33,8 @@
 - difficulty: 1
   directions: 'Estas son las instruccoines bla bla bla '
   discord_URL: https://discord.com/channels/1209273049304666113/1210625595638284328
+  discord_channel_id: '1209273049304666113'
+  discord_message_id: '1210625595638284328'
   lang: ES
   learning: 1
   module: 01_baisc_knowledge
@@ -43,6 +49,8 @@
 - difficulty: null
   directions: null
   discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
   lang: ES
   learning: null
   module: 01_baisc_knowledge
@@ -57,6 +65,8 @@
 - difficulty: null
   directions: null
   discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
   lang: ES
   learning: null
   module: 01_baisc_knowledge
@@ -71,6 +81,8 @@
 - difficulty: null
   directions: null
   discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
   lang: ES
   learning: null
   module: 01_baisc_knowledge
@@ -85,6 +97,8 @@
 - difficulty: null
   directions: null
   discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
   lang: ES
   learning: null
   module: 02_learning_bydoing
@@ -99,6 +113,8 @@
 - difficulty: null
   directions: null
   discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
   lang: ES
   learning: null
   module: 02_learning_bydoing
@@ -113,6 +129,8 @@
 - difficulty: null
   directions: null
   discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
   lang: ES
   learning: null
   module: 02_learning_bydoing

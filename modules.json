@@ -13,6 +13,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-container-none"
   },
   {
@@ -29,6 +31,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-container-none"
   },
   {
@@ -45,6 +49,8 @@
     "directions": null,
     "path": "DEV/01_intro/02_learning_bydoing/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-02_learning_bydoing-container-none"
   },
   {
@@ -61,6 +67,8 @@
     "directions": null,
     "path": "DEV/01_intro/02_learning_bydoing/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-02_learning_bydoing-container-none"
   },
   {
@@ -77,6 +85,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_03_project_semantic_HTML.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -93,6 +103,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_03_project_semantic_HTML.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -109,6 +121,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_00_modulo_myFirstWeb.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -125,6 +139,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_00_modulo_myFirstWeb.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -141,6 +157,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_02_project_add_CSS.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -157,6 +175,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_02_project_add_CSS.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -173,6 +193,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_01_project_myFirstWeb.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -189,6 +211,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_01_project_myFirstWeb.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -205,6 +229,8 @@
     "directions": null,
     "path": "DEV/02_responsive/02_your_first_form/01_02_01_project_formulario.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-02_your_first_form-container-none"
   },
   {
@@ -221,6 +247,8 @@
     "directions": null,
     "path": "DEV/02_responsive/02_your_first_form/01_02_01_project_formulario.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-02_your_first_form-container-none"
   }
 ]

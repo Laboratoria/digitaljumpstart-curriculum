@@ -13,6 +13,8 @@
     "directions": null,
     "path": "README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "none-none-none-container-none"
   },
   {
@@ -29,6 +31,8 @@
     "directions": null,
     "path": "DEV/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-none-none-container-none"
   },
   {
@@ -45,6 +49,8 @@
     "directions": null,
     "path": "DEV/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-none-none-container-none"
   },
   {
@@ -61,6 +67,8 @@
     "directions": null,
     "path": "DEV/01_intro/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-none-container-none"
   },
   {
@@ -77,6 +85,8 @@
     "directions": null,
     "path": "DEV/01_intro/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-none-container-none"
   },
   {
@@ -93,6 +103,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life_ES.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-activity-es"
   },
   {
@@ -109,6 +121,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools_ES.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-activity-es"
   },
   {
@@ -125,6 +139,8 @@
     "directions": "Estas son las instruccoines bla bla bla ",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web_ES.md",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1210625595638284328",
+    "discord_channel_id": "1209273049304666113",
+    "discord_message_id": "1210625595638284328",
     "slug": "dev-01_intro-01_baisc_knowledge-activity-es"
   },
   {
@@ -141,6 +157,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev_ES.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-activity-es"
   },
   {
@@ -157,6 +175,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends_ES.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-activity-es"
   },
   {
@@ -173,6 +193,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/01_01_00_all_about_ES.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-activity-es"
   },
   {
@@ -189,6 +211,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/topics/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-container-none"
   },
   {
@@ -205,6 +229,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/topics/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-container-none"
   },
   {
@@ -221,6 +247,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-container-none"
   },
   {
@@ -237,6 +265,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/activities/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-container-none"
   },
   {
@@ -253,6 +283,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-container-none"
   },
   {
@@ -269,6 +301,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-container-none"
   },
   {
@@ -285,6 +319,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_PT.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-topic-pt"
   },
   {
@@ -301,6 +337,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-topic-es"
   },
   {
@@ -317,6 +355,8 @@
     "directions": null,
     "path": "DEV/01_intro/01_baisc_knowledge/topics/02_topic_abc_ES.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-01_baisc_knowledge-topic-es"
   },
   {
@@ -333,6 +373,8 @@
     "directions": null,
     "path": "DEV/01_intro/02_learning_bydoing/activities/00_02_01_myfirst_ES.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-02_learning_bydoing-activity-es"
   },
   {
@@ -349,6 +391,8 @@
     "directions": null,
     "path": "DEV/01_intro/02_learning_bydoing/activities/00_02_00_practice_ES.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-02_learning_bydoing-activity-es"
   },
   {
@@ -365,6 +409,8 @@
     "directions": null,
     "path": "DEV/01_intro/02_learning_bydoing/activities/00_02_02_close_ES.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-02_learning_bydoing-activity-es"
   },
   {
@@ -381,6 +427,8 @@
     "directions": null,
     "path": "DEV/01_intro/02_learning_bydoing/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-02_learning_bydoing-container-none"
   },
   {
@@ -397,6 +445,8 @@
     "directions": null,
     "path": "DEV/01_intro/02_learning_bydoing/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-01_intro-02_learning_bydoing-container-none"
   },
   {
@@ -413,6 +463,8 @@
     "directions": null,
     "path": "DEV/02_responsive/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-none-container-none"
   },
   {
@@ -429,6 +481,8 @@
     "directions": null,
     "path": "DEV/02_responsive/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-none-container-none"
   },
   {
@@ -445,6 +499,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_03_project_semantic_HTML.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -461,6 +517,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_03_project_semantic_HTML.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -477,6 +535,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_00_modulo_myFirstWeb.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -493,6 +553,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_00_modulo_myFirstWeb.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -509,6 +571,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_02_project_add_CSS.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -525,6 +589,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_02_project_add_CSS.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -541,6 +607,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_01_project_myFirstWeb.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -557,6 +625,8 @@
     "directions": null,
     "path": "DEV/02_responsive/01_your_first_web/01_01_01_project_myFirstWeb.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-01_your_first_web-container-none"
   },
   {
@@ -573,6 +643,8 @@
     "directions": null,
     "path": "DEV/02_responsive/02_your_first_form/01_02_01_project_formulario.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-02_your_first_form-container-none"
   },
   {
@@ -589,6 +661,8 @@
     "directions": null,
     "path": "DEV/02_responsive/02_your_first_form/01_02_01_project_formulario.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-02_responsive-02_your_first_form-container-none"
   }
 ]

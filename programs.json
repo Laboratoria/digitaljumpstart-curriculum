@@ -13,6 +13,8 @@
     "directions": null,
     "path": "DEV/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-none-none-container-none"
   },
   {
@@ -29,6 +31,8 @@
     "directions": null,
     "path": "DEV/README.md",
     "discord_URL": null,
+    "discord_channel_id": null,
+    "discord_message_id": null,
     "slug": "dev-none-none-container-none"
   }
 ]
