@@ -3,6 +3,7 @@ import json
 import csv
 import yaml
 import logging
+import requests  # Asegúrate de tener la librería requests instalada
 
 # Configuración del logger
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -225,6 +226,17 @@ def save_to_yaml(data, filename):
         yaml.dump(data, f, default_flow_style=False)
     logging.info(f"Data saved to {filename}")
 
+def send_data_to_endpoint(url, data):
+    try:
+        headers = {'Content-Type': 'application/json'}
+        response = requests.post(url, json=data, headers=headers)
+        if response.status_code == 200:
+            logging.info("Data successfully sent to endpoint.")
+        else:
+            logging.error(f"Failed to send data to endpoint. Status code: {response.status_code}, Response: {response.text}")
+    except Exception as e:
+        logging.error(f"Error sending data to endpoint: {e}")
+
 if __name__ == "__main__":
     root_dir = "."
     markdown_list = generate_markdown_list(root_dir)
@@ -265,4 +277,8 @@ if __name__ == "__main__":
     save_to_json(topics, "topics.json")
     save_to_yaml(topics, "topics.yml")
 
-    logging.info("All files have been saved.")
+    # Enviar datos al endpoint
+    endpoint_url = "https://us-central1-laboratoria-prologue.cloudfunctions.net/dj-curriculum-get"  # Cloud Function
+    send_data_to_endpoint(endpoint_url, markdown_list)
+
+    logging.info("All files have been saved and data sent to endpoint.")
