@@ -12,7 +12,7 @@ def generate_markdown_list(root_dir):
     markdown_list = []
     keys = [
         "track", "skill", "module", "title", "type", "lang", "sequence",
-        "learning", "difficulty", "time", "path", "discord_URL", "slug"
+        "learning", "difficulty", "time", "path", "discord_URL", "discord_channel_id", "discord_message_id", "slug"
     ]
     config_data = {}
 
@@ -76,6 +76,7 @@ def generate_markdown_list(root_dir):
     return markdown_list
 
 def create_entry(track, skill, module, title, file_type, lang, sequence, additional_info, path, slug):
+    discord_channel_id, discord_message_id = extract_discord_ids(additional_info.get("discord_URL"))
     return {
         "track": track,
         "skill": skill,
@@ -90,8 +91,17 @@ def create_entry(track, skill, module, title, file_type, lang, sequence, additio
         "directions": additional_info.get("directions"),
         "path": path,
         "discord_URL": additional_info.get("discord_URL") if lang == "ES" else additional_info.get("discord_URL_PT"),
+        "discord_channel_id": discord_channel_id,
+        "discord_message_id": discord_message_id,
         "slug": slug
     }
+
+def extract_discord_ids(discord_url):
+    if discord_url:
+        parts = discord_url.split('/')
+        if len(parts) >= 6:
+            return parts[4], parts[5]
+    return None, None
 
 def get_title(file_path, file_type):
     if file_type in ["activity", "topic"]:
@@ -278,7 +288,10 @@ if __name__ == "__main__":
     save_to_yaml(topics, "topics.yml")
 
     # Enviar datos al endpoint
-    endpoint_url = "https://us-central1-laboratoria-prologue.cloudfunctions.net/dj-curriculum-get"  # Cloud Function
-    send_data_to_endpoint(endpoint_url, markdown_list)
+    endpoint_url = "https://us-central1-laboratoria-prologue.cloudfunctions.net/dj-curriculum-get" endpoint CF
+    if endpoint_url:
+        send_data_to_endpoint(endpoint_url, markdown_list)
+    else:
+        logging.error("ENDPOINT_URL variable not set.")
 
     logging.info("All files have been saved and data sent to endpoint.")
