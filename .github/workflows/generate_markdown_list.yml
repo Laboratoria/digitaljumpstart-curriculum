@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pyyaml markdown2
+        pip install pyyaml markdown2 requests
 
     - name: Print working directory
       run: pwd
