@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
@@ -29,7 +32,7 @@ jobs:
     - name: List files in current directory
       run: ls -la
 
-    - name: Run script
+    - name: Run generate_markdown_list script
       run: python generate_markdown_list.py
 
     - name: Commit changes
