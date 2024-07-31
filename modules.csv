@@ -7,29 +7,7 @@ DEV,01_intro,01_baisc_knowledge,Módulo 1: Todo sobre el desarrollo Web,containe
 DEV,01_intro,01_baisc_knowledge,Módulo 1: Tudo sobre desenvolvimento Web,container,PT,01,,,,,DEV/01_intro/01_baisc_knowledge/README.md,,,,dev-01_intro-01_baisc_knowledge-container-none
 DEV,01_intro,02_learning_bydoing,Módulo 2,container,ES,02,,,,,DEV/01_intro/02_learning_bydoing/README.md,,,,dev-01_intro-02_learning_bydoing-container-none
 DEV,01_intro,02_learning_bydoing,Módulo 2,container,PT,02,,,,,DEV/01_intro/02_learning_bydoing/README.md,,,,dev-01_intro-02_learning_bydoing-container-none
-DEV,02_responsive,01_your_first_web,Meta de Aprendizaje,container,ES,01,,,,,DEV/02_responsive/01_your_first_web/01_01_02_project_add_CSS_ES.md,,,,dev-02_responsive-01_your_first_web-container-es
-DEV,02_responsive,01_your_first_web,Descripción,container,PT,01,,,,,DEV/02_responsive/01_your_first_web/01_01_02_project_add_CSS_ES.md,,,,dev-02_responsive-01_your_first_web-container-es
-DEV,02_responsive,01_your_first_web,Meta de Aprendizaje,container,ES,01,,,,,DEV/02_responsive/01_your_first_web/01_01_03_project_semantic_HTML_ES.md,,,,dev-02_responsive-01_your_first_web-container-es
-DEV,02_responsive,01_your_first_web,Descripción,container,PT,01,,,,,DEV/02_responsive/01_your_first_web/01_01_03_project_semantic_HTML_ES.md,,,,dev-02_responsive-01_your_first_web-container-es
-DEV,02_responsive,01_your_first_web,Meta de Aprendizaje,container,ES,01,,,,,DEV/02_responsive/01_your_first_web/01_01_01_project_myFirstWeb_ES.md,,,,dev-02_responsive-01_your_first_web-container-es
-DEV,02_responsive,01_your_first_web,Descripción,container,PT,01,,,,,DEV/02_responsive/01_your_first_web/01_01_01_project_myFirstWeb_ES.md,,,,dev-02_responsive-01_your_first_web-container-es
-DEV,02_responsive,01_your_first_web,Introducción,container,ES,01,,,,,DEV/02_responsive/01_your_first_web/01_01_00_modulo_myFirstWeb_ES.md,,,,dev-02_responsive-01_your_first_web-container-es
-DEV,02_responsive,01_your_first_web,Lo que aprenderás,container,PT,01,,,,,DEV/02_responsive/01_your_first_web/01_01_00_modulo_myFirstWeb_ES.md,,,,dev-02_responsive-01_your_first_web-container-es
-DEV,02_responsive,02_your_first_form,Introducción,container,ES,02,,,,,DEV/02_responsive/02_your_first_form/01_02_00_modulo_form_ES.md,,,,dev-02_responsive-02_your_first_form-container-es
-DEV,02_responsive,02_your_first_form,Lo que aprenderás,container,PT,02,,,,,DEV/02_responsive/02_your_first_form/01_02_00_modulo_form_ES.md,,,,dev-02_responsive-02_your_first_form-container-es
-DEV,02_responsive,02_your_first_form,Meta de Aprendizaje,container,ES,02,,,,,DEV/02_responsive/02_your_first_form/01_02_01_project_formulario_ES.md,,,,dev-02_responsive-02_your_first_form-container-es
-DEV,02_responsive,02_your_first_form,Descripción,container,PT,02,,,,,DEV/02_responsive/02_your_first_form/01_02_01_project_formulario_ES.md,,,,dev-02_responsive-02_your_first_form-container-es
-DEV,02_responsive,03_responsive_design,Meta de Aprendizaje,container,ES,03,,,,,DEV/02_responsive/03_responsive_design/01_03_01_project_responsive_mediaqueries_ES.md,,,,dev-02_responsive-03_responsive_design-container-es
-DEV,02_responsive,03_responsive_design,Descripción,container,PT,03,,,,,DEV/02_responsive/03_responsive_design/01_03_01_project_responsive_mediaqueries_ES.md,,,,dev-02_responsive-03_responsive_design-container-es
-DEV,02_responsive,03_responsive_design,Meta de Aprendizaje,container,ES,03,,,,,DEV/02_responsive/03_responsive_design/01_03_02_project_responsive_flexbox_ES.md,,,,dev-02_responsive-03_responsive_design-container-es
-DEV,02_responsive,03_responsive_design,Descripción,container,PT,03,,,,,DEV/02_responsive/03_responsive_design/01_03_02_project_responsive_flexbox_ES.md,,,,dev-02_responsive-03_responsive_design-container-es
-DEV,02_responsive,03_responsive_design,Introducción,container,ES,03,,,,,DEV/02_responsive/03_responsive_design/01_03_00_modulo_responsive_ES.md,,,,dev-02_responsive-03_responsive_design-container-es
-DEV,02_responsive,03_responsive_design,Lo que aprenderás,container,PT,03,,,,,DEV/02_responsive/03_responsive_design/01_03_00_modulo_responsive_ES.md,,,,dev-02_responsive-03_responsive_design-container-es
-DEV,02_responsive,04_practice_replicate,Introducción,container,ES,04,,,,,DEV/02_responsive/04_practice_replicate/01_04_00_modulo_replications_ES.md,,,,dev-02_responsive-04_practice_replicate-container-es
-DEV,02_responsive,04_practice_replicate,Lo que aprenderás,container,PT,04,,,,,DEV/02_responsive/04_practice_replicate/01_04_00_modulo_replications_ES.md,,,,dev-02_responsive-04_practice_replicate-container-es
-DEV,02_responsive,04_practice_replicate,Meta de Aprendizaje,container,ES,04,,,,,DEV/02_responsive/04_practice_replicate/01_04_01_project_replications_basic_ES.md,,,,dev-02_responsive-04_practice_replicate-container-es
-DEV,02_responsive,04_practice_replicate,Descripción,container,PT,04,,,,,DEV/02_responsive/04_practice_replicate/01_04_01_project_replications_basic_ES.md,,,,dev-02_responsive-04_practice_replicate-container-es
-DEV,02_responsive,04_practice_replicate,Meta de Aprendizaje,container,ES,04,,,,,DEV/02_responsive/04_practice_replicate/01_04_02_project_replications_netflix_ES.md,,,,dev-02_responsive-04_practice_replicate-container-es
-DEV,02_responsive,04_practice_replicate,Descripción,container,PT,04,,,,,DEV/02_responsive/04_practice_replicate/01_04_02_project_replications_netflix_ES.md,,,,dev-02_responsive-04_practice_replicate-container-es
-DEV,02_responsive,04_practice_replicate,Meta de Aprendizaje,container,ES,04,,,,,DEV/02_responsive/04_practice_replicate/01_04_03_project_replications_slack_ES.md,,,,dev-02_responsive-04_practice_replicate-container-es
-DEV,02_responsive,04_practice_replicate,Descripción,container,PT,04,,,,,DEV/02_responsive/04_practice_replicate/01_04_03_project_replications_slack_ES.md,,,,dev-02_responsive-04_practice_replicate-container-es
+DEV,02_responsive,01_your_first_web,Módulo 1: Tu primera página web,container,ES,01,,,,,DEV/02_responsive/01_your_first_web/README.md,,,,dev-02_responsive-01_your_first_web-container-none
+DEV,02_responsive,02_your_first_form,Módulo 2 : Tu primer formulario web,container,ES,02,,,,,DEV/02_responsive/02_your_first_form/README.md,,,,dev-02_responsive-02_your_first_form-container-none
+DEV,02_responsive,03_responsive_design,Módulo 3 : Diseño web responsivo,container,ES,03,,,,,DEV/02_responsive/03_responsive_design/README.md,,,,dev-02_responsive-03_responsive_design-container-none
+DEV,02_responsive,04_practice_replicate,Módulo 4 : Practica replicando sitios web,container,ES,04,,,,,DEV/02_responsive/04_practice_replicate/README.md,,,,dev-02_responsive-04_practice_replicate-container-none

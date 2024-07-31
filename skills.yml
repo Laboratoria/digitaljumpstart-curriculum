@@ -107,22 +107,6 @@
   skill: 02_responsive
   slug: dev-02_responsive-none-container-none
   time: null
-  title: "Introducci\xF3n al Desarrollo Web"
-  track: DEV
-  type: container
-- difficulty: null
-  directions: null
-  discord_URL: null
-  discord_channel_id: null
-  discord_message_id: null
-  lang: PT
-  learning: null
-  module: null
-  path: DEV/02_responsive/README.md
-  sequence: '02'
-  skill: 02_responsive
-  slug: dev-02_responsive-none-container-none
-  time: null
-  title: "Introdu\xE7\xE3o ao desenvolvimento web"
+  title: "Maquetaci\xF3n Web, b\xE1sica"
   track: DEV
   type: container
