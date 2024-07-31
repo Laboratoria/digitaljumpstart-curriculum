@@ -1,7 +1,5 @@
 # DEV : introduction : basic knowledge
 
-## Módulo 1: Todo sobre el desarrollo Web
-
-## Módulo 1: Tudo sobre desenvolvimento Web
+## Módulo 1: Todo sobre el análisis de datos
 
 bla bla bla

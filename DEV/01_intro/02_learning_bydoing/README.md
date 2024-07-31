@@ -1,7 +1,5 @@
 # DEV : introduction : basic knowledge
 
-## Módulo 2
-
-## Módulo 2
+## Módulo 2 : Aprende haciendo
 
 bla bla bla

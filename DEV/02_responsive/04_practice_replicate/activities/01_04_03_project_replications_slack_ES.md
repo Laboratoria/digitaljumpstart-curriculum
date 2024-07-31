@@ -1,4 +1,4 @@
-# Reto 4.3: Replica una sección del sitio de Slack
+# ◾Reto 4.3: Replica una sección del sitio de Slack
 
 **Dificultad:** 🌻🌻🌻 
 

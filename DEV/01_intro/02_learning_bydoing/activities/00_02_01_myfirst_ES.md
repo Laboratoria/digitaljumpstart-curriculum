@@ -1,4 +1,4 @@
-# :small_blue_diamond: Reto 2.1 : Mi Primera Página HTML
+# ◾ Reto 2.1 : Mi Primera Página HTML
 
 **Dificultad:** :sunflower:﻿
 **Aprendizaje:** :honey_pot:﻿

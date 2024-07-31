@@ -1,4 +1,4 @@
-# 🔹Reto 2.1: Creación de un formulario
+# ◾Reto 2.1: Creación de un formulario
 
 **Dificultad:** 🌻
 

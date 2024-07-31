@@ -1,4 +1,4 @@
-# Reto 4.2: Replica el login de Netflix
+# ◾Reto 4.2: Replica el login de Netflix
 
 **Dificultad:** 🌻🌻 
 

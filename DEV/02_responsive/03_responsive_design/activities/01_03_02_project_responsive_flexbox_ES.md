@@ -1,4 +1,4 @@
-# 🔹Reto 3.2: Diseño Responsivo con Unidades Relativas y Flexbox
+# ◾Reto 3.2: Diseño Responsivo con Unidades Relativas y Flexbox
 
 **Dificultad:** 🌻🌻🌻
 

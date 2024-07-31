@@ -1,4 +1,4 @@
-# Reto 1.2 : Agregando estilos con CSS
+# ◾Reto 1.2 : Agregando estilos con CSS
 
 **Dificultad:** 🌻
 
