@@ -6,6 +6,39 @@
   lang: ES
   learning: null
   module: null
+  path: DAT/lea_dat_overview.md
+  sequence: DA
+  skill: null
+  slug: dat-none-none-container-none
+  time: null
+  title: "Ruta: Introducci\xF3n al An\xE1lisis de Datos"
+  track: DAT
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: PT
+  learning: null
+  module: null
+  path: DAT/lea_dat_overview.md
+  sequence: DA
+  skill: null
+  slug: dat-none-none-container-none
+  time: null
+  title: "En estas primeras 3 habilidades aprender\xE1s a hacer una segmentaci\xF3\
+    n de clientes."
+  track: DAT
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: null
   path: DEV/README.md
   sequence: DE
   skill: null

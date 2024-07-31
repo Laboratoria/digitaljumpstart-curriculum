@@ -1,3 +1,5 @@
 track,skill,module,title,type,lang,sequence,learning,difficulty,time,directions,path,discord_URL,discord_channel_id,discord_message_id,slug
+DAT,,,Ruta: Introducción al Análisis de Datos,container,ES,DA,,,,,DAT/lea_dat_overview.md,,,,dat-none-none-container-none
+DAT,,,En estas primeras 3 habilidades aprenderás a hacer una segmentación de clientes.,container,PT,DA,,,,,DAT/lea_dat_overview.md,,,,dat-none-none-container-none
 DEV,,,Desarrollo Web,container,ES,DE,,,,,DEV/README.md,,,,dev-none-none-container-none
 DEV,,,Desenvolvimento Web,container,PT,DE,,,,,DEV/README.md,,,,dev-none-none-container-none

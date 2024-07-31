@@ -1,6 +1,6 @@
 track,skill,module,title,type,lang,sequence,learning,difficulty,time,directions,path,discord_URL,discord_channel_id,discord_message_id,slug
-DAT,01_intro,,Introducción al Desarrollo Web,container,ES,01,,,,,DAT/01_intro/README.md,,,,dat-01_intro-none-container-none
-DAT,01_intro,,Introdução ao desenvolvimento web,container,PT,01,,,,,DAT/01_intro/README.md,,,,dat-01_intro-none-container-none
+DAT,01_intro,,Introducción al Análisis de Datos,container,ES,01,,,,,DAT/01_intro/README.md,,,,dat-01_intro-none-container-none
+DAT,01_intro,,Introdução ao,container,PT,01,,,,,DAT/01_intro/README.md,,,,dat-01_intro-none-container-none
 DEV,01_intro,,Introducción al Desarrollo Web,container,ES,01,,,,,DEV/01_intro/README.md,,,,dev-01_intro-none-container-none
 DEV,01_intro,,Introdução ao desenvolvimento web,container,PT,01,,,,,DEV/01_intro/README.md,,,,dev-01_intro-none-container-none
 DEV,02_responsive,,Introducción,container,ES,02,,,,,DEV/02_responsive/01_00_00_overview.md,,,,dev-02_responsive-none-container-none

@@ -11,23 +11,7 @@
   skill: 01_intro
   slug: dat-01_intro-01_baisc_knowledge-container-none
   time: null
-  title: "M\xF3dulo 1: Todo sobre el desarrollo Web"
-  track: DAT
-  type: container
-- difficulty: null
-  directions: null
-  discord_URL: null
-  discord_channel_id: null
-  discord_message_id: null
-  lang: PT
-  learning: null
-  module: 01_baisc_knowledge
-  path: DAT/01_intro/01_baisc_knowledge/README.md
-  sequence: '01'
-  skill: 01_intro
-  slug: dat-01_intro-01_baisc_knowledge-container-none
-  time: null
-  title: "M\xF3dulo 1: Tudo sobre desenvolvimento Web"
+  title: "M\xF3dulo 1: Todo sobre el an\xE1lisis de datos"
   track: DAT
   type: container
 - difficulty: null
@@ -60,6 +44,54 @@
   slug: dat-01_intro-02_learning_bydoing-container-none
   time: null
   title: "M\xF3dulo 2"
+  track: DAT
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 01_categorial_vars
+  path: DAT/02_exploratory/01_categorial_vars/README.md
+  sequence: '01'
+  skill: 02_exploratory
+  slug: dat-02_exploratory-01_categorial_vars-container-none
+  time: null
+  title: "M\xF3dulo 1 : Variables categ\xF3ricas"
+  track: DAT
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 02_central_tendency
+  path: DAT/02_exploratory/02_central_tendency/README.md
+  sequence: '02'
+  skill: 02_exploratory
+  slug: dat-02_exploratory-02_central_tendency-container-none
+  time: null
+  title: "M\xF3dulo 2 : Medidas de Tendencia Central y Distribuci\xF3n de Datos"
+  track: DAT
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 03_time
+  path: DAT/02_exploratory/03_time/README.md
+  sequence: '03'
+  skill: 02_exploratory
+  slug: dat-02_exploratory-03_time-container-none
+  time: null
+  title: "M\xF3dulo 3 : An\xE1lisis del Comportamiento Temporal"
   track: DAT
   type: container
 - difficulty: null
@@ -107,23 +139,7 @@
   skill: 01_intro
   slug: dev-01_intro-02_learning_bydoing-container-none
   time: null
-  title: "M\xF3dulo 2"
-  track: DEV
-  type: container
-- difficulty: null
-  directions: null
-  discord_URL: null
-  discord_channel_id: null
-  discord_message_id: null
-  lang: PT
-  learning: null
-  module: 02_learning_bydoing
-  path: DEV/01_intro/02_learning_bydoing/README.md
-  sequence: '02'
-  skill: 01_intro
-  slug: dev-01_intro-02_learning_bydoing-container-none
-  time: null
-  title: "M\xF3dulo 2"
+  title: "M\xF3dulo 2 : Aprende haciendo"
   track: DEV
   type: container
 - difficulty: null
