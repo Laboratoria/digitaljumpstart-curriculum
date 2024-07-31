@@ -6,6 +6,22 @@
   lang: ES
   learning: null
   module: null
+  path: DAT/README.md
+  sequence: DA
+  skill: null
+  slug: dat-none-none-container-none
+  time: null
+  title: "An\xE1lisis de Datos"
+  track: DAT
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: null
   path: DAT/lea_dat_overview.md
   sequence: DA
   skill: null
