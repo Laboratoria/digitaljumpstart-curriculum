@@ -1,5 +1,5 @@
 # DEV : responsive design
 
-## Maquetación Web, básica
+## Módulo 3 : Diseño web responsivo
 
 bla bla bla
