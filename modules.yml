@@ -6,6 +6,70 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
+  path: DAT/01_intro/01_baisc_knowledge/README.md
+  sequence: '01'
+  skill: 01_intro
+  slug: dat-01_intro-01_baisc_knowledge-container-none
+  time: null
+  title: "M\xF3dulo 1: Todo sobre el desarrollo Web"
+  track: DAT
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: PT
+  learning: null
+  module: 01_baisc_knowledge
+  path: DAT/01_intro/01_baisc_knowledge/README.md
+  sequence: '01'
+  skill: 01_intro
+  slug: dat-01_intro-01_baisc_knowledge-container-none
+  time: null
+  title: "M\xF3dulo 1: Tudo sobre desenvolvimento Web"
+  track: DAT
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 02_learning_bydoing
+  path: DAT/01_intro/02_learning_bydoing/README.md
+  sequence: '02'
+  skill: 01_intro
+  slug: dat-01_intro-02_learning_bydoing-container-none
+  time: null
+  title: "M\xF3dulo 2"
+  track: DAT
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: PT
+  learning: null
+  module: 02_learning_bydoing
+  path: DAT/01_intro/02_learning_bydoing/README.md
+  sequence: '02'
+  skill: 01_intro
+  slug: dat-01_intro-02_learning_bydoing-container-none
+  time: null
+  title: "M\xF3dulo 2"
+  track: DAT
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/README.md
   sequence: '01'
   skill: 01_intro
@@ -70,10 +134,10 @@
   lang: ES
   learning: null
   module: 01_your_first_web
-  path: DEV/02_responsive/01_your_first_web/01_01_03_project_semantic_HTML.md
+  path: DEV/02_responsive/01_your_first_web/01_01_02_project_add_CSS_ES.md
   sequence: '01'
   skill: 02_responsive
-  slug: dev-02_responsive-01_your_first_web-container-none
+  slug: dev-02_responsive-01_your_first_web-container-es
   time: null
   title: Meta de Aprendizaje
   track: DEV
@@ -86,10 +150,10 @@
   lang: PT
   learning: null
   module: 01_your_first_web
-  path: DEV/02_responsive/01_your_first_web/01_01_03_project_semantic_HTML.md
+  path: DEV/02_responsive/01_your_first_web/01_01_02_project_add_CSS_ES.md
   sequence: '01'
   skill: 02_responsive
-  slug: dev-02_responsive-01_your_first_web-container-none
+  slug: dev-02_responsive-01_your_first_web-container-es
   time: null
   title: "Descripci\xF3n"
   track: DEV
@@ -102,10 +166,74 @@
   lang: ES
   learning: null
   module: 01_your_first_web
-  path: DEV/02_responsive/01_your_first_web/01_01_00_modulo_myFirstWeb.md
+  path: DEV/02_responsive/01_your_first_web/01_01_03_project_semantic_HTML_ES.md
   sequence: '01'
   skill: 02_responsive
-  slug: dev-02_responsive-01_your_first_web-container-none
+  slug: dev-02_responsive-01_your_first_web-container-es
+  time: null
+  title: Meta de Aprendizaje
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: PT
+  learning: null
+  module: 01_your_first_web
+  path: DEV/02_responsive/01_your_first_web/01_01_03_project_semantic_HTML_ES.md
+  sequence: '01'
+  skill: 02_responsive
+  slug: dev-02_responsive-01_your_first_web-container-es
+  time: null
+  title: "Descripci\xF3n"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 01_your_first_web
+  path: DEV/02_responsive/01_your_first_web/01_01_01_project_myFirstWeb_ES.md
+  sequence: '01'
+  skill: 02_responsive
+  slug: dev-02_responsive-01_your_first_web-container-es
+  time: null
+  title: Meta de Aprendizaje
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: PT
+  learning: null
+  module: 01_your_first_web
+  path: DEV/02_responsive/01_your_first_web/01_01_01_project_myFirstWeb_ES.md
+  sequence: '01'
+  skill: 02_responsive
+  slug: dev-02_responsive-01_your_first_web-container-es
+  time: null
+  title: "Descripci\xF3n"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 01_your_first_web
+  path: DEV/02_responsive/01_your_first_web/01_01_00_modulo_myFirstWeb_ES.md
+  sequence: '01'
+  skill: 02_responsive
+  slug: dev-02_responsive-01_your_first_web-container-es
   time: null
   title: "Introducci\xF3n"
   track: DEV
@@ -118,10 +246,10 @@
   lang: PT
   learning: null
   module: 01_your_first_web
-  path: DEV/02_responsive/01_your_first_web/01_01_00_modulo_myFirstWeb.md
+  path: DEV/02_responsive/01_your_first_web/01_01_00_modulo_myFirstWeb_ES.md
   sequence: '01'
   skill: 02_responsive
-  slug: dev-02_responsive-01_your_first_web-container-none
+  slug: dev-02_responsive-01_your_first_web-container-es
   time: null
   title: "Lo que aprender\xE1s"
   track: DEV
@@ -133,13 +261,13 @@
   discord_message_id: null
   lang: ES
   learning: null
-  module: 01_your_first_web
-  path: DEV/02_responsive/01_your_first_web/01_01_02_project_add_CSS.md
-  sequence: '01'
+  module: 02_your_first_form
+  path: DEV/02_responsive/02_your_first_form/01_02_00_modulo_form_ES.md
+  sequence: '02'
   skill: 02_responsive
-  slug: dev-02_responsive-01_your_first_web-container-none
+  slug: dev-02_responsive-02_your_first_form-container-es
   time: null
-  title: Meta de Aprendizaje
+  title: "Introducci\xF3n"
   track: DEV
   type: container
 - difficulty: null
@@ -149,45 +277,13 @@
   discord_message_id: null
   lang: PT
   learning: null
-  module: 01_your_first_web
-  path: DEV/02_responsive/01_your_first_web/01_01_02_project_add_CSS.md
-  sequence: '01'
+  module: 02_your_first_form
+  path: DEV/02_responsive/02_your_first_form/01_02_00_modulo_form_ES.md
+  sequence: '02'
   skill: 02_responsive
-  slug: dev-02_responsive-01_your_first_web-container-none
+  slug: dev-02_responsive-02_your_first_form-container-es
   time: null
-  title: "Descripci\xF3n"
-  track: DEV
-  type: container
-- difficulty: null
-  directions: null
-  discord_URL: null
-  discord_channel_id: null
-  discord_message_id: null
-  lang: ES
-  learning: null
-  module: 01_your_first_web
-  path: DEV/02_responsive/01_your_first_web/01_01_01_project_myFirstWeb.md
-  sequence: '01'
-  skill: 02_responsive
-  slug: dev-02_responsive-01_your_first_web-container-none
-  time: null
-  title: Meta de Aprendizaje
-  track: DEV
-  type: container
-- difficulty: null
-  directions: null
-  discord_URL: null
-  discord_channel_id: null
-  discord_message_id: null
-  lang: PT
-  learning: null
-  module: 01_your_first_web
-  path: DEV/02_responsive/01_your_first_web/01_01_01_project_myFirstWeb.md
-  sequence: '01'
-  skill: 02_responsive
-  slug: dev-02_responsive-01_your_first_web-container-none
-  time: null
-  title: "Descripci\xF3n"
+  title: "Lo que aprender\xE1s"
   track: DEV
   type: container
 - difficulty: null
@@ -198,10 +294,10 @@
   lang: ES
   learning: null
   module: 02_your_first_form
-  path: DEV/02_responsive/02_your_first_form/01_02_01_project_formulario.md
+  path: DEV/02_responsive/02_your_first_form/01_02_01_project_formulario_ES.md
   sequence: '02'
   skill: 02_responsive
-  slug: dev-02_responsive-02_your_first_form-container-none
+  slug: dev-02_responsive-02_your_first_form-container-es
   time: null
   title: Meta de Aprendizaje
   track: DEV
@@ -214,10 +310,234 @@
   lang: PT
   learning: null
   module: 02_your_first_form
-  path: DEV/02_responsive/02_your_first_form/01_02_01_project_formulario.md
+  path: DEV/02_responsive/02_your_first_form/01_02_01_project_formulario_ES.md
   sequence: '02'
   skill: 02_responsive
-  slug: dev-02_responsive-02_your_first_form-container-none
+  slug: dev-02_responsive-02_your_first_form-container-es
+  time: null
+  title: "Descripci\xF3n"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 03_responsive_design
+  path: DEV/02_responsive/03_responsive_design/01_03_01_project_responsive_mediaqueries_ES.md
+  sequence: '03'
+  skill: 02_responsive
+  slug: dev-02_responsive-03_responsive_design-container-es
+  time: null
+  title: Meta de Aprendizaje
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: PT
+  learning: null
+  module: 03_responsive_design
+  path: DEV/02_responsive/03_responsive_design/01_03_01_project_responsive_mediaqueries_ES.md
+  sequence: '03'
+  skill: 02_responsive
+  slug: dev-02_responsive-03_responsive_design-container-es
+  time: null
+  title: "Descripci\xF3n"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 03_responsive_design
+  path: DEV/02_responsive/03_responsive_design/01_03_02_project_responsive_flexbox_ES.md
+  sequence: '03'
+  skill: 02_responsive
+  slug: dev-02_responsive-03_responsive_design-container-es
+  time: null
+  title: Meta de Aprendizaje
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: PT
+  learning: null
+  module: 03_responsive_design
+  path: DEV/02_responsive/03_responsive_design/01_03_02_project_responsive_flexbox_ES.md
+  sequence: '03'
+  skill: 02_responsive
+  slug: dev-02_responsive-03_responsive_design-container-es
+  time: null
+  title: "Descripci\xF3n"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 03_responsive_design
+  path: DEV/02_responsive/03_responsive_design/01_03_00_modulo_responsive_ES.md
+  sequence: '03'
+  skill: 02_responsive
+  slug: dev-02_responsive-03_responsive_design-container-es
+  time: null
+  title: "Introducci\xF3n"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: PT
+  learning: null
+  module: 03_responsive_design
+  path: DEV/02_responsive/03_responsive_design/01_03_00_modulo_responsive_ES.md
+  sequence: '03'
+  skill: 02_responsive
+  slug: dev-02_responsive-03_responsive_design-container-es
+  time: null
+  title: "Lo que aprender\xE1s"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 04_practice_replicate
+  path: DEV/02_responsive/04_practice_replicate/01_04_00_modulo_replications_ES.md
+  sequence: '04'
+  skill: 02_responsive
+  slug: dev-02_responsive-04_practice_replicate-container-es
+  time: null
+  title: "Introducci\xF3n"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: PT
+  learning: null
+  module: 04_practice_replicate
+  path: DEV/02_responsive/04_practice_replicate/01_04_00_modulo_replications_ES.md
+  sequence: '04'
+  skill: 02_responsive
+  slug: dev-02_responsive-04_practice_replicate-container-es
+  time: null
+  title: "Lo que aprender\xE1s"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 04_practice_replicate
+  path: DEV/02_responsive/04_practice_replicate/01_04_01_project_replications_basic_ES.md
+  sequence: '04'
+  skill: 02_responsive
+  slug: dev-02_responsive-04_practice_replicate-container-es
+  time: null
+  title: Meta de Aprendizaje
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: PT
+  learning: null
+  module: 04_practice_replicate
+  path: DEV/02_responsive/04_practice_replicate/01_04_01_project_replications_basic_ES.md
+  sequence: '04'
+  skill: 02_responsive
+  slug: dev-02_responsive-04_practice_replicate-container-es
+  time: null
+  title: "Descripci\xF3n"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 04_practice_replicate
+  path: DEV/02_responsive/04_practice_replicate/01_04_02_project_replications_netflix_ES.md
+  sequence: '04'
+  skill: 02_responsive
+  slug: dev-02_responsive-04_practice_replicate-container-es
+  time: null
+  title: Meta de Aprendizaje
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: PT
+  learning: null
+  module: 04_practice_replicate
+  path: DEV/02_responsive/04_practice_replicate/01_04_02_project_replications_netflix_ES.md
+  sequence: '04'
+  skill: 02_responsive
+  slug: dev-02_responsive-04_practice_replicate-container-es
+  time: null
+  title: "Descripci\xF3n"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 04_practice_replicate
+  path: DEV/02_responsive/04_practice_replicate/01_04_03_project_replications_slack_ES.md
+  sequence: '04'
+  skill: 02_responsive
+  slug: dev-02_responsive-04_practice_replicate-container-es
+  time: null
+  title: Meta de Aprendizaje
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: PT
+  learning: null
+  module: 04_practice_replicate
+  path: DEV/02_responsive/04_practice_replicate/01_04_03_project_replications_slack_ES.md
+  sequence: '04'
+  skill: 02_responsive
+  slug: dev-02_responsive-04_practice_replicate-container-es
   time: null
   title: "Descripci\xF3n"
   track: DEV

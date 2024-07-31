@@ -6,6 +6,38 @@
   lang: ES
   learning: null
   module: null
+  path: DAT/01_intro/README.md
+  sequence: '01'
+  skill: 01_intro
+  slug: dat-01_intro-none-container-none
+  time: null
+  title: "Introducci\xF3n al Desarrollo Web"
+  track: DAT
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: PT
+  learning: null
+  module: null
+  path: DAT/01_intro/README.md
+  sequence: '01'
+  skill: 01_intro
+  slug: dat-01_intro-none-container-none
+  time: null
+  title: "Introdu\xE7\xE3o ao desenvolvimento web"
+  track: DAT
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: null
   path: DEV/01_intro/README.md
   sequence: '01'
   skill: 01_intro
@@ -28,6 +60,38 @@
   slug: dev-01_intro-none-container-none
   time: null
   title: "Introdu\xE7\xE3o ao desenvolvimento web"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: null
+  path: DEV/02_responsive/01_00_00_overview.md
+  sequence: '02'
+  skill: 02_responsive
+  slug: dev-02_responsive-none-container-none
+  time: null
+  title: "Introducci\xF3n"
+  track: DEV
+  type: container
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: PT
+  learning: null
+  module: null
+  path: DEV/02_responsive/01_00_00_overview.md
+  sequence: '02'
+  skill: 02_responsive
+  slug: dev-02_responsive-none-container-none
+  time: null
+  title: "Lo que aprender\xE1s:"
   track: DEV
   type: container
 - difficulty: null
