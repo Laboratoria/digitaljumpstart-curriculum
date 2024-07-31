@@ -12,7 +12,7 @@ def generate_markdown_list(root_dir):
     markdown_list = []
     keys = [
         "track", "skill", "module", "title", "type", "lang", "sequence",
-        "learning", "difficulty", "time", "path", "discord_URL", "discord_channel_id", "discord_message_id", "slug"
+        "learning", "difficulty", "time", "directions", "discord_URL", "discord_channel_id", "discord_message_id", "slug"
     ]
     config_data = {}
 
@@ -23,6 +23,7 @@ def generate_markdown_list(root_dir):
                 file_path = os.path.join(subdir, file)
                 config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
                 config_data[config_prefix] = get_config_content(file_path)
+                logging.debug(f"Config data for {config_prefix}: {config_data[config_prefix]}")
 
     # Cargar archivos markdown
     for subdir, _, files in os.walk(root_dir):
@@ -77,7 +78,7 @@ def generate_markdown_list(root_dir):
 
 def create_entry(track, skill, module, title, file_type, lang, sequence, additional_info, path, slug):
     discord_channel_id, discord_message_id = extract_discord_ids(additional_info.get("discord_URL"))
-    return {
+    entry = {
         "track": track,
         "skill": skill,
         "module": module,
@@ -95,6 +96,8 @@ def create_entry(track, skill, module, title, file_type, lang, sequence, additio
         "discord_message_id": discord_message_id,
         "slug": slug
     }
+    logging.debug(f"Created entry: {entry}")
+    return entry
 
 def extract_discord_ids(discord_url):
     if discord_url:
@@ -253,7 +256,7 @@ if __name__ == "__main__":
     
     logging.info(f"Total markdown files: {len(markdown_list)}")
     
-    save_to_csv(markdown_list, "markdown_files.csv")
+    save_to_csv(markdown_list, "json_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
     save_to_yaml(markdown_list, "markdown_files.yaml")
 
