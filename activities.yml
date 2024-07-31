@@ -3,6 +3,134 @@
   discord_URL: null
   discord_channel_id: null
   discord_message_id: null
+  lang: null
+  learning: null
+  module: 01_baisc_knowledge
+  path: DAT/01_intro/01_baisc_knowledge/activities/00_01_01_dat_activity_que_es.md
+  sequence: '00'
+  skill: 01_intro
+  slug: dat-01_intro-01_baisc_knowledge-activity-none
+  time: null
+  title: "\u25FEImportancia y aplicaciones del An\xE1lisis de Datos"
+  track: DAT
+  type: activity
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: null
+  learning: null
+  module: 01_baisc_knowledge
+  path: DAT/01_intro/01_baisc_knowledge/activities/00_01_05_dat_read_tools.md
+  sequence: '00'
+  skill: 01_intro
+  slug: dat-01_intro-01_baisc_knowledge-activity-none
+  time: null
+  title: "Herramientas de An\xE1lisis de Aatos M\xE1s Comunes"
+  track: DAT
+  type: activity
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: null
+  learning: null
+  module: 01_baisc_knowledge
+  path: DAT/01_intro/01_baisc_knowledge/activities/00_01_03_dat_activity_ai.md
+  sequence: '00'
+  skill: 01_intro
+  slug: dat-01_intro-01_baisc_knowledge-activity-none
+  time: null
+  title: "\u25FEEl rol de las personas en la era de la IA para el An\xE1lisis de Datos"
+  track: DAT
+  type: activity
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: null
+  learning: null
+  module: 01_baisc_knowledge
+  path: DAT/01_intro/01_baisc_knowledge/activities/00_01_00_dat_all_about.md
+  sequence: '00'
+  skill: 01_intro
+  slug: dat-01_intro-01_baisc_knowledge-activity-none
+  time: null
+  title: "\u25FC\uFE0FM\xF3dulo 1: \"Todo sobre\"\" el An\xE1lisis de Datos"
+  track: DAT
+  type: activity
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: null
+  learning: null
+  module: 01_baisc_knowledge
+  path: DAT/01_intro/01_baisc_knowledge/activities/00_01_04_dat_activity_ai_que_es.md
+  sequence: '00'
+  skill: 01_intro
+  slug: dat-01_intro-01_baisc_knowledge-activity-none
+  time: null
+  title: "\u25FEQu\xE9 es la IA"
+  track: DAT
+  type: activity
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: null
+  learning: null
+  module: 02_learning_bydoing
+  path: DAT/01_intro/02_learning_bydoing/activities/00_02_01_dat_myfirst.md
+  sequence: '00'
+  skill: 01_intro
+  slug: dat-01_intro-02_learning_bydoing-activity-none
+  time: null
+  title: "\u25FEReto 2.1 : Tablas din\xE1micas"
+  track: DAT
+  type: activity
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: null
+  learning: null
+  module: 02_learning_bydoing
+  path: DAT/01_intro/02_learning_bydoing/activities/00_02_02_dat_close.md
+  sequence: '00'
+  skill: 01_intro
+  slug: dat-01_intro-02_learning_bydoing-activity-none
+  time: null
+  title: Reflexiona y comenta
+  track: DAT
+  type: activity
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: null
+  learning: null
+  module: 02_learning_bydoing
+  path: DAT/01_intro/02_learning_bydoing/activities/00_02_00_dat_practice.md
+  sequence: '00'
+  skill: 01_intro
+  slug: dat-01_intro-02_learning_bydoing-activity-none
+  time: null
+  title: "\u25FC\uFE0FAprende haciendo"
+  track: DAT
+  type: activity
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
   lang: ES
   learning: null
   module: 01_baisc_knowledge
@@ -30,20 +158,36 @@
   title: "Herramientas y tecnolog\xEDas b\xE1sicas del Desarrollo Web"
   track: DEV
   type: activity
-- difficulty: 1
-  directions: 'Estas son las instruccoines bla bla bla '
-  discord_URL: https://discord.com/channels/1209273049304666113/1210625595638284328
-  discord_channel_id: '1209273049304666113'
-  discord_message_id: '1210625595638284328'
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
   lang: ES
-  learning: 1
+  learning: null
   module: 01_baisc_knowledge
   path: DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web_ES.md
   sequence: '00'
   skill: 01_intro
   slug: dev-01_intro-01_baisc_knowledge-activity-es
-  time: 1
+  time: null
   title: "\U0001F539Entendiendo Internet y la Web"
+  track: DEV
+  type: activity
+- difficulty: null
+  directions: null
+  discord_URL: null
+  discord_channel_id: null
+  discord_message_id: null
+  lang: ES
+  learning: null
+  module: 01_baisc_knowledge
+  path: DEV/01_intro/01_baisc_knowledge/activities/00_01_00_all_about_ES.md
+  sequence: '00'
+  skill: 01_intro
+  slug: dev-01_intro-01_baisc_knowledge-activity-es
+  time: null
+  title: "M\xF3dulo 1: Todo sobre el desarrollo Web"
   track: DEV
   type: activity
 - difficulty: null
@@ -86,12 +230,12 @@
   lang: ES
   learning: null
   module: 01_baisc_knowledge
-  path: DEV/01_intro/01_baisc_knowledge/activities/01_01_00_all_about_ES.md
-  sequence: '01'
+  path: DEV/01_intro/01_baisc_knowledge/activities/README_ES.md
+  sequence: RE
   skill: 01_intro
   slug: dev-01_intro-01_baisc_knowledge-activity-es
   time: null
-  title: "M\xF3dulo 1: Todo sobre el desarrollo Web"
+  title: 'DEV : introduction : basic knowledge : activities'
   track: DEV
   type: activity
 - difficulty: null
