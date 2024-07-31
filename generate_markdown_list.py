@@ -3,7 +3,7 @@ import json
 import csv
 import yaml
 import logging
-import requests  # Asegúrate de tener la librería requests instalada
+import requests
 
 # Configuración del logger
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
