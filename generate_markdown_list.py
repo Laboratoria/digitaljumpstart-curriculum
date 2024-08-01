@@ -34,27 +34,15 @@ def generate_markdown_list(root_dir):
                 config_file = os.path.splitext(file_path.replace("_ES", "").replace("_PT", ""))[0] + "_CONFIG.json"
                 if file == "README.md":
                     titles = get_title(file_path)
-                    if len(titles) == 2:
-                        for title, lang in zip(titles, ["ES", "PT"]):
-                            markdown_dict = {
-                                "track": track,
-                                "skill": skill,
-                                "module": module,
-                                "title": title,
-                                "type": file_type,
-                                "path": file_path[2:],
-                                "lang": lang
-                            }
-                            markdown_list.append(markdown_dict)
-                    else:
+                    for title_dict in titles:
                         markdown_dict = {
                             "track": track,
                             "skill": skill,
                             "module": module,
-                            "title": titles[0],
+                            "title": title_dict["title"],
                             "type": file_type,
                             "path": file_path[2:],
-                            "lang": lang
+                            "lang": title_dict["lang"]
                         }
                         markdown_list.append(markdown_dict)
                 else:
@@ -62,7 +50,7 @@ def generate_markdown_list(root_dir):
                         "track": track,
                         "skill": skill,
                         "module": module,
-                        "title": get_title(file_path)[0],
+                        "title": get_title(file_path)[0]["title"],
                         "type": file_type,
                         "path": file_path[2:],
                         "lang": lang
@@ -86,10 +74,13 @@ def get_file_type(file_path, subdir, file):
 
 def get_title(file_path):
     with open(file_path, 'r') as f:
-        for line in f:
-            if line.startswith("# "):
-                return line[2:].strip()
-    return None
+        content = f.read()
+        titles = [line.strip() for line in content.split('##') if line.strip()]
+        titles_dict = []
+        for i, title in enumerate(titles[1:]):  # Ignoramos el título principal
+            lang = "ES" if i == 0 else "PT"
+            titles_dict.append({"title": title, "lang": lang})
+        return titles_dict
 
 def save_to_csv(data, filename):
     fieldnames = ["track", "skill", "module", "title", "type", "lang", "path", "difficulty", "learning", "time", "directions", "discord_URL"]
