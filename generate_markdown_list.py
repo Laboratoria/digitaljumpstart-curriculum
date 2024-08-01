@@ -3,18 +3,22 @@ import json
 import re
 import csv
 
+def clean_control_characters(json_str):
+    # Eliminar caracteres de control que no son válidos en JSON
+    return re.sub(r'[\x00-\x1F\x7F]', '', json_str)
+
 def escape_json_config(config_file):
     try:
         with open(config_file, 'r', encoding='utf-8') as f:
-            config = json.load(f)
-            # Se permite que "directions" contenga emojis y caracteres especiales sin modificarlos
+            content = f.read()
+            clean_content = clean_control_characters(content)
+            config = json.loads(clean_content)
         with open(config_file, 'w', encoding='utf-8') as f:
             json.dump(config, f, indent=2, ensure_ascii=False)
     except json.JSONDecodeError as e:
         print(f"Error al procesar el archivo {config_file}: {e}")
     except Exception as e:
         print(f"Error inesperado al procesar el archivo {config_file}: {e}")
-
 
 def process_config_files(root_dir):
     for subdir, _, files in os.walk(root_dir):
