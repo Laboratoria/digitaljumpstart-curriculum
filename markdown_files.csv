@@ -1,7 +1,9 @@
 track,skill,module,title,type,lang,path,difficulty,learning,time,directions,discord_URL,discord_channel_id,discord_message_id,slug
 ,,,"Definiciones, estructura, etc:
 El script python ....
-La estructura de carpetas y filenames....",program,ES,README.md,,,,,,,,-README
+La estructura de carpetas y filenames.... 
+
+asd",program,ES,README.md,,,,,,,,-README
 DEV,DEV,,Desarrollo Web,program,ES,DEV/README.md,,,,,,,,DEV-README.md-README
 DEV,DEV,,"Desenvolvimento Web
 
