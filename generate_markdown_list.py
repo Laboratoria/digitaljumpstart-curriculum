@@ -6,10 +6,9 @@ def escape_json_config(config_file):
     with open(config_file, 'r') as f:
         content = f.read()
         config = json.loads(content)
-        if isinstance(config['directions'], str):
-            config['directions'] = config['directions'].replace('\\', '\\\\')
-        if isinstance(config['discord_URL'], str):
-            config['discord_URL'] = config['discord_URL'].replace('\\', '\\\\')
+        for key in ['directions', 'discord_URL']:
+            if isinstance(config[key], str):
+                config[key] = config[key].replace('\\', '\\\\')
     with open(config_file, 'w') as f:
         json.dump(config, f, indent=2, ensure_ascii=False)
 
@@ -30,20 +29,19 @@ def generate_markdown_list(root_dir):
                 file_type = get_file_type(file_path, subdir, file)
                 config_file = os.path.splitext(file_path.replace("_ES", "").replace("_PT", ""))[0] + "_CONFIG.json"
                 if os.path.exists(config_file):
-                    print(f"Procesando archivo: {config_file}")  
+                    print(f"Procesando archivo: {config_file}")
                     with open(config_file, 'r') as f:
                         config = json.load(f)
                         additional_info = {}
                         if "directions" in config and isinstance(config["directions"], dict):
                             if file.endswith("_ES.md"):
                                 additional_info["directions"] = config["directions"].get("ES", "")
-                                additional_info["discord_URL"] = config["discord_URL"].get("ES", "")
                             elif file.endswith("_PT.md"):
                                 additional_info["directions"] = config["directions"].get("PT", "")
-                                additional_info["discord_URL"] = config["discord_URL"].get("PT", "")
-                        else:
-                            additional_info["directions"] = config.get("directions", "")
-                            additional_info["discord_URL"] = config.get("discord_URL", "")
+
+                        if "discord_URL" in config and isinstance(config["discord_URL"], dict):
+                            additional_info["discord_URL"] = config["discord_URL"].get("ES" if file.endswith("_ES.md") else "PT", "")
+
                         additional_info["difficulty"] = config.get("difficulty")
                         additional_info["learning"] = config.get("learning")
                         additional_info["time"] = config.get("time")
