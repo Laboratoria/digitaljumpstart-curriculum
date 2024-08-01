@@ -7,7 +7,7 @@ def escape_json_config(config_file):
         config = json.loads(f.read(), strict=False)
     config['directions'] = config['directions'].replace('\\', '\\\\')
     with open(config_file, 'w') as f:
-        json.dump(config, f, indent=2, ensure_ascii=False, escape_forward_slashes=False)
+        json.dump(config, f, indent=2, ensure_ascii=False)
 
 def process_config_files(root_dir):
     for subdir, _, files in os.walk(root_dir):
