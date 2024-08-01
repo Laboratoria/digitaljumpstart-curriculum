@@ -40,7 +40,13 @@ def generate_markdown_list(root_dir):
                 track, skill, module = get_levels(file_path, root_dir)
                 file_type = get_file_type(file_path, subdir, file)
                 lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
+                
                 titles = get_title(file_path, file_type)
+                
+                # Obtener la ruta del archivo de configuración correspondiente
+                config_file = os.path.splitext(file_path.replace("_ES", "").replace("_PT", ""))[0] + "_CONFIG.json"
+                config_data = read_config_data(config_file)
+                
                 if file_type == "container" and titles:
                     for title_dict in titles:
                         markdown_dict = {
@@ -50,7 +56,12 @@ def generate_markdown_list(root_dir):
                             "title": title_dict["title"],
                             "type": file_type,
                             "path": file_path[2:],
-                            "lang": title_dict["lang"]
+                            "lang": title_dict["lang"],
+                            "difficulty": config_data.get("difficulty", ""),
+                            "learning": config_data.get("learning", ""),
+                            "time": config_data.get("time", ""),
+                            "directions": config_data.get("directions", {}).get(title_dict["lang"], ""),
+                            "discord_URL": config_data.get("discord_URL", {}).get(title_dict["lang"], "")
                         }
                         markdown_list.append(markdown_dict)
                 else:
@@ -62,7 +73,12 @@ def generate_markdown_list(root_dir):
                             "title": titles[0]["title"],
                             "type": file_type,
                             "path": file_path[2:],
-                            "lang": lang if lang else titles[0]["lang"]
+                            "lang": lang if lang else titles[0]["lang"],
+                            "difficulty": config_data.get("difficulty", ""),
+                            "learning": config_data.get("learning", ""),
+                            "time": config_data.get("time", ""),
+                            "directions": config_data.get("directions", {}).get(lang, ""),
+                            "discord_URL": config_data.get("discord_URL", {}).get(lang, "")
                         }
                         markdown_list.append(markdown_dict)
                     else:
@@ -73,10 +89,24 @@ def generate_markdown_list(root_dir):
                             "title": "Sin título",
                             "type": file_type,
                             "path": file_path[2:],
-                            "lang": lang
+                            "lang": lang,
+                            "difficulty": config_data.get("difficulty", ""),
+                            "learning": config_data.get("learning", ""),
+                            "time": config_data.get("time", ""),
+                            "directions": config_data.get("directions", {}).get(lang, ""),
+                            "discord_URL": config_data.get("discord_URL", {}).get(lang, "")
                         }
                         markdown_list.append(markdown_dict)
     return markdown_list
+
+def read_config_data(config_file):
+    try:
+        with open(config_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (json.JSONDecodeError, FileNotFoundError):
+        return {}
+
+
 
 def get_levels(file_path, root_dir):
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
