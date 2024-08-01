@@ -55,82 +55,46 @@ def generate_markdown_list(root_dir):
 
                 slug = f"{track or ''}{'-' + skill if skill else ''}{'-' + module if module else ''}-{os.path.splitext(file)[0]}"
 
-                if file_type == "container" and titles:
-                    for title_dict in titles:
-                        markdown_dict = {
-                            "track": track,
-                            "skill": skill,
-                            "module": module,
-                            "title": title_dict["title"],
-                            "type": "module",
-                            "path": file_path[2:],
-                            "lang": title_dict["lang"],
-                            "difficulty": config_data.get("difficulty", ""),
-                            "learning": config_data.get("learning", ""),
-                            "time": config_data.get("time", ""),
-                            "directions": config_data.get("directions", {}).get(title_dict["lang"], ""),
-                            "discord_URL": discord_url,
-                            "discord_channel_id": discord_channel_id,
-                            "discord_message_id": discord_message_id,
-                            "slug": slug
-                        }
-                        # Ajustar el tipo y niveles según el archivo README.md
-                        path_parts = file_path.split(os.sep)
-                        if "README.md" in file_path:
-                            if len(path_parts) == 2:
-                                markdown_dict["track"] = None
-                                markdown_dict["skill"] = None
-                                markdown_dict["module"] = None
-                                markdown_dict["type"] = "program"
-                            elif len(path_parts) == 3:
-                                markdown_dict["type"] = "program"
-                                markdown_dict["skill"] = path_parts[1]
-                                markdown_dict["module"] = None
-                            elif len(path_parts) == 4:
-                                markdown_dict["type"] = "skill"
-                                markdown_dict["skill"] = path_parts[1]
-                                markdown_dict["module"] = path_parts[2]
-                        markdown_list.append(markdown_dict)
+                if titles:
+                    markdown_dict = {
+                        "track": track,
+                        "skill": skill,
+                        "module": module,
+                        "title": titles[0]["title"],
+                        "type": file_type,
+                        "path": file_path[2:],
+                        "lang": lang if lang else titles[0]["lang"],
+                        "difficulty": config_data.get("difficulty", ""),
+                        "learning": config_data.get("learning", ""),
+                        "time": config_data.get("time", ""),
+                        "directions": config_data.get("directions", {}).get(lang, ""),
+                        "discord_URL": discord_url,
+                        "discord_channel_id": discord_channel_id,
+                        "discord_message_id": discord_message_id,
+                        "slug": slug
+                    }
+                    markdown_list.append(markdown_dict)
                 else:
-                    if titles:
-                        markdown_dict = {
-                            "track": track,
-                            "skill": skill,
-                            "module": module,
-                            "title": titles[0]["title"],
-                            "type": file_type,
-                            "path": file_path[2:],
-                            "lang": lang if lang else titles[0]["lang"],
-                            "difficulty": config_data.get("difficulty", ""),
-                            "learning": config_data.get("learning", ""),
-                            "time": config_data.get("time", ""),
-                            "directions": config_data.get("directions", {}).get(lang, ""),
-                            "discord_URL": discord_url,
-                            "discord_channel_id": discord_channel_id,
-                            "discord_message_id": discord_message_id,
-                            "slug": slug
-                        }
-                        markdown_list.append(markdown_dict)
-                    else:
-                        markdown_dict = {
-                            "track": track,
-                            "skill": skill,
-                            "module": module,
-                            "title": "Sin título",
-                            "type": file_type,
-                            "path": file_path[2:],
-                            "lang": lang,
-                            "difficulty": config_data.get("difficulty", ""),
-                            "learning": config_data.get("learning", ""),
-                            "time": config_data.get("time", ""),
-                            "directions": config_data.get("directions", {}).get(lang, ""),
-                            "discord_URL": discord_url,
-                            "discord_channel_id": discord_channel_id,
-                            "discord_message_id": discord_message_id,
-                            "slug": slug
-                        }
-                        markdown_list.append(markdown_dict)
+                    markdown_dict = {
+                        "track": track,
+                        "skill": skill,
+                        "module": module,
+                        "title": "Sin título",
+                        "type": file_type,
+                        "path": file_path[2:],
+                        "lang": lang,
+                        "difficulty": config_data.get("difficulty", ""),
+                        "learning": config_data.get("learning", ""),
+                        "time": config_data.get("time", ""),
+                        "directions": config_data.get("directions", {}).get(lang, ""),
+                        "discord_URL": discord_url,
+                        "discord_channel_id": discord_channel_id,
+                        "discord_message_id": discord_message_id,
+                        "slug": slug
+                    }
+                    markdown_list.append(markdown_dict)
     return markdown_list
+
 
 def get_levels(file_path, root_dir):
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
@@ -143,29 +107,21 @@ def get_levels(file_path, root_dir):
     return None, None, None
 
 def get_file_type(file_path, subdir, file):
-    if "activities" in subdir and file.endswith(".md") and not file.endswith("README.md"):
+    if "activities" in subdir and file.endswith(".md") and not file.endswith("README_ES.md") and not file.endswith("README_PT.md"):
         return "activity"
-    if "topics" in subdir and file.endswith(".md") and not file.endswith("README.md"):
+    if "topics" in subdir and file.endswith(".md") and not file.endswith("README_ES.md") and not file.endswith("README_PT.md"):
         return "topic"
-    if file.endswith("README.md"):
+    if file.endswith("README_ES.md") or file.endswith("README_PT.md"):
         return "container"
 
 def get_title(file_path, file_type):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
-        if file_type == "container":  # Para README.md
-            titles = [line.strip() for line in content.split('##') if line.strip()]
-            titles_dict = []
-            for i, title in enumerate(titles[1:]):  # Ignoramos el título principal
-                lang = "ES" if i == 0 else "PT"
-                titles_dict.append({"title": title, "lang": lang})
-            return titles_dict
-        else:  # Para "activity" y "topic"
-            title_match = re.search(r'#\s*(.+)', content)
-            if title_match:
-                return [{"title": title_match.group(1).strip(), "lang": "ES"}]  # Asumimos que es en español si no se especifica
-            else:
-                return [{"title": "Sin título", "lang": "ES"}]  # Retornar un título por defecto si no hay títulos
+        title_match = re.search(r'#\s*(.+)', content)  # Busca el primer h1
+        if title_match:
+            return [{"title": title_match.group(1).strip(), "lang": "ES" if file_path.endswith("_ES.md") else "PT"}]
+        else:
+            return [{"title": "Sin título", "lang": "ES" if file_path.endswith("_ES.md") else "PT"}]
 
 def read_config_data(config_file):
     try:
