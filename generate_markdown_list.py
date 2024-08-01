@@ -63,6 +63,17 @@ def generate_markdown_list(root_dir):
                             "directions": config_data.get("directions", {}).get(title_dict["lang"], ""),
                             "discord_URL": config_data.get("discord_URL", {}).get(title_dict["lang"], "")
                         }
+                        # Ajustar el tipo y niveles según el archivo README.md
+                        if "README.md" in file_path:
+                            if len(file_path.split(os.sep)) == 2:
+                                markdown_dict["type"] = "program"
+                                markdown_dict["skill"] = None
+                                markdown_dict["module"] = None
+                            elif len(file_path.split(os.sep)) == 3:
+                                markdown_dict["type"] = "skill"
+                                markdown_dict["module"] = None
+                            elif len(file_path.split(os.sep)) == 4:
+                                markdown_dict["type"] = "module"
                         markdown_list.append(markdown_dict)
                 else:
                     if titles:
@@ -99,6 +110,7 @@ def generate_markdown_list(root_dir):
                         markdown_list.append(markdown_dict)
     return markdown_list
 
+
 def read_config_data(config_file):
     try:
         with open(config_file, 'r', encoding='utf-8') as f:
@@ -106,13 +118,16 @@ def read_config_data(config_file):
     except (json.JSONDecodeError, FileNotFoundError):
         return {}
 
-
-
 def get_levels(file_path, root_dir):
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
-    if len(parts) < 3:
-        return None, None, None
-    return parts[0], parts[1], parts[2]
+    if len(parts) == 1:  # Primer nivel
+        return parts[0], None, None
+    elif len(parts) == 2:  # Segundo nivel
+        return parts[0], parts[1], None
+    elif len(parts) >= 3:  # Tercer nivel o más profundo
+        return parts[0], parts[1], parts[2]
+    return None, None, None
+
 
 def get_file_type(file_path, subdir, file):
     if "activities" in subdir and file.endswith(".md") and not file.endswith("README.md"):
