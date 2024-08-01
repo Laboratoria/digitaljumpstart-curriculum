@@ -4,18 +4,23 @@ import csv
 
 def escape_json_config(config_file):
     try:
-        with open(config_file, 'r') as f:
+        with open(config_file, 'r', encoding='utf-8') as f:
             content = f.read()
             config = json.loads(content)
-            if isinstance(config['directions'], str):
-                config['directions'] = ''.join(char for char in config['directions'] if ord(char) >= 32)
-        with open(config_file, 'w') as f:
+            # Se permite que "directions" contenga emojis y caracteres especiales.
+            if 'directions' in config:
+                if isinstance(config['directions'], dict):
+                    for key in config['directions']:
+                        if isinstance(config['directions'][key], str):
+                            config['directions'][key] = ''.join(char for char in config['directions'][key] if ord(char) >= 32 or ord(char) in (9, 10, 13))
+                elif isinstance(config['directions'], str):
+                    config['directions'] = ''.join(char for char in config['directions'] if ord(char) >= 32 or ord(char) in (9, 10, 13))
+        with open(config_file, 'w', encoding='utf-8') as f:
             json.dump(config, f, indent=2, ensure_ascii=False)
-            if 'directions' in config and isinstance(config['directions'], str):
-                f.write('\n')
-                f.write(json.dumps({'directions': config['directions']}, ensure_ascii=False))
     except json.JSONDecodeError as e:
-        print(f"Error en archivo {config_file}: {e}")
+        print(f"Error al procesar el archivo {config_file}: {e}")
+    except Exception as e:
+        print(f"Error inesperado al procesar el archivo {config_file}: {e}")
 
 def process_config_files(root_dir):
     for subdir, _, files in os.walk(root_dir):
@@ -33,7 +38,6 @@ def generate_markdown_list(root_dir):
                 track, skill, module = get_levels(file_path, root_dir)
                 file_type = get_file_type(file_path, subdir, file)
                 lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
-                config_file = os.path.splitext(file_path.replace("_ES", "").replace("_PT", ""))[0] + "_CONFIG.json"
                 if file == "README.md":
                     titles = get_title(file_path)
                     for title_dict in titles:
@@ -48,16 +52,18 @@ def generate_markdown_list(root_dir):
                         }
                         markdown_list.append(markdown_dict)
                 else:
-                    markdown_dict = {
-                        "track": track,
-                        "skill": skill,
-                        "module": module,
-                        "title": get_title(file_path)[0]["title"],
-                        "type": file_type,
-                        "path": file_path[2:],
-                        "lang": lang
-                    }
-                    markdown_list.append(markdown_dict)
+                    titles = get_title(file_path)
+                    if titles:
+                        markdown_dict = {
+                            "track": track,
+                            "skill": skill,
+                            "module": module,
+                            "title": titles[0]["title"],
+                            "type": file_type,
+                            "path": file_path[2:],
+                            "lang": lang
+                        }
+                        markdown_list.append(markdown_dict)
     return markdown_list
 
 def get_levels(file_path, root_dir):
@@ -75,7 +81,7 @@ def get_file_type(file_path, subdir, file):
         return "container"
 
 def get_title(file_path):
-    with open(file_path, 'r') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
         titles = [line.strip() for line in content.split('##') if line.strip()]
         titles_dict = []
@@ -86,14 +92,14 @@ def get_title(file_path):
 
 def save_to_csv(data, filename):
     fieldnames = ["track", "skill", "module", "title", "type", "lang", "path", "difficulty", "learning", "time", "directions", "discord_URL"]
-    with open(filename, 'w', newline='') as output_file:
+    with open(filename, 'w', newline='', encoding='utf-8') as output_file:
         dict_writer = csv.DictWriter(output_file, fieldnames)
         dict_writer.writeheader()
         dict_writer.writerows(data)
 
 def save_to_json(data, filename):
-    with open(filename, 'w') as f:
-        json.dump(data, f, indent=2)
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
     root_dir = "."
