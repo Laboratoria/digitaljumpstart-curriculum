@@ -81,7 +81,6 @@ bla bla bla",container,ES,DEV/01_intro/02_learning_bydoing/README.md,,,,,
 DEV,01_intro,02_learning_bydoing,"Meta de Aprendizaje
 
 Aprenderás lo básico sobre el lenguaje `HTML` que es el lenguaje fundamental para estructurar contenido en la web, y a utilizar un editor de código para crear una página web simple.",activity,ES,DEV/01_intro/02_learning_bydoing/activities/00_02_01_myfirst_ES.md,,,,,
-DEV,01_intro,02_learning_bydoing,,activity,ES,DEV/01_intro/02_learning_bydoing/activities/00_02_00_practice_ES.md,,,,,
 DEV,01_intro,02_learning_bydoing,"1. Integración
 
 ¿De qué manera crees que las habilidades de desarrollo web podrían integrarse a tu vida personal y/o profesional?",activity,ES,DEV/01_intro/02_learning_bydoing/activities/00_02_02_close_ES.md,,,,,
@@ -91,7 +90,6 @@ DEV,01_intro,01_baisc_knowledge,"Módulo 1: Tudo sobre desenvolvimento Web
 bla bla bla",container,PT,DEV/01_intro/01_baisc_knowledge/README.md,,,,,
 DEV,01_intro,01_baisc_knowledge,Subtit 1,topic,PT,DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_PT.md,,,,,
 DEV,01_intro,01_baisc_knowledge,Subtit 1,topic,ES,DEV/01_intro/01_baisc_knowledge/topics/02_topic_abc_ES.md,,,,,
-DEV,01_intro,01_baisc_knowledge,,topic,ES,DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md,,,,,
 DEV,01_intro,01_baisc_knowledge,Tópicos,container,ES,DEV/01_intro/01_baisc_knowledge/topics/README.md,,,,,
 DEV,01_intro,01_baisc_knowledge,"Tópicos
 
@@ -109,7 +107,6 @@ HTML es el lenguaje estándar para crear páginas web. Define la estructura y el
 DEV,01_intro,01_baisc_knowledge,"Introducción
 
 Antes de comenzar, es crucial que tengas una claridad básica de qué es y cómo funciona la Internet y la World Wide Web (WWW), que a menudo, se usan indistintamente, pero son cosas distintas y funciones diferenciadas.",activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web_ES.md,,,,,
-DEV,01_intro,01_baisc_knowledge,,activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_00_all_about_ES.md,,,,,
 DEV,01_intro,01_baisc_knowledge,"Introducción
 
 ¿Por qué es importante entender la diferencia entre front-end y back-end en el desarrollo web? ¿Cómo impactan estas áreas en la experiencia del usuario y la funcionalidad de los sitios web? Estas preguntas nos invitan a explorar más profundamente cada campo y su importancia en el mundo digital.",activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev_ES.md,,,,,
@@ -170,7 +167,6 @@ DAT,01_intro,02_learning_bydoing,Módulo 2,container,ES,DAT/01_intro/02_learning
 DAT,01_intro,02_learning_bydoing,"Módulo 2
 
 bla bla bla",container,PT,DAT/01_intro/02_learning_bydoing/README.md,,,,,
-DAT,01_intro,02_learning_bydoing,,activity,ES,DAT/01_intro/02_learning_bydoing/activities/00_02_00_dat_practice_ES.md,,,,,
 DAT,01_intro,02_learning_bydoing,"Meta de Aprendizaje
 
 Utilizar tablas dinámicas de **Hojas de Cálculo de Google** para resumir datos a través de las variables categóricas.",activity,ES,DAT/01_intro/02_learning_bydoing/activities/00_02_01_dat_myfirst_ES.md,,,,,
@@ -182,7 +178,6 @@ DAT,01_intro,01_baisc_knowledge,"Módulo 1: Todo sobre el análisis de datos
 bla bla bla",container,ES,DAT/01_intro/01_baisc_knowledge/README.md,,,,,
 DAT,01_intro,01_baisc_knowledge,Subtit 1,topic,PT,DAT/01_intro/01_baisc_knowledge/topics/01_topic_xyz_PT.md,,,,,
 DAT,01_intro,01_baisc_knowledge,Subtit 1,topic,ES,DAT/01_intro/01_baisc_knowledge/topics/02_topic_abc_ES.md,,,,,
-DAT,01_intro,01_baisc_knowledge,,topic,ES,DAT/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md,,,,,
 DAT,01_intro,01_baisc_knowledge,Tópicos,container,ES,DAT/01_intro/01_baisc_knowledge/topics/README.md,,,,,
 DAT,01_intro,01_baisc_knowledge,"Tópicos
 
@@ -226,4 +221,3 @@ Es importante distinguir la IA en general de una subcategoría específica conoc
 La actual revolución introducida por los LLMs se explica en parte por su gran capacidad para ""interpretar"" el lenguaje humano natural y desarrollar un discurso coherente, aunque no necesariamente exacto. Esta capacidad, combinada con otras funcionalidades como el análisis de datos y la generación de código de *software*, abre una puerta a infinitas posibilidades futuras.
 
 Si bien esperamos que puedas aprender sobre varios aspectos de la IA, nos enfocaremos primordialemnte en le IA generativa (generación de texto, imágenes, sonido, etc.)",activity,ES,DAT/01_intro/01_baisc_knowledge/activities/00_01_04_dat_activity_ai_que_es_ES.md,,,,,
-DAT,01_intro,01_baisc_knowledge,,activity,ES,DAT/01_intro/01_baisc_knowledge/activities/00_01_00_dat_all_about_ES.md,,,,,

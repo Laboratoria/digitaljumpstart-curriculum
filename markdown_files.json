@@ -237,15 +237,6 @@
     "track": "DEV",
     "skill": "01_intro",
     "module": "02_learning_bydoing",
-    "title": "",
-    "type": "activity",
-    "path": "DEV/01_intro/02_learning_bydoing/activities/00_02_00_practice_ES.md",
-    "lang": "ES"
-  },
-  {
-    "track": "DEV",
-    "skill": "01_intro",
-    "module": "02_learning_bydoing",
     "title": "1. Integración\n\n¿De qué manera crees que las habilidades de desarrollo web podrían integrarse a tu vida personal y/o profesional?",
     "type": "activity",
     "path": "DEV/01_intro/02_learning_bydoing/activities/00_02_02_close_ES.md",
@@ -291,15 +282,6 @@
     "track": "DEV",
     "skill": "01_intro",
     "module": "01_baisc_knowledge",
-    "title": "",
-    "type": "topic",
-    "path": "DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md",
-    "lang": "ES"
-  },
-  {
-    "track": "DEV",
-    "skill": "01_intro",
-    "module": "01_baisc_knowledge",
     "title": "Tópicos",
     "type": "container",
     "path": "DEV/01_intro/01_baisc_knowledge/topics/README.md",
@@ -339,15 +321,6 @@
     "title": "Introducción\n\nAntes de comenzar, es crucial que tengas una claridad básica de qué es y cómo funciona la Internet y la World Wide Web (WWW), que a menudo, se usan indistintamente, pero son cosas distintas y funciones diferenciadas.",
     "type": "activity",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web_ES.md",
-    "lang": "ES"
-  },
-  {
-    "track": "DEV",
-    "skill": "01_intro",
-    "module": "01_baisc_knowledge",
-    "title": "",
-    "type": "activity",
-    "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_00_all_about_ES.md",
     "lang": "ES"
   },
   {
@@ -534,15 +507,6 @@
     "track": "DAT",
     "skill": "01_intro",
     "module": "02_learning_bydoing",
-    "title": "",
-    "type": "activity",
-    "path": "DAT/01_intro/02_learning_bydoing/activities/00_02_00_dat_practice_ES.md",
-    "lang": "ES"
-  },
-  {
-    "track": "DAT",
-    "skill": "01_intro",
-    "module": "02_learning_bydoing",
     "title": "Meta de Aprendizaje\n\nUtilizar tablas dinámicas de **Hojas de Cálculo de Google** para resumir datos a través de las variables categóricas.",
     "type": "activity",
     "path": "DAT/01_intro/02_learning_bydoing/activities/00_02_01_dat_myfirst_ES.md",
@@ -582,15 +546,6 @@
     "title": "Subtit 1",
     "type": "topic",
     "path": "DAT/01_intro/01_baisc_knowledge/topics/02_topic_abc_ES.md",
-    "lang": "ES"
-  },
-  {
-    "track": "DAT",
-    "skill": "01_intro",
-    "module": "01_baisc_knowledge",
-    "title": "",
-    "type": "topic",
-    "path": "DAT/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md",
     "lang": "ES"
   },
   {
@@ -663,15 +618,6 @@
     "title": "Introducción\n\nLa Inteligencia Artificial (IA) es una rama de la informática que se dedica al desarrollo de sistemas capaces de realizar tareas que normalmente requieren inteligencia humana. Esto incluye habilidades como el reconocimiento de voz, la toma de decisiones, la resolución de problemas, la comprensión del lenguaje natural y la percepción visual.\n\nEs importante distinguir la IA en general de una subcategoría específica conocida como IA generativa, que incluye modelos de lenguaje grande (LLM) como ChatGPT, Gemini o Perplexity, etc. Mientras que la IA abarca un amplio espectro de tecnologías y aplicaciones, la IA generativa se centra en la generación de contenido como texto, imágenes y sonidos, basándose en patrones aprendidos de grandes cantidades de datos.\n\nLa actual revolución introducida por los LLMs se explica en parte por su gran capacidad para \"interpretar\" el lenguaje humano natural y desarrollar un discurso coherente, aunque no necesariamente exacto. Esta capacidad, combinada con otras funcionalidades como el análisis de datos y la generación de código de *software*, abre una puerta a infinitas posibilidades futuras.\n\nSi bien esperamos que puedas aprender sobre varios aspectos de la IA, nos enfocaremos primordialemnte en le IA generativa (generación de texto, imágenes, sonido, etc.)",
     "type": "activity",
     "path": "DAT/01_intro/01_baisc_knowledge/activities/00_01_04_dat_activity_ai_que_es_ES.md",
-    "lang": "ES"
-  },
-  {
-    "track": "DAT",
-    "skill": "01_intro",
-    "module": "01_baisc_knowledge",
-    "title": "",
-    "type": "activity",
-    "path": "DAT/01_intro/01_baisc_knowledge/activities/00_01_00_dat_all_about_ES.md",
     "lang": "ES"
   }
 ]
