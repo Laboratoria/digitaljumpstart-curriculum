@@ -6,10 +6,3 @@ El script python ....
 La estructura de carpetas y filenames.... 
 
 etc........
-etc
-etc
-etc
-etc
-etc
-etc
-edtc
