@@ -1,17 +1,18 @@
 import os
 import json
+import json5
 import csv
 
 def escape_json_config(config_file):
     try:
         with open(config_file, 'r', encoding='utf-8') as f:
-            config = json.load(f)
+            config = json5.load(f)
             # Asegurar que "directions" sea una cadena y que se escriba correctamente
             if 'directions' in config and isinstance(config['directions'], str):
                 config['directions'] = config['directions']  # Permitir todos los caracteres incluyendo emojis
         with open(config_file, 'w', encoding='utf-8') as f:
             json.dump(config, f, indent=2, ensure_ascii=False)
-    except json.JSONDecodeError as e:
+    except json5.JSONDecodeError as e:
         print(f"Error al procesar el archivo {config_file}: {e}")
     except Exception as e:
         print(f"Error inesperado al procesar el archivo {config_file}: {e}")
