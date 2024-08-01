@@ -29,13 +29,19 @@ def generate_markdown_list(root_dir):
                 if os.path.exists(config_file):
                     with open(config_file, 'r') as f:
                         config = json.load(f)
-                        additional_info = {
-                            "difficulty": config.get("difficulty"),
-                            "learning": config.get("learning"),
-                            "time": config.get("time"),
-                            "directions": config.get("directions"),
-                            "discord_URL": config.get("discord_URL")
-                        }
+                        additional_info = {}
+                        if file.endswith("_ES.md"):
+                            additional_info["directions"] = config["directions"]["ES"]
+                            additional_info["discord_URL"] = config["discord_URL"]["ES"]
+                        elif file.endswith("_PT.md"):
+                            additional_info["directions"] = config["directions"]["PT"]
+                            additional_info["discord_URL"] = config["discord_URL"]["PT"]
+                        else:
+                            additional_info["directions"] = ""
+                            additional_info["discord_URL"] = ""
+                        additional_info["difficulty"] = config.get("difficulty")
+                        additional_info["learning"] = config.get("learning")
+                        additional_info["time"] = config.get("time")
                 else:
                     additional_info = {}
                 if file_type == "container":
