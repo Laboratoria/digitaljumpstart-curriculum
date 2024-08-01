@@ -201,4 +201,6 @@ def send_data_to_endpoint(url, data):
         if response.status_code == 200:
             logging.info("Data successfully sent to endpoint.")
         else:
-            logging.error(f"Failed to send data to endpoint. Status code: {response.status_code}, Response: {
+            logging.error(f"Failed to send data to endpoint. Status code: {response.status_code}, Response: {response.text}")
+    except Exception as e:
+        logging.error(f"Error sending data to endpoint: {e}")
