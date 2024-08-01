@@ -1,4 +1,0 @@
-track,skill,module,title,type,lang,sequence,learning,difficulty,time,directions,path,discord_URL,discord_channel_id,discord_message_id,slug
-DAT,,,Análisis de Datos,container,ES,DA,,,,,DAT/README.md,,,,dat-none-none-container-none
-DEV,,,Desarrollo Web,container,ES,DE,,,,,DEV/README.md,,,,dev-none-none-container-none
-DEV,,,Desenvolvimento Web,container,PT,DE,,,,,DEV/README.md,,,,dev-none-none-container-none
