@@ -23,7 +23,6 @@ def escape_json_config(config_file):
     except Exception as e:
         print(f"Error inesperado al procesar el archivo {config_file}: {e}")
 
-
 def process_config_files(root_dir):
     for subdir, _, files in os.walk(root_dir):
         for file in files:
@@ -37,7 +36,7 @@ def generate_markdown_list(root_dir):
         for file in files:
             if file.endswith(".md"):
                 file_path = os.path.join(subdir, file)
-                track, program, skill = get_levels(file_path, root_dir)
+                track, skill, module = get_levels(file_path, root_dir)
                 file_type = get_file_type(file_path, subdir, file)
                 lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
                 
@@ -51,9 +50,8 @@ def generate_markdown_list(root_dir):
                     for title_dict in titles:
                         markdown_dict = {
                             "track": track,
-                            "program": program,
                             "skill": skill,
-                            "module": None,
+                            "module": module,
                             "title": title_dict["title"],
                             "type": "module",
                             "path": file_path[2:],
@@ -68,26 +66,25 @@ def generate_markdown_list(root_dir):
                         path_parts = file_path.split(os.sep)
                         if "README.md" in file_path:
                             if len(path_parts) == 2:
-                                markdown_dict["type"] = "program"
-                                markdown_dict["program"] = track
+                                markdown_dict["track"] = None
                                 markdown_dict["skill"] = None
+                                markdown_dict["module"] = None
+                                markdown_dict["type"] = "program"
                             elif len(path_parts) == 3:
-                                markdown_dict["type"] = "skill"
-                                markdown_dict["program"] = track
-                                markdown_dict["skill"] = program
+                                markdown_dict["type"] = "program"
+                                markdown_dict["skill"] = path_parts[1]
+                                markdown_dict["module"] = None
                             elif len(path_parts) == 4:
-                                markdown_dict["type"] = "module"
-                                markdown_dict["program"] = track
-                                markdown_dict["skill"] = program
-                                markdown_dict["module"] = skill
+                                markdown_dict["type"] = "skill"
+                                markdown_dict["skill"] = path_parts[1]
+                                markdown_dict["module"] = path_parts[2]
                         markdown_list.append(markdown_dict)
                 else:
                     if titles:
                         markdown_dict = {
                             "track": track,
-                            "program": program,
                             "skill": skill,
-                            "module": None,
+                            "module": module,
                             "title": titles[0]["title"],
                             "type": file_type,
                             "path": file_path[2:],
@@ -102,9 +99,8 @@ def generate_markdown_list(root_dir):
                     else:
                         markdown_dict = {
                             "track": track,
-                            "program": program,
                             "skill": skill,
-                            "module": None,
+                            "module": module,
                             "title": "Sin título",
                             "type": file_type,
                             "path": file_path[2:],
@@ -118,18 +114,10 @@ def generate_markdown_list(root_dir):
                         markdown_list.append(markdown_dict)
     return markdown_list
 
-
-def read_config_data(config_file):
-    try:
-        with open(config_file, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except (json.JSONDecodeError, FileNotFoundError):
-        return {}
-
 def get_levels(file_path, root_dir):
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
     if len(parts) == 1:  # Primer nivel
-        return parts[0], None, None
+        return None, None, None
     elif len(parts) == 2:  # Segundo nivel
         return parts[0], None, parts[1]
     elif len(parts) >= 3:  # Tercer nivel o más profundo
@@ -161,18 +149,23 @@ def get_title(file_path, file_type):
             else:
                 return [{"title": "Sin título", "lang": "ES"}]  # Retornar un título por defecto si no hay títulos
 
+def read_config_data(config_file):
+    try:
+        with open(config_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (json.JSONDecodeError, FileNotFoundError):
+        return {}
+
 def save_to_csv(data, filename):
-    fieldnames = ["track", "program", "skill", "module", "title", "type", "lang", "path", "difficulty", "learning", "time", "directions", "discord_URL"]
+    fieldnames = ["track", "skill", "module", "title", "type", "lang", "path", "difficulty", "learning", "time", "directions", "discord_URL"]
     with open(filename, 'w', newline='', encoding='utf-8') as output_file:
         dict_writer = csv.DictWriter(output_file, fieldnames)
         dict_writer.writeheader()
         dict_writer.writerows(data)
 
-
 def save_to_json(data, filename):
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-
 
 if __name__ == "__main__":
     root_dir = "."
@@ -180,3 +173,5 @@ if __name__ == "__main__":
     markdown_list = generate_markdown_list(root_dir)
     save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
+
+                            
