@@ -5,8 +5,9 @@ import csv
 def escape_json_config(config_file):
     with open(config_file, 'r') as f:
         config = json.load(f)
+    config['directions'] = config['directions'].replace('\\', '\\\\')
     with open(config_file, 'w') as f:
-        json.dump(config, f, indent=2, ensure_ascii=False)
+        json.dump(config, f, indent=2, ensure_ascii=False, escape_forward_slashes=False)
 
 def process_config_files(root_dir):
     for subdir, _, files in os.walk(root_dir):
