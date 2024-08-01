@@ -30,6 +30,7 @@ def generate_markdown_list(root_dir):
                 file_type = get_file_type(file_path, subdir, file)
                 config_file = os.path.splitext(file_path.replace("_ES", "").replace("_PT", ""))[0] + "_CONFIG.json"
                 if os.path.exists(config_file):
+                    print(f"Procesando archivo: {config_file}")  
                     with open(config_file, 'r') as f:
                         config = json.load(f)
                         additional_info = {}
