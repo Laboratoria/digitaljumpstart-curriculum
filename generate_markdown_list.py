@@ -30,15 +30,16 @@ def generate_markdown_list(root_dir):
                     with open(config_file, 'r') as f:
                         config = json.load(f)
                         additional_info = {}
-                        if file.endswith("_ES.md"):
-                            additional_info["directions"] = config["directions"]["ES"]
-                            additional_info["discord_URL"] = config["discord_URL"]["ES"]
-                        elif file.endswith("_PT.md"):
-                            additional_info["directions"] = config["directions"]["PT"]
-                            additional_info["discord_URL"] = config["discord_URL"]["PT"]
+                        if "directions" in config and isinstance(config["directions"], dict):
+                            if file.endswith("_ES.md"):
+                                additional_info["directions"] = config["directions"].get("ES", "")
+                                additional_info["discord_URL"] = config["discord_URL"].get("ES", "")
+                            elif file.endswith("_PT.md"):
+                                additional_info["directions"] = config["directions"].get("PT", "")
+                                additional_info["discord_URL"] = config["discord_URL"].get("PT", "")
                         else:
-                            additional_info["directions"] = ""
-                            additional_info["discord_URL"] = ""
+                            additional_info["directions"] = config.get("directions", "")
+                            additional_info["discord_URL"] = config.get("discord_URL", "")
                         additional_info["difficulty"] = config.get("difficulty")
                         additional_info["learning"] = config.get("learning")
                         additional_info["time"] = config.get("time")
