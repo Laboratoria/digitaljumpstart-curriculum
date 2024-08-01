@@ -40,8 +40,8 @@ def generate_markdown_list(root_dir):
                 track, skill, module = get_levels(file_path, root_dir)
                 file_type = get_file_type(file_path, subdir, file)
                 lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
-                if file == "README.md":
-                    titles = get_title(file_path)
+                titles = get_title(file_path)
+                if titles:
                     for title_dict in titles:
                         markdown_dict = {
                             "track": track,
@@ -58,13 +58,14 @@ def generate_markdown_list(root_dir):
                         "track": track,
                         "skill": skill,
                         "module": module,
-                        "title": get_title(file_path)[0]["title"],
+                        "title": "Sin título",
                         "type": file_type,
                         "path": file_path[2:],
                         "lang": lang
                     }
                     markdown_list.append(markdown_dict)
     return markdown_list
+
 
 def get_levels(file_path, root_dir):
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
@@ -85,12 +86,13 @@ def get_title(file_path):
         content = f.read()
         titles = [line.strip() for line in content.split('##') if line.strip()]
         if not titles:
-            return [{"title": "Sin título", "lang": "ES"}]
+            return [{"title": "Sin título", "lang": "ES"}]  # Retornar un título por defecto si no hay títulos
         titles_dict = []
         for i, title in enumerate(titles[1:]):  # Ignoramos el título principal
             lang = "ES" if i == 0 else "PT"
             titles_dict.append({"title": title, "lang": lang})
         return titles_dict
+
 
 def save_to_csv(data, filename):
     fieldnames = ["track", "skill", "module", "title", "type", "lang", "path", "difficulty", "learning", "time", "directions", "discord_URL"]
