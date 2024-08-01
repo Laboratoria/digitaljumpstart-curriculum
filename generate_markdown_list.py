@@ -5,16 +5,10 @@ import csv
 def escape_json_config(config_file):
     try:
         with open(config_file, 'r', encoding='utf-8') as f:
-            content = f.read()
-            config = json.loads(content)
-            # Se permite que "directions" contenga emojis y caracteres especiales.
-            if 'directions' in config:
-                if isinstance(config['directions'], dict):
-                    for key in config['directions']:
-                        if isinstance(config['directions'][key], str):
-                            config['directions'][key] = ''.join(char for char in config['directions'][key] if ord(char) >= 32 or ord(char) in (9, 10, 13))
-                elif isinstance(config['directions'], str):
-                    config['directions'] = ''.join(char for char in config['directions'] if ord(char) >= 32 or ord(char) in (9, 10, 13))
+            config = json.load(f)
+            # Asegurar que "directions" sea una cadena y que se escriba correctamente
+            if 'directions' in config and isinstance(config['directions'], str):
+                config['directions'] = config['directions']  # Permitir todos los caracteres incluyendo emojis
         with open(config_file, 'w', encoding='utf-8') as f:
             json.dump(config, f, indent=2, ensure_ascii=False)
     except json.JSONDecodeError as e:
@@ -52,18 +46,16 @@ def generate_markdown_list(root_dir):
                         }
                         markdown_list.append(markdown_dict)
                 else:
-                    titles = get_title(file_path)
-                    if titles:
-                        markdown_dict = {
-                            "track": track,
-                            "skill": skill,
-                            "module": module,
-                            "title": titles[0]["title"],
-                            "type": file_type,
-                            "path": file_path[2:],
-                            "lang": lang
-                        }
-                        markdown_list.append(markdown_dict)
+                    markdown_dict = {
+                        "track": track,
+                        "skill": skill,
+                        "module": module,
+                        "title": get_title(file_path)[0]["title"],
+                        "type": file_type,
+                        "path": file_path[2:],
+                        "lang": lang
+                    }
+                    markdown_list.append(markdown_dict)
     return markdown_list
 
 def get_levels(file_path, root_dir):
