@@ -77,9 +77,9 @@ def get_title(file_path):
     return None
 
 def save_to_csv(data, filename):
-    keys = data[0].keys()
+    fieldnames = ["track", "skill", "module", "title", "type", "path", "difficulty", "learning", "time", "directions", "discord_URL"]
     with open(filename, 'w', newline='') as output_file:
-        dict_writer = csv.DictWriter(output_file, keys)
+        dict_writer = csv.DictWriter(output_file, fieldnames)
         dict_writer.writeheader()
         dict_writer.writerows(data)
 
