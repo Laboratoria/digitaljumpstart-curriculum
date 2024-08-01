@@ -4,7 +4,10 @@ import re
 import csv
 
 def clean_control_characters(json_str):
-    # Eliminar caracteres de control que no son válidos en JSON
+    # Reemplazar caracteres de escape incorrectos
+    json_str = json_str.replace('\\_', '_')
+    # Eliminar caracteres de control y manejar caracteres de escape inválidos
+    json_str = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', json_str)  # Escapar correctamente las barras invertidas
     return re.sub(r'[\x00-\x1F\x7F]', '', json_str)
 
 def escape_json_config(config_file):
@@ -19,6 +22,7 @@ def escape_json_config(config_file):
         print(f"Error al procesar el archivo {config_file}: {e}")
     except Exception as e:
         print(f"Error inesperado al procesar el archivo {config_file}: {e}")
+
 
 def process_config_files(root_dir):
     for subdir, _, files in os.walk(root_dir):
@@ -80,12 +84,13 @@ def get_title(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
         titles = [line.strip() for line in content.split('##') if line.strip()]
+        if not titles:
+            return [{"title": "Sin título", "lang": "ES"}]
         titles_dict = []
         for i, title in enumerate(titles[1:]):  # Ignoramos el título principal
             lang = "ES" if i == 0 else "PT"
             titles_dict.append({"title": title, "lang": lang})
         return titles_dict
-
 
 def save_to_csv(data, filename):
     fieldnames = ["track", "skill", "module", "title", "type", "lang", "path", "difficulty", "learning", "time", "directions", "discord_URL"]
