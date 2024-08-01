@@ -167,11 +167,31 @@ def save_to_json(data, filename):
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
+def send_data_to_endpoint(url, data):
+    try:
+        headers = {'Content-Type': 'application/json'}
+        response = requests.post(url, json=data, headers=headers)
+        if response.status_code == 200:
+            logging.info("Data successfully sent to endpoint.")
+        else:
+            logging.error(f"Failed to send data to endpoint. Status code: {response.status_code}, Response: {response.text}")
+    except Exception as e:
+        logging.error(f"Error sending data to endpoint: {e}")
+
 if __name__ == "__main__":
     root_dir = "."
     process_config_files(root_dir)
     markdown_list = generate_markdown_list(root_dir)
     save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
+
+    # Enviar datos al endpoint
+    endpoint_url = "https://us-central1-laboratoria-prologue.cloudfunctions.net/dj-curriculum-get" 
+    if endpoint_url:
+        send_data_to_endpoint(endpoint_url, markdown_list)
+    else:
+        logging.error("ENDPOINT_URL variable not set.")
+
+    logging.info("All files have been saved and data sent to endpoint.")
 
                             
