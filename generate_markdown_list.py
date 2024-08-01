@@ -6,7 +6,7 @@ import csv
 def escape_json_config(config_file):
     try:
         with open(config_file, 'r', encoding='utf-8') as f:
-            config = json.load(f, errors='replace')
+            config = json.load(f)
             # Asegurar que "directions" sea una cadena y que se escriba correctamente
             if 'directions' in config and isinstance(config['directions'], str):
                 config['directions'] = re.sub(r'[\U00010000-\U0010ffff]', lambda m: '&#' + str(ord(m.group())) + ';', config['directions'])
