@@ -1,28 +1,52 @@
 import os
 import json
 import csv
-import yaml
+import re
 import logging
 import requests
 
 # Configuración del logger
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
+def clean_json_content(content):
+    # Eliminar caracteres de control
+    content = re.sub(r'[\x00-\x1f\x7f]', '', content)
+    # Corregir escapes inválidos
+    content = content.replace('\\', '\\\\')
+    return content
+
+def process_json_file(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+            cleaned_content = clean_json_content(content)
+            config = json.loads(cleaned_content)  # Verificar que el JSON sea válido
+            logging.debug(f"Processed JSON content for {file_path}: {config}")
+        
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(config, f, ensure_ascii=False, indent=2)
+            logging.info(f"Successfully cleaned and wrote JSON content to {file_path}")
+        
+        return config
+    except (json.JSONDecodeError, Exception) as e:
+        logging.error(f"Error processing JSON from {file_path}: {e}")
+    return {}
+
 def generate_markdown_list(root_dir):
     markdown_list = []
     keys = [
         "track", "skill", "module", "title", "type", "lang", "sequence",
-        "learning", "difficulty", "time", "directions", "discord_URL", "discord_channel_id", "discord_message_id", "slug"
+        "learning", "difficulty", "time", "directions", "path", "discord_URL", "discord_channel_id", "discord_message_id", "slug"
     ]
     config_data = {}
 
-    # Cargar archivos de configuración
+    # Cargar y limpiar archivos de configuración
     for subdir, _, files in os.walk(root_dir):
         for file in files:
-            if file.endswith("_CONFIG.json") and "activities" in subdir:
+            if file.endswith("_CONFIG.json"):
                 file_path = os.path.join(subdir, file)
                 config_prefix = os.path.splitext(file_path)[0].rsplit('_', 1)[0]
-                config_data[config_prefix] = get_config_content(file_path)
+                config_data[config_prefix] = process_json_file(file_path)
                 logging.debug(f"Config data for {config_prefix}: {config_data[config_prefix]}")
 
     # Cargar archivos markdown
@@ -163,61 +187,6 @@ def get_file_type(file_path, subdir, file):
         return "container"
     return "container"
 
-def get_config_content(file_path):
-    try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            config = json.load(f)
-            logging.debug(f"Config content for {file_path}: {config}")
-            return {
-                "difficulty": config.get("difficulty"),
-                "learning": config.get("learning"),
-                "time": config.get("time"),
-                "directions": config.get("directions"),
-                "discord_URL": config.get("discord_URL", {}).get("ES"),
-                "discord_URL_PT": config.get("discord_URL", {}).get("PT")
-            }
-    except (json.JSONDecodeError, Exception) as e:
-        logging.error(f"Error reading JSON from {file_path}: {e}")
-    return {}
-
-def filter_programs(data):
-    programs = [entry for entry in data if entry['type'] == 'container' and entry['track'] is not None and entry['skill'] is None and entry['module'] is None]
-    logging.info(f"Programs filtered: {programs}")
-    return programs
-
-def filter_skills(data):
-    skills = [entry for entry in data if entry['type'] == 'container' and entry['track'] is not None and entry['skill'] is not None and entry['module'] is None]
-    logging.info(f"Skills filtered: {skills}")
-    return skills
-
-def filter_modules(data):
-    modules = [
-        entry for entry in data
-        if entry['type'] == 'container' 
-        and entry['track'] is not None 
-        and entry['skill'] is not None 
-        and entry['module'] is not None 
-        and not ("activities" in entry['path'] or "topics" in entry['path'])
-    ]
-    logging.info(f"Modules filtered: {modules}")
-    return modules
-
-def filter_activities(data):
-    activities = [
-        entry for entry in data
-        if entry['type'] == 'activity' 
-    ]
-    logging.info(f"Activities filtered: {activities}")
-    return activities
-
-def filter_topics(data):
-    topics = [
-        entry for entry in data
-        if entry['type'] == 'topic' 
-    ]
-    logging.info(f"Topics filtered: {topics}")
-    return topics
-
 def save_to_csv(data, filename):
     if not data:
         logging.warning(f"No data to write to {filename}")
@@ -232,11 +201,6 @@ def save_to_csv(data, filename):
 def save_to_json(data, filename):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=2)
-    logging.info(f"Data saved to {filename}")
-
-def save_to_yaml(data, filename):
-    with open(filename, 'w') as f:
-        yaml.dump(data, f, default_flow_style=False)
     logging.info(f"Data saved to {filename}")
 
 def send_data_to_endpoint(url, data):
@@ -256,39 +220,33 @@ if __name__ == "__main__":
     
     logging.info(f"Total markdown files: {len(markdown_list)}")
     
-    save_to_csv(markdown_list, "json_files.csv")
+    save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
-    save_to_yaml(markdown_list, "markdown_files.yaml")
 
     # Filtrar y guardar programas
     programs = filter_programs(markdown_list)
     save_to_csv(programs, "programs.csv")
     save_to_json(programs, "programs.json")
-    save_to_yaml(programs, "programs.yml")
 
     # Filtrar y guardar skills
     skills = filter_skills(markdown_list)
     save_to_csv(skills, "skills.csv")
     save_to_json(skills, "skills.json")
-    save_to_yaml(skills, "skills.yml")
 
     # Filtrar y guardar modulos
     modules = filter_modules(markdown_list)
     save_to_csv(modules, "modules.csv")
     save_to_json(modules, "modules.json")
-    save_to_yaml(modules, "modules.yml")
 
     # Filtrar y guardar actividades
     activities = filter_activities(markdown_list)
     save_to_csv(activities, "activities.csv")
     save_to_json(activities, "activities.json")
-    save_to_yaml(activities, "activities.yml")
 
     # Filtrar y guardar tópicos
     topics = filter_topics(markdown_list)
     save_to_csv(topics, "topics.csv")
     save_to_json(topics, "topics.json")
-    save_to_yaml(topics, "topics.yml")
 
     # Enviar datos al endpoint
     endpoint_url = "https://us-central1-laboratoria-prologue.cloudfunctions.net/dj-curriculum-get" 
