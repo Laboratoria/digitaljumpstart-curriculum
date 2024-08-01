@@ -9,11 +9,13 @@ def escape_json_config(config_file):
             config = json.loads(content)
             if isinstance(config['directions'], str):
                 config['directions'] = config['directions'].replace('\\', '\\\\')
+                config['directions'] = config['directions'].replace('\n', '\\n')
+                config['directions'] = config['directions'].replace('\t', '\\t')
         with open(config_file, 'w') as f:
-            json.dump(config, f, indent=2, errors='replace')
+            json.dump(config, f, indent=2, ensure_ascii=False)
             if 'directions' in config and isinstance(config['directions'], str):
                 f.write('\n')
-                f.write(json.dumps({'directions': config['directions']}, ensure_ascii=False, errors='replace'))
+                f.write(json.dumps({'directions': config['directions']}, ensure_ascii=False))
     except json.JSONDecodeError as e:
         print(f"Error en archivo {config_file}: {e}")
 
