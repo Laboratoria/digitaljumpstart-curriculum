@@ -6,7 +6,7 @@ import logging
 import requests
 
 # Configuración del logger
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.DEBUG, format=''%(asctime)s - %(levelname)s - %(message)s'')
 
 def clean_json_content(content):
     # Eliminar caracteres de control
@@ -186,6 +186,44 @@ def get_file_type(file_path, subdir, file):
     if file.endswith("README.md"):
         return "container"
     return "container"
+
+def filter_programs(data):
+    programs = [entry for entry in data if entry['type'] == 'container' and entry['track'] is not None and entry['skill'] is None and entry['module'] is None]
+    logging.info(f"Programs filtered: {programs}")
+    return programs
+
+def filter_skills(data):
+    skills = [entry for entry in data if entry['type'] == 'container' and entry['track'] is not None and entry['skill'] is not None and entry['module'] is None]
+    logging.info(f"Skills filtered: {skills}")
+    return skills
+
+def filter_modules(data):
+    modules = [
+        entry for entry in data
+        if entry['type'] == 'container' 
+        and entry['track'] is not None 
+        and entry['skill'] is not None 
+        and entry['module'] is not None 
+        and not ("activities" in entry['path'] or "topics" in entry['path'])
+    ]
+    logging.info(f"Modules filtered: {modules}")
+    return modules
+
+def filter_activities(data):
+    activities = [
+        entry for entry in data
+        if entry['type'] == 'activity' 
+    ]
+    logging.info(f"Activities filtered: {activities}")
+    return activities
+
+def filter_topics(data):
+    topics = [
+        entry for entry in data
+        if entry['type'] == 'topic' 
+    ]
+    logging.info(f"Topics filtered: {topics}")
+    return topics
 
 def save_to_csv(data, filename):
     if not data:
