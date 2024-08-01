@@ -6,7 +6,7 @@ import logging
 import requests
 
 # Configuración del logger
-logging.basicConfig(level=logging.DEBUG, format=''%(asctime)s - %(levelname)s - %(message)s'')
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def clean_json_content(content):
     # Eliminar caracteres de control
