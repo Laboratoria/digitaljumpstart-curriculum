@@ -2,11 +2,21 @@ import os
 import json
 import csv
 
-def process_json_file(file_path):
-    with open(file_path, 'r') as f:
-        content = f.read()
-        config = json.loads(content)
-    return config
+def escape_json_config(config_file):
+    with open(config_file, 'r') as f:
+        config = json.load(f)
+    
+    config['directions'] = config['directions'].replace('\\', '\\\\').replace('"', '\\"')
+    
+    with open(config_file, 'w') as f:
+        json.dump(config, f, indent=2)
+
+def process_config_files(root_dir):
+    for subdir, _, files in os.walk(root_dir):
+        for file in files:
+            if file.endswith('_CONFIG.json'):
+                config_file = os.path.join(subdir, file)
+                escape_json_config(config_file)
 
 def generate_markdown_list(root_dir):
     markdown_list = []
@@ -78,6 +88,7 @@ def save_to_json(data, filename):
 
 if __name__ == "__main__":
     root_dir = "."
+    process_config_files(root_dir)
     markdown_list = generate_markdown_list(root_dir)
     save_to_csv(markdown_list, "markdown_files.csv")
     save_to_json(markdown_list, "markdown_files.json")
