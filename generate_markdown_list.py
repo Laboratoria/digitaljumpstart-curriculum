@@ -2,13 +2,20 @@ import os
 import json
 import csv
 
+def clean_json_string(s):
+    return ''.join(c for c in s if ord(c) >= 32 or c in '\n\r\t')
+
 def escape_json_config(config_file):
     try:
         with open(config_file, 'r', encoding='utf-8') as f:
-            config = json.load(f)
+            content = f.read()
+            cleaned_content = clean_json_string(content)
+            config = json.loads(cleaned_content)
             # Asegurar que "directions" sea una cadena y que se escriba correctamente
-            if 'directions' in config and isinstance(config['directions'], str):
-                config['directions'] = config['directions']  # Permitir todos los caracteres incluyendo emojis
+            if 'directions' in config:
+                for lang, direction in config['directions'].items():
+                    if isinstance(direction, str):
+                        config['directions'][lang] = direction  # Permitir todos los caracteres incluyendo emojis
         with open(config_file, 'w', encoding='utf-8') as f:
             json.dump(config, f, indent=2, ensure_ascii=False)
     except json.JSONDecodeError as e:
@@ -46,11 +53,16 @@ def generate_markdown_list(root_dir):
                         }
                         markdown_list.append(markdown_dict)
                 else:
+                    titles = get_title(file_path)
+                    if titles:
+                        title = titles[0]["title"]
+                    else:
+                        title = ""
                     markdown_dict = {
                         "track": track,
                         "skill": skill,
                         "module": module,
-                        "title": get_title(file_path)[0]["title"],
+                        "title": title,
                         "type": file_type,
                         "path": file_path[2:],
                         "lang": lang
