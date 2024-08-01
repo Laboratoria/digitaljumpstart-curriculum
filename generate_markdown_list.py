@@ -2,6 +2,8 @@ import os
 import json
 import re
 import csv
+import requests
+import logging
 
 def clean_control_characters(json_str):
     # Reemplazar caracteres de escape incorrectos
