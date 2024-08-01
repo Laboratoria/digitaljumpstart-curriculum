@@ -34,21 +34,21 @@ def duplicate_readme_files(root_dir):
     for subdir, _, files in os.walk(root_dir):
         for file in files:
             if file == "README.md":
-                readme_path = os.path.join(subdir, file)
-                readme_es_path = os.path.join(subdir, "README_ES.md")
-                readme_pt_path = os.path.join(subdir, "README_PT.md")
-                with open(readme_path, 'r', encoding='utf-8') as f:
+                file_path = os.path.join(subdir, file)
+                with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
-                with open(readme_es_path, 'w', encoding='utf-8') as f:
+                es_file_path = os.path.join(subdir, "README_ES.md")
+                pt_file_path = os.path.join(subdir, "README_PT.md")
+                with open(es_file_path, 'w', encoding='utf-8') as f:
                     f.write(content)
-                with open(readme_pt_path, 'w', encoding='utf-8') as f:
+                with open(pt_file_path, 'w', encoding='utf-8') as f:
                     f.write(content)
 
 def generate_markdown_list(root_dir):
     markdown_list = []
     for subdir, _, files in os.walk(root_dir):
         for file in files:
-            if file.endswith(".md") and not file.startswith("README"):
+            if file.endswith(".md"):
                 file_path = os.path.join(subdir, file)
                 track, skill, module = get_levels(file_path, root_dir)
                 file_type = get_file_type(file_path, subdir, file)
@@ -143,11 +143,11 @@ def generate_markdown_list(root_dir):
 
 def get_levels(file_path, root_dir):
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
-    if len(parts) == 1:
+    if len(parts) == 1:  # Primer nivel
         return None, None, None
-    elif len(parts) == 2:
+    elif len(parts) == 2:  # Segundo nivel
         return parts[0], None, parts[1]
-    elif len(parts) >= 3:
+    elif len(parts) >= 3:  # Tercer nivel o más profundo
         return parts[0], parts[1], parts[2]
     return None, None, None
 
@@ -162,19 +162,19 @@ def get_file_type(file_path, subdir, file):
 def get_title(file_path, file_type):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
-        if file_type == "container":
+        if file_type == "container":  # Para README.md
             titles = [line.strip() for line in content.split('##') if line.strip()]
             titles_dict = []
-            for i, title in enumerate(titles[1:]):
+            for i, title in enumerate(titles[1:]):  # Ignoramos el título principal
                 lang = "ES" if i == 0 else "PT"
                 titles_dict.append({"title": title, "lang": lang})
             return titles_dict
-        else:
+        else:  # Para "activity" y "topic"
             title_match = re.search(r'#\s*(.+)', content)
             if title_match:
-                return [{"title": title_match.group(1).strip(), "lang": "ES"}]
+                return [{"title": title_match.group(1).strip(), "lang": "ES"}]  # Asumimos que es en español si no se especifica
             else:
-                return [{"title": "Sin título", "lang": "ES"}]
+                return [{"title": "Sin título", "lang": "ES"}]  # Retornar un título por defecto si no hay títulos
 
 def read_config_data(config_file):
     try:
@@ -201,23 +201,4 @@ def send_data_to_endpoint(url, data):
         if response.status_code == 200:
             logging.info("Data successfully sent to endpoint.")
         else:
-            logging.error(f"Failed to send data to endpoint. Status code: {response.status_code}, Response: {response.text}")
-        except Exception as e:
-            logging.error(f"Error sending data to endpoint: {e}")
-
-if __name__ == "__main__":
-    root_dir = "."
-    process_config_files(root_dir)
-    duplicate_readme_files(root_dir)
-    markdown_list = generate_markdown_list(root_dir)
-    save_to_csv(markdown_list, "markdown_files.csv")
-    save_to_json(markdown_list, "markdown_files.json")
-
-    endpoint_url = "https://us-central1-laboratoria-prologue.cloudfunctions.net/dj-curriculum-get"
-    if endpoint_url:
-        send_data_to_endpoint(endpoint_url, markdown_list)
-    else:
-        logging.error("ENDPOINT_URL variable not set.")
-
-    logging.info("All files have been saved and data sent to endpoint.")
-                                                               
+            logging.error(f"Failed to send data to endpoint. Status code: {response.status_code}, Response: {
