@@ -32,36 +32,42 @@ def generate_markdown_list(root_dir):
                 file_type = get_file_type(file_path, subdir, file)
                 lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
                 config_file = os.path.splitext(file_path.replace("_ES", "").replace("_PT", ""))[0] + "_CONFIG.json"
-                if os.path.exists(config_file):
-                    print(f"Procesando archivo: {config_file}")
-                    with open(config_file, 'r') as f:
-                        config = json.load(f)
-                        additional_info = {}
-                        if "directions" in config and isinstance(config["directions"], dict):
-                            additional_info["directions"] = config["directions"].get(lang, "")
-                        if "discord_URL" in config and isinstance(config["discord_URL"], dict):
-                            additional_info["discord_URL"] = config["discord_URL"].get(lang, "")
-                        additional_info["difficulty"] = config.get("difficulty")
-                        additional_info["learning"] = config.get("learning")
-                        additional_info["time"] = config.get("time")
-                        additional_info["lang"] = lang
+                if file == "README.md":
+                    titles = get_title(file_path)
+                    if len(titles) == 2:
+                        for title, lang in zip(titles, ["ES", "PT"]):
+                            markdown_dict = {
+                                "track": track,
+                                "skill": skill,
+                                "module": module,
+                                "title": title,
+                                "type": file_type,
+                                "path": file_path[2:],
+                                "lang": lang
+                            }
+                            markdown_list.append(markdown_dict)
+                    else:
+                        markdown_dict = {
+                            "track": track,
+                            "skill": skill,
+                            "module": module,
+                            "title": titles[0],
+                            "type": file_type,
+                            "path": file_path[2:],
+                            "lang": lang
+                        }
+                        markdown_list.append(markdown_dict)
                 else:
-                    additional_info = {"lang": lang}
-                if file_type == "container":
-                    if skill is None and module is None:
-                        file_type = "program"
-                    elif skill and module:
-                        file_type = "module"
-                markdown_dict = {
-                    "track": track,
-                    "skill": skill,
-                    "module": module,
-                    "title": get_title(file_path),
-                    "type": file_type,
-                    "path": file_path[2:]
-                }
-                markdown_dict.update(additional_info)
-                markdown_list.append(markdown_dict)
+                    markdown_dict = {
+                        "track": track,
+                        "skill": skill,
+                        "module": module,
+                        "title": get_title(file_path)[0],
+                        "type": file_type,
+                        "path": file_path[2:],
+                        "lang": lang
+                    }
+                    markdown_list.append(markdown_dict)
     return markdown_list
 
 def get_levels(file_path, root_dir):
