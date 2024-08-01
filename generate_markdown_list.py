@@ -4,9 +4,12 @@ import csv
 
 def escape_json_config(config_file):
     with open(config_file, 'r') as f:
-        content = f.read().replace('\\', '\\\\')
-        config = json.loads(content, strict=False)
-    config['directions'] = config['directions'].replace('\\', '\\\\')
+        content = f.read()
+        config = json.loads(content)
+        if isinstance(config['directions'], str):
+            config['directions'] = config['directions'].replace('\\', '\\\\')
+        if isinstance(config['discord_URL'], str):
+            config['discord_URL'] = config['discord_URL'].replace('\\', '\\\\')
     with open(config_file, 'w') as f:
         json.dump(config, f, indent=2, ensure_ascii=False)
 
