@@ -37,7 +37,7 @@ def generate_markdown_list(root_dir):
         for file in files:
             if file.endswith(".md"):
                 file_path = os.path.join(subdir, file)
-                track, skill, module = get_levels(file_path, root_dir)
+                track, program, skill = get_levels(file_path, root_dir)
                 file_type = get_file_type(file_path, subdir, file)
                 lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
                 
@@ -51,10 +51,10 @@ def generate_markdown_list(root_dir):
                     for title_dict in titles:
                         markdown_dict = {
                             "track": track,
+                            "program": program,
                             "skill": skill,
-                            "module": module,
                             "title": title_dict["title"],
-                            "type": file_type,
+                            "type": "module",
                             "path": file_path[2:],
                             "lang": title_dict["lang"],
                             "difficulty": config_data.get("difficulty", ""),
@@ -67,11 +67,11 @@ def generate_markdown_list(root_dir):
                         if "README.md" in file_path:
                             if len(file_path.split(os.sep)) == 2:
                                 markdown_dict["type"] = "program"
+                                markdown_dict["program"] = None
                                 markdown_dict["skill"] = None
-                                markdown_dict["module"] = None
                             elif len(file_path.split(os.sep)) == 3:
                                 markdown_dict["type"] = "skill"
-                                markdown_dict["module"] = None
+                                markdown_dict["skill"] = None
                             elif len(file_path.split(os.sep)) == 4:
                                 markdown_dict["type"] = "module"
                         markdown_list.append(markdown_dict)
@@ -79,8 +79,8 @@ def generate_markdown_list(root_dir):
                     if titles:
                         markdown_dict = {
                             "track": track,
+                            "program": program,
                             "skill": skill,
-                            "module": module,
                             "title": titles[0]["title"],
                             "type": file_type,
                             "path": file_path[2:],
@@ -95,8 +95,8 @@ def generate_markdown_list(root_dir):
                     else:
                         markdown_dict = {
                             "track": track,
+                            "program": program,
                             "skill": skill,
-                            "module": module,
                             "title": "Sin título",
                             "type": file_type,
                             "path": file_path[2:],
