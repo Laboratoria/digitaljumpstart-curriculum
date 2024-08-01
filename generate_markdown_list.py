@@ -8,9 +8,7 @@ def escape_json_config(config_file):
             content = f.read()
             config = json.loads(content)
             if isinstance(config['directions'], str):
-                config['directions'] = config['directions'].replace('\\', '\\\\')
-                config['directions'] = config['directions'].replace('\n', '\\n')
-                config['directions'] = config['directions'].replace('\t', '\\t')
+                config['directions'] = ''.join(char for char in config['directions'] if ord(char) >= 32)
         with open(config_file, 'w') as f:
             json.dump(config, f, indent=2, ensure_ascii=False)
             if 'directions' in config and isinstance(config['directions'], str):
