@@ -5,17 +5,16 @@ import csv
 
 def escape_json_config(config_file):
     try:
-        with open(config_file, 'r', encoding='utf-8', errors='replace') as f:
+        with open(config_file, 'r', encoding='utf-8') as f:
             config = json.load(f)
-            # Asegurar que "directions" sea una cadena y que se escriba correctamente
-            if 'directions' in config and isinstance(config['directions'], str):
-                config['directions'] = re.sub(r'[\U00010000-\U0010ffff]', lambda m: '&#' + str(ord(m.group())) + ';', config['directions'])
+            # Se permite que "directions" contenga emojis y caracteres especiales sin modificarlos
         with open(config_file, 'w', encoding='utf-8') as f:
             json.dump(config, f, indent=2, ensure_ascii=False)
-    except ValueError as e:
+    except json.JSONDecodeError as e:
         print(f"Error al procesar el archivo {config_file}: {e}")
     except Exception as e:
         print(f"Error inesperado al procesar el archivo {config_file}: {e}")
+
 
 def process_config_files(root_dir):
     for subdir, _, files in os.walk(root_dir):
@@ -83,6 +82,7 @@ def get_title(file_path):
             titles_dict.append({"title": title, "lang": lang})
         return titles_dict
 
+
 def save_to_csv(data, filename):
     fieldnames = ["track", "skill", "module", "title", "type", "lang", "path", "difficulty", "learning", "time", "directions", "discord_URL"]
     with open(filename, 'w', newline='', encoding='utf-8') as output_file:
@@ -90,9 +90,11 @@ def save_to_csv(data, filename):
         dict_writer.writeheader()
         dict_writer.writerows(data)
 
+
 def save_to_json(data, filename):
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+
 
 if __name__ == "__main__":
     root_dir = "."
