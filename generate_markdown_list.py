@@ -30,6 +30,7 @@ def generate_markdown_list(root_dir):
                 file_path = os.path.join(subdir, file)
                 track, skill, module = get_levels(file_path, root_dir)
                 file_type = get_file_type(file_path, subdir, file)
+                lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
                 config_file = os.path.splitext(file_path.replace("_ES", "").replace("_PT", ""))[0] + "_CONFIG.json"
                 if os.path.exists(config_file):
                     print(f"Procesando archivo: {config_file}")
@@ -37,19 +38,15 @@ def generate_markdown_list(root_dir):
                         config = json.load(f)
                         additional_info = {}
                         if "directions" in config and isinstance(config["directions"], dict):
-                            if file.endswith("_ES.md"):
-                                additional_info["directions"] = config["directions"].get("ES", "")
-                            elif file.endswith("_PT.md"):
-                                additional_info["directions"] = config["directions"].get("PT", "")
-
+                            additional_info["directions"] = config["directions"].get(lang, "")
                         if "discord_URL" in config and isinstance(config["discord_URL"], dict):
-                            additional_info["discord_URL"] = config["discord_URL"].get("ES" if file.endswith("_ES.md") else "PT", "")
-
+                            additional_info["discord_URL"] = config["discord_URL"].get(lang, "")
                         additional_info["difficulty"] = config.get("difficulty")
                         additional_info["learning"] = config.get("learning")
                         additional_info["time"] = config.get("time")
+                        additional_info["lang"] = lang
                 else:
-                    additional_info = {}
+                    additional_info = {"lang": lang}
                 if file_type == "container":
                     if skill is None and module is None:
                         file_type = "program"
@@ -89,7 +86,7 @@ def get_title(file_path):
     return None
 
 def save_to_csv(data, filename):
-    fieldnames = ["track", "skill", "module", "title", "type", "path", "difficulty", "learning", "time", "directions", "discord_URL"]
+    fieldnames = ["track", "skill", "module", "title", "type", "lang", "path", "difficulty", "learning", "time", "directions", "discord_URL"]
     with open(filename, 'w', newline='') as output_file:
         dict_writer = csv.DictWriter(output_file, fieldnames)
         dict_writer.writeheader()
