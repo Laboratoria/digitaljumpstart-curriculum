@@ -4,7 +4,7 @@ import csv
 
 def escape_json_config(config_file):
     with open(config_file, 'r') as f:
-        config = json.load(f)
+        config = json.loads(f.read(), strict=False)
     config['directions'] = config['directions'].replace('\\', '\\\\')
     with open(config_file, 'w') as f:
         json.dump(config, f, indent=2, ensure_ascii=False, escape_forward_slashes=False)
