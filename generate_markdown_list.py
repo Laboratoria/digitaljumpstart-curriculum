@@ -3,11 +3,11 @@ import json
 import csv
 
 def escape_json_config(config_file):
-    with open(config_file, 'r') as f:
-        content = f.read().replace('\\', '\\\\').replace('\n', '\\n').replace('\t', '\\t')
-        config = json.loads(content, strict=False)
+    with open(config_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+        config = json.loads(content)
     config['directions'] = config['directions'].replace('\\', '\\\\')
-    with open(config_file, 'w') as f:
+    with open(config_file, 'w', encoding='utf-8') as f:
         json.dump(config, f, indent=2, ensure_ascii=False)
 
 def process_config_files(root_dir):
