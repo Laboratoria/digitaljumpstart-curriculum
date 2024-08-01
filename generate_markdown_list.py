@@ -40,8 +40,8 @@ def generate_markdown_list(root_dir):
                 track, skill, module = get_levels(file_path, root_dir)
                 file_type = get_file_type(file_path, subdir, file)
                 lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
-                titles = get_title(file_path)
-                if titles:
+                titles = get_title(file_path, file_type)
+                if file_type == "container" and titles:
                     for title_dict in titles:
                         markdown_dict = {
                             "track": track,
@@ -54,18 +54,29 @@ def generate_markdown_list(root_dir):
                         }
                         markdown_list.append(markdown_dict)
                 else:
-                    markdown_dict = {
-                        "track": track,
-                        "skill": skill,
-                        "module": module,
-                        "title": "Sin título",
-                        "type": file_type,
-                        "path": file_path[2:],
-                        "lang": lang
-                    }
-                    markdown_list.append(markdown_dict)
+                    if titles:
+                        markdown_dict = {
+                            "track": track,
+                            "skill": skill,
+                            "module": module,
+                            "title": titles[0]["title"],
+                            "type": file_type,
+                            "path": file_path[2:],
+                            "lang": lang if lang else titles[0]["lang"]
+                        }
+                        markdown_list.append(markdown_dict)
+                    else:
+                        markdown_dict = {
+                            "track": track,
+                            "skill": skill,
+                            "module": module,
+                            "title": "Sin título",
+                            "type": file_type,
+                            "path": file_path[2:],
+                            "lang": lang
+                        }
+                        markdown_list.append(markdown_dict)
     return markdown_list
-
 
 def get_levels(file_path, root_dir):
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
@@ -81,17 +92,22 @@ def get_file_type(file_path, subdir, file):
     if file.endswith("README.md"):
         return "container"
 
-def get_title(file_path):
+def get_title(file_path, file_type):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
-        titles = [line.strip() for line in content.split('##') if line.strip()]
-        if not titles:
-            return [{"title": "Sin título", "lang": "ES"}]  # Retornar un título por defecto si no hay títulos
-        titles_dict = []
-        for i, title in enumerate(titles[1:]):  # Ignoramos el título principal
-            lang = "ES" if i == 0 else "PT"
-            titles_dict.append({"title": title, "lang": lang})
-        return titles_dict
+        if file_type == "container":  # Para README.md
+            titles = [line.strip() for line in content.split('##') if line.strip()]
+            titles_dict = []
+            for i, title in enumerate(titles[1:]):  # Ignoramos el título principal
+                lang = "ES" if i == 0 else "PT"
+                titles_dict.append({"title": title, "lang": lang})
+            return titles_dict
+        else:  # Para "activity" y "topic"
+            title_match = re.search(r'#\s*(.+)', content)
+            if title_match:
+                return [{"title": title_match.group(1).strip(), "lang": "ES"}]  # Asumimos que es en español si no se especifica
+            else:
+                return [{"title": "Sin título", "lang": "ES"}]  # Retornar un título por defecto si no hay títulos
 
 
 def save_to_csv(data, filename):
