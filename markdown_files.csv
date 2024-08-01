@@ -1,68 +1,229 @@
 track,skill,module,title,type,lang,path,difficulty,learning,time,directions,discord_URL
-,,,d,container,,README.md,,,,,
-,,,W,container,,DEV/README.md,,,,,
-DEV,02_responsive,01_00_00_overview.md,H,,,DEV/02_responsive/01_00_00_overview.md,,,,,
-DEV,02_responsive,README.md,D,container,,DEV/02_responsive/README.md,,,,,
-DEV,02_responsive,02_your_first_form,D,container,,DEV/02_responsive/02_your_first_form/README.md,,,,,
-DEV,02_responsive,02_your_first_form,◼,activity,ES,DEV/02_responsive/02_your_first_form/activities/01_02_00_modulo_form_ES.md,,,,,
-DEV,02_responsive,02_your_first_form,◾,activity,ES,DEV/02_responsive/02_your_first_form/activities/01_02_01_project_formulario_ES.md,,,,,
-DEV,02_responsive,04_practice_replicate,D,container,,DEV/02_responsive/04_practice_replicate/README.md,,,,,
-DEV,02_responsive,04_practice_replicate,◼,activity,ES,DEV/02_responsive/04_practice_replicate/activities/01_04_00_modulo_replications_ES.md,,,,,
-DEV,02_responsive,04_practice_replicate,◾,activity,ES,DEV/02_responsive/04_practice_replicate/activities/01_04_01_project_replications_basic_ES.md,,,,,
-DEV,02_responsive,04_practice_replicate,◾,activity,ES,DEV/02_responsive/04_practice_replicate/activities/01_04_02_project_replications_netflix_ES.md,,,,,
-DEV,02_responsive,04_practice_replicate,◾,activity,ES,DEV/02_responsive/04_practice_replicate/activities/01_04_03_project_replications_slack_ES.md,,,,,
-DEV,02_responsive,03_responsive_design,D,container,,DEV/02_responsive/03_responsive_design/README.md,,,,,
-DEV,02_responsive,03_responsive_design,◾,activity,ES,DEV/02_responsive/03_responsive_design/activities/01_03_01_project_responsive_mediaqueries_ES.md,,,,,
-DEV,02_responsive,03_responsive_design,◾,activity,ES,DEV/02_responsive/03_responsive_design/activities/01_03_02_project_responsive_flexbox_ES.md,,,,,
-DEV,02_responsive,03_responsive_design,◼,activity,ES,DEV/02_responsive/03_responsive_design/activities/01_03_00_modulo_responsive_ES.md,,,,,
-DEV,02_responsive,01_your_first_web,D,container,,DEV/02_responsive/01_your_first_web/README.md,,,,,
-DEV,02_responsive,01_your_first_web,◾,activity,ES,DEV/02_responsive/01_your_first_web/activities/01_01_02_project_add_CSS_ES.md,,,,,
-DEV,02_responsive,01_your_first_web,◾,activity,ES,DEV/02_responsive/01_your_first_web/activities/01_01_03_project_semantic_HTML_ES.md,,,,,
-DEV,02_responsive,01_your_first_web,◾,activity,ES,DEV/02_responsive/01_your_first_web/activities/01_01_01_project_myFirstWeb_ES.md,,,,,
-DEV,02_responsive,01_your_first_web,◼,activity,ES,DEV/02_responsive/01_your_first_web/activities/01_01_00_modulo_myFirstWeb_ES.md,,,,,
-DEV,01_intro,README.md,D,container,,DEV/01_intro/README.md,,,,,
-DEV,01_intro,02_learning_bydoing,D,container,,DEV/01_intro/02_learning_bydoing/README.md,,,,,
-DEV,01_intro,02_learning_bydoing,◾,activity,ES,DEV/01_intro/02_learning_bydoing/activities/00_02_01_myfirst_ES.md,,,,,
-DEV,01_intro,02_learning_bydoing,◼,activity,ES,DEV/01_intro/02_learning_bydoing/activities/00_02_00_practice_ES.md,,,,,
-DEV,01_intro,02_learning_bydoing,R,activity,ES,DEV/01_intro/02_learning_bydoing/activities/00_02_02_close_ES.md,,,,,
-DEV,01_intro,01_baisc_knowledge,D,container,,DEV/01_intro/01_baisc_knowledge/README.md,,,,,
-DEV,01_intro,01_baisc_knowledge,T,topic,PT,DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_PT.md,,,,,
-DEV,01_intro,01_baisc_knowledge,T,topic,ES,DEV/01_intro/01_baisc_knowledge/topics/02_topic_abc_ES.md,,,,,
-DEV,01_intro,01_baisc_knowledge,T,topic,ES,DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md,,,,,
-DEV,01_intro,01_baisc_knowledge,D,container,,DEV/01_intro/01_baisc_knowledge/topics/README.md,,,,,
-DEV,01_intro,01_baisc_knowledge,E,activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life_ES.md,,,,,
-DEV,01_intro,01_baisc_knowledge,H,activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools_ES.md,,,,,
-DEV,01_intro,01_baisc_knowledge,◾,activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web_ES.md,,,,,
-DEV,01_intro,01_baisc_knowledge,◼,activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_00_all_about_ES.md,,,,,
-DEV,01_intro,01_baisc_knowledge,◾,activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev_ES.md,,,,,
-DEV,01_intro,01_baisc_knowledge,D,activity,ES,DEV/01_intro/01_baisc_knowledge/activities/README_ES.md,,,,,
-DEV,01_intro,01_baisc_knowledge,T,activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends_ES.md,,,,,
-,,,A,container,,DAT/README.md,,,,,
-DAT,02_exploratory,03_time,D,container,,DAT/02_exploratory/03_time/README.md,,,,,
-DAT,02_exploratory,03_time,◼,activity,ES,DAT/02_exploratory/03_time/activities/01_03_00_dat_vizulizareneltiempo_ES.md,,,,,
-DAT,02_exploratory,03_time,◾,activity,ES,DAT/02_exploratory/03_time/activities/01_03_01_dat_graficolinea_ES.md,,,,,
-DAT,02_exploratory,03_time,◾,activity,ES,DAT/02_exploratory/03_time/activities/01_03_02_dat_graficocombinado_ES.md,,,,,
-DAT,02_exploratory,02_central_tendency,D,container,,DAT/02_exploratory/02_central_tendency/README.md,,,,,
-DAT,02_exploratory,02_central_tendency,◼,activity,ES,DAT/02_exploratory/02_central_tendency/activities/01_02_00_dat_tendenciacentral_ES.md,,,,,
-DAT,02_exploratory,02_central_tendency,◾,activity,ES,DAT/02_exploratory/02_central_tendency/activities/01_02_02_dat_distribuicion_ES.md,,,,,
-DAT,02_exploratory,02_central_tendency,◾,activity,ES,DAT/02_exploratory/02_central_tendency/activities/01_02_01_dat_medidas_ES.md,,,,,
-DAT,02_exploratory,01_categorial_vars,D,container,,DAT/02_exploratory/01_categorial_vars/README.md,,,,,
-DAT,02_exploratory,01_categorial_vars,◾,activity,ES,DAT/02_exploratory/01_categorial_vars/activities/01_01_02_dat_viewanalisis_ES.md,,,,,
-DAT,02_exploratory,01_categorial_vars,◼,activity,ES,DAT/02_exploratory/01_categorial_vars/activities/01_01_00_dat_variablescategoricas_ES.md,,,,,
-DAT,02_exploratory,01_categorial_vars,◾,activity,ES,DAT/02_exploratory/01_categorial_vars/activities/01_01_01_dat_myfirstanalisis_ES.md,,,,,
-DAT,01_intro,README.md,D,container,,DAT/01_intro/README.md,,,,,
-DAT,01_intro,02_learning_bydoing,D,container,,DAT/01_intro/02_learning_bydoing/README.md,,,,,
-DAT,01_intro,02_learning_bydoing,◼,activity,ES,DAT/01_intro/02_learning_bydoing/activities/00_02_00_dat_practice_ES.md,,,,,
-DAT,01_intro,02_learning_bydoing,◾,activity,ES,DAT/01_intro/02_learning_bydoing/activities/00_02_01_dat_myfirst_ES.md,,,,,
-DAT,01_intro,02_learning_bydoing,R,activity,ES,DAT/01_intro/02_learning_bydoing/activities/00_02_02_dat_close_ES.md,,,,,
-DAT,01_intro,01_baisc_knowledge,D,container,,DAT/01_intro/01_baisc_knowledge/README.md,,,,,
-DAT,01_intro,01_baisc_knowledge,T,topic,PT,DAT/01_intro/01_baisc_knowledge/topics/01_topic_xyz_PT.md,,,,,
-DAT,01_intro,01_baisc_knowledge,T,topic,ES,DAT/01_intro/01_baisc_knowledge/topics/02_topic_abc_ES.md,,,,,
-DAT,01_intro,01_baisc_knowledge,T,topic,ES,DAT/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md,,,,,
-DAT,01_intro,01_baisc_knowledge,D,container,,DAT/01_intro/01_baisc_knowledge/topics/README.md,,,,,
-DAT,01_intro,01_baisc_knowledge,H,activity,ES,DAT/01_intro/01_baisc_knowledge/activities/00_01_05_dat_read_tools_ES.md,,,,,
-DAT,01_intro,01_baisc_knowledge,◾,activity,ES,DAT/01_intro/01_baisc_knowledge/activities/00_01_03_dat_activity_ai_ES.md,,,,,
-DAT,01_intro,01_baisc_knowledge,◾,activity,ES,DAT/01_intro/01_baisc_knowledge/activities/00_01_01_dat_activity_que_es_ES.md,,,,,
-DAT,01_intro,01_baisc_knowledge,D,container,,DAT/01_intro/01_baisc_knowledge/activities/README.md,,,,,
-DAT,01_intro,01_baisc_knowledge,◾,activity,ES,DAT/01_intro/01_baisc_knowledge/activities/00_01_04_dat_activity_ai_que_es_ES.md,,,,,
-DAT,01_intro,01_baisc_knowledge,◼,activity,ES,DAT/01_intro/01_baisc_knowledge/activities/00_01_00_dat_all_about_ES.md,,,,,
+,,,"Definiciones, estructura, etc:
+El script python ....
+La estructura de carpetas y filenames.... 
+
+etc........",container,ES,README.md,,,,,
+,,,Desarrollo Web,container,ES,DEV/README.md,,,,,
+,,,"Desenvolvimento Web
+
+Bla bla",container,PT,DEV/README.md,,,,,
+DEV,02_responsive,01_00_00_overview.md,"Introducción
+
+La habilidad de maquetación web se refiere a la destreza para crear y estructurar visualmente páginas web utilizando los lenguajes HTML y CSS (más adelante también JavaScript), para organizar el contenido y los elementos de diseño de manera efectiva y estética en un navegador web como Chrome, Firefox, Safari, etc.
+
+Esta habilidad es indispensable para cualquier desarrolladora web porque te permitirá implementar diseños responsivos y precisos que funcionan en diferentes dispositivos (PC, teléfono, etc.), asegurando que el contenido sea accesible y utilizable para todas las usuarias.",,,DEV/02_responsive/01_00_00_overview.md,,,,,
+DEV,02_responsive,README.md,"Maquetación Web, básica
+
+bla bla bla",container,ES,DEV/02_responsive/README.md,,,,,
+DEV,02_responsive,02_your_first_form,"Módulo 2 : Tu primer formulario web
+
+bla bla bla",container,ES,DEV/02_responsive/02_your_first_form/README.md,,,,,
+DEV,02_responsive,02_your_first_form,"Introducción
+
+Los formularios `HTML` son una herramienta fundamental para recopilar información y datos de las usuarias. A pesar de su simplicidad, los formularios permiten una amplia gama de interacciones, desde la introducción de texto hasta la selección de opciones predefinidas. En este módulo, te centrarás en la estructura básica de un formulario `HTML` y cómo maquetarlo para que sea claro y funcional, sin preocuparte aún por el almacenamiento o envío de datos.",activity,ES,DEV/02_responsive/02_your_first_form/activities/01_02_00_modulo_form_ES.md,,,,,
+DEV,02_responsive,02_your_first_form,"Meta de Aprendizaje
+
+Ser capaz de diseñar y desarrollar un formulario web básico utilizando `HTML` y `CSS`.",activity,ES,DEV/02_responsive/02_your_first_form/activities/01_02_01_project_formulario_ES.md,,,,,
+DEV,02_responsive,04_practice_replicate,"Módulo 4 : Practica replicando sitios web
+
+bla bla bla",container,ES,DEV/02_responsive/04_practice_replicate/README.md,,,,,
+DEV,02_responsive,04_practice_replicate,"Introducción
+
+¡Es hora de practicar más lo aprendido sobre diseño web responsivo! En este módulo  te enfrentarás al desafío de replicar 3 sitios web distintos, reforzando tus habilidades y adquiriendo experiencia con distintos diseños.",activity,ES,DEV/02_responsive/04_practice_replicate/activities/01_04_00_modulo_replications_ES.md,,,,,
+DEV,02_responsive,04_practice_replicate,"Meta de Aprendizaje
+
+Practicar tus habilidades de diseño responsivo, utilizando HTML y CSS (Media Queries, unidades relativas y sistemas de diseño Flexbox o Grid)",activity,ES,DEV/02_responsive/04_practice_replicate/activities/01_04_01_project_replications_basic_ES.md,,,,,
+DEV,02_responsive,04_practice_replicate,"Meta de Aprendizaje
+
+Practicar tus habilidades de diseño responsivo, utilizando HTML y CSS (Media Queries, unidades relativas y sistemas de diseño Flexbox o Grid)",activity,ES,DEV/02_responsive/04_practice_replicate/activities/01_04_02_project_replications_netflix_ES.md,,,,,
+DEV,02_responsive,04_practice_replicate,"Meta de Aprendizaje
+
+Practicar tus habilidades de diseño responsivo, utilizando HTML y CSS (Media Queries, unidades relativas y sistemas de diseño Flexbox o Grid)",activity,ES,DEV/02_responsive/04_practice_replicate/activities/01_04_03_project_replications_slack_ES.md,,,,,
+DEV,02_responsive,03_responsive_design,"Módulo 3 : Diseño web responsivo
+
+bla bla bla",container,ES,DEV/02_responsive/03_responsive_design/README.md,,,,,
+DEV,02_responsive,03_responsive_design,"Meta de Aprendizaje
+
+Utilizar Media Queries para ajustar el diseño de un sitio web a 2 o más diferentes tamaños de pantalla de diferentes dispositivos. Las Media Queries son reglas `CSS` que permiten aplicar estilos específicos a un documento `HTML` y ajustar su diseño en función de las características del dispositivo en el que se muestra, como el ancho de la pantalla.",activity,ES,DEV/02_responsive/03_responsive_design/activities/01_03_01_project_responsive_mediaqueries_ES.md,,,,,
+DEV,02_responsive,03_responsive_design,"Meta de Aprendizaje
+
+Utilizar unidades relativas y Flexbox para crear un diseño web responsivo y flexible que se adapte a diferentes tamaños de pantalla. Flexbox es un método de diseño de página para organizar elementos en filas o columnas, donde los elementos de contenido se ensanchan para rellenar el espacio adicional y se encogen para caber en espacios más pequeños para manejar diseños responsivos y dinámicos en páginas web.
+
+Aprenderás a comparar y combinar esta técnica con las Media Queries aprendidas en el reto anterior para lograr un diseño más dinámico y adaptable a diferentes dispositivos.",activity,ES,DEV/02_responsive/03_responsive_design/activities/01_03_02_project_responsive_flexbox_ES.md,,,,,
+DEV,02_responsive,03_responsive_design,"Introducción
+
+¿Alguna vez has pensado si es necesario hacer una versión de cada página web para cada tipo de dispositivo o pantalla? Afortunadamente, con el diseño web responsivo, no es necesario crear múltiples versiones de una misma página.
+
+El diseño web responsivo es una técnica de diseño y desarrollo web que permite que las páginas web se adapten automáticamente a diferentes tamaños de pantalla y dispositivos, como computadoras de escritorio, tabletas y teléfonos móviles. Con el aumento del uso de dispositivos móviles para navegar por Internet, es crucial que las páginas web sean accesibles y fáciles de usar en cualquiera de ellos.",activity,ES,DEV/02_responsive/03_responsive_design/activities/01_03_00_modulo_responsive_ES.md,,,,,
+DEV,02_responsive,01_your_first_web,"Módulo 1: Tu primera página web
+
+bla bla bla",container,ES,DEV/02_responsive/01_your_first_web/README.md,,,,,
+DEV,02_responsive,01_your_first_web,"Meta de Aprendizaje
+
+Aprender lo elemental del lenguaje `CSS` para ser capaz de mejorar la presentación visual de una página `HTML` aplicando estilos básicos `CSS` (_Cascade Style Sheets_). Aprenderás sobre su sintaxis, y algunas propiedades introductorias para modificar márgenes, espacios de relleno, tipos de letra, color de texto y fondo, efectos de transición, etc.",activity,ES,DEV/02_responsive/01_your_first_web/activities/01_01_02_project_add_CSS_ES.md,,,,,
+DEV,02_responsive,01_your_first_web,"Meta de Aprendizaje
+
+Aprenderás la importancia y el uso de etiquetas semánticas de `HTML` para mejorar la claridad y organización del código y del contenido. En este contexto, semántico se refiere al uso de etiquetas `HTML` que indican significado, ayudando a describir el contenido y su estructura.",activity,ES,DEV/02_responsive/01_your_first_web/activities/01_01_03_project_semantic_HTML_ES.md,,,,,
+DEV,02_responsive,01_your_first_web,"Meta de Aprendizaje
+
+Aprenderás a utilizar etiquetas adicionales de `HTML` para crear una página sencilla que contenga únicamente texto, enlaces e imágenes.",activity,ES,DEV/02_responsive/01_your_first_web/activities/01_01_01_project_myFirstWeb_ES.md,,,,,
+DEV,02_responsive,01_your_first_web,"Introducción
+
+En este módulo te surmergirás, con calma, en dos lenguajes fundamentales para la creación de páginas web: HTML y CSS. A través de ellos, comenzarás a construir tu propio sitio web, aunque por el momento será bastante sencillo.",activity,ES,DEV/02_responsive/01_your_first_web/activities/01_01_00_modulo_myFirstWeb_ES.md,,,,,
+DEV,01_intro,README.md,Introducción al Desarrollo Web,container,ES,DEV/01_intro/README.md,,,,,
+DEV,01_intro,README.md,"Introdução ao desenvolvimento web
+
+bla bla bla",container,PT,DEV/01_intro/README.md,,,,,
+DEV,01_intro,02_learning_bydoing,"Módulo 2 : Aprende haciendo
+
+bla bla bla",container,ES,DEV/01_intro/02_learning_bydoing/README.md,,,,,
+DEV,01_intro,02_learning_bydoing,"Meta de Aprendizaje
+
+Aprenderás lo básico sobre el lenguaje `HTML` que es el lenguaje fundamental para estructurar contenido en la web, y a utilizar un editor de código para crear una página web simple.",activity,ES,DEV/01_intro/02_learning_bydoing/activities/00_02_01_myfirst_ES.md,,,,,
+DEV,01_intro,02_learning_bydoing,,activity,ES,DEV/01_intro/02_learning_bydoing/activities/00_02_00_practice_ES.md,,,,,
+DEV,01_intro,02_learning_bydoing,"1. Integración
+
+¿De qué manera crees que las habilidades de desarrollo web podrían integrarse a tu vida personal y/o profesional?",activity,ES,DEV/01_intro/02_learning_bydoing/activities/00_02_02_close_ES.md,,,,,
+DEV,01_intro,01_baisc_knowledge,Módulo 1: Todo sobre el desarrollo Web,container,ES,DEV/01_intro/01_baisc_knowledge/README.md,,,,,
+DEV,01_intro,01_baisc_knowledge,"Módulo 1: Tudo sobre desenvolvimento Web
+
+bla bla bla",container,PT,DEV/01_intro/01_baisc_knowledge/README.md,,,,,
+DEV,01_intro,01_baisc_knowledge,Subtit 1,topic,PT,DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_PT.md,,,,,
+DEV,01_intro,01_baisc_knowledge,Subtit 1,topic,ES,DEV/01_intro/01_baisc_knowledge/topics/02_topic_abc_ES.md,,,,,
+DEV,01_intro,01_baisc_knowledge,,topic,ES,DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md,,,,,
+DEV,01_intro,01_baisc_knowledge,Tópicos,container,ES,DEV/01_intro/01_baisc_knowledge/topics/README.md,,,,,
+DEV,01_intro,01_baisc_knowledge,"Tópicos
+
+bla bla",container,PT,DEV/01_intro/01_baisc_knowledge/topics/README.md,,,,,
+DEV,01_intro,01_baisc_knowledge,"# Experiencia de Usuario en Redes Sociales
+
+Las redes sociales son parte integral de la vida moderna, y el diseño de su interfaz de usuario es crucial para su éxito. El desarrollo web front-end determina cómo interactuamos con plataformas como Facebook, Instagram y Twitter. Gracias a un front-end bien diseñado, las redes sociales ofrecen una experiencia fluida y atractiva que nos permite compartir contenido, comunicarnos con otros usuarios y explorar noticias y eventos relevantes.
+
+Interactividad: Los botones de ""Me gusta"", comentarios, mensajes directos y otras funciones están diseñadas mediante el front-end para que sean intuitivas y fáciles de usar.
+
+Diseño Responsivo: El diseño adaptable permite que las redes sociales se adapten a diferentes dispositivos, como teléfonos móviles y computadoras de escritorio, garantizando una experiencia consistente sin importar cómo accedamos a ellas.",activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life_ES.md,,,,,
+DEV,01_intro,01_baisc_knowledge,"# HTML (HyperText Markup Language)
+
+HTML es el lenguaje estándar para crear páginas web. Define la estructura y el contenido de una página web mediante etiquetas que representan elementos como encabezados, párrafos, imágenes y enlaces. Es el lenguaje base sobre el que se construye el contenido de la web.",activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools_ES.md,,,,,
+DEV,01_intro,01_baisc_knowledge,"Introducción
+
+Antes de comenzar, es crucial que tengas una claridad básica de qué es y cómo funciona la Internet y la World Wide Web (WWW), que a menudo, se usan indistintamente, pero son cosas distintas y funciones diferenciadas.",activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web_ES.md,,,,,
+DEV,01_intro,01_baisc_knowledge,,activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_00_all_about_ES.md,,,,,
+DEV,01_intro,01_baisc_knowledge,"Introducción
+
+¿Por qué es importante entender la diferencia entre front-end y back-end en el desarrollo web? ¿Cómo impactan estas áreas en la experiencia del usuario y la funcionalidad de los sitios web? Estas preguntas nos invitan a explorar más profundamente cada campo y su importancia en el mundo digital.",activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_02_web_dev_ES.md,,,,,
+DEV,01_intro,01_baisc_knowledge,Actividades,activity,ES,DEV/01_intro/01_baisc_knowledge/activities/README_ES.md,,,,,
+DEV,01_intro,01_baisc_knowledge,"# Accesibilidad Web
+
+La accesibilidad web se ha vuelto una prioridad cada vez mayor en el desarrollo front-end. Las empresas están reconociendo la importancia de hacer que sus sitios web sean accesibles para todos, independientemente de sus capacidades. Esto incluye:
+
+Énfasis en la inclusión: La accesibilidad va más allá del cumplimiento de estándares. Se trata de crear experiencias verdaderamente inclusivas para usuarios con diversas discapacidades y necesidades.
+
+Experiencias de usuario personalizadas: La personalización de la accesibilidad, como ajustes de alto contraste o lectores de pantalla, se está volviendo cada vez más importante.",activity,ES,DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends_ES.md,,,,,
+,,,"Análisis de Datos
+
+Bla bla",container,ES,DAT/README.md,,,,,
+DAT,02_exploratory,03_time,"Módulo 3 : Análisis del Comportamiento Temporal
+
+bla bla bla",container,ES,DAT/02_exploratory/03_time/README.md,,,,,
+DAT,02_exploratory,03_time,"Introducción
+
+En este módulo, explorarás y comprenderás mejor la estructura y el comportamiento temporal de tus datos, enfocándote en análisis introductorios.",activity,ES,DAT/02_exploratory/03_time/activities/01_03_00_dat_vizulizareneltiempo_ES.md,,,,,
+DAT,02_exploratory,03_time,"Meta de Aprendizaje
+
+Aprenderás crear e interpretar los datos a lo largo del tiempo a través de gráficos de línea.",activity,ES,DAT/02_exploratory/03_time/activities/01_03_01_dat_graficolinea_ES.md,,,,,
+DAT,02_exploratory,03_time,"Meta de Aprendizaje
+
+Aprenderás a crear e interpretar los datos combinando diferentes conjuntos de datos en un solo gráfico.",activity,ES,DAT/02_exploratory/03_time/activities/01_03_02_dat_graficocombinado_ES.md,,,,,
+DAT,02_exploratory,02_central_tendency,"Módulo 2 : Medidas de Tendencia Central y Distribución de Datos
+
+bla bla bla",container,ES,DAT/02_exploratory/02_central_tendency/README.md,,,,,
+DAT,02_exploratory,02_central_tendency,"Introducción
+
+En este módulo, abordaremos dos aspectos fundamentales del análisis de datos: Las medidas de tendencia central y la distribución de datos. A través de estos conceptos, comenzarás a explorar y comprender mejor la estructura y comportamiento de tus datos, aunque por el momento se centrará en análisis introductorios.",activity,ES,DAT/02_exploratory/02_central_tendency/activities/01_02_00_dat_tendenciacentral_ES.md,,,,,
+DAT,02_exploratory,02_central_tendency,"Meta de Aprendizaje
+
+Aprenderás a interpretar el concepto de distribución de los datos mediante la creación de histogramas que comuniquen visualmente la distribución.",activity,ES,DAT/02_exploratory/02_central_tendency/activities/01_02_02_dat_distribuicion_ES.md,,,,,
+DAT,02_exploratory,02_central_tendency,"Meta de Aprendizaje
+
+Aprenderás a calcular e interpretar medidas de tendencia central como la moda, la mediana y el promedio. Esto es algo fundamental para resumir y comprender grandes conjuntos de datos, facilitando una interpretación clara y concisa.",activity,ES,DAT/02_exploratory/02_central_tendency/activities/01_02_01_dat_medidas_ES.md,,,,,
+DAT,02_exploratory,01_categorial_vars,"Módulo 1 : Variables categóricas
+
+bla bla bla",container,ES,DAT/02_exploratory/01_categorial_vars/README.md,,,,,
+DAT,02_exploratory,01_categorial_vars,"Meta de Aprendizaje
+
+Aprenderás a visualizar los datos previamente agrupados, creando gráficos de barras, circulares u otros tipos de visualizaciones de acuerdo a los datos con los que estás trabajando.",activity,ES,DAT/02_exploratory/01_categorial_vars/activities/01_01_02_dat_viewanalisis_ES.md,,,,,
+DAT,02_exploratory,01_categorial_vars,"Introducción
+
+En este módulo, te sumergirás en una introducción al análisis exploratorio y en el manejo de variables categóricas. 
+
+A través de estos conceptos, comenzarás a explorar y entender mejor tus datos, aunque **por el momento** será un análisis bastante sencillo.",activity,ES,DAT/02_exploratory/01_categorial_vars/activities/01_01_00_dat_variablescategoricas_ES.md,,,,,
+DAT,02_exploratory,01_categorial_vars,"Meta de Aprendizaje
+
+Aprenderás a agrupar y resumir datos utilizando variables categóricas, lo que te permitirá obtener una visión más clara y detallada de la información disponible para el análisis.",activity,ES,DAT/02_exploratory/01_categorial_vars/activities/01_01_01_dat_myfirstanalisis_ES.md,,,,,
+DAT,01_intro,README.md,Introducción al Análisis de Datos,container,ES,DAT/01_intro/README.md,,,,,
+DAT,01_intro,README.md,"Introdução ao
+
+bla bla bla",container,PT,DAT/01_intro/README.md,,,,,
+DAT,01_intro,02_learning_bydoing,Módulo 2,container,ES,DAT/01_intro/02_learning_bydoing/README.md,,,,,
+DAT,01_intro,02_learning_bydoing,"Módulo 2
+
+bla bla bla",container,PT,DAT/01_intro/02_learning_bydoing/README.md,,,,,
+DAT,01_intro,02_learning_bydoing,,activity,ES,DAT/01_intro/02_learning_bydoing/activities/00_02_00_dat_practice_ES.md,,,,,
+DAT,01_intro,02_learning_bydoing,"Meta de Aprendizaje
+
+Utilizar tablas dinámicas de **Hojas de Cálculo de Google** para resumir datos a través de las variables categóricas.",activity,ES,DAT/01_intro/02_learning_bydoing/activities/00_02_01_dat_myfirst_ES.md,,,,,
+DAT,01_intro,02_learning_bydoing,"1. Integración
+
+¿De qué manera crees que las habilidades de análisis de datos podrían integrarse a tu vida personal y/o profesional?",activity,ES,DAT/01_intro/02_learning_bydoing/activities/00_02_02_dat_close_ES.md,,,,,
+DAT,01_intro,01_baisc_knowledge,"Módulo 1: Todo sobre el análisis de datos
+
+bla bla bla",container,ES,DAT/01_intro/01_baisc_knowledge/README.md,,,,,
+DAT,01_intro,01_baisc_knowledge,Subtit 1,topic,PT,DAT/01_intro/01_baisc_knowledge/topics/01_topic_xyz_PT.md,,,,,
+DAT,01_intro,01_baisc_knowledge,Subtit 1,topic,ES,DAT/01_intro/01_baisc_knowledge/topics/02_topic_abc_ES.md,,,,,
+DAT,01_intro,01_baisc_knowledge,,topic,ES,DAT/01_intro/01_baisc_knowledge/topics/01_topic_xyz_ES.md,,,,,
+DAT,01_intro,01_baisc_knowledge,Tópicos,container,ES,DAT/01_intro/01_baisc_knowledge/topics/README.md,,,,,
+DAT,01_intro,01_baisc_knowledge,"Tópicos
+
+bla bla",container,PT,DAT/01_intro/01_baisc_knowledge/topics/README.md,,,,,
+DAT,01_intro,01_baisc_knowledge,"Introducción
+
+Hay una gran variedad de herramientas que se suelen usar en el análisis de datos, desde aquellas de uso cotidiano para realizar operaciones básicas, cálculos y visualizaciones simples, como son **MS Excel** y **Hojas de Cálculo de Google**, hasta herramientas de IA generativa que incorporan capacidad de análisis de datos, como ChatGPT (code interpreter) y Google Gemini, por ejemplo.
+
+El valor de las herramientas radica en que sepas cómo, cuándo y para qué usarlas. Comenzaremos con herramientas simples que te permitirán ir aprendiendo y desarrollando nuevos conocimientos y habilidades.
+
+Algunas de las herramientas y lenguajes de uso frecuente:",activity,ES,DAT/01_intro/01_baisc_knowledge/activities/00_01_05_dat_read_tools_ES.md,,,,,
+DAT,01_intro,01_baisc_knowledge,"Introducción
+
+Con el rápido desarrollo de herramientas de inteligencia artificial (AI) como los intérpretes de código y otros sistemas automatizados de análisis de datos, **surge una pregunta crucial**: ¿cuál es el rol de una persona en este nuevo panorama? ¿Deberíamos temer a estas tecnologías?
+
+La realidad es que, en lugar de ver estas herramientas como una amenaza, podemos verlas como aliados que amplifican nuestras capacidades. Algunas herramientas de IA pueden procesar y analizar grandes volúmenes de datos a velocidades increíbles, pero las personas todavía tienen un papel crucial que desempeñar. 
+
+Un aspecto relevante para esta consideración es la proliferación de IA generativa, especialmente los modelos de lenguage LLM (large language model) como ChatGPT, Gemini, etc. que son capaces de ""comprender"" muy bien el lenguaje natural de las personas para recibir instrucciones concretas.
+
+La clave está en apalancar nuestras habilidades y conocimientos con estas nuevas tecnologías para ser más eficientes y efectivos.",activity,ES,DAT/01_intro/01_baisc_knowledge/activities/00_01_03_dat_activity_ai_ES.md,,,,,
+DAT,01_intro,01_baisc_knowledge,"Introducción
+
+El análisis de datos es crucial en diversos campos y situaciones cotidianas. No sólo se limita a profesionales que lo tienen como carrera, sino que es una herramienta valiosa para emprendedoras, administrativas, *marketers*, recursos humanos, y más. Aquí algunos ejemplos adicionales de su aplicación:
+
+1. **Deportes**: Análisis de rendimiento de jugadores, predicción de lesiones, estrategias de juego basadas en datos históricos.
+2. **Transporte y Logística**: Optimización de rutas, análisis de tiempos de entrega, predicción de demanda de transporte.
+3. **Energía y Medio Ambiente**: Monitoreo de consumo energético, predicción de picos de demanda, análisis de impacto ambiental.
+4. **Agricultura**: Predicción de cosechas, análisis de suelos, optimización del uso de recursos como agua y fertilizantes.
+5. **Seguridad Pública**: Análisis de patrones de crimen, predicción de incidentes, planificación de recursos policiales.
+6. **Entretenimiento y Medios**: Análisis de audiencias, personalización de contenido, predicción de tendencias en consumo de medios.",activity,ES,DAT/01_intro/01_baisc_knowledge/activities/00_01_01_dat_activity_que_es_ES.md,,,,,
+DAT,01_intro,01_baisc_knowledge,Actividades,container,ES,DAT/01_intro/01_baisc_knowledge/activities/README.md,,,,,
+DAT,01_intro,01_baisc_knowledge,"Actividades
+
+bla bla bla",container,PT,DAT/01_intro/01_baisc_knowledge/activities/README.md,,,,,
+DAT,01_intro,01_baisc_knowledge,"Introducción
+
+La Inteligencia Artificial (IA) es una rama de la informática que se dedica al desarrollo de sistemas capaces de realizar tareas que normalmente requieren inteligencia humana. Esto incluye habilidades como el reconocimiento de voz, la toma de decisiones, la resolución de problemas, la comprensión del lenguaje natural y la percepción visual.
+
+Es importante distinguir la IA en general de una subcategoría específica conocida como IA generativa, que incluye modelos de lenguaje grande (LLM) como ChatGPT, Gemini o Perplexity, etc. Mientras que la IA abarca un amplio espectro de tecnologías y aplicaciones, la IA generativa se centra en la generación de contenido como texto, imágenes y sonidos, basándose en patrones aprendidos de grandes cantidades de datos.
+
+La actual revolución introducida por los LLMs se explica en parte por su gran capacidad para ""interpretar"" el lenguaje humano natural y desarrollar un discurso coherente, aunque no necesariamente exacto. Esta capacidad, combinada con otras funcionalidades como el análisis de datos y la generación de código de *software*, abre una puerta a infinitas posibilidades futuras.
+
+Si bien esperamos que puedas aprender sobre varios aspectos de la IA, nos enfocaremos primordialemnte en le IA generativa (generación de texto, imágenes, sonido, etc.)",activity,ES,DAT/01_intro/01_baisc_knowledge/activities/00_01_04_dat_activity_ai_que_es_ES.md,,,,,
+DAT,01_intro,01_baisc_knowledge,,activity,ES,DAT/01_intro/01_baisc_knowledge/activities/00_01_00_dat_all_about_ES.md,,,,,
