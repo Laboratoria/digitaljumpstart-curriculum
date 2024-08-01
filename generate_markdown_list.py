@@ -6,8 +6,10 @@ import requests
 import logging
 
 def clean_control_characters(json_str):
+    # Reemplazar caracteres de escape incorrectos
     json_str = json_str.replace('\\_', '_')
-    json_str = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', json_str)
+    # Eliminar caracteres de control y manejar caracteres de escape inválidos
+    json_str = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', json_str)  # Escapar correctamente las barras invertidas
     return re.sub(r'[\x00-\x1F\x7F]', '', json_str)
 
 def escape_json_config(config_file):
@@ -30,19 +32,6 @@ def process_config_files(root_dir):
                 config_file = os.path.join(subdir, file)
                 escape_json_config(config_file)
 
-def duplicate_readme_files(root_dir):
-    for subdir, _, files in os.walk(root_dir):
-        for file in files:
-            if file == "README.md":
-                file_path = os.path.join(subdir, file)
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                es_file_path = os.path.join(subdir, "README_ES.md")
-                pt_file_path = os.path.join(subdir, "README_PT.md")
-                with open(es_file_path, 'w', encoding='utf-8') as f:
-                    f.write(content)
-                with open(pt_file_path, 'w', encoding='utf-8') as f:
-                    f.write(content)
 
 def generate_markdown_list(root_dir):
     markdown_list = []
@@ -56,6 +45,7 @@ def generate_markdown_list(root_dir):
                 
                 titles = get_title(file_path, file_type)
                 
+                # Obtener la ruta del archivo de configuración correspondiente
                 config_file = os.path.splitext(file_path.replace("_ES", "").replace("_PT", ""))[0] + "_CONFIG.json"
                 config_data = read_config_data(config_file)
                 
@@ -84,6 +74,7 @@ def generate_markdown_list(root_dir):
                             "discord_message_id": discord_message_id,
                             "slug": slug
                         }
+                        # Ajustar el tipo y niveles según el archivo README.md
                         path_parts = file_path.split(os.sep)
                         if "README.md" in file_path:
                             if len(path_parts) == 2:
@@ -204,3 +195,19 @@ def send_data_to_endpoint(url, data):
             logging.error(f"Failed to send data to endpoint. Status code: {response.status_code}, Response: {response.text}")
     except Exception as e:
         logging.error(f"Error sending data to endpoint: {e}")
+
+if __name__ == "__main__":
+    root_dir = "."
+    process_config_files(root_dir)
+    markdown_list = generate_markdown_list(root_dir)
+    save_to_csv(markdown_list, "markdown_files.csv")
+    save_to_json(markdown_list, "markdown_files.json")
+
+    # Enviar datos al endpoint
+    endpoint_url = "https://us-central1-laboratoria-prologue.cloudfunctions.net/dj-curriculum-get" 
+    if endpoint_url:
+        send_data_to_endpoint(endpoint_url, markdown_list)
+    else:
+        logging.error("ENDPOINT_URL variable not set.")
+
+    logging.info("All files have been saved and data sent to endpoint.")
