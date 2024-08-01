@@ -3,14 +3,17 @@ import json
 import csv
 
 def escape_json_config(config_file):
-    with open(config_file, 'r') as f:
-        content = f.read()
-        config = json.loads(content)
-        for key in ['directions', 'discord_URL']:
-            if isinstance(config[key], str):
-                config[key] = config[key].replace('\\', '\\\\')
-    with open(config_file, 'w') as f:
-        json.dump(config, f, indent=2, ensure_ascii=False)
+    try:
+        with open(config_file, 'r') as f:
+            content = f.read()
+            config = json.loads(content)
+            for key in ['directions', 'discord_URL']:
+                if isinstance(config[key], str):
+                    config[key] = config[key].replace('\\', '\\\\')
+        with open(config_file, 'w') as f:
+            json.dump(config, f, indent=2, ensure_ascii=False)
+    except json.JSONDecodeError as e:
+        print(f"Error en archivo {config_file}: {e}")
 
 def process_config_files(root_dir):
     for subdir, _, files in os.walk(root_dir):
