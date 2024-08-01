@@ -53,15 +53,7 @@
     "module": "02_your_first_form",
     "title": "\u25feReto 2.1: Creaci\u00f3n de un formulario",
     "type": "activity",
-    "path": "DEV/02_responsive/02_your_first_form/activities/01_02_01_project_formulario_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.\n  \n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1214692430004359238) , \ud83d\udcac Comparte la URL de tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1214692430004359238",
-      "PT": "null"
-    },
-    "difficulty": 1,
-    "learning": 2,
-    "time": 3
+    "path": "DEV/02_responsive/02_your_first_form/activities/01_02_01_project_formulario_ES.md"
   },
   {
     "track": "DEV",
@@ -85,15 +77,7 @@
     "module": "04_practice_replicate",
     "title": "\u25feReto 4.1: Replica un dise\u00f1o web b\u00e1sico responsivo",
     "type": "activity",
-    "path": "DEV/02_responsive/04_practice_replicate/activities/01_04_01_project_replications_basic_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.\n  \n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1247956846686240778) , \ud83d\udcac Comparte la URL de tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1247956846686240778",
-      "PT": "null"
-    },
-    "difficulty": 2,
-    "learning": 2,
-    "time": 2
+    "path": "DEV/02_responsive/04_practice_replicate/activities/01_04_01_project_replications_basic_ES.md"
   },
   {
     "track": "DEV",
@@ -101,15 +85,7 @@
     "module": "04_practice_replicate",
     "title": "\u25feReto 4.2: Replica el login de Netflix",
     "type": "activity",
-    "path": "DEV/02_responsive/04_practice_replicate/activities/01_04_02_project_replications_netflix_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.\n  \n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1247957065289175161) , \ud83d\udcac Comparte la URL de tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1247957065289175161",
-      "PT": "null"
-    },
-    "difficulty": 2,
-    "learning": 3,
-    "time": 3
+    "path": "DEV/02_responsive/04_practice_replicate/activities/01_04_02_project_replications_netflix_ES.md"
   },
   {
     "track": "DEV",
@@ -117,15 +93,7 @@
     "module": "04_practice_replicate",
     "title": "\u25feReto 4.3: Replica una secci\u00f3n del sitio de Slack",
     "type": "activity",
-    "path": "DEV/02_responsive/04_practice_replicate/activities/01_04_03_project_replications_slack_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.\n  \n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1247957188971073657) , \ud83d\udcac Comparte la URL de tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1247957188971073657",
-      "PT": "null"
-    },
-    "difficulty": 2,
-    "learning": 3,
-    "time": 3
+    "path": "DEV/02_responsive/04_practice_replicate/activities/01_04_03_project_replications_slack_ES.md"
   },
   {
     "track": "DEV",
@@ -141,15 +109,7 @@
     "module": "03_responsive_design",
     "title": "\u25feReto 3.1: Dise\u00f1o Responsivo con Media Queries",
     "type": "activity",
-    "path": "DEV/02_responsive/03_responsive_design/activities/01_03_01_project_responsive_mediaqueries_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.\n  \n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1215722209461542943) , \ud83d\udcac Comparte la URL de tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1215722209461542943",
-      "PT": "null"
-    },
-    "difficulty": 2,
-    "learning": 3,
-    "time": 3
+    "path": "DEV/02_responsive/03_responsive_design/activities/01_03_01_project_responsive_mediaqueries_ES.md"
   },
   {
     "track": "DEV",
@@ -157,15 +117,7 @@
     "module": "03_responsive_design",
     "title": "\u25feReto 3.2: Dise\u00f1o Responsivo con Unidades Relativas y Flexbox",
     "type": "activity",
-    "path": "DEV/02_responsive/03_responsive_design/activities/01_03_02_project_responsive_flexbox_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.\n  \n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1215722209461542943) , \ud83d\udcac Comparte la URL de tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1215722402961555466",
-      "PT": "null"
-    },
-    "difficulty": 2,
-    "learning": 3,
-    "time": 3
+    "path": "DEV/02_responsive/03_responsive_design/activities/01_03_02_project_responsive_flexbox_ES.md"
   },
   {
     "track": "DEV",
@@ -189,15 +141,7 @@
     "module": "01_your_first_web",
     "title": "\u25feReto 1.2 : Agregando estilos con CSS",
     "type": "activity",
-    "path": "DEV/02_responsive/01_your_first_web/activities/01_01_02_project_add_CSS_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum\\\\_model/lea\\\\_model\\\\_06\\\\_assessment.md) antes de terminar tu reto y compartir la URL.\n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1215720612756983828) , \ud83d\udcac Comparte la URL de tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1215720612756983828",
-      "PT": "null"
-    },
-    "difficulty": 1,
-    "learning": 2,
-    "time": 3
+    "path": "DEV/02_responsive/01_your_first_web/activities/01_01_02_project_add_CSS_ES.md"
   },
   {
     "track": "DEV",
@@ -205,15 +149,7 @@
     "module": "01_your_first_web",
     "title": "\u25feReto 1.3: HTML sem\u00e1ntico",
     "type": "activity",
-    "path": "DEV/02_responsive/01_your_first_web/activities/01_01_03_project_semantic_HTML_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.\n  \n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1243288546895331491) , \ud83d\udcac Comparte la URL de tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1243288546895331491",
-      "PT": "null"
-    },
-    "difficulty": 1,
-    "learning": 1,
-    "time": 1
+    "path": "DEV/02_responsive/01_your_first_web/activities/01_01_03_project_semantic_HTML_ES.md"
   },
   {
     "track": "DEV",
@@ -221,15 +157,7 @@
     "module": "01_your_first_web",
     "title": "\u25feReto 1.1: Mi Primera P\u00e1gina HTML (cont...)",
     "type": "activity",
-    "path": "DEV/02_responsive/01_your_first_web/activities/01_01_01_project_myFirstWeb_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.\n  \n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1209888657507487744) , \ud83d\udcac Comparte la URL de tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1209888657507487744",
-      "PT": "null"
-    },
-    "difficulty": 1,
-    "learning": 2,
-    "time": 2
+    "path": "DEV/02_responsive/01_your_first_web/activities/01_01_01_project_myFirstWeb_ES.md"
   },
   {
     "track": "DEV",
@@ -261,15 +189,7 @@
     "module": "02_learning_bydoing",
     "title": "\u25fe Reto 2.1 : Mi Primera P\u00e1gina HTML",
     "type": "activity",
-    "path": "DEV/01_intro/02_learning_bydoing/activities/00_02_01_myfirst_ES.md",
-    "directions": "\ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL. mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1215721936777257060) , \ud83d\udcac Comparte la URL de tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1215721936777257060",
-      "PT": "null"
-    },
-    "difficulty": 1,
-    "learning": 1,
-    "time": 3
+    "path": "DEV/01_intro/02_learning_bydoing/activities/00_02_01_myfirst_ES.md"
   },
   {
     "track": "DEV",
@@ -349,15 +269,7 @@
     "module": "01_baisc_knowledge",
     "title": "\u25feEntendiendo Internet y la Web",
     "type": "activity",
-    "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web_ES.md",
-    "directions": "No tengas miedo de parecer \u201cque no sabes nada\u201d, por algo est\u00e1s ac\u00e1 \u00bfverdad?. Adem\u00e1s, es hermoso aprender y compartir algo al respecto.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1215445879411052554",
-      "PT": "null"
-    },
-    "difficulty": 1,
-    "learning": 1,
-    "time": 1
+    "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_01_internet_web_ES.md"
   },
   {
     "track": "DEV",
@@ -421,15 +333,7 @@
     "module": "03_time",
     "title": "\u25feReto 3.1: Visualizar datos a lo largo del tiempo",
     "type": "activity",
-    "path": "DAT/02_exploratory/03_time/activities/01_03_01_dat_graficolinea_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.\n  \n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1209888657507487744) , \ud83d\udcac Comparte el enlace a tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso. No olvides dejar el enlace p\u00fablico para que tus compa\u00f1eras puedan verlo.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1209888657507487744",
-      "PT": "null"
-    },
-    "difficulty": 1,
-    "learning": 2,
-    "time": 2
+    "path": "DAT/02_exploratory/03_time/activities/01_03_01_dat_graficolinea_ES.md"
   },
   {
     "track": "DAT",
@@ -437,15 +341,7 @@
     "module": "03_time",
     "title": "\u25feReto 3.1: Visualizar datos con gr\u00e1ficos combinados",
     "type": "activity",
-    "path": "DAT/02_exploratory/03_time/activities/01_03_02_dat_graficocombinado_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.\n  \n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1209888657507487744) , \ud83d\udcac Comparte el enlace a tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso. No olvides dejar el enlace p\u00fablico para que tus compa\u00f1eras puedan verlo.\n  \n- Comenta brevemente una interpretaci\u00f3n del gr\u00e1fico combinado.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1209888657507487744",
-      "PT": "null"
-    },
-    "difficulty": 1,
-    "learning": 2,
-    "time": 2
+    "path": "DAT/02_exploratory/03_time/activities/01_03_02_dat_graficocombinado_ES.md"
   },
   {
     "track": "DAT",
@@ -469,15 +365,7 @@
     "module": "02_central_tendency",
     "title": "\u25feReto 2.2: Conociendo la distribuci\u00f3n de los datos",
     "type": "activity",
-    "path": "DAT/02_exploratory/02_central_tendency/activities/01_02_02_dat_distribuicion_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.\n  \n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1209888657507487744) , \ud83d\udcac Comparte el enlace a tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso. No olvides dejar el enlace p\u00fablico para que tus compa\u00f1eras puedan verlo.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1209888657507487744",
-      "PT": "null"
-    },
-    "difficulty": 1,
-    "learning": 2,
-    "time": 2
+    "path": "DAT/02_exploratory/02_central_tendency/activities/01_02_02_dat_distribuicion_ES.md"
   },
   {
     "track": "DAT",
@@ -485,15 +373,7 @@
     "module": "02_central_tendency",
     "title": "\u25feReto 2.1: Conociendo las medidas de tendencia central",
     "type": "activity",
-    "path": "DAT/02_exploratory/02_central_tendency/activities/01_02_01_dat_medidas_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.\n  \n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1209888657507487744) , \ud83d\udcac Comparte el enlace a tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso. No olvides dejar el enlace p\u00fablico para que tus compa\u00f1eras puedan verlo.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1209888657507487744",
-      "PT": "null"
-    },
-    "difficulty": 1,
-    "learning": 2,
-    "time": 2
+    "path": "DAT/02_exploratory/02_central_tendency/activities/01_02_01_dat_medidas_ES.md"
   },
   {
     "track": "DAT",
@@ -525,15 +405,7 @@
     "module": "01_categorial_vars",
     "title": "\u25feReto 1.1: Mi Primer An\u00e1lisis  (continuaci\u00f3n de tablas din\u00e1micas)",
     "type": "activity",
-    "path": "DAT/02_exploratory/01_categorial_vars/activities/01_01_01_dat_myfirstanalisis_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.\n  \n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1209888657507487744) , \ud83d\udcac Comparte el enlace a tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso. No olvides dejar el enlace p\u00fablico para que tus compa\u00f1eras puedan verlo.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1209888657507487744",
-      "PT": "null"
-    },
-    "difficulty": 1,
-    "learning": 2,
-    "time": 3
+    "path": "DAT/02_exploratory/01_categorial_vars/activities/01_01_01_dat_myfirstanalisis_ES.md"
   },
   {
     "track": "DAT",
@@ -565,15 +437,7 @@
     "module": "02_learning_bydoing",
     "title": "\u25feReto 2.1 : Tablas din\u00e1micas",
     "type": "activity",
-    "path": "DAT/01_intro/02_learning_bydoing/activities/00_02_01_dat_myfirst_ES.md",
-    "directions": "- \ud83d\udca1 Evaluaci\u00f3n: Recuerda que puedes pedir la [evaluaci\u00f3n de una compa\u00f1era](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.\n  \n- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1260275785286291520) , \ud83d\udcac Comparte la URL de tu trabajo en el hilo y reacciona con \u2705 para marcar tu progreso.",
-    "discord_URL": {
-      "ES": "https://discord.com/channels/1209273049304666113/1260275785286291520",
-      "PT": "null"
-    },
-    "difficulty": 1,
-    "learning": 2,
-    "time": 2
+    "path": "DAT/01_intro/02_learning_bydoing/activities/00_02_01_dat_myfirst_ES.md"
   },
   {
     "track": "DAT",
@@ -645,7 +509,12 @@
     "module": "01_baisc_knowledge",
     "title": "\u25feImportancia y aplicaciones del An\u00e1lisis de Datos",
     "type": "activity",
-    "path": "DAT/01_intro/01_baisc_knowledge/activities/00_01_01_dat_activity_que_es_ES.md"
+    "path": "DAT/01_intro/01_baisc_knowledge/activities/00_01_01_dat_activity_que_es_ES.md",
+    "directions": "Estas son las instruccoines bla bla bla ",
+    "discord_URL": "https://discord.com/channels/1209273049304666113/1210625595638284328",
+    "difficulty": 1,
+    "learning": 1,
+    "time": 1
   },
   {
     "track": "DAT",
