@@ -64,16 +64,21 @@ def generate_markdown_list(root_dir):
                             "discord_URL": config_data.get("discord_URL", {}).get(title_dict["lang"], "")
                         }
                         # Ajustar el tipo y niveles según el archivo README.md
+                        path_parts = file_path.split(os.sep)
                         if "README.md" in file_path:
-                            if len(file_path.split(os.sep)) == 2:
+                            if len(path_parts) == 2:
                                 markdown_dict["type"] = "program"
-                                markdown_dict["program"] = None
+                                markdown_dict["program"] = track
                                 markdown_dict["skill"] = None
-                            elif len(file_path.split(os.sep)) == 3:
+                            elif len(path_parts) == 3:
                                 markdown_dict["type"] = "skill"
-                                markdown_dict["skill"] = None
-                            elif len(file_path.split(os.sep)) == 4:
+                                markdown_dict["program"] = track
+                                markdown_dict["skill"] = program
+                            elif len(path_parts) == 4:
                                 markdown_dict["type"] = "module"
+                                markdown_dict["program"] = track
+                                markdown_dict["skill"] = program
+                                markdown_dict["module"] = skill
                         markdown_list.append(markdown_dict)
                 else:
                     if titles:
@@ -123,11 +128,10 @@ def get_levels(file_path, root_dir):
     if len(parts) == 1:  # Primer nivel
         return parts[0], None, None
     elif len(parts) == 2:  # Segundo nivel
-        return parts[0], parts[1], None
+        return parts[0], None, parts[1]
     elif len(parts) >= 3:  # Tercer nivel o más profundo
         return parts[0], parts[1], parts[2]
     return None, None, None
-
 
 def get_file_type(file_path, subdir, file):
     if "activities" in subdir and file.endswith(".md") and not file.endswith("README.md"):
