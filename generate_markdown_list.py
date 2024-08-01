@@ -41,14 +41,16 @@ def generate_markdown_list(root_dir):
                         file_type = "program"
                     elif skill and module:
                         file_type = "module"
-                markdown_list.append({
+                markdown_dict = {
                     "track": track,
                     "skill": skill,
                     "module": module,
                     "title": get_title(file_path),
                     "type": file_type,
                     "path": file_path[2:]
-                }.update(additional_info))
+                }
+                markdown_dict.update(additional_info)
+                markdown_list.append(markdown_dict)
     return markdown_list
 
 def get_levels(file_path, root_dir):
