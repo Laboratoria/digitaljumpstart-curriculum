@@ -12,7 +12,7 @@ def escape_json_config(config_file):
                 config['directions'] = config['directions']  # Permitir todos los caracteres incluyendo emojis
         with open(config_file, 'w', encoding='utf-8') as f:
             json.dump(config, f, indent=2, ensure_ascii=False)
-    except json5.JSONDecodeError as e:
+    except ValueError as e:
         print(f"Error al procesar el archivo {config_file}: {e}")
     except Exception as e:
         print(f"Error inesperado al procesar el archivo {config_file}: {e}")
