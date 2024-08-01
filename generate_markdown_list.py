@@ -55,45 +55,44 @@ def generate_markdown_list(root_dir):
 
                 slug = f"{track or ''}{'-' + skill if skill else ''}{'-' + module if module else ''}-{os.path.splitext(file)[0]}"
 
-                if titles:
-                    markdown_dict = {
-                        "track": track,
-                        "skill": skill,
-                        "module": module,
-                        "title": titles[0]["title"],
-                        "type": file_type,
-                        "path": file_path[2:],
-                        "lang": lang if lang else titles[0]["lang"],
-                        "difficulty": config_data.get("difficulty", ""),
-                        "learning": config_data.get("learning", ""),
-                        "time": config_data.get("time", ""),
-                        "directions": config_data.get("directions", {}).get(lang, ""),
-                        "discord_URL": discord_url,
-                        "discord_channel_id": discord_channel_id,
-                        "discord_message_id": discord_message_id,
-                        "slug": slug
-                    }
-                    markdown_list.append(markdown_dict)
-                else:
-                    markdown_dict = {
-                        "track": track,
-                        "skill": skill,
-                        "module": module,
-                        "title": "Sin título",
-                        "type": file_type,
-                        "path": file_path[2:],
-                        "lang": lang,
-                        "difficulty": config_data.get("difficulty", ""),
-                        "learning": config_data.get("learning", ""),
-                        "time": config_data.get("time", ""),
-                        "directions": config_data.get("directions", {}).get(lang, ""),
-                        "discord_URL": discord_url,
-                        "discord_channel_id": discord_channel_id,
-                        "discord_message_id": discord_message_id,
-                        "slug": slug
-                    }
-                    markdown_list.append(markdown_dict)
+                markdown_dict = {
+                    "track": track,
+                    "skill": skill,
+                    "module": module,
+                    "title": titles[0]["title"] if titles else "Sin título",
+                    "type": file_type,
+                    "path": file_path[2:],
+                    "lang": lang if lang else titles[0]["lang"],
+                    "difficulty": config_data.get("difficulty", ""),
+                    "learning": config_data.get("learning", ""),
+                    "time": config_data.get("time", ""),
+                    "directions": config_data.get("directions", {}).get(lang, ""),
+                    "discord_URL": discord_url,
+                    "discord_channel_id": discord_channel_id,
+                    "discord_message_id": discord_message_id,
+                    "slug": slug
+                }
+
+                # Ajustar el tipo y niveles según el archivo README.md
+                path_parts = file_path.split(os.sep)
+                if file_type == "container" and "README" in file:
+                    if len(path_parts) == 2:
+                        markdown_dict["track"] = None
+                        markdown_dict["skill"] = None
+                        markdown_dict["module"] = None
+                        markdown_dict["type"] = "program"
+                    elif len(path_parts) == 3:
+                        markdown_dict["type"] = "program"
+                        markdown_dict["skill"] = path_parts[1]
+                        markdown_dict["module"] = None
+                    elif len(path_parts) == 4:
+                        markdown_dict["type"] = "skill"
+                        markdown_dict["skill"] = path_parts[1]
+                        markdown_dict["module"] = path_parts[2]
+
+                markdown_list.append(markdown_dict)
     return markdown_list
+
 
 
 def get_levels(file_path, root_dir):
@@ -101,10 +100,11 @@ def get_levels(file_path, root_dir):
     if len(parts) == 1:  # Primer nivel
         return None, None, None
     elif len(parts) == 2:  # Segundo nivel
-        return parts[0], None, parts[1]
+        return parts[0], None, None
     elif len(parts) >= 3:  # Tercer nivel o más profundo
         return parts[0], parts[1], parts[2]
     return None, None, None
+
 
 def get_file_type(file_path, subdir, file):
     if "activities" in subdir and file.endswith(".md") and not file.endswith("README_ES.md") and not file.endswith("README_PT.md"):
@@ -113,6 +113,8 @@ def get_file_type(file_path, subdir, file):
         return "topic"
     if file.endswith("README_ES.md") or file.endswith("README_PT.md"):
         return "container"
+    return "module"  # Asumimos que los demás archivos .md son de tipo "module"
+
 
 def get_title(file_path, file_type):
     with open(file_path, 'r', encoding='utf-8') as f:
@@ -122,6 +124,7 @@ def get_title(file_path, file_type):
             return [{"title": title_match.group(1).strip(), "lang": "ES" if file_path.endswith("_ES.md") else "PT"}]
         else:
             return [{"title": "Sin título", "lang": "ES" if file_path.endswith("_ES.md") else "PT"}]
+
 
 def read_config_data(config_file):
     try:
