@@ -10,10 +10,10 @@ def escape_json_config(config_file):
             if isinstance(config['directions'], str):
                 config['directions'] = config['directions'].replace('\\', '\\\\')
         with open(config_file, 'w') as f:
-            json.dump(config, f, indent=2)
+            json.dump(config, f, indent=2, errors='replace')
             if 'directions' in config and isinstance(config['directions'], str):
                 f.write('\n')
-                f.write(json.dumps({'directions': config['directions']}, ensure_ascii=False))
+                f.write(json.dumps({'directions': config['directions']}, ensure_ascii=False, errors='replace'))
     except json.JSONDecodeError as e:
         print(f"Error en archivo {config_file}: {e}")
 
