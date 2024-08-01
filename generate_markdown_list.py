@@ -32,6 +32,7 @@ def process_config_files(root_dir):
                 config_file = os.path.join(subdir, file)
                 escape_json_config(config_file)
 
+
 def generate_markdown_list(root_dir):
     markdown_list = []
     for subdir, _, files in os.walk(root_dir):
@@ -48,6 +49,12 @@ def generate_markdown_list(root_dir):
                 config_file = os.path.splitext(file_path.replace("_ES", "").replace("_PT", ""))[0] + "_CONFIG.json"
                 config_data = read_config_data(config_file)
                 
+                discord_url = config_data.get("discord_URL", {}).get(lang, "")
+                discord_channel_id = discord_url.split('/')[-2] if discord_url else ""
+                discord_message_id = discord_url.split('/')[-1] if discord_url else ""
+
+                slug = f"{track or ''}{'-' + skill if skill else ''}{'-' + module if module else ''}-{os.path.splitext(file)[0]}"
+
                 if file_type == "container" and titles:
                     for title_dict in titles:
                         markdown_dict = {
@@ -62,7 +69,10 @@ def generate_markdown_list(root_dir):
                             "learning": config_data.get("learning", ""),
                             "time": config_data.get("time", ""),
                             "directions": config_data.get("directions", {}).get(title_dict["lang"], ""),
-                            "discord_URL": config_data.get("discord_URL", {}).get(title_dict["lang"], "")
+                            "discord_URL": discord_url,
+                            "discord_channel_id": discord_channel_id,
+                            "discord_message_id": discord_message_id,
+                            "slug": slug
                         }
                         # Ajustar el tipo y niveles según el archivo README.md
                         path_parts = file_path.split(os.sep)
@@ -95,7 +105,10 @@ def generate_markdown_list(root_dir):
                             "learning": config_data.get("learning", ""),
                             "time": config_data.get("time", ""),
                             "directions": config_data.get("directions", {}).get(lang, ""),
-                            "discord_URL": config_data.get("discord_URL", {}).get(lang, "")
+                            "discord_URL": discord_url,
+                            "discord_channel_id": discord_channel_id,
+                            "discord_message_id": discord_message_id,
+                            "slug": slug
                         }
                         markdown_list.append(markdown_dict)
                     else:
@@ -111,7 +124,10 @@ def generate_markdown_list(root_dir):
                             "learning": config_data.get("learning", ""),
                             "time": config_data.get("time", ""),
                             "directions": config_data.get("directions", {}).get(lang, ""),
-                            "discord_URL": config_data.get("discord_URL", {}).get(lang, "")
+                            "discord_URL": discord_url,
+                            "discord_channel_id": discord_channel_id,
+                            "discord_message_id": discord_message_id,
+                            "slug": slug
                         }
                         markdown_list.append(markdown_dict)
     return markdown_list
@@ -159,7 +175,7 @@ def read_config_data(config_file):
         return {}
 
 def save_to_csv(data, filename):
-    fieldnames = ["track", "skill", "module", "title", "type", "lang", "path", "difficulty", "learning", "time", "directions", "discord_URL"]
+    fieldnames = ["track", "skill", "module", "title", "type", "lang", "path", "difficulty", "learning", "time", "directions", "discord_URL", "discord_channel_id", "discord_message_id", "slug"]
     with open(filename, 'w', newline='', encoding='utf-8') as output_file:
         dict_writer = csv.DictWriter(output_file, fieldnames)
         dict_writer.writeheader()
