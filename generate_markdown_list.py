@@ -53,6 +53,7 @@ def generate_markdown_list(root_dir):
                             "track": track,
                             "program": program,
                             "skill": skill,
+                            "module": None,
                             "title": title_dict["title"],
                             "type": "module",
                             "path": file_path[2:],
@@ -86,6 +87,7 @@ def generate_markdown_list(root_dir):
                             "track": track,
                             "program": program,
                             "skill": skill,
+                            "module": None,
                             "title": titles[0]["title"],
                             "type": file_type,
                             "path": file_path[2:],
@@ -102,6 +104,7 @@ def generate_markdown_list(root_dir):
                             "track": track,
                             "program": program,
                             "skill": skill,
+                            "module": None,
                             "title": "Sin título",
                             "type": file_type,
                             "path": file_path[2:],
@@ -158,9 +161,8 @@ def get_title(file_path, file_type):
             else:
                 return [{"title": "Sin título", "lang": "ES"}]  # Retornar un título por defecto si no hay títulos
 
-
 def save_to_csv(data, filename):
-    fieldnames = ["track", "skill", "module", "title", "type", "lang", "path", "difficulty", "learning", "time", "directions", "discord_URL"]
+    fieldnames = ["track", "program", "skill", "module", "title", "type", "lang", "path", "difficulty", "learning", "time", "directions", "discord_URL"]
     with open(filename, 'w', newline='', encoding='utf-8') as output_file:
         dict_writer = csv.DictWriter(output_file, fieldnames)
         dict_writer.writeheader()
