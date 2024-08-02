@@ -37,9 +37,11 @@ def generate_markdown_list(root_dir):
     for subdir, _, files in os.walk(root_dir):
         for file in files:
             file_path = os.path.join(subdir, file)
+            
             # Ignorar cualquier README en la carpeta raíz
             if file == "README.md" and os.path.dirname(file_path) == root_dir:
                 continue
+            
             if file.endswith(".md"):
                 track, skill, module = get_levels(file_path, root_dir)
                 file_type = get_file_type(file_path, subdir, file)
@@ -79,18 +81,20 @@ def generate_markdown_list(root_dir):
                 path_parts = file_path.split(os.sep)
                 if file_type == "container" and "README" in file:
                     if len(path_parts) == 2:
-                        markdown_dict["track"] = None
+                        markdown_dict["track"] = path_parts[1]
                         markdown_dict["skill"] = None
                         markdown_dict["module"] = None
                         markdown_dict["type"] = "program"
                     elif len(path_parts) == 3:
-                        markdown_dict["type"] = "program"
-                        markdown_dict["skill"] = path_parts[1]
+                        markdown_dict["track"] = path_parts[1]
+                        markdown_dict["skill"] = path_parts[2]
                         markdown_dict["module"] = None
-                    elif len(path_parts) == 4:
                         markdown_dict["type"] = "skill"
-                        markdown_dict["skill"] = path_parts[1]
-                        markdown_dict["module"] = path_parts[2]
+                    elif len(path_parts) == 4:
+                        markdown_dict["track"] = path_parts[1]
+                        markdown_dict["skill"] = path_parts[2]
+                        markdown_dict["module"] = path_parts[3]
+                        markdown_dict["type"] = "module"
 
                 markdown_list.append(markdown_dict)
     return markdown_list
