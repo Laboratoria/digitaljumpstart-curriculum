@@ -19,7 +19,7 @@
   {
     "track": "DEV",
     "skill": "01_intro",
-    "module": "README_ES.md",
+    "module": null,
     "title": "DEV : introduction",
     "type": "skill",
     "path": "DEV/01_intro/README_ES.md",
@@ -308,7 +308,7 @@
   {
     "track": "DEV",
     "skill": "02_responsive",
-    "module": "README_ES.md",
+    "module": null,
     "title": "DEV : responsive design",
     "type": "skill",
     "path": "DEV/02_responsive/README_ES.md",
@@ -648,7 +648,7 @@
   {
     "track": "DAT",
     "skill": "01_intro",
-    "module": "README_ES.md",
+    "module": null,
     "title": "DAT : introduction",
     "type": "skill",
     "path": "DAT/01_intro/README_ES.md",
