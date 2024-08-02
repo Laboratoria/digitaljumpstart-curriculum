@@ -10,27 +10,27 @@ def clean_control_characters(json_str):
     json_str = json_str.replace('\\_', '_')
     # Eliminar caracteres de control y manejar caracteres de escape inválidos
     json_str = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', json_str)  # Escapar correctamente las barras invertidas
-    return re.sub(r'[\x00-\x1F\x7F]', '', json_str)
+    return re.sub(r'[\x00-\x1F\x7F]', '', json_str)  # Eliminar caracteres de control
 
 def escape_json_config(config_file):
     try:
         with open(config_file, 'r', encoding='utf-8') as f:
             content = f.read()
-            clean_content = clean_control_characters(content)
-            config = json.loads(clean_content)
+            clean_content = clean_control_characters(content)  # Limpiar contenido del archivo JSON
+            config = json.loads(clean_content)  # Cargar el contenido limpio como un objeto JSON
         with open(config_file, 'w', encoding='utf-8') as f:
-            json.dump(config, f, indent=2, ensure_ascii=False)
+            json.dump(config, f, indent=2, ensure_ascii=False)  # Escribir el objeto JSON limpio de nuevo en el archivo
     except json.JSONDecodeError as e:
-        print(f"Error al procesar el archivo {config_file}: {e}")
+        print(f"Error al procesar el archivo {config_file}: {e}")  # Manejar errores de decodificación JSON
     except Exception as e:
-        print(f"Error inesperado al procesar el archivo {config_file}: {e}")
+        print(f"Error inesperado al procesar el archivo {config_file}: {e}")  # Manejar cualquier otro error
 
 def process_config_files(root_dir):
     for subdir, _, files in os.walk(root_dir):
         for file in files:
             if file.endswith('_CONFIG.json'):
                 config_file = os.path.join(subdir, file)
-                escape_json_config(config_file)
+                escape_json_config(config_file)  # Procesar cada archivo de configuración JSON
 
 def generate_markdown_list(root_dir):
     markdown_list = []
@@ -63,7 +63,7 @@ def generate_markdown_list(root_dir):
                     "module": module,
                     "title": titles[0]["title"] if titles else "Sin título",
                     "type": file_type,
-                    "path": file_path[2:],
+                    "path": file_path[2:],  # Quitar "./" del comienzo de la ruta del archivo
                     "lang": lang if lang else titles[0]["lang"],
                     "difficulty": config_data.get("difficulty", ""),
                     "learning": config_data.get("learning", ""),
@@ -93,8 +93,8 @@ def generate_markdown_list(root_dir):
                 markdown_list.append(markdown_dict)
     return markdown_list
 
-
 def get_levels(file_path, root_dir):
+    # Obtener los niveles de la ruta del archivo
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
     if len(parts) == 1:  # Primer nivel
         return None, None, None
@@ -152,24 +152,24 @@ def send_data_to_endpoint(url, data):
         headers = {'Content-Type': 'application/json'}
         response = requests.post(url, json=data, headers=headers)
         if response.status_code == 200:
-            logging.info("Data successfully sent to endpoint.")
+            logging.info("Data successfully sent to endpoint.")  # Datos enviados correctamente al endpoint
         else:
-            logging.error(f"Failed to send data to endpoint. Status code: {response.status_code}, Response: {response.text}")
+            logging.error(f"Failed to send data to endpoint. Status code: {response.status_code}, Response: {response.text}")  # Error al enviar datos
     except Exception as e:
-        logging.error(f"Error sending data to endpoint: {e}")
+        logging.error(f"Error sending data to endpoint: {e}")  # Manejar cualquier otro error al enviar datos
 
 if __name__ == "__main__":
     root_dir = "."
-    process_config_files(root_dir)
-    markdown_list = generate_markdown_list(root_dir)
-    save_to_csv(markdown_list, "markdown_files.csv")
-    save_to_json(markdown_list, "markdown_files.json")
+    process_config_files(root_dir)  # Procesar archivos de configuración
+    markdown_list = generate_markdown_list(root_dir)  # Generar lista de archivos Markdown
+    save_to_csv(markdown_list, "markdown_files.csv")  # Guardar la lista en un archivo CSV
+    save_to_json(markdown_list, "markdown_files.json")  # Guardar la lista en un archivo JSON
 
     # Enviar datos al endpoint
     endpoint_url = "https://us-central1-laboratoria-prologue.cloudfunctions.net/dj-curriculum-get" 
     if endpoint_url:
         send_data_to_endpoint(endpoint_url, markdown_list)
     else:
-        logging.error("ENDPOINT_URL variable not set.")
+        logging.error("ENDPOINT_URL variable not set.")  # Error si la URL del endpoint no está configurada
 
-    logging.info("All files have been saved and data sent to endpoint.")
+    logging.info("All files have been saved and data sent to endpoint.")  # Información de que todos los archivos han sido guardados y los datos enviados
