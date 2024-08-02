@@ -1,6 +1,6 @@
 track,skill,module,title,type,lang,path,difficulty,learning,time,directions,discord_URL,discord_channel_id,discord_message_id,slug
-DEV,,,Web Development,program,ES,DEV/README_ES.md,,,,,,,,DEV-README_ES
-DEV,01_intro,,DEV : introduction,skill,ES,DEV/01_intro/README_ES.md,,,,,,,,DEV-01_intro-README_ES.md-README_ES
+DEV,,,Desarrollo Web,program,ES,DEV/README_ES.md,,,,"El desarrollo web es la disciplina dedicada a la creación, mantenimiento y optimización de soluciones digitales que operan a través de la web.",,,,DEV-README_ES
+DEV,01_intro,,Introducción al Desarrollo Web,skill,ES,DEV/01_intro/README_ES.md,,,,,,,,DEV-01_intro-README_ES.md-README_ES
 DEV,01_intro,01_baisc_knowledge,DEV : introduction : basic knowledge,module,ES,DEV/01_intro/01_baisc_knowledge/README_ES.md,,,,,,,,DEV-01_intro-01_baisc_knowledge-README_ES
 DEV,01_intro,01_baisc_knowledge,Título,topic,PT,DEV/01_intro/01_baisc_knowledge/topics/01_topic_xyz_PT.md,,,,,,,,DEV-01_intro-01_baisc_knowledge-01_topic_xyz_PT
 DEV,01_intro,01_baisc_knowledge,DEV : introduction : basic knoledge : topics,module,ES,DEV/01_intro/01_baisc_knowledge/topics/README_ES.md,,,,,,,,DEV-01_intro-01_baisc_knowledge-README_ES
