@@ -75,8 +75,24 @@ def generate_markdown_list(root_dir):
                     "slug": slug
                 }
 
+                # Ajustar track, skill y module según el tipo
+                path_parts = os.path.relpath(file_path, root_dir).split(os.sep)
+                if file_type == "program":
+                    markdown_dict["track"] = path_parts[0]
+                    markdown_dict["skill"] = None
+                    markdown_dict["module"] = None
+                elif file_type == "skill":
+                    markdown_dict["track"] = path_parts[0]
+                    markdown_dict["skill"] = path_parts[1]
+                    markdown_dict["module"] = None
+                elif file_type == "module":
+                    markdown_dict["track"] = path_parts[0]
+                    markdown_dict["skill"] = path_parts[1]
+                    markdown_dict["module"] = path_parts[2]
+
                 markdown_list.append(markdown_dict)
     return markdown_list
+
 
 def get_levels(file_path, root_dir):
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
