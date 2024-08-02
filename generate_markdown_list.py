@@ -32,13 +32,15 @@ def process_config_files(root_dir):
                 config_file = os.path.join(subdir, file)
                 escape_json_config(config_file)
 
-
 def generate_markdown_list(root_dir):
     markdown_list = []
     for subdir, _, files in os.walk(root_dir):
         for file in files:
+            file_path = os.path.join(subdir, file)
+            # Ignorar cualquier README en la carpeta raíz
+            if file == "README.md" and os.path.dirname(file_path) == root_dir:
+                continue
             if file.endswith(".md"):
-                file_path = os.path.join(subdir, file)
                 track, skill, module = get_levels(file_path, root_dir)
                 file_type = get_file_type(file_path, subdir, file)
                 lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
@@ -92,7 +94,6 @@ def generate_markdown_list(root_dir):
 
                 markdown_list.append(markdown_dict)
     return markdown_list
-
 
 
 def get_levels(file_path, root_dir):
