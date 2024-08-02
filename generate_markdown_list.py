@@ -96,11 +96,11 @@ def get_file_type(file_path, subdir, file):
     if file.endswith("README_ES.md") or file.endswith("README_PT.md"):
         relative_path = os.path.relpath(subdir, root_dir)
         depth = len(relative_path.split(os.sep))
-        if depth == 0:
+        if depth == 1:
             return "program"
-        elif depth == 1:
-            return "skill"
         elif depth == 2:
+            return "skill"
+        elif depth == 3:
             return "module"
     return "module"  # Asumimos que los demás archivos .md son de tipo "module"
 
