@@ -64,7 +64,10 @@ def generate_markdown_list(root_dir):
                 slug = f"{track or ''}{'-' + skill if skill else ''}{'-' + module if module else ''}-{os.path.splitext(file)[0]}"
 
                 # Extraer contenido del div con id preview solo para archivos README
-                directions = extract_preview(file_path) if file_type in ["program", "skill", "module"] else ""
+                if file_type in ["program", "skill", "module"]:
+                    directions = extract_preview(file_path)
+                else:
+                    directions = config_data.get("directions", {}).get(lang, "")
 
                 markdown_dict = {
                     "track": track,
@@ -77,7 +80,7 @@ def generate_markdown_list(root_dir):
                     "difficulty": config_data.get("difficulty", ""),
                     "learning": config_data.get("learning", ""),
                     "time": config_data.get("time", ""),
-                    "directions": directions,  # Utilizar contenido extraído del div preview si aplica
+                    "directions": directions,  # Utilizar contenido extraído del div preview si aplica, o del JSON
                     "discord_URL": discord_url,
                     "discord_channel_id": discord_channel_id,
                     "discord_message_id": discord_message_id,
