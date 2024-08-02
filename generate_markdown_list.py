@@ -88,14 +88,20 @@ def get_levels(file_path, root_dir):
         return parts[0], parts[1], parts[2]
     return None, None, None
 
-
 def get_file_type(file_path, subdir, file):
     if "activities" in subdir and file.endswith(".md") and not file.endswith("README_ES.md") and not file.endswith("README_PT.md"):
         return "activity"
     if "topics" in subdir and file.endswith(".md") and not file.endswith("README_ES.md") and not file.endswith("README_PT.md"):
         return "topic"
     if file.endswith("README_ES.md") or file.endswith("README_PT.md"):
-        return "container"
+        relative_path = os.path.relpath(subdir, root_dir)
+        depth = len(relative_path.split(os.sep))
+        if depth == 0:
+            return "program"
+        elif depth == 1:
+            return "skill"
+        elif depth == 2:
+            return "module"
     return "module"  # Asumimos que los demás archivos .md son de tipo "module"
 
 def get_title(file_path, file_type):
@@ -106,7 +112,6 @@ def get_title(file_path, file_type):
             return [{"title": title_match.group(1).strip(), "lang": "ES" if file_path.endswith("_ES.md") else "PT"}]
         else:
             return [{"title": "Sin título", "lang": "ES" if file_path.endswith("_ES.md") else "PT"}]
-
 
 def read_config_data(config_file):
     try:
