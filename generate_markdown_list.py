@@ -37,11 +37,9 @@ def generate_markdown_list(root_dir):
     for subdir, _, files in os.walk(root_dir):
         for file in files:
             file_path = os.path.join(subdir, file)
-            
             # Ignorar cualquier README en la carpeta raíz
             if file == "README.md" and os.path.dirname(file_path) == root_dir:
                 continue
-            
             if file.endswith(".md"):
                 track, skill, module = get_levels(file_path, root_dir)
                 file_type = get_file_type(file_path, subdir, file)
@@ -77,28 +75,8 @@ def generate_markdown_list(root_dir):
                     "slug": slug
                 }
 
-                # Ajustar el tipo y niveles según el archivo README.md
-                path_parts = file_path.split(os.sep)
-                if file_type == "container" and "README" in file:
-                    if len(path_parts) == 2:
-                        markdown_dict["track"] = path_parts[1]
-                        markdown_dict["skill"] = None
-                        markdown_dict["module"] = None
-                        markdown_dict["type"] = "program"
-                    elif len(path_parts) == 3:
-                        markdown_dict["track"] = path_parts[1]
-                        markdown_dict["skill"] = path_parts[2]
-                        markdown_dict["module"] = None
-                        markdown_dict["type"] = "skill"
-                    elif len(path_parts) == 4:
-                        markdown_dict["track"] = path_parts[1]
-                        markdown_dict["skill"] = path_parts[2]
-                        markdown_dict["module"] = path_parts[3]
-                        markdown_dict["type"] = "module"
-
                 markdown_list.append(markdown_dict)
     return markdown_list
-
 
 def get_levels(file_path, root_dir):
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
@@ -119,7 +97,6 @@ def get_file_type(file_path, subdir, file):
     if file.endswith("README_ES.md") or file.endswith("README_PT.md"):
         return "container"
     return "module"  # Asumimos que los demás archivos .md son de tipo "module"
-
 
 def get_title(file_path, file_type):
     with open(file_path, 'r', encoding='utf-8') as f:
