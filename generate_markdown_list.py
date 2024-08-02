@@ -32,6 +32,12 @@ def process_config_files(root_dir):
                 config_file = os.path.join(subdir, file)
                 escape_json_config(config_file)  # Procesar cada archivo de configuración JSON
 
+def extract_preview(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+        match = re.search(r'<div id="preview">(.*?)</div>', content, re.DOTALL)
+        return match.group(1).strip() if match else ""
+
 def generate_markdown_list(root_dir):
     markdown_list = []
     for subdir, _, files in os.walk(root_dir):
@@ -57,6 +63,9 @@ def generate_markdown_list(root_dir):
 
                 slug = f"{track or ''}{'-' + skill if skill else ''}{'-' + module if module else ''}-{os.path.splitext(file)[0]}"
 
+                # Extraer contenido del div con id preview solo para archivos README
+                directions = extract_preview(file_path) if file_type in ["program", "skill", "module"] else ""
+
                 markdown_dict = {
                     "track": track,
                     "skill": skill,
@@ -68,7 +77,7 @@ def generate_markdown_list(root_dir):
                     "difficulty": config_data.get("difficulty", ""),
                     "learning": config_data.get("learning", ""),
                     "time": config_data.get("time", ""),
-                    "directions": config_data.get("directions", {}).get(lang, ""),
+                    "directions": directions,  # Utilizar contenido extraído del div preview si aplica
                     "discord_URL": discord_url,
                     "discord_channel_id": discord_channel_id,
                     "discord_message_id": discord_message_id,
@@ -92,6 +101,7 @@ def generate_markdown_list(root_dir):
 
                 markdown_list.append(markdown_dict)
     return markdown_list
+
 
 def get_levels(file_path, root_dir):
     # Obtener los niveles de la ruta del archivo
