@@ -1,45 +1,45 @@
-name: Generate Markdown List
+name: Generate Markdown List  # Nombre del flujo de trabajo
 
 on:
   push:
     branches:
-      - main
+      - main  # Ejecutar este flujo de trabajo en cada push a la rama main
   pull_request:
     branches:
-      - main
+      - main  # Ejecutar este flujo de trabajo en cada pull request a la rama main
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Usar la última versión de Ubuntu como sistema operativo
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+    - name: Checkout repository  # Paso para clonar el repositorio
+      uses: actions/checkout@v3  # Utilizar la acción checkout
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
+    - name: Set up Python  # Paso para configurar Python
+      uses: actions/setup-python@v4  # Utilizar la acción setup-python
       with:
-        python-version: '3.x'
+        python-version: '3.x'  # Especificar la versión de Python a usar
 
-    - name: Install dependencies
+    - name: Install dependencies  # Paso para instalar las dependencias necesarias
       run: |
-        python -m pip install --upgrade pip
-        pip install pyyaml markdown2 requests
+        python -m pip install --upgrade pip  # Actualizar pip
+        pip install requests  # Instalar el paquete requests
 
-    - name: Print working directory
+    - name: Print working directory  # Paso para imprimir el directorio de trabajo actual
       run: pwd
 
-    - name: List files in current directory
+    - name: List files in current directory  # Paso para listar los archivos en el directorio actual
       run: ls -la
 
-    - name: Run generate_markdown_list script
+    - name: Run generate_markdown_list script  # Paso para ejecutar el script generate_markdown_list.py
       run: python generate_markdown_list.py
 
-    - name: Commit changes
+    - name: Commit changes  # Paso para hacer commit de los archivos generados
       run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add markdown_files.csv markdown_files.json markdown_files.yaml
-        git status
-        git diff-index --quiet HEAD || git commit -m "Update generated markdown files"
-        git push
+        git config --global user.name 'github-actions[bot]'  # Configurar el nombre de usuario para git
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'  # Configurar el email para git
+        git add markdown_files.csv markdown_files.json  # Agregar los archivos generados al staging
+        git status  # Mostrar el estado de git
+        git diff-index --quiet HEAD || git commit -m "Update generated markdown files"  # Hacer commit si hay cambios
+        git push  # Enviar los cambios al repositorio remoto
