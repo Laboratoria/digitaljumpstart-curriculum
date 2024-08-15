@@ -20,7 +20,7 @@ Continuarás trabajando sólo con `HTML` pero agregaremos algunas etiquetas nuev
 
 Utilizando un nuevo proyecto de CodePen, crea una página `HTML` simple que funcione como tu presentación personal. Esta debe incluir un título, 2 párrafos de bienvenida, una lista de intereses o _hobbies_, un enlace a un sitio web de tu interés y una imagen apropiada.
 
-### No cumples con la meta de aprendizaje https://github.com/Laboratoria/digitaljumpstart-curriculum/tree/main/DEV/02_responsivesi:
+### No cumples con la meta de aprendizaje si:
 
 - [x] No tienes etiquetas de apertura y de cierre para todos los casos.
 
