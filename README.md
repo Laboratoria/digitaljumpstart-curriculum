@@ -13,4 +13,5 @@ El script generate_markdown_list.py automatiza el procesamiento de archivos de c
 - Generación de listados en formatos CSV y JSON.
 - Sincronización con Base de Datos.
 
-- etc
+- etc.
+- etc.
