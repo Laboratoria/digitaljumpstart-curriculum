@@ -42,7 +42,7 @@ Utilizando un nuevo proyecto de CodePen, crea una página `HTML` simple que func
 
 - [CodePen como tu primer editor de código](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/editors_codepen)
   - [Ignorar el error DOCTYPE de CodePen](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/editors_codepen_doctype)
-- [Texto: introducción a HTML](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/html)
+- [Texto: introducción a HTML](?path=DEV/01_baisc_knowledge/topics/01_topic_xyz_ES.md)
 - [Video: introducción al HTML](https://youtu.be/ewZ_YWbIWXI?si=FEGJuPSPf-WUh-2P)
 - [Video: elementos HTML](https://www.youtube.com/watch?v=vIoO52MdZFE)
 - [Video: Atributos HTML](https://youtu.be/_QZT7adJGIg?si=qSXHjPF2PYjJY8ow)
