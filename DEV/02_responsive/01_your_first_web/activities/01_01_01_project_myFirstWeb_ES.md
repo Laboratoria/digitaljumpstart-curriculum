@@ -20,7 +20,7 @@ Continuarás trabajando sólo con `HTML` pero agregaremos algunas etiquetas nuev
 
 Utilizando un nuevo proyecto de CodePen, crea una página `HTML` simple que funcione como tu presentación personal. Esta debe incluir un título, 2 párrafos de bienvenida, una lista de intereses o _hobbies_, un enlace a un sitio web de tu interés y una imagen apropiada.
 
-### No cumples con la meta de aprendizaje si:
+### No cumples con la meta de aprendizaje https://github.com/Laboratoria/digitaljumpstart-curriculum/tree/main/DEV/02_responsivesi:
 
 - [x] No tienes etiquetas de apertura y de cierre para todos los casos.
 
@@ -41,9 +41,9 @@ Utilizando un nuevo proyecto de CodePen, crea una página `HTML` simple que func
 ## Insumos para tu aprendizaje
 
 - [CodePen como tu primer editor de código](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/editors_codepen)
-  - [Ignorar el error DOCTYPE de CodePen](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/editors_codepen_doctype)
+- [Ignorar el error DOCTYPE de CodePen](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/editors_codepen_doctype)
 - [Texto: introducción a HTML](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/html)
-- [Texto: introducción a HTML](&path=DEV/01_baisc_knowledge/topics/01_topic_xyz_ES.md)
+- [Texto: introducción a HTML](?lang=ES&track=DEV&skill=02_responsive&module=01_baisc_knowledge&path=DEV/01_baisc_knowledge/topics/01_topic_xyz_ES.md)
 - [Video: introducción al HTML](https://youtu.be/ewZ_YWbIWXI?si=FEGJuPSPf-WUh-2P)
 - [Video: elementos HTML](https://www.youtube.com/watch?v=vIoO52MdZFE)
 - [Video: Atributos HTML](https://youtu.be/_QZT7adJGIg?si=qSXHjPF2PYjJY8ow)
