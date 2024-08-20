@@ -40,13 +40,12 @@ Utilizando un nuevo proyecto de CodePen, crea una página `HTML` simple que func
 
 ## Insumos para tu aprendizaje
 
-- [CodePen como tu primer editor de código](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/editors_codepen)
-- [Ignorar el error DOCTYPE de CodePen](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/editors_codepen_doctype)
-- [Texto: introducción a HTML](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/html)
-- [Texto: introducción a HTML](?lang=ES&track=DEV&skill=02_responsive&module=01_baisc_knowledge&path=DEV/01_baisc_knowledge/topics/01_topic_xyz_ES.md)
-- [Video: introducción al HTML](https://youtu.be/ewZ_YWbIWXI?si=FEGJuPSPf-WUh-2P)
-- [Video: elementos HTML](https://www.youtube.com/watch?v=vIoO52MdZFE)
-- [Video: Atributos HTML](https://youtu.be/_QZT7adJGIg?si=qSXHjPF2PYjJY8ow)
+- [CodePen como tu primer editor de código](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/editors_codepen_ES.md)
+- [Ignorar el error DOCTYPE de CodePen](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/editors_codepen_doctype_ES.md)
+- [🖹 Texto: introducción a HTML](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/topics/html_ES.md)
+- [📺 Video: introducción al HTML](https://youtu.be/ewZ_YWbIWXI?si=FEGJuPSPf-WUh-2P)
+- [📺 Video: elementos HTML](https://www.youtube.com/watch?v=vIoO52MdZFE)
+- [📺 Video: Atributos HTML](https://youtu.be/_QZT7adJGIg?si=qSXHjPF2PYjJY8ow)
 
 ## Pauta de trabajo
 
@@ -59,11 +58,5 @@ Utilizando un nuevo proyecto de CodePen, crea una página `HTML` simple que func
 - Recuerda que puedes pedir [la evaluación de una compañera antes de terminar tu reto](https://laboratoria1.gitbook.io/codigom/curriculum_model/lea_model_06_assessment.md).
 - ¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que estar aturdida y confundida es parte natural del proceso.
 - [Video : Tutorial o solución](https://www.loom.com/share/e23a5d140e53454a85db47c0c0d8f628?sid=38b96ce5-6ef2-4d31-aace-45fa355523b0)
-
----
-
-> - 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.
-> 
-> - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1209888657507487744) , 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.
 
 ---

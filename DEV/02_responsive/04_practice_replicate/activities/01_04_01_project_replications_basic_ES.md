@@ -14,7 +14,7 @@ Practicar tus habilidades de diseño responsivo, utilizando HTML y CSS (Media Qu
 
 ## Descripción
 
-[Video : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/1cd1812918c4431697d6370119f2a085)
+[📺 Video : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/1cd1812918c4431697d6370119f2a085)
 
 Este reto se trata de replicar la estructura y comportamiento responsivo a partir de la imagen proporcionada. Crea la estructura HTML y aplica los estilos CSS necesarios para que el diseño web se adapte, al menos, a 2 diferentes tamaños de pantalla (escritorio y móvil).
 
@@ -55,23 +55,11 @@ Enfócate solamente en conseguir la estructura y comportamiento deseados. El tex
 ## Pauta de trabajo
 
 - Crea un nuevo proyecto en CodePen.
-
 - Ten en cuenta que no es necesario añadir contenido real, sino replicar la estructura y el diseño general, es decir, el reto estará cumplido si logras replicar la estructura y el diseño responsivo tal como se muestra en la imagen con bloques.
-
 - En dispositivos móviles (pantallas de hasta 991px de ancho): organiza el contenido en una sola columna para facilitar el desplazamiento vertical.
-
 - En dispositivos de escritorio (pantallas de 992px de ancho en adelante): Utiliza un diseño de varias columnas para aprovechar el espacio adicional.
-
 - Utiliza Media Queries para definir los estilos específicos para cada tamaño de pantalla. Por ejemplo, el tamaño de texto.
-
 - Utiliza unidades relativas como %, vw, vh, vmin y vmax.
-
 - Tendrás que usar Flexbox o Grid para la distribución de los elementos en la página.
-
----
-
-> - 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.
-> 
-> - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1247956846686240778) , 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.
 
 ---

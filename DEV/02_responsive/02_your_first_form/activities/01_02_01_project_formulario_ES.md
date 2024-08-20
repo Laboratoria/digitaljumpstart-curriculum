@@ -14,8 +14,8 @@ Ser capaz de diseñar y desarrollar un formulario web básico utilizando `HTML` 
 
 ## Descripción
 
-[Video 1 : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/cf7505b757434c66b1075c38266aa2ea)
-[Video 2 : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/456e24aac9824895828c1c0a426d4722)
+[📺 Video 1 : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/cf7505b757434c66b1075c38266aa2ea)
+[📺 Video 2 : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/456e24aac9824895828c1c0a426d4722)
 
 Los formularios son una parte esencial de la experiencia de uso en la web, ya que permiten a las usuarias enviar información y realizar acciones en línea. Son la base de muchas interacciones cotidianas, desde registrarse en una cuenta hasta hacer una compra o completar una encuesta.
 
@@ -34,28 +34,17 @@ Trabajando en un _fork_ de tu página de perfil/personal, agregarás un formular
 
 ## Insumos para tu aprendizaje
 
-- [Texto: CodePen, fork o bifurcación](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/editors_codepen_fork)
-- [Texto: Formularios en HTML](https://laboratoria1.gitbook.io/codigom/desarrollo-web/topicos/html_forms)
-- [Video: Atributos en HTML](https://youtu.be/yMX901oVtn8?si=J0SX7nqPv877CANi)
+- [🖹 Texto: CodePen, fork o bifurcación](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/editors_codepen_fork_ES.md)
+- [🖹 Texto: Formularios en HTML](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topicos/html_forms_ES.md)
+- [📺 Video: Atributos en HTML](https://youtu.be/yMX901oVtn8?si=J0SX7nqPv877CANi)
 
 ## Pauta de trabajo
 
 - Si estás trabajando en CodePen, Haz un `fork` de tu reto anterior para que trabajes sobre una copia sin alterar tu resultado previo.
-
 - Comienza por leer y probar libremente las etiquetas que te resultan "nuevas". Comienza agregando campo por campo para que vayas observando el resultado y si surge cualquier error sepas exactamente que ocurrió con algo que acabas de agregar.
-
 - Agrega etiquetas semánticas como `<form>`, `<label>`, y `<input>` para organizar y estructurar tu formulario de manera clara y accesible.
-
 - Utiliza comentarios en tu código HTML para explicarle a tu yo del futuro la función de cada elemento y facilitar la comprensión y mantenimiento del formulario. Expresarlo en palabras también te ayuda a conceptualizar y entender mejor cada cosa que aprendes.
-
 - No dudes en pedir ayuda y/o retroalimentación a tus compañeras o buscar inspiración en otros sitios web para mejorar el diseño de tu página.
-
-- [Video : Tutorial o solución](https://www.loom.com/share/086493cb16ac42fab7129d35a790899b)
-
----
-
-> - 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.
-> 
-> - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1214692430004359238) , 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.
+- [📺 Video : Tutorial o solución](https://www.loom.com/share/086493cb16ac42fab7129d35a790899b)
 
 ---

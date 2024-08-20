@@ -11,7 +11,7 @@ Aprenderás lo básico sobre el lenguaje `HTML` que es el lenguaje fundamental p
 
 ## Descripción
 
-[Video : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/6e52e683796e44ce8a23e585bdba3c93?sid=ebfd426d-bbb9-4e37-9cbc-467ae73997ac)
+[📺 Video: Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/6e52e683796e44ce8a23e585bdba3c93?sid=ebfd426d-bbb9-4e37-9cbc-467ae73997ac)
 
 En este reto práctico, crearás una página que simule la nota de un diario o periódico. Para hacerlo, utilizarás el editor de código "en la nube" llamado CodePen y aplicarás distintas "etiquetas"" básicas del lenguaje `HTML` que te servirán para dar formato y estructura mínimas a tu contenido.
 
@@ -35,11 +35,11 @@ Como todo en la vida, hay muchas maneras de resolver un mismo problema, se hará
 
 ## Insumos para tu aprendizaje
 
-- [CodePen como tu primer editor de código](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/editors_codepen)
-  - [Ignorar el error DOCTYPE de CodePen](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/editors_codepen_doctype)
-- [Texto: introducción a HTML](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/html)
-- [Video: introducción al HTML](https://youtu.be/ewZ_YWbIWXI?si=FEGJuPSPf-WUh-2P)
-- [Video: elementos HTML](https://www.youtube.com/watch?v=vIoO52MdZFE)
+- [CodePen como tu primer editor de código](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/editors_codepen_ES.md)
+- [Ignorar el error DOCTYPE de CodePen](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/editors_codepen_doctype_ES.md)
+- [🖹 Texto: introducción a HTML](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/topics/html_ES.md)
+- [📺 Video: introducción al HTML](https://youtu.be/ewZ_YWbIWXI?si=FEGJuPSPf-WUh-2P)
+- [📺 Video: elementos HTML](https://www.youtube.com/watch?v=vIoO52MdZFE)
 
 ## Pauta de trabajo
 
@@ -50,12 +50,6 @@ Como todo en la vida, hay muchas maneras de resolver un mismo problema, se hará
 - No dudes ni un instante en buscar ayuda u opinión de alguna compañera.
 - Recuerda que puedes pedir [la evaluación de una compañera antes de terminar tu reto](https://laboratoria1.gitbook.io/codigom/curriculum_model/lea_model_06_assessment.md).
 - ¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que estar aturdida y confundida es parte natural del proceso.
-- [Video : Tutorial o solución](https://www.loom.com/share/e23a5d140e53454a85db47c0c0d8f628?sid=38b96ce5-6ef2-4d31-aace-45fa355523b0)
-
----
-
-> - 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.
-> 
-> - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1215721936777257060) , 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.
+- [📺 Video: Tutorial o solución](https://www.loom.com/share/e23a5d140e53454a85db47c0c0d8f628?sid=38b96ce5-6ef2-4d31-aace-45fa355523b0)
 
 ---

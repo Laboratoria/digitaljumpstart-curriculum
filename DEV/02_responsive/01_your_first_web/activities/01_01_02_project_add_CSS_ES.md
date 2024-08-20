@@ -29,12 +29,12 @@ No es un ejercicio estético pero igual intenta mantener tus estilos lo más arm
 
 ## Insumos para tu aprendizaje
 
-* [Texto: CodePen, fork o bifurcación](https://laboratoria1.gitbook.io/codigom/curriculum\_dev/topics/editors\_codepen\_fork)
-* [Video: Introducción a CSS](https://www.youtube.com/watch?v=AGDDdsiZ0Ko)
-* [Video: Selectores CSS](https://www.youtube.com/watch?v=ZNskBxLVOfs)
-* [Texto: CSS, introducción](https://laboratoria1.gitbook.io/codigom/curriculum\_dev/topics/css\_intro)
-* [Texto: CSS, fundamentos](https://laboratoria1.gitbook.io/codigom/curriculum\_dev/topics/css\_fundamentos)
-* [Juego: CSS Diner](https://flukeout.github.io/)
+* [🖹 Texto: CodePen, fork o bifurcación](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/editors_codepen_fork_ES.md)
+* [📺 Video: Introducción a CSS](https://www.youtube.com/watch?v=AGDDdsiZ0Ko)
+* [📺 Video: Selectores CSS](https://www.youtube.com/watch?v=ZNskBxLVOfs)
+* [🖹 Texto: CSS, introducción](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/css_intro_ES.md)
+* [🖹 Texto: CSS, fundamentos](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/css_fundamentos_ES.md)
+* [🎮 Juego: CSS Diner](https://flukeout.github.io/)
 
 ## Pauta de trabajo
 
@@ -44,11 +44,6 @@ No es un ejercicio estético pero igual intenta mantener tus estilos lo más arm
 * Utiliza comentarios en tu código CSS para explicar qué hace cada regla y por qué la estás aplicando.
 * No tengas miedo de experimentar con diferentes propiedades y valores para ver cómo afectan la apariencia de tu página.
 * No dudes en pedir ayuda y/o retroalimentación a tus compañeras o buscar inspiración en otros sitios web para mejorar el diseño de tu página.
-* [Video : Tutorial o solución](https://www.loom.com/share/36f98b8aecb14c2a8e37055091bf0650)
-
-***
-
-> * 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum\_model/lea\_model\_06\_assessment.md) antes de terminar tu reto y compartir la URL.
-> * :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1215720612756983828) , 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.
+* [📺 Video : Tutorial o solución](https://www.loom.com/share/36f98b8aecb14c2a8e37055091bf0650)
 
 ***

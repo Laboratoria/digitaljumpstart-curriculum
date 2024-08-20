@@ -16,7 +16,7 @@ Aprenderás a comparar y combinar esta técnica con las Media Queries aprendidas
 
 ## Descripción
 
-[Video : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/cd87bcb8c3a440f7ac7ce44de9b8a9b4)
+[📺 Video : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/cd87bcb8c3a440f7ac7ce44de9b8a9b4)
 
 En este reto, profundizarás en el uso de Flexbox y unidades relativas (`%`, `vw`, `vh`, `vmin`, `vmax`) para mejorar y flexibilizar el diseño web responsivo que comenzaste en el reto anterior. La idea es que entiendas cómo Flexbox puede simplificar el manejo de la disposición de los elementos en comparación con el uso exclusivo de Media Queries.
 
@@ -43,31 +43,19 @@ En este reto, profundizarás en el uso de Flexbox y unidades relativas (`%`, `vw
 
 ## Insumos para tu aprendizaje
 
-- [Texto: CodePen, fork o bifurcación](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/editors_codepen_fork)
-- [Texto: Unidades relativas](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/css_units)
-- [Texto: Flexbox](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/css_flexbox)
-- [Juego: Flexbox Froggy](https://flexboxfroggy.com/)
+- [🖹 Texto: CodePen, fork o bifurcación](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/editors_codepen_fork_ES.md)
+- [🖹 Texto: Unidades relativas](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/css_units_ES.md)
+- [🖹 Texto: Flexbox](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/css_flexbox_ES.md)
+- [🎮 Juego: Flexbox Froggy](https://flexboxfroggy.com/)
 
 ## Pauta de trabajo
 
 - Crea un fork de tu proyecto realizado en el reto anterior para trabajar sobre una copia pero sin alterar lo ya conseguido.
-
 - Modifica el diseño de tu página utilizando unidades relativas como `%`, `vw`, `vh`, `vmin`, `vmax`.
-
 - Utiliza Flexbox para organizar y alinear los elementos de la página de manera responsiva.
-
 - Experimenta con diferentes unidades relativas para definir tamaños y dimensiones flexibles en tu diseño.
-
 - Recuerda que puedes combinar estos atributos con las Media Queries que ya tienes definidas y/o definir nuevas
-
 - Utiliza herramientas de desarrollo en tu navegador (como las de Google Chrome) para simular diferentes tamaños de pantalla y verificar que tu diseño responsivo funciona correctamente.
-
-- [Video : Tutorial o solución](https://www.loom.com/share/7dca2b3859544170bd7b7bceb35b8a97)
-
----
-
-> - 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.
-> 
-> - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1215722402961555466) , 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.
+- [📺 Video : Tutorial o solución](https://www.loom.com/share/7dca2b3859544170bd7b7bceb35b8a97)
 
 ---

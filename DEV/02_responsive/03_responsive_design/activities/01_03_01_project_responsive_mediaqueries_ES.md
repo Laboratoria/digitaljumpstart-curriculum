@@ -14,7 +14,7 @@ Utilizar Media Queries para ajustar el diseño de un sitio web a 2 o más difere
 
 ## Descripción
 
-[Video : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/d48b7f10d4914b2193a34a1cf4ca0f95)
+[📺 Video : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/d48b7f10d4914b2193a34a1cf4ca0f95)
 
 En este reto, trabajarás en tu código CSS, utilizando Media Queries para conseguir que tu sitio web se adapte automáticamente según el ancho de la pantalla.
 
@@ -38,8 +38,8 @@ Trabajaremos en conseguirlo para, al menos, dos tamaños de pantalla: dispositiv
 
 ## Insumos para tu aprendizaje
 
-- [Texto: CodePen, fork o bifurcación](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/editors_codepen_fork)
-- [Texto: Media queries](https://laboratoria1.gitbook.io/codigom/curriculum_dev/topics/css_media_queries)
+- [🖹 Texto: CodePen, fork o bifurcación](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/editors_codepen_fork_ES.md)
+- [🖹 Texto: Media queries](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//&path=DEV/topics/css_media_queries_ES.md)
 - :robot: **AI Tip:** Pregúntale a Gemini, ChatGPT o cualquier otro chat IA lo siguiente, ¿cómo simulo diferentes tamaños de pantalla en Google Chrome para ayudarme a verificar si mi diseño responsivo funciona correctamente?
 
 ## Pauta de trabajo
@@ -50,12 +50,6 @@ Trabajaremos en conseguirlo para, al menos, dos tamaños de pantalla: dispositiv
 
 - Si prefieres comenzar con menos líneas de código para minimizar las probabilidades de error, puedes probar las Media Queries utilizando algunos `<div>` de prueba con contenido simple antes de usar tu contenido real.
 
-- [Video : Tutorial o solución](https://www.loom.com/share/5ee2ede46d0b4290b5cafbbf3e8fbdc9)
-
----
-
-> - 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.
-> 
-> - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1215722209461542943) , 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.
+- [📺 Video : Tutorial o solución](https://www.loom.com/share/5ee2ede46d0b4290b5cafbbf3e8fbdc9)
 
 ---

@@ -14,7 +14,7 @@ Practicar tus habilidades de diseño responsivo, utilizando HTML y CSS (Media Qu
 
 ## Descripción
 
-[Video : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/48d81a2fd4a2484cabed8b2daad10d19)
+[📺 Video : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/48d81a2fd4a2484cabed8b2daad10d19)
 
 Este reto se trata de replicar la versión de interfaz de *login* de Netflix de la imagen que se adjunta, respetando la estructura y su comportamiento responsivo. 
 
@@ -61,19 +61,9 @@ En este caso, enfócate también en el contenido además en conseguir la estruct
 ## Pauta de trabajo
 
 - Crea un nuevo proyecto en CodePen.
-
 - Replica la estructura HTML del formulario de login. Te recomendamos ir agregando tus elementos uno a uno para que puedas previsualizar el efecto que tiene cada cosa que agregas.
-
 - Aplica estilos CSS para que el formulario se centre en la pantalla y se adapte a diferentes tamaños de pantalla utilizando Flexbox.
-
 - Usa Media Queries para ajustar el diseño en dispositivos móviles.
-
 - No te olvides de la imagen de fondo.
-
----
-
-> - 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.
-> 
-> - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1247957065289175161) , 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.
 
 ---

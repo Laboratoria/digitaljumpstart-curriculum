@@ -17,12 +17,13 @@ En resumen, ofrece una variedad de roles y especializaciones que pueden adaptars
 ## Ruta: Desarrollo Web Front-end
 
 <details>
-<summary>🔵 Bloque Introductorio, indispensable</summary>
+<summary>⚫ Introducción, indispensable</summary>
 
 Buscamos acercarte una visión clara y concreta, en un formato flexible y con poco compromiso. En tan solo 2 semanas, dedicando aproximadamente 5 horas por semana a tu propio ritmo, explorarás los aspectos introductorios y tendrás la oportunidad de poner en práctica lo aprendido en un reto o mini proyecto.
 
 Lo que aprenderás:
-**Módulo 1**: Conocimiento fundamental en formato de lecturas, videos, etc. + reflexión y participación en comentarios y foros de discusión. 
+
+**◼️ Módulo 1**: Conocimiento fundamental en formato de lecturas, videos, etc. + reflexión y participación en comentarios y foros de discusión. 
 
 Buscamos acercarte respuestas simples y breves a las preguntas:
 
@@ -32,26 +33,25 @@ Buscamos acercarte respuestas simples y breves a las preguntas:
 4. ¿Cuáles son las perspectivas de futuro?
 5. ¿Cuáles son las herramientas, tecnologías o métodos clave que se utilizan?
 
-**Módulo 2**: Conocimiento fundamental en formato de lecturas, videos, etc. + reflexión y participación en comentarios y foros de discusión + trabajo en un reto práctico. 
+**◼️ Módulo 2**: Conocimiento fundamental en formato de lecturas, videos, etc. + reflexión y participación en comentarios y foros de discusión + trabajo en un reto práctico. 
 
 Buscamos permitirte la aplicación de lo aprendido y tu reflexión sobre tu propio proceso de autoaprendizaje y motivación para continuar.
 
 </details>
 
 <details>
-<summary>🔵 Habilidad (H): Maquetación Web, básica</summary>
+<summary>⚫ Habilidad (H): Maquetación Web, básica</summary>
 
 Lo que aprenderás:
-
 1. Desarrollar sitios web responsivos: Asegurando que se vean y funcionen bien en las pantallas de los dispositivos más comunes.
-
 2. Implementar Interfaces de Usuario (UI) Interactivas: Creación de elementos interactivos y dinámicos en una página (botones, formularios, etc.) para permitir interacciones específicas con las usuarias.
 
 </details>
 
 <details>
-<summary>🔵 Habilidad (H): Funcionalidad Web, básica</summary>
+<summary>⚫ Habilidad (H): Funcionalidad Web, básica</summary>
 
   en preparación....
 
 </details>
+

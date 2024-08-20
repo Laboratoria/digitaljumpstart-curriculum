@@ -45,7 +45,7 @@ Investiga brevemente sobre las siguientes preguntas. **Elije 1 o 2 respuestas qu
 
 - AI: ChatGPT, Gemini, Perplexity, Bing, etc.. Recuerda que pueden alucinar y mentirte descaradamente, verifica siempre.
 
-- [¿Cómo funciona Internet?](https://www.youtube.com/watch?v=-InB0vz_Mec)
+- [📺 Video: ¿Cómo funciona Internet?](https://www.youtube.com/watch?v=-InB0vz_Mec)
 
 ## Guía de Autoevaluación
 
@@ -55,7 +55,3 @@ No habrás cumplido con la actividad si:
 - [x] No comentas en el hilo de Discord sobre 1 o 2 rptas que te parecieron interesantes.
 
 ---
-
-> :mega: 💬 [**Comenta en el hilo de Discord:**](https://discord.com/channels/1209273049304666113/1215445879411052554) sobre 1 o 2 respuestas a las preguntas de investigación que te parecieron particularmente interesantes o novedosas. No tengas miedo de parecer “que no sabes nada”, por algo estás acá ¿verdad?. Además, es hermoso aprender y compartir algo al respecto.
-
---- 

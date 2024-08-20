@@ -1,10 +1,11 @@
-# ◾Qué es el desarrollo web front-end y qué es el back-end
+# ◾ Qué es el desarrollo web front-end y qué es el back-end
 
 **Dificultad:** 🌻 
 
 **Aprendizaje:** 🍯 
 
 **Tiempo:** ⏱ 45min
+---
 
 ## Introducción
 
@@ -82,9 +83,9 @@ Investiga brevemente sobre las siguientes preguntas. **Elije 1 o 2 respuestas qu
 
 - AI: ChatGPT, Gemini, Perplexity, Bing, etc.. Recuerda que pueden alucinar y mentirte descaradamente, verifica siempre.
 
-- [YouTube 6min - Front-End vs. Back-End vs. Full Stack](https://youtu.be/yxTxhE_CCVs?si=j7gQKXVgidbVBTRl)
+- [📺 Video:  6min - Front-End vs. Back-End vs. Full Stack](https://youtu.be/yxTxhE_CCVs?si=j7gQKXVgidbVBTRl)
 
-- [YouTube 11min - Cómo estudiar DESARROLLO WEB](https://youtu.be/c-zAREbLPE0?si=n-cDrkWvxlmb-shk)
+- [📺 Video:  11min - Cómo estudiar Desarrollo Web](https://youtu.be/c-zAREbLPE0?si=n-cDrkWvxlmb-shk)
 
 ## Guía de Autoevaluación
 
@@ -92,9 +93,5 @@ No habrás cumplido con la actividad si:
 
 - [x] No investigaste sobre cada una de las preguntas.
 - [x] No comentas en el hilo de Discord sobre 1 o 2 rptas que te parecieron interesantes.
-
----
-
-> :mega: 💬 [**Comenta en el hilo de Discord:**](https://discord.com/channels/1209273049304666113/1238540671535812699) sobre 1 o 2 respuestas a las preguntas de investigación que te parecieron particularmente interesantes o novedosas. No tengas miedo de parecer “que no sabes nada”, por algo estás acá ¿verdad?. Además, es hermoso aprender y compartir algo al respecto.
 
 ---
