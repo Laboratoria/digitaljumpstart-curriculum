@@ -120,7 +120,7 @@ def get_levels(file_path, root_dir):
 def get_file_type(file_path, subdir, file):
     if "activities" in subdir and file.endswith(".md") and not file.endswith("README_ES.md") and not file.endswith("README_PT.md"):
         return "activity"
-    if "topics" in subdir and file.endswith(".md") and not file.endswith("README_ES.md") and not file.endswith("README_PT.md"):
+    if os.path.basename(subdir) == "topics" and file.endswith(".md") and not file.endswith("README_ES.md") and not file.endswith("README_PT.md"):
         return "topic"
     if file.endswith("README_ES.md") or file.endswith("README_PT.md"):
         relative_path = os.path.relpath(subdir, root_dir)
