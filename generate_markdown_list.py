@@ -39,15 +39,9 @@ def extract_preview(file_path):
         return match.group(1).strip() if match else ""
 
 def modify_activity_links(content, lang, track, skill, module):
-    # Patrón exacto para buscar la cadena específica en el contenido
     pattern = r"//PATH_TO_THIS_SCRIPT:\?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//"
-    
-    # Crear el reemplazo dinámico basado en los valores actuales de lang, track, skill, y module
     replacement = f"?lang={lang}&track={track or ''}&skill={skill or ''}&module={module or ''}"
-    
-    # Reemplazar todas las ocurrencias del patrón en el contenido
     modified_content = re.sub(pattern, replacement, content)
-    
     return modified_content
 
 def generate_markdown_list(root_dir):
@@ -59,18 +53,25 @@ def generate_markdown_list(root_dir):
                 track, skill, module = get_levels(file_path, root_dir)
                 file_type = get_file_type(file_path, subdir, file)
                 lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
-                
+
                 titles = get_title(file_path, file_type)
 
-                # Leer el contenido del archivo
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
 
-                # Modificar los enlaces si es un archivo de tipo "activity"
-                if file_type == "activity" and "//PATH_TO_THIS_SCRIPT:" in content:
+                if file_type == "activity":
                     modified_content = modify_activity_links(content, lang, track, skill, module)
-                    with open(file_path, 'w', encoding='utf-8') as f:
-                        f.write(modified_content)
+                    
+                    # Guardar el archivo solo si se realizaron modificaciones
+                    if modified_content != content:
+                        try:
+                            with open(file_path, 'w', encoding='utf-8') as f:
+                                f.write(modified_content)
+                            print(f"Archivo modificado: {file_path}")
+                        except Exception as e:
+                            print(f"Error al escribir en el archivo {file_path}: {e}")
+                    else:
+                        print(f"Sin cambios en: {file_path}")
 
                 # Obtener la ruta del archivo de configuración correspondiente
                 config_file = os.path.splitext(file_path.replace("_ES", "").replace("_PT", ""))[0] + "_CONFIG.json"
