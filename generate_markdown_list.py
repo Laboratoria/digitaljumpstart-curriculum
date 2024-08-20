@@ -39,13 +39,13 @@ def extract_preview(file_path):
         return match.group(1).strip() if match else ""
 
 def modify_activity_links(content, lang, track, skill, module):
-    # Expresión regular para encontrar el patrón
-    pattern = r"//PATH_TO_THIS_SCRIPT:\?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//"
+    # Asegurarse de que el patrón coincida exactamente con el formato del enlace
+    pattern = r"https://path_to_this_script/\?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//"
     
-    # Reemplazo del patrón según las especificaciones
+    # Crear el reemplazo dinámico basado en los valores actuales
     replacement = f"?lang={lang}&track={track or ''}&skill={skill or ''}&module={module or ''}"
     
-    # Realizar la sustitución
+    # Reemplazar todas las ocurrencias del patrón en el contenido
     modified_content = re.sub(pattern, replacement, content)
     
     return modified_content
@@ -55,16 +55,23 @@ def generate_markdown_list(root_dir):
     for subdir, _, files in os.walk(root_dir):
         for file in files:
             file_path = os.path.join(subdir, file)
-            # Ignorar cualquier README en la carpeta raíz
-            if file == "README.md" and os.path.dirname(file_path) == root_dir:
-                continue
             if file.endswith(".md"):
                 track, skill, module = get_levels(file_path, root_dir)
                 file_type = get_file_type(file_path, subdir, file)
                 lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
                 
                 titles = get_title(file_path, file_type)
-                
+
+                # Leer el contenido del archivo
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+
+                # Modificar los enlaces si es un archivo de tipo "activity"
+                if file_type == "activity" and "https://path_to_this_script/" in content:
+                    modified_content = modify_activity_links(content, lang, track, skill, module)
+                    with open(file_path, 'w', encoding='utf-8') as f:
+                        f.write(modified_content)
+
                 # Obtener la ruta del archivo de configuración correspondiente
                 config_file = os.path.splitext(file_path.replace("_ES", "").replace("_PT", ""))[0] + "_CONFIG.json"
                 config_data = read_config_data(config_file)
@@ -80,18 +87,6 @@ def generate_markdown_list(root_dir):
                     directions = extract_preview(file_path)
                 else:
                     directions = config_data.get("directions", {}).get(lang, "")
-
-                # Leer el contenido del archivo
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
-
-                # Modificar los enlaces si es un archivo de tipo "activity"
-                if file_type == "activity":
-                    content = modify_activity_links(content, lang, track, skill, module)
-                    
-                    # Guardar los cambios de vuelta en el archivo
-                    with open(file_path, 'w', encoding='utf-8') as f:
-                        f.write(content)
 
                 markdown_dict = {
                     "track": track,
@@ -133,6 +128,7 @@ def generate_markdown_list(root_dir):
 
                 markdown_list.append(markdown_dict)
     return markdown_list
+
 
 def get_levels(file_path, root_dir):
     # Obtener los niveles de la ruta del archivo
