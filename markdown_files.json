@@ -1,5 +1,22 @@
 [
   {
+    "track": "README.md",
+    "skill": null,
+    "module": null,
+    "title": "Currícula prototipo",
+    "type": "module",
+    "path": "README.md",
+    "lang": "PT",
+    "difficulty": "",
+    "learning": "",
+    "time": "",
+    "directions": "",
+    "discord_URL": "",
+    "discord_channel_id": "",
+    "discord_message_id": "",
+    "slug": "-README"
+  },
+  {
     "track": "DAT",
     "skill": null,
     "module": null,
