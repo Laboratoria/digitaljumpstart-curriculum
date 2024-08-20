@@ -38,8 +38,6 @@ def extract_preview(file_path):
         match = re.search(r'<div id="preview">(.*?)</div>', content, re.DOTALL)
         return match.group(1).strip() if match else ""
 
-import re
-
 def modify_activity_links(content, lang, track, skill, module):
     # Patrón exacto para buscar la cadena específica en el contenido
     pattern = r"//PATH_TO_THIS_SCRIPT:\?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//"
@@ -69,7 +67,7 @@ def generate_markdown_list(root_dir):
                     content = f.read()
 
                 # Modificar los enlaces si es un archivo de tipo "activity"
-                if file_type == "activity" and "https://path_to_this_script/" in content:
+                if file_type == "activity" and "//PATH_TO_THIS_SCRIPT:" in content:
                     modified_content = modify_activity_links(content, lang, track, skill, module)
                     with open(file_path, 'w', encoding='utf-8') as f:
                         f.write(modified_content)
