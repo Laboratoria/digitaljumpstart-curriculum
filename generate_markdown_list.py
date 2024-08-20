@@ -38,6 +38,18 @@ def extract_preview(file_path):
         match = re.search(r'<div id="preview">(.*?)</div>', content, re.DOTALL)
         return match.group(1).strip() if match else ""
 
+def modify_activity_links(content, lang, track, skill, module):
+    # Expresión regular para encontrar el patrón
+    pattern = r"//PATH_TO_THIS_SCRIPT:\?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//"
+    
+    # Reemplazo del patrón según las especificaciones
+    replacement = f"?lang={lang}&track={track or ''}&skill={skill or ''}&module={module or ''}"
+    
+    # Realizar la sustitución
+    modified_content = re.sub(pattern, replacement, content)
+    
+    return modified_content
+
 def generate_markdown_list(root_dir):
     markdown_list = []
     for subdir, _, files in os.walk(root_dir):
@@ -68,6 +80,18 @@ def generate_markdown_list(root_dir):
                     directions = extract_preview(file_path)
                 else:
                     directions = config_data.get("directions", {}).get(lang, "")
+
+                # Leer el contenido del archivo
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+
+                # Modificar los enlaces si es un archivo de tipo "activity"
+                if file_type == "activity":
+                    content = modify_activity_links(content, lang, track, skill, module)
+                    
+                    # Guardar los cambios de vuelta en el archivo
+                    with open(file_path, 'w', encoding='utf-8') as f:
+                        f.write(content)
 
                 markdown_dict = {
                     "track": track,
@@ -109,8 +133,6 @@ def generate_markdown_list(root_dir):
 
                 markdown_list.append(markdown_dict)
     return markdown_list
-
-
 
 def get_levels(file_path, root_dir):
     # Obtener los niveles de la ruta del archivo
