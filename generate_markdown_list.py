@@ -42,7 +42,7 @@ def modify_activity_links(content, lang, track, skill, module):
     pattern = r"//PATH_TO_THIS_SCRIPT:\?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//"
     replacement = f"?lang={lang}&track={track or ''}&skill={skill or ''}&module={module or ''}"
     modified_content = re.sub(pattern, replacement, content)
-    return modified_content
+    return modified_content, replacement
 
 def generate_markdown_list(root_dir):
     markdown_list = []
@@ -60,7 +60,7 @@ def generate_markdown_list(root_dir):
                     content = f.read()
 
                 if file_type == "activity":
-                    modified_content = modify_activity_links(content, lang, track, skill, module)
+                    modified_content, replacement = modify_activity_links(content, lang, track, skill, module)
                     
                     # Guardar el archivo solo si se realizaron modificaciones
                     if modified_content != content:
