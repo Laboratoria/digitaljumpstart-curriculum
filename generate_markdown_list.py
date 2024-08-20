@@ -39,15 +39,9 @@ def extract_preview(file_path):
         return match.group(1).strip() if match else ""
 
 def modify_activity_links(content, lang, track, skill, module):
-    # Patrón para capturar todo el enlace hasta el final de la línea, sin importar lo que siga
     pattern = r"//PATH_TO_THIS_SCRIPT:\?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//"
-    
-    # Reemplazo basado en los valores actuales
     replacement = f"?lang={lang}&track={track or ''}&skill={skill or ''}&module={module or ''}"
-    
-    # Reemplazar todas las ocurrencias del patrón en el contenido
     modified_content = re.sub(pattern, replacement, content)
-    
     return modified_content
 
 def generate_markdown_list(root_dir):
@@ -73,7 +67,18 @@ def generate_markdown_list(root_dir):
                         try:
                             with open(file_path, 'w', encoding='utf-8') as f:
                                 f.write(modified_content)
+                                f.flush()  # Asegura que se vacíe el buffer
+                                os.fsync(f.fileno())  # Fuerza a escribir los datos en el disco
                             print(f"Archivo modificado: {file_path}")
+                            
+                            # Verificar que los cambios se escribieron correctamente
+                            with open(file_path, 'r', encoding='utf-8') as f_verify:
+                                verify_content = f_verify.read()
+                                if replacement in verify_content:
+                                    print(f"Verificación exitosa en: {file_path}")
+                                else:
+                                    print(f"Verificación fallida: el archivo {file_path} no fue modificado correctamente.")
+                            
                         except Exception as e:
                             print(f"Error al escribir en el archivo {file_path}: {e}")
                     else:
