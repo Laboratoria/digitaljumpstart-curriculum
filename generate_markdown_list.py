@@ -46,43 +46,46 @@ def modify_activity_links(content, lang, track, skill, module):
 
 def generate_markdown_list(root_dir):
     markdown_list = []
-    for subdir, _, files in os.walk(root_dir):
-        for file in files:
-            file_path = os.path.join(subdir, file)
-            if file.endswith(".md"):
-                track, skill, module = get_levels(file_path, root_dir)
-                file_type = get_file_type(file_path, subdir, file)
-                lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
+    log_file = "modification_log.txt"
+    
+    with open(log_file, 'w', encoding='utf-8') as log:
+        for subdir, _, files in os.walk(root_dir):
+            for file in files:
+                file_path = os.path.join(subdir, file)
+                if file.endswith(".md"):
+                    track, skill, module = get_levels(file_path, root_dir)
+                    file_type = get_file_type(file_path, subdir, file)
+                    lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
 
-                titles = get_title(file_path, file_type)
+                    titles = get_title(file_path, file_type)
 
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        content = f.read()
 
-                if file_type == "activity":
-                    modified_content, replacement = modify_activity_links(content, lang, track, skill, module)
-                    
-                    # Guardar el archivo solo si se realizaron modificaciones
-                    if modified_content != content:
+                    if file_type == "activity":
+                        modified_content, replacement = modify_activity_links(content, lang, track, skill, module)
+                        
                         try:
                             with open(file_path, 'w', encoding='utf-8') as f:
                                 f.write(modified_content)
-                                f.flush()  # Asegura que se vacíe el buffer
-                                os.fsync(f.fileno())  # Fuerza a escribir los datos en el disco
-                            print(f"Archivo modificado: {file_path}")
+                                f.flush()
+                                os.fsync(f.fileno())
+                            log.write(f"Archivo modificado: {file_path}\n")
                             
-                            # Verificar que los cambios se escribieron correctamente
+                            # Verificación de escritura
                             with open(file_path, 'r', encoding='utf-8') as f_verify:
                                 verify_content = f_verify.read()
                                 if replacement in verify_content:
-                                    print(f"Verificación exitosa en: {file_path}")
+                                    log.write(f"Verificación exitosa en: {file_path}\n")
                                 else:
-                                    print(f"Verificación fallida: el archivo {file_path} no fue modificado correctamente.")
+                                    log.write(f"Fallo en la verificación: {file_path} no fue modificado correctamente.\n")
                             
                         except Exception as e:
-                            print(f"Error al escribir en el archivo {file_path}: {e}")
+                            log.write(f"Error al escribir en el archivo {file_path}: {e}\n")
                     else:
-                        print(f"Sin cambios en: {file_path}")
+                        log.write(f"Sin cambios en: {file_path}\n")
+    
+    print(f"Log de modificaciones creado en {log_file}")
 
                 # Obtener la ruta del archivo de configuración correspondiente
                 config_file = os.path.splitext(file_path.replace("_ES", "").replace("_PT", ""))[0] + "_CONFIG.json"
