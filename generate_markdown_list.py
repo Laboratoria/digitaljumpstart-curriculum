@@ -87,23 +87,29 @@ def generate_markdown_list(root_dir):
                     "slug": slug
                 }
 
-                # Ajustar track, skill y module según el tipo
+                # Ajustar track, skill y module según el tipo y longitud de path_parts
                 path_parts = os.path.relpath(file_path, root_dir).split(os.sep)
-                if file_type == "program":
+                if file_type == "program" and len(path_parts) >= 1:
                     markdown_dict["track"] = path_parts[0]
                     markdown_dict["skill"] = None
                     markdown_dict["module"] = None
-                elif file_type == "skill":
+                elif file_type == "skill" and len(path_parts) >= 2:
                     markdown_dict["track"] = path_parts[0]
                     markdown_dict["skill"] = path_parts[1]
                     markdown_dict["module"] = None
-                elif file_type == "module":
+                elif file_type == "module" and len(path_parts) >= 3:
                     markdown_dict["track"] = path_parts[0]
                     markdown_dict["skill"] = path_parts[1]
                     markdown_dict["module"] = path_parts[2]
+                else:
+                    # Manejar casos en los que no hay suficientes niveles en path_parts
+                    markdown_dict["track"] = path_parts[0] if len(path_parts) > 0 else None
+                    markdown_dict["skill"] = path_parts[1] if len(path_parts) > 1 else None
+                    markdown_dict["module"] = path_parts[2] if len(path_parts) > 2 else None
 
                 markdown_list.append(markdown_dict)
     return markdown_list
+
 
 
 def get_levels(file_path, root_dir):
