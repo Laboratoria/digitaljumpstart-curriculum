@@ -84,66 +84,47 @@ def generate_markdown_list(root_dir):
                             log.write(f"Error al escribir en el archivo {file_path}: {e}\n")
                     else:
                         log.write(f"Sin cambios en: {file_path}\n")
-    
-    print(f"Log de modificaciones creado en {log_file}")
+                    
+                    # Obtener la ruta del archivo de configuración correspondiente
+                    config_file = os.path.splitext(file_path.replace("_ES", "").replace("_PT", ""))[0] + "_CONFIG.json"
+                    config_data = read_config_data(config_file)
+                    
+                    discord_url = config_data.get("discord_URL", {}).get(lang, "")
+                    discord_channel_id = discord_url.split('/')[-2] if discord_url else ""
+                    discord_message_id = discord_url.split('/')[-1] if discord_url else ""
 
-                # Obtener la ruta del archivo de configuración correspondiente
-                config_file = os.path.splitext(file_path.replace("_ES", "").replace("_PT", ""))[0] + "_CONFIG.json"
-                config_data = read_config_data(config_file)
-                
-                discord_url = config_data.get("discord_URL", {}).get(lang, "")
-                discord_channel_id = discord_url.split('/')[-2] if discord_url else ""
-                discord_message_id = discord_url.split('/')[-1] if discord_url else ""
+                    slug = f"{track or ''}{'-' + skill if skill else ''}{'-' + module if module else ''}-{os.path.splitext(file)[0]}"
 
-                slug = f"{track or ''}{'-' + skill if skill else ''}{'-' + module if module else ''}-{os.path.splitext(file)[0]}"
+                    # Extraer contenido del div con id preview solo para archivos README
+                    if file_type in ["program", "skill", "module"]:
+                        directions = extract_preview(file_path)
+                    else:
+                        directions = config_data.get("directions", {}).get(lang, "")
 
-                # Extraer contenido del div con id preview solo para archivos README
-                if file_type in ["program", "skill", "module"]:
-                    directions = extract_preview(file_path)
-                else:
-                    directions = config_data.get("directions", {}).get(lang, "")
+                    markdown_dict = {
+                        "track": track,
+                        "skill": skill,
+                        "module": module,
+                        "title": titles[0]["title"] if titles else "Sin título",
+                        "type": file_type,
+                        "path": file_path[2:],  # Quitar "./" del comienzo de la ruta del archivo
+                        "lang": lang if lang else titles[0]["lang"],
+                        "difficulty": config_data.get("difficulty", ""),
+                        "learning": config_data.get("learning", ""),
+                        "time": config_data.get("time", ""),
+                        "directions": directions,  # Utilizar contenido extraído del div preview si aplica, o del JSON
+                        "discord_URL": discord_url,
+                        "discord_channel_id": discord_channel_id,
+                        "discord_message_id": discord_message_id,
+                        "slug": slug
+                    }
 
-                markdown_dict = {
-                    "track": track,
-                    "skill": skill,
-                    "module": module,
-                    "title": titles[0]["title"] if titles else "Sin título",
-                    "type": file_type,
-                    "path": file_path[2:],  # Quitar "./" del comienzo de la ruta del archivo
-                    "lang": lang if lang else titles[0]["lang"],
-                    "difficulty": config_data.get("difficulty", ""),
-                    "learning": config_data.get("learning", ""),
-                    "time": config_data.get("time", ""),
-                    "directions": directions,  # Utilizar contenido extraído del div preview si aplica, o del JSON
-                    "discord_URL": discord_url,
-                    "discord_channel_id": discord_channel_id,
-                    "discord_message_id": discord_message_id,
-                    "slug": slug
-                }
-
-                # Ajustar track, skill y module según el tipo y longitud de path_parts
-                path_parts = os.path.relpath(file_path, root_dir).split(os.sep)
-                if file_type == "program" and len(path_parts) >= 1:
-                    markdown_dict["track"] = path_parts[0]
-                    markdown_dict["skill"] = None
-                    markdown_dict["module"] = None
-                elif file_type == "skill" and len(path_parts) >= 2:
-                    markdown_dict["track"] = path_parts[0]
-                    markdown_dict["skill"] = path_parts[1]
-                    markdown_dict["module"] = None
-                elif file_type == "module" and len(path_parts) >= 3:
-                    markdown_dict["track"] = path_parts[0]
-                    markdown_dict["skill"] = path_parts[1]
-                    markdown_dict["module"] = path_parts[2]
-                else:
-                    # Manejar casos en los que no hay suficientes niveles en path_parts
-                    markdown_dict["track"] = path_parts[0] if len(path_parts) > 0 else None
-                    markdown_dict["skill"] = path_parts[1] if len(path_parts) > 1 else None
-                    markdown_dict["module"] = path_parts[2] if len(path_parts) > 2 else None
-
-                markdown_list.append(markdown_dict)
-    return markdown_list
-
+                    # Ajustar track, skill y module según el tipo y longitud de path_parts
+                    path_parts = os.path.relpath(file_path, root_dir).split(os.sep)
+                    if file_type == "program" and len(path_parts) >= 1:
+                        markdown_dict["track"] = path_parts[0]
+                        markdown_dict["skill"] = None
+                        markdown_dict["module"] = None
 
 def get_levels(file_path, root_dir):
     # Obtener los niveles de la ruta del archivo
