@@ -38,11 +38,13 @@ def extract_preview(file_path):
         match = re.search(r'<div id="preview">(.*?)</div>', content, re.DOTALL)
         return match.group(1).strip() if match else ""
 
+import re
+
 def modify_activity_links(content, lang, track, skill, module):
-    # Asegurarse de que el patrón coincida exactamente con el formato del enlace
-    pattern = r"https://path_to_this_script/\?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//"
+    # Patrón exacto para buscar la cadena específica en el contenido
+    pattern = r"//PATH_TO_THIS_SCRIPT:\?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//"
     
-    # Crear el reemplazo dinámico basado en los valores actuales
+    # Crear el reemplazo dinámico basado en los valores actuales de lang, track, skill, y module
     replacement = f"?lang={lang}&track={track or ''}&skill={skill or ''}&module={module or ''}"
     
     # Reemplazar todas las ocurrencias del patrón en el contenido
