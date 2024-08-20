@@ -124,7 +124,7 @@ def get_levels(file_path, root_dir):
     return None, None, None
 
 def get_file_type(file_path, subdir, file):
-    if os.path.basename(subdir) == "topics" and file.endswith(".md") and not file.endswith("README_ES.md") and not file.endswith("README_PT.md"):
+    if "topics" in subdir and file.endswith(".md"):
         return "topic"
     if "activities" in subdir and file.endswith(".md") and not file.endswith("README_ES.md") and not file.endswith("README_PT.md"):
         return "activity"
@@ -138,7 +138,6 @@ def get_file_type(file_path, subdir, file):
         elif depth == 3:
             return "module"
     return "module"  # Asumimos que los demás archivos .md son de tipo "module"
-
 
 def get_title(file_path, file_type):
     with open(file_path, 'r', encoding='utf-8') as f:
