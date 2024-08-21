@@ -40,17 +40,17 @@ def extract_preview(file_path):
 
 def modify_activity_links(content, lang, track, skill, module):
     pattern = r"//PATH_TO_THIS_SCRIPT:\?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//"
-    replacement_base = f"?lang={lang}&track={track or ''}&skill={skill or ''}&module={module or ''}&path=https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/master/"
+    replacement_base = f"?lang={lang}&track={track or ''}&skill={skill or ''}&module={module or ''}"
     
-    # Encontrar todos los enlaces que coinciden con el patrón y agregar la URL completa al path
-    def replace_path(match):
+    # Encontrar y reemplazar el patrón en el contenido sin modificar el parámetro 'path'
+    def replace_link(match):
         original_link = match.group(0)
-        # Extraer el valor de 'path=' y combinarlo con la base de la URL
-        updated_link = re.sub(r'path=', f'path={replacement_base}', original_link)
+        # Reemplazar la base del link sin modificar el path
+        updated_link = original_link.replace("//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//", replacement_base)
         return updated_link
     
     # Reemplazar el contenido del archivo usando la función de reemplazo personalizada
-    modified_content = re.sub(pattern, replace_path, content)
+    modified_content = re.sub(pattern, replace_link, content)
     
     return modified_content, replacement_base    
 
