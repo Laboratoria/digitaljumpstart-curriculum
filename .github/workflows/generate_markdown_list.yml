@@ -39,7 +39,7 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'  # Configurar el nombre de usuario para git
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'  # Configurar el email para git
-        git add markdown_files.csv markdown_files.json  # Agregar los archivos generados al staging
+        git add markdown_files.csv markdown_files.json **/topics/*.md  # Agregar los archivos generados al staging
         git status  # Mostrar el estado de git
         # git diff-index --quiet HEAD || git commit -m "Update generated markdown files"  # Hacer commit si hay cambios
         git diff-index --quiet HEAD || git commit --allow-empty -m "Regenerar markdown files"
