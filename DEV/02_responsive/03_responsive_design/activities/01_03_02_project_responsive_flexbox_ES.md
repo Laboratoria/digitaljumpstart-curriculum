@@ -43,9 +43,9 @@ En este reto, profundizarás en el uso de Flexbox y unidades relativas (`%`, `vw
 
 ## Insumos para tu aprendizaje
 
-- [🖹 Texto: CodePen, fork o bifurcación](?lang=ES&track=DEV&skill=02_responsive&module=03_responsive_design&path=DEV/topics/editors_codepen_fork_ES.md)
-- [🖹 Texto: Unidades relativas](?lang=ES&track=DEV&skill=02_responsive&module=03_responsive_design&path=DEV/topics/css_units_ES.md)
-- [🖹 Texto: Flexbox](?lang=ES&track=DEV&skill=02_responsive&module=03_responsive_design&path=DEV/topics/css_flexbox_ES.md)
+- [🖹 Texto: CodePen, fork o bifurcación](?lang=ES&track=DEV&skill=02_responsive&module=03_responsive_design&path=DEV/00_topics/editors_codepen_fork_ES.md)
+- [🖹 Texto: Unidades relativas](?lang=ES&track=DEV&skill=02_responsive&module=03_responsive_design&path=DEV/00_topics/css_units_ES.md)
+- [🖹 Texto: Flexbox](?lang=ES&track=DEV&skill=02_responsive&module=03_responsive_design&path=DEV/00_topics/css_flexbox_ES.md)
 - [🎮 Juego: Flexbox Froggy](https://flexboxfroggy.com/)
 
 ## Pauta de trabajo
