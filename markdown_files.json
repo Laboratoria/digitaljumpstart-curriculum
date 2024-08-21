@@ -1215,7 +1215,7 @@
     "difficulty": 1,
     "learning": 1,
     "time": 3,
-    "directions": "💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de dar por terminado tu reto y compartir la URL en el hilo.<br>Al terminar, regresa a Discord, 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.",
+    "directions": "<p>💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de dar por terminado tu reto y compartir la URL en el hilo.</p><p>Al terminar, regresa a Discord, 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1215721936777257060",
     "discord_channel_id": [
       "1209273049304666113",
