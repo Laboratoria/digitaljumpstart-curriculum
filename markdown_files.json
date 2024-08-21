@@ -4,7 +4,7 @@
     "skill": null,
     "module": null,
     "title": "Currícula prototipo",
-    "type": "module",
+    "type": "program",
     "path": "README.md",
     "lang": "PT",
     "difficulty": "",
@@ -12,8 +12,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "-README"
   },
   {
@@ -29,8 +34,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-README_ES"
   },
   {
@@ -46,8 +56,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-README_ES.md-README_ES"
   },
   {
@@ -63,8 +78,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-02_learning_bydoing-README_ES"
   },
   {
@@ -80,8 +100,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-02_learning_bydoing-00_02_02_dat_close_ES"
   },
   {
@@ -97,8 +122,14 @@
     "time": 2,
     "directions": "- 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.    - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1260275785286291520) , 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1260275785286291520",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1260275785286291520",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1260275785286291520"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-02_learning_bydoing-00_02_01_dat_myfirst_ES"
   },
   {
@@ -114,8 +145,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-02_learning_bydoing-00_02_00_dat_practice_ES"
   },
   {
@@ -131,8 +167,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-01_baisc_knowledge-README_ES"
   },
   {
@@ -148,8 +189,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-01_baisc_knowledge-README_ES"
   },
   {
@@ -165,8 +211,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-01_baisc_knowledge-01_topic_xyz_PT"
   },
   {
@@ -182,8 +233,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-01_baisc_knowledge-01_topic_xyz_ES"
   },
   {
@@ -199,8 +255,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-01_baisc_knowledge-02_topic_abc_ES"
   },
   {
@@ -216,8 +277,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-01_baisc_knowledge-00_01_00_dat_all_about_ES"
   },
   {
@@ -233,8 +299,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-01_baisc_knowledge-00_01_05_dat_read_tools_ES"
   },
   {
@@ -250,8 +321,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-01_baisc_knowledge-00_01_04_dat_activity_ai_que_es_ES"
   },
   {
@@ -267,8 +343,14 @@
     "time": 1,
     "directions": "Estas son las instruccoines bla bla bla ",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1210625595638284328",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1210625595638284328",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1210625595638284328"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-01_baisc_knowledge-00_01_01_dat_activity_que_es_ES"
   },
   {
@@ -284,8 +366,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-01_baisc_knowledge-README_ES"
   },
   {
@@ -301,8 +388,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-01_intro-01_baisc_knowledge-00_01_03_dat_activity_ai_ES"
   },
   {
@@ -318,8 +410,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-00_topics-variables_categóricas_ES.md-variables_categóricas_ES"
   },
   {
@@ -335,8 +432,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-02_exploratory-03_time-README_ES"
   },
   {
@@ -352,8 +454,14 @@
     "time": 2,
     "directions": "- 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.    - :mega: Al terminar, [**regresa a Discord**](https: //discord.com/channels/1209273049304666113/1209888657507487744) , 💬 Comparte el enlace a tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso. No olvides dejar el enlace público para que tus compañeras puedan verlo.    - Comenta brevemente una interpretación del gráfico combinado.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1209888657507487744",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1209888657507487744",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1209888657507487744"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-02_exploratory-03_time-01_03_02_dat_graficocombinado_ES"
   },
   {
@@ -369,8 +477,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-02_exploratory-03_time-01_03_00_dat_vizulizareneltiempo_ES"
   },
   {
@@ -386,8 +499,14 @@
     "time": 2,
     "directions": "- 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.    - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1209888657507487744) , 💬 Comparte el enlace a tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso. No olvides dejar el enlace público para que tus compañeras puedan verlo.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1209888657507487744",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1209888657507487744",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1209888657507487744"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-02_exploratory-03_time-01_03_01_dat_graficolinea_ES"
   },
   {
@@ -403,8 +522,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-02_exploratory-01_categorial_vars-README_ES"
   },
   {
@@ -420,8 +544,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-02_exploratory-01_categorial_vars-01_01_02_dat_viewanalisis_ES"
   },
   {
@@ -437,8 +566,14 @@
     "time": 3,
     "directions": "- 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.    - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1209888657507487744) , 💬 Comparte el enlace a tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso. No olvides dejar el enlace público para que tus compañeras puedan verlo.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1209888657507487744",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1209888657507487744",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1209888657507487744"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-02_exploratory-01_categorial_vars-01_01_01_dat_myfirstanalisis_ES"
   },
   {
@@ -454,8 +589,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-02_exploratory-01_categorial_vars-01_01_00_dat_variablescategoricas_ES"
   },
   {
@@ -471,8 +611,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-02_exploratory-02_central_tendency-README_ES"
   },
   {
@@ -488,8 +633,14 @@
     "time": 2,
     "directions": "- 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.    - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1209888657507487744) , 💬 Comparte el enlace a tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso. No olvides dejar el enlace público para que tus compañeras puedan verlo.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1209888657507487744",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1209888657507487744",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1209888657507487744"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-02_exploratory-02_central_tendency-01_02_01_dat_medidas_ES"
   },
   {
@@ -505,8 +656,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-02_exploratory-02_central_tendency-01_02_00_dat_tendenciacentral_ES"
   },
   {
@@ -522,8 +678,14 @@
     "time": 2,
     "directions": "- 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.    - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1209888657507487744) , 💬 Comparte el enlace a tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso. No olvides dejar el enlace público para que tus compañeras puedan verlo.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1209888657507487744",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1209888657507487744",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1209888657507487744"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DAT-02_exploratory-02_central_tendency-01_02_02_dat_distribuicion_ES"
   },
   {
@@ -539,8 +701,13 @@
     "time": "",
     "directions": "El desarrollo web es la disciplina dedicada a la creación, mantenimiento y optimización de soluciones digitales que operan a través de la web.",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-README_ES"
   },
   {
@@ -556,8 +723,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-README_ES.md-README_ES"
   },
   {
@@ -573,8 +745,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-04_practice_replicate-README_ES"
   },
   {
@@ -590,8 +767,14 @@
     "time": 3,
     "directions": "💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de dar por terminado tu reto.Al terminar, regresa a Discord: 1) 💬 Comparte la URL de tu trabajo en el hilo. 2) Reacciona con ✅ para marcar tu progreso.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1247957065289175161",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1247957065289175161",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1247957065289175161"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-04_practice_replicate-01_04_02_project_replications_netflix_ES"
   },
   {
@@ -607,8 +790,14 @@
     "time": 3,
     "directions": "💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de dar por terminado tu reto.Al terminar, regresa a Discord: 1) 💬 Comparte la URL de tu trabajo en el hilo. 2) Reacciona con ✅ para marcar tu progreso.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1247957188971073657",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1247957188971073657",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1247957188971073657"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-04_practice_replicate-01_04_03_project_replications_slack_ES"
   },
   {
@@ -624,8 +813,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-04_practice_replicate-01_04_00_modulo_replications_ES"
   },
   {
@@ -641,8 +835,14 @@
     "time": 2,
     "directions": "💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de dar por terminado tu reto.Al terminar, regresa a Discord: 1) 💬 Comparte la URL de tu trabajo en el hilo. 2) Reacciona con ✅ para marcar tu progreso.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1247956846686240778",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1247956846686240778",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1247956846686240778"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-04_practice_replicate-01_04_01_project_replications_basic_ES"
   },
   {
@@ -658,8 +858,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-02_your_first_form-README_ES"
   },
   {
@@ -675,8 +880,14 @@
     "time": 3,
     "directions": "💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de dar por terminado tu reto.Al terminar, regresa a Discord: 1) 💬 Comparte la URL de tu trabajo en el hilo. 2) Reacciona con ✅ para marcar tu progreso.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1214692430004359238",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1214692430004359238",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1214692430004359238"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-02_your_first_form-01_02_01_project_formulario_ES"
   },
   {
@@ -692,8 +903,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-02_your_first_form-01_02_00_modulo_form_ES"
   },
   {
@@ -709,8 +925,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-01_your_first_web-README_ES"
   },
   {
@@ -726,8 +947,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-01_your_first_web-01_01_00_modulo_myFirstWeb_ES"
   },
   {
@@ -743,8 +969,14 @@
     "time": 3,
     "directions": "- 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.- :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1215720612756983828) , 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1215720612756983828",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1215720612756983828",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1215720612756983828"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-01_your_first_web-01_01_02_project_add_CSS_ES"
   },
   {
@@ -760,8 +992,14 @@
     "time": 1,
     "directions": "💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de dar por terminado tu reto.    Al terminar, regresa a Discord: 1) 💬 Comparte la URL de tu trabajo en el hilo. 2) Reacciona con ✅ para marcar tu progreso.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1243288546895331491",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1243288546895331491",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1243288546895331491"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-01_your_first_web-01_01_03_project_semantic_HTML_ES"
   },
   {
@@ -777,8 +1015,14 @@
     "time": 2,
     "directions": "💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de dar por terminado tu reto.    Al terminar, regresa a Discord: 1) 💬 Comparte la URL de tu trabajo en el hilo. 2) Reacciona con ✅ para marcar tu progreso.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1209888657507487744",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1209888657507487744",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1209888657507487744"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-01_your_first_web-01_01_01_project_myFirstWeb_ES"
   },
   {
@@ -794,8 +1038,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-03_responsive_design-README_ES"
   },
   {
@@ -811,8 +1060,14 @@
     "time": 3,
     "directions": "- 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.    - :mega: Al terminar,    [**regresa a Discord**    ](https: //discord.com/channels/1209273049304666113/1215722402961555466) , 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1215722402961555466",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1215722402961555466",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1215722402961555466"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-03_responsive_design-01_03_02_project_responsive_flexbox_ES"
   },
   {
@@ -828,8 +1083,14 @@
     "time": 3,
     "directions": "💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de dar por terminado tu reto.Al terminar, regresa a Discord: 1) 💬 Comparte la URL de tu trabajo en el hilo. 2) Reacciona con ✅ para marcar tu progreso.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1215722209461542943",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1215722209461542943",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1215722209461542943"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-03_responsive_design-01_03_01_project_responsive_mediaqueries_ES"
   },
   {
@@ -845,8 +1106,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-02_responsive-03_responsive_design-01_03_00_modulo_responsive_ES"
   },
   {
@@ -862,8 +1128,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-01_intro-README_ES.md-README_ES"
   },
   {
@@ -879,8 +1150,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-01_intro-02_learning_bydoing-README_ES"
   },
   {
@@ -896,8 +1172,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-01_intro-02_learning_bydoing-00_02_00_practice_ES"
   },
   {
@@ -913,8 +1194,14 @@
     "time": 1,
     "directions": "Al terminar, recuerda ir a Discord: 1) Reacciona con check ✅ para marcar tu progreso. 2) Envía tu respuesta :mega: 💬 en el hilo.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1238552202172436613",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1238552202172436613",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1238552202172436613"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-01_intro-02_learning_bydoing-00_02_02_close_ES"
   },
   {
@@ -930,8 +1217,14 @@
     "time": 3,
     "directions": "💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de dar por terminado tu reto y compartir la URL en el hilo.     Al terminar, regresa a Discord, 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1215721936777257060",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1215721936777257060",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1215721936777257060"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-01_intro-02_learning_bydoing-00_02_01_myfirst_ES"
   },
   {
@@ -947,8 +1240,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-01_intro-01_baisc_knowledge-README_ES"
   },
   {
@@ -964,8 +1262,14 @@
     "time": 0,
     "directions": "Al terminar, recuerda ir a Discord, reaccionar con el check ✅ para marcar tu progreso.        Comenta :mega: 💬 en el hilo :mega: 💬 sobre 1 o 2 respuestas a las preguntas de investigación que te parecieron particularmente interesantes o novedosas. No tengas miedo de parecer “que no sabes nada”, por algo estás acá ¿verdad?. Además, es hermoso aprender y compartir algo al respecto.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1210625595638284328",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1210625595638284328",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1210625595638284328"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-01_intro-01_baisc_knowledge-00_01_01_DEV_internet_web_ES"
   },
   {
@@ -981,8 +1285,14 @@
     "time": 0,
     "directions": "Al terminar, recuerda ir a Discord, reaccionar con el check ✅ para marcar tu progreso y comentar :mega: 💬 en el hilo ",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1238548930908786829",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1238548930908786829",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1238548930908786829"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-01_intro-01_baisc_knowledge-00_01_03_dev_life_ES"
   },
   {
@@ -998,8 +1308,14 @@
     "time": 0,
     "directions": "Al terminar, recuerda ir a Discord, reaccionar con el check ✅ para marcar tu progreso y comentar :mega: 💬 en el hilo ",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1238549083036061736",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1238549083036061736",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1238549083036061736"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-01_intro-01_baisc_knowledge-00_01_04_dev_trends_ES"
   },
   {
@@ -1015,8 +1331,14 @@
     "time": 0,
     "directions": "Al terminar, recuerda ir a Discord, reaccionar con el check ✅ para marcar tu progreso y comentar :mega: 💬 en el hilo ",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1238549329921183744",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1238549329921183744",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1238549329921183744"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-01_intro-01_baisc_knowledge-00_01_05_dev_tools_ES"
   },
   {
@@ -1032,8 +1354,14 @@
     "time": 1,
     "directions": "Al terminar, recuerda ir a Discord, reaccionar con el check ✅ para marcar tu progreso.        Comenta :mega: 💬 en el hilo :mega: 💬 sobre 1 o 2 respuestas a las preguntas de investigación que te parecieron particularmente interesantes o novedosas. No tengas miedo de parecer “que no sabes nada”, por algo estás acá ¿verdad?. Además, es hermoso aprender y compartir algo al respecto.",
     "discord_URL": "https://discord.com/channels/1209273049304666113/1238540671535812699",
-    "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1238540671535812699",
+    "discord_channel_id": [
+      "1209273049304666113",
+      "1238540671535812699"
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-01_intro-01_baisc_knowledge-00_01_02_DEV_web_ES"
   },
   {
@@ -1049,8 +1377,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-01_intro-01_baisc_knowledge-00_01_00_DEV_all_about_ES"
   },
   {
@@ -1066,8 +1399,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-00_topics-html_ES.md-html_ES"
   },
   {
@@ -1083,8 +1421,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-00_topics-css_media_queries_ES.md-css_media_queries_ES"
   },
   {
@@ -1100,8 +1443,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-00_topics-editors_codepen_fork_ES.md-editors_codepen_fork_ES"
   },
   {
@@ -1117,8 +1465,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-00_topics-html_semantic_ES.md-html_semantic_ES"
   },
   {
@@ -1134,8 +1487,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-00_topics-editors_codepen_doctype_ES.md-editors_codepen_doctype_ES"
   },
   {
@@ -1151,8 +1509,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-00_topics-css_fundamentos_ES.md-css_fundamentos_ES"
   },
   {
@@ -1168,8 +1531,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-00_topics-css_intro_ES.md-css_intro_ES"
   },
   {
@@ -1185,8 +1553,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-00_topics-css_units_ES.md-css_units_ES"
   },
   {
@@ -1202,8 +1575,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-00_topics-editors_codepen_ES.md-editors_codepen_ES"
   },
   {
@@ -1219,8 +1597,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-00_topics-html_forms_ES.md-html_forms_ES"
   },
   {
@@ -1236,8 +1619,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-00_topics-css_relative_units_ES.md-css_relative_units_ES"
   },
   {
@@ -1253,16 +1641,21 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "DEV-00_topics-css_flexbox_ES.md-css_flexbox_ES"
   },
   {
     "track": "LEA",
-    "skill": "lea_model_05_ai.md",
+    "skill": null,
     "module": null,
     "title": "IA como herramienta de aprendizaje",
-    "type": "module",
+    "type": "program",
     "path": "LEA/lea_model_05_ai.md",
     "lang": "PT",
     "difficulty": "",
@@ -1270,16 +1663,21 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "LEA-lea_model_05_ai"
   },
   {
     "track": "LEA",
-    "skill": "lea_model_03_average.md",
+    "skill": null,
     "module": null,
     "title": "El mito de los promedios",
-    "type": "module",
+    "type": "program",
     "path": "LEA/lea_model_03_average.md",
     "lang": "PT",
     "difficulty": "",
@@ -1287,16 +1685,21 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "LEA-lea_model_03_average"
   },
   {
     "track": "LEA",
-    "skill": "lea_model_04_philosophy.md",
+    "skill": null,
     "module": null,
     "title": "Filosofía de aprendizaje",
-    "type": "module",
+    "type": "program",
     "path": "LEA/lea_model_04_philosophy.md",
     "lang": "PT",
     "difficulty": "",
@@ -1304,16 +1707,21 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "LEA-lea_model_04_philosophy"
   },
   {
     "track": "LEA",
-    "skill": "lea_model_02_work.md",
+    "skill": null,
     "module": null,
     "title": "La transformación del trabajo y las oportunidades",
-    "type": "module",
+    "type": "program",
     "path": "LEA/lea_model_02_work.md",
     "lang": "PT",
     "difficulty": "",
@@ -1321,16 +1729,21 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "LEA-lea_model_02_work"
   },
   {
     "track": "LEA",
-    "skill": "lea_model_01_overview.md",
+    "skill": null,
     "module": null,
     "title": "¿Cómo voy a aprender?",
-    "type": "module",
+    "type": "program",
     "path": "LEA/lea_model_01_overview.md",
     "lang": "PT",
     "difficulty": "",
@@ -1338,16 +1751,21 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "LEA-lea_model_01_overview"
   },
   {
     "track": "LEA",
-    "skill": "lea_model_06_assessment.md",
+    "skill": null,
     "module": null,
     "title": "Evaluación",
-    "type": "module",
+    "type": "program",
     "path": "LEA/lea_model_06_assessment.md",
     "lang": "PT",
     "difficulty": "",
@@ -1355,8 +1773,13 @@
     "time": "",
     "directions": "",
     "discord_URL": "",
-    "discord_channel_id": "",
-    "discord_message_id": "",
+    "discord_channel_id": [
+      ""
+    ],
+    "discord_message_id": [
+      "",
+      ""
+    ],
     "slug": "LEA-lea_model_06_assessment"
   }
 ]
