@@ -6,7 +6,6 @@ import requests
 import logging
 
 def clean_control_characters(json_str):
-    # Reemplazar caracteres de escape incorrectos y eliminar caracteres de control
     return re.sub(r'[\x00-\x1F\x7F]', '', json_str.replace('\\_', '_').replace(r'\\(?!["\\/bfnrtu])', r'\\\\'))
 
 def escape_json_config(config_file):
@@ -43,7 +42,7 @@ def generate_markdown_list(root_dir):
                 file_path = os.path.join(subdir, file)
                 if file.endswith(".md"):
                     track, skill, module = get_levels(file_path, root_dir)
-                    file_type = get_file_type(file_path, subdir)
+                    file_type = get_file_type(file_path, subdir, file)
                     lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
                     titles = get_title(file_path)
 
@@ -106,7 +105,7 @@ def get_levels(file_path, root_dir):
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
     return (parts[0], None, None) if len(parts) == 2 else (parts[0], parts[1], parts[2]) if len(parts) >= 3 else (None, None, None)
 
-def get_file_type(file_path, subdir):
+def get_file_type(file_path, subdir, file):
     if "topics" in subdir:
         return "topic"
     if "activities" in subdir and not file.endswith(("README_ES.md", "README_PT.md")):
