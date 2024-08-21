@@ -40,9 +40,19 @@ def extract_preview(file_path):
 
 def modify_activity_links(content, lang, track, skill, module):
     pattern = r"//PATH_TO_THIS_SCRIPT:\?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//"
-    replacement = f"?lang={lang}&track={track or ''}&skill={skill or ''}&module={module or ''}"
-    modified_content = re.sub(pattern, replacement, content)
-    return modified_content, replacement
+    replacement_base = f"?lang={lang}&track={track or ''}&skill={skill or ''}&module={module or ''}&path=https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/master/"
+    
+    # Encontrar todos los enlaces que coinciden con el patrón y agregar la URL completa al path
+    def replace_path(match):
+        original_link = match.group(0)
+        # Extraer el valor de 'path=' y combinarlo con la base de la URL
+        updated_link = re.sub(r'path=', f'path={replacement_base}', original_link)
+        return updated_link
+    
+    # Reemplazar el contenido del archivo usando la función de reemplazo personalizada
+    modified_content = re.sub(pattern, replace_path, content)
+    
+    return modified_content, replacement_base    
 
 def generate_markdown_list(root_dir):
     markdown_list = []  # Aseguramos que markdown_list siempre sea una lista
