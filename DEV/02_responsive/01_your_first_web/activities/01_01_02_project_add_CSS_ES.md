@@ -29,11 +29,11 @@ No es un ejercicio estético pero igual intenta mantener tus estilos lo más arm
 
 ## Insumos para tu aprendizaje
 
-* [🖹 Texto: CodePen, fork o bifurcación](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/topics/editors_codepen_fork_ES.md)
+* [🖹 Texto: CodePen, fork o bifurcación](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/master/DEV/topics/editors_codepen_fork_ES.md)
 * [📺 Video: Introducción a CSS](https://www.youtube.com/watch?v=AGDDdsiZ0Ko)
 * [📺 Video: Selectores CSS](https://www.youtube.com/watch?v=ZNskBxLVOfs)
-* [🖹 Texto: CSS, introducción](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/topics/css_intro_ES.md)
-* [🖹 Texto: CSS, fundamentos](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/topics/css_fundamentos_ES.md)
+* [🖹 Texto: CSS, introducción](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/master/DEV/topics/css_intro_ES.md)
+* [🖹 Texto: CSS, fundamentos](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/master/DEV/topics/css_fundamentos_ES.md)
 * [🎮 Juego: CSS Diner](https://flukeout.github.io/)
 
 ## Pauta de trabajo
