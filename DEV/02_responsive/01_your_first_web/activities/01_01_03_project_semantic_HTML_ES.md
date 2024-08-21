@@ -29,7 +29,7 @@ Incluye las etiquetas `<header>`, `<section>`, `<article>`, y `<footer>` y organ
 
 ## Insumos para tu aprendizaje
 
-- [🖹 Texto: HTML semántico](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/master/DEV/topics/html_semantic_ES.md)
+- [🖹 Texto: HTML semántico](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/topics/html_semantic_ES.md)
 
 ## Pauta de trabajo
 
