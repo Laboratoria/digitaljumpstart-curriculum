@@ -45,7 +45,7 @@ def modify_activity_links(content, lang, track, skill, module):
     return modified_content, replacement
 
 def generate_markdown_list(root_dir):
-    markdown_list = []
+    markdown_list = []  # Aseguramos que markdown_list siempre sea una lista
     log_file = "modification_log.txt"
     
     with open(log_file, 'w', encoding='utf-8') as log:
@@ -125,7 +125,24 @@ def generate_markdown_list(root_dir):
                         markdown_dict["track"] = path_parts[0]
                         markdown_dict["skill"] = None
                         markdown_dict["module"] = None
+                    elif file_type == "skill" and len(path_parts) >= 2:
+                        markdown_dict["track"] = path_parts[0]
+                        markdown_dict["skill"] = path_parts[1]
+                        markdown_dict["module"] = None
+                    elif file_type == "module" and len(path_parts) >= 3:
+                        markdown_dict["track"] = path_parts[0]
+                        markdown_dict["skill"] = path_parts[1]
+                        markdown_dict["module"] = path_parts[2]
+                    else:
+                        # Manejar casos en los que no hay suficientes niveles en path_parts
+                        markdown_dict["track"] = path_parts[0] if len(path_parts) > 0 else None
+                        markdown_dict["skill"] = path_parts[1] if len(path_parts) > 1 else None
+                        markdown_dict["module"] = path_parts[2] if len(path_parts) > 2 else None
 
+                    markdown_list.append(markdown_dict)
+    
+    print(f"Log de modificaciones creado en {log_file}")
+    return markdown_list  # Aseguramos que siempre retorna una lista válida
 def get_levels(file_path, root_dir):
     # Obtener los niveles de la ruta del archivo
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
