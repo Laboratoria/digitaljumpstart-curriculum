@@ -10,15 +10,15 @@ En nuestro caso, esto nos permitirá conservar una "instantánea" de tu trabajo 
 
 1. Abre el proyecto o "Pen" del que quieres hacer la copia para seguir trabajando en ella. Busca y dale al botón "fork"
 
-![](../../assets/codePen_fork_01.png)
+![](../assets/codePen_fork_01.png)
 
 2. Asegúrate de cambiarle el nombre al proyecto para no confundirte. COdePen no lo hace por defecto (al menos no en el momento en el que creamos esta guía).
 
-![](../../assets/codePen_fork_02.png)
+![](../assets/codePen_fork_02.png)
 
 3. Ya puedes seguir trabajando en la copia basada en el proyecto original y, cuando lo necesites, puedes compartir la URL o enlace a esta nueva copia.
 
-![](../../assets/codePen_fork_03.png)
+![](../assets/codePen_fork_03.png)
 
 Una vez hayas copiado el enlace con el botón "Copy/link", puedes pegarlo en donde necesites para que tras personas puedan acceder a ver tu trabajo.
 
