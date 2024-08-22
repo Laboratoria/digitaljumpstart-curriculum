@@ -25,13 +25,13 @@ Como todo en la vida, hay muchas maneras de resolver un mismo problema, se hará
 
 - [ ] No tienes etiquetas de apertura y de cierre para todos los casos.
 
-- [x] No incluyes un título principal de la nota o noticia utilizando la etiqueta `<h1>`.
+- [ ] No incluyes un título principal de la nota o noticia utilizando la etiqueta `<h1>`.
 
-- [x] No incluyes un subtítulo `<h2>` con la fecha de la publicación.
+- [ ] No incluyes un subtítulo `<h2>` con la fecha de la publicación.
 
-- [x] No Incluyes 3 párrafos `<p>` con el "contenido"" de la nota incluyendo fragmentos destacados con tipo de texto `<strong>` (negrita). 
+- [ ] No Incluyes 3 párrafos `<p>` con el "contenido"" de la nota incluyendo fragmentos destacados con tipo de texto `<strong>` (negrita). 
 
-- [x] No incluyes una "lista desordenada"" `<ul>` con algunos puntos clave de la nota.
+- [ ] No incluyes una "lista desordenada"" `<ul>` con algunos puntos clave de la nota.
 
 ## Insumos para tu aprendizaje
 
