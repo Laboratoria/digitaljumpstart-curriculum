@@ -64,7 +64,10 @@ def generate_markdown_list(root_dir):
                     config_data = read_config_data(config_file)
                     
                     discord_url = config_data.get("discord_URL", {}).get(lang, "")
-                    discord_channel_id, discord_message_id = discord_url.split('/')[-2:], ["", ""]
+                    if discord_url:
+                        discord_channel_id, discord_message_id = discord_url.split('/')[-2:]
+                    else:
+                        discord_channel_id, discord_message_id = None, None
 
                     slug = f"{track or ''}{'-' + skill if skill else ''}{'-' + module if module else ''}-{os.path.splitext(file)[0]}"
 
