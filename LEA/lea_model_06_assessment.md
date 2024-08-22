@@ -40,17 +40,17 @@ Sigue los siguientes pasos para participar de la dinámica:
 
 1. Deja un mensaje según corresponda en 🔵[dev-ayuda](https://discord.com/channels/1209273049304666113/1210673338947739758) |🟢[noc-ayuda](https://discord.com/channels/1209273049304666113/1230553558823342120) | 🟠[dat-ayuda](https://discord.com/channels/1209273049304666113/1232000787719262270) pidiendo evaluaciónde una compañera y un enlace/liga al recurso para que todas puedan acceder.  
    
-    ![](..00_assets/2024-04-24%2017-06-47.png)
+    ![]../00_assets/2024-04-24%2017-06-47.png)
    
    También puedes etiquetar o "arrobar" a una compañera de la que quieres recibir  evaluación si así lo prefieres.
    
-    ![](..00_assets/2024-04-24%2017-09-04.png)
+    ![]../00_assets/2024-04-24%2017-09-04.png)
 
 2. Cuando una compañera responda a tu mensaje podrás decidir si quieres recompensarla por su ayuda. Sé justa y responsable con tu decisión. 
    
    Para hacerlo, reacciona a su respuesta con un emoji de 🍯. De esa manera, das 5🍯 y ella recibe 8🍯.
 
-    ![](..00_assets/2024-04-24%2017-24-01.png)
+    ![]../00_assets/2024-04-24%2017-24-01.png)
 
 3. Tú también puedes mejorar tu aprendizaje evaluando el trabajo de otras y, además, obtener más 🍯. Usa la misma dedicación y cuidado que pones para evaluar tu propio trabajo.
 

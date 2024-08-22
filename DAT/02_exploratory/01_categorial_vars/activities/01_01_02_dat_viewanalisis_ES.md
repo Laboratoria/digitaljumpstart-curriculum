@@ -53,7 +53,7 @@ Experimenta probando distintos tipos de gráficos para cada pregunta. Observa cu
 
 Aquí tienes un ejemplo de dos gráficos que pueden ser utilizados para responder la primera pregunta:
 
-![image](../../..00_assets/350081003-52e29a00-8377-481a-9bfd-0a841e332a06.png)
+![image](../../00_assets/350081003-52e29a00-8377-481a-9bfd-0a841e332a06.png)
 
 Estos gráficos pueden servirte de referencia para verificar que tus cálculos y análisis son correctos.
 

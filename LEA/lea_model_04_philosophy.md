@@ -14,7 +14,7 @@ A la gran mayoría nos "educaron" para seguir instrucciones, a callar mientras u
 
 Nuestra filosofía de aprendizaje cambia el tradicional paradigma de “yo te enseño” a “yo aprendo”. Ya hemos hablado de la importancia del desarrollo de habilidades de largo plazo como aprender a aprender para acceder a [trabajos que no están en desaparición](lea\_model\_02\_work.md).
 
-![](..00_assets/2024-03-07-16-22-25-image.png)
+![]../00_assets/2024-03-07-16-22-25-image.png)
 
 Sea cual sea el tiempo que pases aquí, esperamos que te lleves una experiencia que te sume para desenvolverte en entornos de incertidumbre en los se requiere aprender y adaptarse al cambio permanentemente, en lugar de aquellos que requieren planificar y ejecutar las mismas tareas :t-rex:.
 
@@ -24,7 +24,7 @@ Sea cual sea el tiempo que pases aquí, esperamos que te lleves una experiencia 
 
 Conocer algo no es lo mismo que tener una destreza para hacer algo. Como ya ejemplificamos antes, saber de la ley de la gravedad y del concepto de velocidad o inercia no hace que sepas andar en bicicleta.
 
-![](..00_assets/2024-03-07-16-25-14-image.png)
+![]../00_assets/2024-03-07-16-25-14-image.png)
 
 De la educación tradicional, muchas veces hemos quedado con la idea de que "recordar" para responder un cuestionario es lo más importante. Si bien eso puede ser valioso para muchos contextos y situaciones, aquí proponemos que eso son meros insumos para el **desarrollo de habilidades**. Buscamos que seas capaz de hacer algo concreto y real con lo que has aprendido, no solamente recordarlo hasta.... que se te olvide 😶.
 
@@ -34,7 +34,7 @@ Por eso, en lugar de que tengas "contenido" o "materia" que debes leer y memoriz
 
 Algunas décadas atrás, los científicos todavía pensaban que un cerebro maduro era “estático” y, por lo tanto, incapaz de cambiar. Hoy sabemos que **nuestros cerebros y sistemas nerviosos cambian constantemente**, en función y forma, hasta que morimos; es un proceso dinámico de aprendizaje y adaptación en base a nuestras experiencias. Dos casos excepcionalmente demostrativos son: el **cambio en tamaño del hipocampo de conductores de taxi londinenses**, que deben conocer y memorizar miles de calles, en comparación con conductores de autobuses que hacen siempre la misma ruta, y los \cambios de tamaño y forma en los cerebros de personas que comienzan a meditar, en tan sólo 8 semanas. Esos cambios, no obstante, no son lineales ni necesariamente predecibles, son procesos que requiere humildad, disciplina y paciencia.
 
-![](..00_assets/2024-03-07-16-25-59-image.png)
+![]../00_assets/2024-03-07-16-25-59-image.png)
 
 Entender y aceptar que nuestros cerebros pueden cambiar es fundamental para convertirnos en aprendices de por vida. El trabajo de la psicóloga [Carol Dweck](https://es.wikipedia.org/wiki/Carol\_Dweck) sobre el poder del “_growth mindset_” es uno de los más conocidos en este campo. “La mentalidad de crecimiento”, explica Dweck, “se basa en la creencia de que tus cualidades básicas son cosas que puedes cultivar mediante el esfuerzo, la estrategia y la ayuda de otros. Cuando aprendemos algo nuevo, nuestro cerebro cambia, hace nuevas conexiones y construye nuevos modelos mentales que aumentan nuestras capacidades.
 
@@ -46,7 +46,7 @@ Vas a dudar pero recuerda que el aprendizaje no es lineal. Te vas a sentir atasc
 
 Si consigues sintonizar, te llevarás una experiencia transformadora. Esperamos que así sea :black_heart:.
 
-![](..00_assets/2024-03-07-16-26-06-image.png)
+![]../00_assets/2024-03-07-16-26-06-image.png)
 
 Además, ¡no te olvides que estarás rodeada de mujeres con perfiles diversos que estarán aprendiendo también! Es fundamental la comunidad para conseguir un aprendizaje colaborativo y efectivo.
 

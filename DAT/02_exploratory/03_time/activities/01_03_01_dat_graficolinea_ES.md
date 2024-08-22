@@ -37,7 +37,7 @@ Utiliza la variable "fecha_entrada" para comprender el patrón de registro de nu
 
 Prueba crear una columna con el año y el mes utilizando las fórmulas CONCATENATE, YEAR y MONTH para visualizar el gráfico de esta manera:
 
-![image](../../..00_assets/350093985-a687c14e-72d3-42ef-8cf0-c92f28641394.png)
+![image](../../00_assets/350093985-a687c14e-72d3-42ef-8cf0-c92f28641394.png)
 
 ¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdido y confundido es una parte natural del proceso.
 
