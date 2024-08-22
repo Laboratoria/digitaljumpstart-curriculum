@@ -23,7 +23,7 @@ Como todo en la vida, hay muchas maneras de resolver un mismo problema, se hará
 
 ### No cumples con la meta de aprendizaje si:
 
-- [x] No tienes etiquetas de apertura y de cierre para todos los casos.
+- [ ] No tienes etiquetas de apertura y de cierre para todos los casos.
 
 - [x] No incluyes un título principal de la nota o noticia utilizando la etiqueta `<h1>`.
 
