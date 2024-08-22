@@ -1,4 +1,4 @@
-# Habilidad (H): Maquetación Web, básica
+# ⚫ Habilidad (H): Maquetación Web, básica
 
 **Tiempo:** ⏱️ 5min
 

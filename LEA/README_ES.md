@@ -2,6 +2,8 @@
 
 **Tiempo ⏱️ :** 15min
 
+---
+
 > :headphones: Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
 
 ## Contexto
@@ -46,7 +48,7 @@ Encontrarás todo organizado de la siguiente manera. Es como una *matrioshka* o 
 
 ---
 
-#### :large_blue_circle: Habilidad (H)
+#### ⚫ Habilidad (H)
 
 Una habilidad es una destreza para ejecutar o hacer algo concreto. Puedes comprender los conceptos de gravedad, velocidad, equilibrio, etc., pero eso no significa que tengas **la habilidad de andar en bicicleta**.
 
@@ -56,7 +58,7 @@ Una habilidad se desarrolla **completando todas las actividades y los retos de t
 
 ---
 
-#### :large_blue_diamond: Módulo (M)
+#### ◼️ Módulo (M)
 
 Los módulos son un “contenedor” de varias actividades y retos agrupamos para:
 
@@ -70,7 +72,7 @@ Los módulos son un “contenedor” de varias actividades y retos agrupamos par
 
 ---
 
-#### :small_blue_diamond: Reto o "actividad" (R)
+#### ◾ Reto o "actividad" (R)
 
 En Laboratoria, desde hace años creemos firmemente en el aprendizaje activo y en  "aprender haciendo" (*learning by doing*).
 

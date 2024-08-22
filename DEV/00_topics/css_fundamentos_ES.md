@@ -1,4 +1,4 @@
-## CSS: Fundamentos y ejemplos
+# CSS: Fundamentos y ejemplos
 
 Ahora profundizaremos en algunos de los conceptos esenciales de CSS que son fundamentales. Abordaremos el modelo de caja, explicando cómo se estructura y se distribuye el espacio alrededor de los elementos. Luego, examinaremos las propiedades `margin` y `padding` para gestionar los espacios internos y externos de los elementos. También exploraremos cómo aplicar estilos al texto y las fuentes tipográficas para mejorar la legibilidad y estética. A continuación, veremos cómo usar colores e imágenes de fondo para darle vida a tus páginas. Finalmente, aprenderemos a estilizar enlaces y a añadir transiciones para una mejor experiencia de usuario.
 

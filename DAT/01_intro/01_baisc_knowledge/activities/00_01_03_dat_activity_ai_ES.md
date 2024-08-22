@@ -1,7 +1,9 @@
 # ◾ El rol de las personas en la era de la IA para el Análisis de Datos
 
-**Dificultad:** 🌻 \
-**Aprendizaje:** 🍯 \
+**Dificultad:** 🌻
+
+**Aprendizaje:** 🍯 
+
 **Tiempo:** ⏱️ 30min
 
 ---

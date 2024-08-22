@@ -1,9 +1,9 @@
 {
-  "difficulty": 0,
-  "learning": 0,
-  "time": 0,
+  "difficulty": 1,
+  "learning": 1,
+  "time": 1,
   "directions": {
-    "ES": "<p>📢 Al terminar, regresa a Discord, 💬 comparte y reacciona con ✅ para marcar tu progreso.</p>",
+    "ES": "<p>📢 Al terminar, regresa a Discord, 💬 comparte tu respuesta en el formato indicado y reacciona con ✅ para marcar tu progreso.</p>",
     "PT": "null"
   },
   "discord_URL": {

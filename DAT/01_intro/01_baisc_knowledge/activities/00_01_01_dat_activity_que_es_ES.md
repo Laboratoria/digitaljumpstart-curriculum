@@ -66,7 +66,3 @@ No habrás cumplido con la actividad si:
 - [x] No comentas en el hilo de Discord según el formato propuesto.
 
 ---
-
-> 📢 Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1260272464999481475) , 💬 Comparte en el hilo siguiendo el formato propuesto y reacciona con ✅ para marcar tu progreso.
-
----

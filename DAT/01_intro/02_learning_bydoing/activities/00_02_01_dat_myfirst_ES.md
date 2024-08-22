@@ -2,7 +2,7 @@
 
 **Dificultad:** 🌻 
 
-**Aprendizaje:** 🍯 🍯 ﻿
+**Aprendizaje:** 🍯🍯 
 
 **Tiempo:** ⏱️⏱️ 2-4 hrs.
 
