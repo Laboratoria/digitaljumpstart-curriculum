@@ -1,6 +1,6 @@
 # IA como herramienta de aprendizaje
 
-**Tiempo** ⏱ **:** 20min
+**Tiempo** ⏱️ **:** 20min
 
 ***
 

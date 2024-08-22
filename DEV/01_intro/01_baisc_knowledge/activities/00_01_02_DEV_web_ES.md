@@ -4,7 +4,7 @@
 
 **Aprendizaje:** 🍯 
 
-**Tiempo:** ⏱ 45min
+**Tiempo:** ⏱️ 45min
 
 ---
 

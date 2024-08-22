@@ -1,6 +1,6 @@
 # Filosofía de aprendizaje
 
-**Tiempo** ⏱ **:** 10min
+**Tiempo** ⏱️ **:** 10min
 
 ***
 

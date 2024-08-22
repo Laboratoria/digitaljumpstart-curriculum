@@ -1,6 +1,6 @@
 # Evaluación
 
-**Tiempo ⏱ :** 5min
+**Tiempo ⏱️ :** 5min
 
 ---
 

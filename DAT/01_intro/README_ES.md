@@ -1,6 +1,6 @@
 # Introducción al Análisis de Datos
 
-**Tiempo:** ⏱️ 5min
+**Tiempo:** ⏱️️ 5min
 
 ---
 

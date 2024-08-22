@@ -1,6 +1,6 @@
 # ◼️ Módulo 4 : Practica replicando sitios web reales
 
-**Tiempo:** ⏱ 5min
+**Tiempo:** ⏱️ 5min
 
 ---
 

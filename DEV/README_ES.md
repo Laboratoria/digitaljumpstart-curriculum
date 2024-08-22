@@ -1,6 +1,6 @@
 # Desarrollo Web
 
-**Tiempo:** ⏱ 5min
+**Tiempo:** ⏱️ 5min
 
 ---
 

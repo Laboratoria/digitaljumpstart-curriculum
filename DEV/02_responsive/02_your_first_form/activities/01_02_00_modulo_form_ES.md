@@ -1,6 +1,6 @@
 # ◼️ Módulo 2 : Tu primer formulario web
 
-**Tiempo:** ⏱ 5min
+**Tiempo:** ⏱️ 5min
 
 ---
 

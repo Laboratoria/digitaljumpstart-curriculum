@@ -1,6 +1,6 @@
 # ◼️ Módulo 1 : Tu primera web con estilos básicos
 
-**Tiempo:** ⏱ 5min
+**Tiempo:** ⏱️ 5min
 
 ---
 

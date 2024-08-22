@@ -4,7 +4,7 @@
 
 **Aprendizaje:** 🍯
 
-**Tiempo:** ⏱
+**Tiempo:** ⏱️
 
 ---
 

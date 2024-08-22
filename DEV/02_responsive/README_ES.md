@@ -1,6 +1,6 @@
 # Habilidad (H): Maquetación Web, básica
 
-**Tiempo:** ⏱ 5min
+**Tiempo:** ⏱️ 5min
 
 ---
 

@@ -1,6 +1,6 @@
 # Tendencias actuales y futuras en el Desarrollo Web
 
-**Tiempo:** ⏱ 5min
+**Tiempo:** ⏱️ 5min
 
 ---
 

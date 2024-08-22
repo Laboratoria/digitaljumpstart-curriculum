@@ -1,6 +1,6 @@
 # Formularios
 
-**Tiempo:** ⏱ 15min
+**Tiempo:** ⏱️ 15min
 
 ---
 

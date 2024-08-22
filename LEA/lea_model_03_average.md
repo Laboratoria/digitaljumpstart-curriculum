@@ -1,6 +1,6 @@
 # El mito de los promedios
 
-**Tiempo ⏱ :** 25min
+**Tiempo ⏱️ :** 25min
 
 ---
 

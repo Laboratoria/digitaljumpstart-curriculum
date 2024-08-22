@@ -4,7 +4,7 @@
 
 **Aprendizaje:** 🍯🍯
 
-**Tiempo:** ⏱⏱⏱
+**Tiempo:** ⏱️⏱️⏱️
 
 **Reacciona** con 👀 cuando comiences la lectura, actividad o reto.
 

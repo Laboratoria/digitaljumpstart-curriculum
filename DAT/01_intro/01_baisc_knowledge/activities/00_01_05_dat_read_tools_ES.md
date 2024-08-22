@@ -1,6 +1,6 @@
-# Herramientas de Análisis de Aatos Más Comunes
+# Herramientas de Análisis de Datos Más Comunes
 
-**Tiempo:** ⏱ 10min
+**Tiempo:** ⏱️ 10min
 
 ---
 

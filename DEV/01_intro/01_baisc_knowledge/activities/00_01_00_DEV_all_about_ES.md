@@ -1,6 +1,6 @@
 # ◼️ Módulo 1: "Todo sobre" el Desarrollo Web
 
-**Tiempo:** ⏱️ 5min
+**Tiempo:** ⏱️️ 5min
 
 ---
 
