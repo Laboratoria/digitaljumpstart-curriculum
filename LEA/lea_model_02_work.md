@@ -14,11 +14,11 @@ La educación “industrial” del sXX funcionó muy bien para proveer de “fue
 
 ### Así se entendía el aprendizaje en el pasado
 
-![](../assets/2024-03-07-11-27-38-image.png)
+![](..00_assets/2024-03-07-11-27-38-image.png)
 
 ### Así se entiende hoy en día
 
-![](../assets/2024-03-07-11-27-51-image.png)
+![](..00_assets/2024-03-07-11-27-51-image.png)
 
 Este nuevo paradigma ha incrementado la demanda de habilidades permanente o transversales como el pensamiento crítico, la solución de problemas complejos y la adaptabilidad. Es por eso que la filosofía de aprendizaje de Laboratoria se basa en la necesidad de que desarrolles ese tipo de habilidades, con especial énfasis en tu habilidad de aprender a aprender como herramienta principal para desempeñarte en cualquier empleo presente y futuro porque todo está y estará en constante transformación.
 

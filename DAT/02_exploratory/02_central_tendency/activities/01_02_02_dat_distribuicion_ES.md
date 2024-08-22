@@ -38,7 +38,7 @@ Comprender la distribución de las variables "compras en línea" y "compras en t
 
 Aquí tienes un ejemplo de histograma para la variable compras en linea:
 
-![image](../../../assets/350083365-6d1a39a3-307b-4744-b95c-26afbf350f2d.png)
+![image](../../..00_assets/350083365-6d1a39a3-307b-4744-b95c-26afbf350f2d.png)
 
 - Como vimos en el reto anterior, el promedio está siendo influenciado por un valor alto que hace que el promedio sea mayor que la mediana, y que el histograma tenga una cola hacia la derecha.
 
