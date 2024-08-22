@@ -20,7 +20,7 @@ Los **media features** corresponden a la condición que debe cumplir el disposit
 
 Los media features más comunes son los referidos a las dimensiones de pantalla de dispositivo, pudiendo establecer el alto y ancho en el que se aplicarán (con height y width), o lo que es más interesante, a partir de qué ancho o alto se aplicarán (con min/max-width y min/max-height).
 
-![Media Feature](https://github.com/Laboratoria/curricula-js/blob/40a7995144b1a8e93887180484ae5a1d882fb435/04-social-network/00-rwd/02-media-queries/media_feature.png?raw=true)
+![Media Feature](https://github.com/Laboratoria/curricula-js/40a7995144b1a8e93887180484ae5a1d882fb435/04-social-network/00-rwd/02-media-queries/media_feature.png?raw=true)
 
 Los **operadores lógicos** son *and*, *not*, *only* y *lista separada por comas* (que funciona como el operador lógico or de Javascript) y se encargan de unir nuestros media types a los media features.
 
