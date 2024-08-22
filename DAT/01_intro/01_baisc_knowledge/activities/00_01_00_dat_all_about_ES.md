@@ -1,6 +1,8 @@
-# ◼️Módulo 1: "Todo sobre" el Análisis de Datos
+# ◼️ Módulo 1: "Todo sobre" el Análisis de Datos
 
 **Tiempo:** ⏱️ 5min
+
+---
 
 **Formato:**
 

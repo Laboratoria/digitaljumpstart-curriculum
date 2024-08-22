@@ -2,6 +2,8 @@
 
 **Tiempo:** ⏱ 15min
 
+---
+
 ## Estructura básica de un formulario
 
 > **Tip**: recuerda no intentar memorizar ni comprender cada recurso que te recomendamos, nadie puede. Todo es un proceso en el que, poco a poco, pasarás de hacerte una idea general hasta ser capaz de utilizar algunos aspectos de lo recién aprendido. Una buena idea puede ser copiar y pegar estos ejemplos, uno a uno, en tu editor para que observes lo que sucede exactamente.

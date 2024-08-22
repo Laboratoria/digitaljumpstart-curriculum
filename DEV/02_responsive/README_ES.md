@@ -2,6 +2,8 @@
 
 **Tiempo:** ⏱ 5min
 
+---
+
 **Campo** : [Desarrollo Web](https://discord.com/channels/1209273049304666113/1236067190466285650)
 
 ## Introducción

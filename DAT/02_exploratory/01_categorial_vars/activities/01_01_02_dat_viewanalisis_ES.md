@@ -1,4 +1,4 @@
-# ◾Reto 1.2: Gráficos para el análisis exploratorio
+# ◾ Reto 1.2: Gráficos para el análisis exploratorio
 
 **Dificultad:** 🌻
 
@@ -7,6 +7,8 @@
 **Tiempo:** ⏱⏱⏱ 3-5 hrs.
 
 **Reacciona** con :eyes: cuando comiences la lectura y/o actividad.
+
+---
 
 ## Meta de Aprendizaje
 
@@ -36,10 +38,10 @@ Experimenta probando distintos tipos de gráficos para cada pregunta. Observa cu
 
 ## Insumos para tu aprendizaje
 
-- [Documentación Gráficos](https://support.google.com/docs/answer/63824?hl=es&co=GENIE.Platform%3DDesktop): Documentación de Google sobre gráficos.
-- [Artículo sobre gráficos de barras](https://tipshojasdecalculo.com/grafico-de-barras-en-google-sheets/): Paso a paso para crear un gráfico de barras.
-- [Documentación tipos de gráficos](https://support.google.com/docs/answer/190718?hl=es-419): Documentación de Google sobre tipos de gráficos.
-- [Video como crear y personalizar gráficos](https://www.youtube.com/watch?v=Ws2cTgMTPQE&t=17s): En este vídeo verás cómo personalizar gráficos en Google Sheets.
+- [📄 Texto: Documentación Gráficos](https://support.google.com/docs/answer/63824?hl=es&co=GENIE.Platform%3DDesktop): Documentación de Google sobre gráficos.
+- [📄 Texto: Artículo sobre gráficos de barras](https://tipshojasdecalculo.com/grafico-de-barras-en-google-sheets/): Paso a paso para crear un gráfico de barras.
+- [📄 Texto: Documentación tipos de gráficos](https://support.google.com/docs/answer/190718?hl=es-419): Documentación de Google sobre tipos de gráficos.
+- [📺 Video: como crear y personalizar gráficos](https://www.youtube.com/watch?v=Ws2cTgMTPQE&t=17s): En este vídeo verás cómo personalizar gráficos en Google Sheets.
 
 ## Pauta de trabajo
 
@@ -53,7 +55,7 @@ Experimenta probando distintos tipos de gráficos para cada pregunta. Observa cu
 
 Aquí tienes un ejemplo de dos gráficos que pueden ser utilizados para responder la primera pregunta:
 
-![image](../../00_assets/350081003-52e29a00-8377-481a-9bfd-0a841e332a06.png)
+![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/350081003-52e29a00-8377-481a-9bfd-0a841e332a06.png)
 
 Estos gráficos pueden servirte de referencia para verificar que tus cálculos y análisis son correctos.
 
@@ -61,10 +63,3 @@ Estos gráficos pueden servirte de referencia para verificar que tus cálculos y
 
 ---
 
-> - 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.
-> 
-> - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1209888657507487744) , 💬 Comparte el enlace a tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso. No olvides dejar el enlace público para que tus compañeras puedan verlo. 
-> 
-> - ¿Quieres comentar algún aspecto de los datos que te haya llamado la atención solamente después de verlos representados en un gráfico?
-
----

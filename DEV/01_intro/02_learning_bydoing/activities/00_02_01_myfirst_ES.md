@@ -1,9 +1,14 @@
 # ◾ Reto 2.1 : Mi Primera Página HTML
 
-**Dificultad:** :sunflower:﻿
-**Aprendizaje:** :honey_pot:﻿
+**Dificultad:** 🌻 
+
+**Aprendizaje:** 🍯 
+
 **Tiempo:** ⏱⏱ 3-6 hrs.
+
 **Reacciona** con :eyes:﻿ cuando comiences la lectura, actividad o reto.
+
+---
 
 ## Meta de Aprendizaje
 
@@ -37,7 +42,7 @@ Como todo en la vida, hay muchas maneras de resolver un mismo problema, se hará
 
 - [CodePen como tu primer editor de código](?lang=ES&track=DEV&skill=01_intro&module=02_learning_bydoing&path=DEV/00_topics/editors_codepen_ES.md)
 - [Ignorar el error DOCTYPE de CodePen](?lang=ES&track=DEV&skill=01_intro&module=02_learning_bydoing&path=DEV/00_topics/editors_codepen_doctype_ES.md)
-- [🖹 Texto: introducción a HTML](?lang=ES&track=DEV&skill=01_intro&module=02_learning_bydoing&path=DEV/00_topics/html_ES.md)
+- [📄 Texto: introducción a HTML](?lang=ES&track=DEV&skill=01_intro&module=02_learning_bydoing&path=DEV/00_topics/html_ES.md)
 - [📺 Video: introducción al HTML](https://youtu.be/ewZ_YWbIWXI?si=FEGJuPSPf-WUh-2P)
 - [📺 Video: elementos HTML](https://www.youtube.com/watch?v=vIoO52MdZFE)
 

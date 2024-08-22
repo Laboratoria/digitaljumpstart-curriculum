@@ -1,4 +1,4 @@
-# ◾Reto 4.1: Replica un diseño web básico responsivo
+# ◾ Reto 4.1: Replica un diseño web básico responsivo
 
 **Dificultad:** 🌻🌻 
 
@@ -7,6 +7,8 @@
 **Tiempo:** ⏱⏱ 
 
 **Reacciona** con 👀 cuando comiences la lectura, actividad o reto.
+
+---
 
 ## Meta de Aprendizaje
 

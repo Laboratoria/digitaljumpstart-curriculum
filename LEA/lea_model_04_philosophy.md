@@ -1,6 +1,6 @@
 # Filosofía de aprendizaje
 
-**Tiempo** :stopwatch: **:** 10min
+**Tiempo** ⏱ **:** 10min
 
 ***
 
@@ -52,12 +52,12 @@ Además, ¡no te olvides que estarás rodeada de mujeres con perfiles diversos q
 
 ***
 
-> :mega: 💬 [**Comenta en Discord:**](https://discord.com/channels/1209273049304666113/1215446781375160360) ¿Qué conflictos se acaban de generar en tu 🧠? Comenta la idea que más pensamientos te produjo, para bien o para mal.
+> 📢 💬 [**Comenta en Discord:**](https://discord.com/channels/1209273049304666113/1215446781375160360) ¿Qué conflictos se acaban de generar en tu 🧠? Comenta la idea que más pensamientos te produjo, para bien o para mal.
 
 ***
 
 Opcional si quieres profundizar por tu cuenta:
 
-* :seedling: 📄 [Plasticidad Cerebral y Neuronal, Neurogénesis. Neuroplasticidad ejercicios mentales](https://www.cognifit.com/es/plasticidad-cerebral)
-* :seedling: 📄 [London taxi drivers and bus drivers: a structural MRI and neuropsychological analysis - PubMed](https://pubmed.ncbi.nlm.nih.gov/17024677/)
-* :seedling: 📺 [La neurociencia de la meditación. Nazareth Castellanos, neurocientífica - YouTube](https://youtu.be/5xOGYn0KvnU?si=dqc30-UOAI\_f24ag)
+* :seedling: [📄 Texto: Plasticidad Cerebral y Neuronal, Neurogénesis. Neuroplasticidad ejercicios mentales](https://www.cognifit.com/es/plasticidad-cerebral)
+* :seedling: [📄 Texto: London taxi drivers and bus drivers: a structural MRI and neuropsychological analysis - PubMed](https://pubmed.ncbi.nlm.nih.gov/17024677/)
+* :seedling: [📺 Video: La neurociencia de la meditación. Nazareth Castellanos, neurocientífica - YouTube](https://youtu.be/5xOGYn0KvnU?si=dqc30-UOAI\_f24ag)

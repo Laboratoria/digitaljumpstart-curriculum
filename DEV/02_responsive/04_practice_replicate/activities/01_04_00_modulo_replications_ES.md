@@ -2,6 +2,8 @@
 
 **Tiempo:** ⏱ 5min
 
+---
+
 ## Introducción
 
 ¡Es hora de practicar más lo aprendido sobre diseño web responsivo! En este módulo  te enfrentarás al desafío de replicar 3 sitios web distintos, reforzando tus habilidades y adquiriendo experiencia con distintos diseños.

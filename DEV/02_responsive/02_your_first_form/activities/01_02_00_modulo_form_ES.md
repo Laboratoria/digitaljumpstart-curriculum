@@ -2,6 +2,8 @@
 
 **Tiempo:** ⏱ 5min
 
+---
+
 ## Introducción
 
 Los formularios `HTML` son una herramienta fundamental para recopilar información y datos de las usuarias. A pesar de su simplicidad, los formularios permiten una amplia gama de interacciones, desde la introducción de texto hasta la selección de opciones predefinidas. En este módulo, te centrarás en la estructura básica de un formulario `HTML` y cómo maquetarlo para que sea claro y funcional, sin preocuparte aún por el almacenamiento o envío de datos.

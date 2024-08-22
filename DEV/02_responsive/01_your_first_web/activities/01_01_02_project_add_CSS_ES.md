@@ -1,4 +1,4 @@
-# ◾Reto 1.2 : Agregando estilos con CSS
+# ◾ Reto 1.2 : Agregando estilos con CSS
 
 **Dificultad:** 🌻
 
@@ -6,13 +6,15 @@
 
 **Tiempo:** ⏱⏱⏱
 
+---
+
 ## Meta de Aprendizaje
 
 Aprender lo elemental del lenguaje `CSS` para ser capaz de mejorar la presentación visual de una página `HTML` aplicando estilos básicos `CSS` (_Cascade Style Sheets_). Aprenderás sobre su sintaxis, y algunas propiedades introductorias para modificar márgenes, espacios de relleno, tipos de letra, color de texto y fondo, efectos de transición, etc.
 
 ## Descripción
 
-[Video : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/07471114231d48559d844f1cad33ea65)
+[📺 Video: Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/07471114231d48559d844f1cad33ea65)
 
 Después de haber establecido la estructura y contenido básico de tu página `HTML` en el reto anterior, es el momento de mejorar su presentación visual con los primeros estilos creados con el lenguaje `CSS`.
 
@@ -29,11 +31,11 @@ No es un ejercicio estético pero igual intenta mantener tus estilos lo más arm
 
 ## Insumos para tu aprendizaje
 
-* [🖹 Texto: CodePen, fork o bifurcación](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/00_topics/editors_codepen_fork_ES.md)
+* [📄 Texto: CodePen, fork o bifurcación](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/00_topics/editors_codepen_fork_ES.md)
 * [📺 Video: Introducción a CSS](https://www.youtube.com/watch?v=AGDDdsiZ0Ko)
 * [📺 Video: Selectores CSS](https://www.youtube.com/watch?v=ZNskBxLVOfs)
-* [🖹 Texto: CSS, introducción](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/00_topics/css_intro_ES.md)
-* [🖹 Texto: CSS, fundamentos](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/00_topics/css_fundamentos_ES.md)
+* [📄 Texto: CSS, introducción](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/00_topics/css_intro_ES.md)
+* [📄 Texto: CSS, fundamentos](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/00_topics/css_fundamentos_ES.md)
 * [🎮 Juego: CSS Diner](https://flukeout.github.io/)
 
 ## Pauta de trabajo

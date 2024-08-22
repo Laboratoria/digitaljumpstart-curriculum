@@ -1,4 +1,4 @@
-# ◾Reto 3.1: Visualizar datos a lo largo del tiempo
+# ◾ Reto 3.1: Visualizar datos a lo largo del tiempo
 
 **Dificultad:** 🌻
 
@@ -7,6 +7,8 @@
 **Tiempo:** ⏱⏱ 1-2 hrs.
 
 **Reacciona** con :eyes: cuando comiences la lectura y/o actividad.
+
+---
 
 ## Meta de Aprendizaje
 
@@ -23,7 +25,7 @@ Utiliza la variable "fecha_entrada" para comprender el patrón de registro de nu
 
 ## Insumos para tu aprendizaje
 
-- [Video sobre gráficos de líneas](https://www.youtube.com/watch?v=HXYZRCWfV7M)
+- [📺 Video: sobre gráficos de líneas](https://www.youtube.com/watch?v=HXYZRCWfV7M)
 
 ## Pauta de trabajo
 
@@ -37,14 +39,8 @@ Utiliza la variable "fecha_entrada" para comprender el patrón de registro de nu
 
 Prueba crear una columna con el año y el mes utilizando las fórmulas CONCATENATE, YEAR y MONTH para visualizar el gráfico de esta manera:
 
-![image](../../00_assets/350093985-a687c14e-72d3-42ef-8cf0-c92f28641394.png)
+![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/350093985-a687c14e-72d3-42ef-8cf0-c92f28641394.png)
 
 ¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdido y confundido es una parte natural del proceso.
-
----
-
-> - 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.
-> 
-> - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1209888657507487744) , 💬 Comparte el enlace a tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso. No olvides dejar el enlace público para que tus compañeras puedan verlo.
 
 ---

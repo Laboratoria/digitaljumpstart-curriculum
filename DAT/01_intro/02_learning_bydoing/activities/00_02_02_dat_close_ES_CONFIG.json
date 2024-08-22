@@ -1,0 +1,13 @@
+{
+  "difficulty": 1,
+  "learning": 1,
+  "time": 1,
+  "directions": {
+    "ES": "<p>📢 Comparte tu respuesta con el formato indicado en el hilo de Discord y reacciona con ✅ para marcar tu progreso.</p>",
+    "PT": "null"
+  },
+  "discord_URL": {
+    "ES": "https://discord.com/channels/1209273049304666113/1260275947651731466",
+    "PT": "null"
+  }
+}

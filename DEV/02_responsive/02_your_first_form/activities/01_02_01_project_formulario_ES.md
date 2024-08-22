@@ -1,4 +1,4 @@
-# ◾Reto 2.1: Creación de un formulario
+# ◾ Reto 2.1: Creación de un formulario
 
 **Dificultad:** 🌻
 
@@ -7,6 +7,8 @@
 **Tiempo:** ⏱⏱⏱
 
 **Reacciona** con 👀 cuando comiences la lectura, actividad o reto.
+
+---
 
 ## Meta de Aprendizaje
 
@@ -34,8 +36,8 @@ Trabajando en un _fork_ de tu página de perfil/personal, agregarás un formular
 
 ## Insumos para tu aprendizaje
 
-- [🖹 Texto: CodePen, fork o bifurcación](?lang=ES&track=DEV&skill=02_responsive&module=02_your_first_form&path=DEV/00_topics/editors_codepen_fork_ES.md)
-- [🖹 Texto: Formularios en HTML](?lang=ES&track=DEV&skill=02_responsive&module=02_your_first_form&path=DEV/topicos/html_forms_ES.md)
+- [📄 Texto: CodePen, fork o bifurcación](?lang=ES&track=DEV&skill=02_responsive&module=02_your_first_form&path=DEV/00_topics/editors_codepen_fork_ES.md)
+- [📄 Texto: Formularios en HTML](?lang=ES&track=DEV&skill=02_responsive&module=02_your_first_form&path=DEV/topicos/html_forms_ES.md)
 - [📺 Video: Atributos en HTML](https://youtu.be/yMX901oVtn8?si=J0SX7nqPv877CANi)
 
 ## Pauta de trabajo

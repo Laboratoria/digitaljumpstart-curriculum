@@ -1,4 +1,4 @@
-# ◾Reto 1.1: Mi Primera Página HTML (cont...)
+# ◾ Reto 1.1: Mi Primera Página HTML (cont...)
 
 **Dificultad:** 🌻
 
@@ -8,13 +8,15 @@
 
 **Reacciona** con :eyes: cuando comiences la lectura y/o actividad.
 
+---
+
 ## Meta de Aprendizaje
 
 Aprenderás a utilizar etiquetas adicionales de `HTML` para crear una página sencilla que contenga únicamente texto, enlaces e imágenes.
 
 ## Descripción
 
-[Video : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/6e52e683796e44ce8a23e585bdba3c93?sid=ebfd426d-bbb9-4e37-9cbc-467ae73997ac)
+[📺 Video: Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/6e52e683796e44ce8a23e585bdba3c93?sid=ebfd426d-bbb9-4e37-9cbc-467ae73997ac)
 
 Continuarás trabajando sólo con `HTML` pero agregaremos algunas etiquetas nuevas para que puedas practicar un poco más.
 
@@ -42,7 +44,7 @@ Utilizando un nuevo proyecto de CodePen, crea una página `HTML` simple que func
 
 - [CodePen como tu primer editor de código](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/00_topics/editors_codepen_ES.md)
 - [Ignorar el error DOCTYPE de CodePen](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/00_topics/editors_codepen_doctype_ES.md)
-- [🖹 Texto: introducción a HTML](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/00_topics/html_ES.md)
+- [📄 Texto: introducción a HTML](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/00_topics/html_ES.md)
 - [📺 Video: introducción al HTML](https://youtu.be/ewZ_YWbIWXI?si=FEGJuPSPf-WUh-2P)
 - [📺 Video: elementos HTML](https://www.youtube.com/watch?v=vIoO52MdZFE)
 - [📺 Video: Atributos HTML](https://youtu.be/_QZT7adJGIg?si=qSXHjPF2PYjJY8ow)
@@ -57,6 +59,6 @@ Utilizando un nuevo proyecto de CodePen, crea una página `HTML` simple que func
 - Para la etiqueta de la imagen, utiliza la URL de una que ya esté "en línea". Puedes subir la que quieras a https://imgur.com/ y obtener la URL con el botón "Grab Link".
 - Recuerda que puedes pedir [la evaluación de una compañera antes de terminar tu reto](https://laboratoria1.gitbook.io/codigom/curriculum_model/lea_model_06_assessment.md).
 - ¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que estar aturdida y confundida es parte natural del proceso.
-- [Video : Tutorial o solución](https://www.loom.com/share/e23a5d140e53454a85db47c0c0d8f628?sid=38b96ce5-6ef2-4d31-aace-45fa355523b0)
+- [📺 Video: Tutorial o solución](https://www.loom.com/share/e23a5d140e53454a85db47c0c0d8f628?sid=38b96ce5-6ef2-4d31-aace-45fa355523b0)
 
 ---

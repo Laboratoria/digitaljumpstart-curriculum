@@ -1,10 +1,12 @@
-# ◾Qué es la IA
+# ◾ Qué es la IA
 
 **Dificultad:** 🌻
 
 **Aprendizaje:** 🍯
 
 **Tiempo:** ⏱ 45min
+
+---
 
 ## Introducción
 
@@ -71,9 +73,9 @@ Investiga brevemente sobre las siguientes preguntas. **Elije 1 o 2 respuestas qu
 
 - AI: ChatGPT, Gemini, Perplexity, Bing, etc.. Recuerda que pueden alucinar y mentirte descaradamente, verifica siempre.
 
-- [Curso de IA de Google para principiantes (Resumen en 10 minutos) - YouTube](https://youtu.be/-idMBeCCCzs?si=pyOvwYcDvX9qHV3h)
+- [📺 Video: Curso de IA de Google para principiantes (Resumen en 10 minutos) - YouTube](https://youtu.be/-idMBeCCCzs?si=pyOvwYcDvX9qHV3h)
 
-- [Desde charlas casuales hasta titulares: ¿Qué #@$!% es la IA? - YouTube](https://youtu.be/FV6RHP4hwI4?si=BZ39aRsi2ZXIDZRJ)
+- [📺 Video: Desde charlas casuales hasta titulares: ¿Qué #@$!% es la IA? - YouTube](https://youtu.be/FV6RHP4hwI4?si=BZ39aRsi2ZXIDZRJ)
 
 ## Guía de Autoevaluación
 
@@ -81,10 +83,6 @@ No habrás cumplido con la actividad si:
 
 - [x] No investigaste sobre cada una de las preguntas.
 - [x] No comentas en el hilo de Discord sobre 1 o 2 rptas que te parecieron interesantes.
-
----
-
-> :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1260275120086188104) , 💬 Comparte en el hilo sobre 1 o 2 respuestas a las preguntas de investigación que te parecieron particularmente interesantes o novedosas. No tengas miedo de parecer “que no sabes nada”, por algo estás acá ¿verdad?. Además, es hermoso aprender y compartir algo al respecto. Reacciona con ✅ para marcar tu progreso.
 
 ---
 

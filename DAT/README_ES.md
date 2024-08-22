@@ -1,6 +1,8 @@
 # Análisis de Datos
 
-**Tiempo:** :stopwatch: 5min
+**Tiempo:** ⏱ 5min
+
+---
 
 El análisis de datos es la disciplina dedicada a la recopilación, procesamiento y análisis de datos para extraer conocimientos valiosos y tomar decisiones informadas. Esta disciplina abarca desde la interpretación de datos numéricos y categóricos hasta el uso de técnicas avanzadas como el *Machine Learning* o aprendizaje automático para identificar patrones y prever tendencias.
 

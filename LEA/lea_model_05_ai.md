@@ -1,6 +1,6 @@
 # IA como herramienta de aprendizaje
 
-**Tiempo** :stopwatch: **:** 20min
+**Tiempo** ⏱ **:** 20min
 
 ***
 
@@ -52,7 +52,7 @@ Herramientas como ChatGPT, Perplexity, Gemini, etc. te pueden ser de gran utilid
 4. Puedes preguntarle 750 veces, de distintas maneras e ir constatando/validando por tu cuenta.
 5. De manera natural, irás desarrollando tu pensamiento crítico.
 
-Este es un ejemplo de millones de cómo puedes hacer un uso inteligente de estas herramientas [How to use ChatGPT to easily learn any skill you want - YouTube](https://youtu.be/MnDudvCyWpc?si=yCcgwZr47Q-aczrO)
+Este es un ejemplo de millones de cómo puedes hacer un uso inteligente de estas herramientas [📺 Video: How to use ChatGPT to easily learn any skill you want - YouTube](https://youtu.be/MnDudvCyWpc?si=yCcgwZr47Q-aczrO)
 
 ## Conclusión
 
@@ -70,6 +70,6 @@ Seguramente estaremos hablando y utilizando mucho más todo esto para acelerar y
 
 ***
 
-> :mega: 💬 [**Comenta en Discord:**](https://discord.com/channels/1209273049304666113/1215449353250938901) ¿Hay algo que te preocupe sobre usar las IAs para aprender?, ¿te parece que son contraproducentes?, ¿tienes alguna recomendación sobre cómo las estás usando de forma responsable?
+> 📢 💬 [**Comenta en Discord:**](https://discord.com/channels/1209273049304666113/1215449353250938901) ¿Hay algo que te preocupe sobre usar las IAs para aprender?, ¿te parece que son contraproducentes?, ¿tienes alguna recomendación sobre cómo las estás usando de forma responsable?
 
 ***

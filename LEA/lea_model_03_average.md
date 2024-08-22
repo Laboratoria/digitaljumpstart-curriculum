@@ -1,6 +1,6 @@
 # El mito de los promedios
 
-**Tiempo :stopwatch: :** 25min
+**Tiempo ⏱ :** 25min
 
 ---
 
@@ -12,7 +12,7 @@ Hace algunos años trabajábamos intensamente por darle forma y estructura al nu
 
 Rose es un académico y autor innovador en el campo de la educación. Fue director del Laboratorio de Ciencias de la Individualidad en la Escuela de Educación de Harvard. Su investigación se centra en el desarrollo de métodos educativos que honran la individualidad y promueven el éxito de cada estudiante.
 
-:tv: [The Myth of Average: Todd Rose at TEDxSonomaCounty - YouTube](https://youtu.be/4eBmyttcfU4?si=B1RXztfKsg-ESxY8) 
+[📺 Video: The Myth of Average: Todd Rose at TEDxSonomaCounty - YouTube](https://youtu.be/4eBmyttcfU4?si=B1RXztfKsg-ESxY8) 
 
 En su libro "El fin del promedio: Cómo triunfamos en un mundo que valora la uniformidad", plantea un desafío importante al sistema educativo tradicional y a la forma en que medimos el éxito y el potencial de las personas. La tesis central del libro es que las medidas promedio, utilizadas para entender habilidades, inteligencia y talento, no solo son inadecuadas, sino que a menudo son engañosas porque ocultan las variabilidades individuales que son clave para el aprendizaje y el desempeño personal.
 
@@ -24,12 +24,12 @@ Su trabajo es relevante porque desafía conceptos arraigados sobre la igualdad y
 
 ---
 
-> :mega: 💬 [**Comenta en Discord:**](https://discord.com/channels/1209273049304666113/1215448579662028820) ¿Habías pensado alguna vez en las implicaciones de que casi todo esté hecho para "los promedios"?, ¿te das cuenta de lo absurdo y, sin embargo, aceptado que tenemos esto?
+> 📢 💬 [**Comenta en Discord:**](https://discord.com/channels/1209273049304666113/1215448579662028820) ¿Habías pensado alguna vez en las implicaciones de que casi todo esté hecho para "los promedios"?, ¿te das cuenta de lo absurdo y, sin embargo, aceptado que tenemos esto?
 
 ---
 
 Opcional si quieres profundizar por tu cuenta:
 
-- [The Psychology Podcast. Todd Rose (Part I) || Rethinking Intelligence - YouTube](https://youtu.be/Ou9533Mr1_A?si=F5By1p3_VvUcWOWk). Un episodio muy interesante en el que se profundiza sobre algunas y otras ideas de la lectura.
+- [📺 Video: The Psychology Podcast. Todd Rose (Part I) || Rethinking Intelligence - YouTube](https://youtu.be/Ou9533Mr1_A?si=F5By1p3_VvUcWOWk). Un episodio muy interesante en el que se profundiza sobre algunas y otras ideas de la lectura.
 
 - :seedling: Otro libro muy interesante de Rose es "*Dark Horse*: Lograr el éxito a través de la búsqueda de la realización". El libro desmitifica la idea de que hay un único camino predefinido hacia el logro, presentando en cambio historias de personas atípicas que han encontrado la satisfacción y el éxito siguiendo rutas personalizadas que reflejan sus intereses y valores únicos. Rose argumenta que la clave para el "éxito"" real es una profunda autoconciencia y la disposición a perseguir lo que realmente nos importa, incluso cuando se desvía de las normas sociales o expectativas. 

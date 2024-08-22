@@ -1,4 +1,4 @@
-# ◾Reto 3.1: Visualizar datos con gráficos combinados
+# ◾ Reto 3.1: Visualizar datos con gráficos combinados
 
 **Dificultad:** 🌻
 
@@ -7,6 +7,8 @@
 **Tiempo:** ⏱⏱ 1-2 hrs.
 
 **Reacciona** con :eyes: cuando comiences la lectura y/o actividad.
+
+---
 
 ## Meta de Aprendizaje
 
@@ -23,7 +25,7 @@ Utiliza la variable "fecha_entrada" para entender el patrón de registro de nuev
 
 ## Insumos para tu aprendizaje
 
-- [Video sobre gráficos combinado](https://www.youtube.com/watch?v=jBVPCobW-do)
+- [📺 Video: sobre gráficos combinado](https://www.youtube.com/watch?v=jBVPCobW-do)
 
 ## Pauta de trabajo
 
@@ -37,16 +39,8 @@ Utiliza la variable "fecha_entrada" para entender el patrón de registro de nuev
 
 Este es un ejemplo de gráfico combinado que muestra la suma de compras de vino según los clientes con fecha de entrada en el mismo mes y el total de clientes que se registraron en ese mes:
 
-![image](../../00_assets/350095241-65aec943-78f7-46ea-a122-329ee3aa82ee.png)
+![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/350095241-65aec943-78f7-46ea-a122-329ee3aa82ee.png)
 
 ¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdido y confundido es una parte natural del proceso.
-
----
-
-> - 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.
-> 
-> - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1209888657507487744) , 💬 Comparte el enlace a tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso. No olvides dejar el enlace público para que tus compañeras puedan verlo.
-> 
-> - Comenta brevemente una interpretación del gráfico combinado.
 
 ---

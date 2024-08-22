@@ -1,10 +1,12 @@
-# ◾Importancia y aplicaciones del Análisis de Datos
+# ◾ Importancia y aplicaciones del Análisis de Datos
 
 **Dificultad:** 🌻
 
 **Aprendizaje:** 🍯
 
 **Tiempo:** ⏱ 30min
+
+---
 
 ## Introducción
 
@@ -32,7 +34,7 @@ El campo del análisis de datos está en constante evolución, impulsado por var
 
 ## Actividad
 
-Mira este video de 14 minutos: [¿Qué hace un analista de datos? | Caterina Abanoni - YouTube](https://www.youtube.com/watch?v=pFbNK-S79qM)
+Mira este video de 14 minutos: [📺 Video: ¿Qué hace un analista de datos? | Caterina Abanoni - YouTube](https://www.youtube.com/watch?v=pFbNK-S79qM)
 
 Considerando como referencia algunos de los ejemplos que te hemos estado dando y lo que encuentres en el video, **identifica 1 situación concreta de tu vida personal o laboral en la que te hubiera servido saber un poco de análisis de datos**. 
 
@@ -65,6 +67,6 @@ No habrás cumplido con la actividad si:
 
 ---
 
-> :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1260272464999481475) , 💬 Comparte en el hilo siguiendo el formato propuesto y reacciona con ✅ para marcar tu progreso.
+> 📢 Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1260272464999481475) , 💬 Comparte en el hilo siguiendo el formato propuesto y reacciona con ✅ para marcar tu progreso.
 
 ---

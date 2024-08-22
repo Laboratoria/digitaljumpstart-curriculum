@@ -2,6 +2,8 @@
 
 **Tiempo:** ⏱ 5min
 
+---
+
 ## Introducción
 
 En este módulo te surmergirás, con calma, en dos lenguajes fundamentales para la creación de páginas web: HTML y CSS. A través de ellos, comenzarás a construir tu propio sitio web, aunque por el momento será bastante sencillo.

@@ -2,6 +2,8 @@
 
 **Tiempo:** ⏱️ 5min
 
+---
+
 **Formato:** 
 
 * Conocimiento fundamental en formato de lecturas, videos, etc. 

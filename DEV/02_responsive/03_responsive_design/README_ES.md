@@ -2,6 +2,8 @@
 
 **Tiempo:** ⏱ 5min
 
+---
+
 ## Introducción
 
 ¿Alguna vez has pensado si es necesario hacer una versión de cada página web para cada tipo de dispositivo o pantalla? Afortunadamente, con el diseño web responsivo, no es necesario crear múltiples versiones de una misma página.

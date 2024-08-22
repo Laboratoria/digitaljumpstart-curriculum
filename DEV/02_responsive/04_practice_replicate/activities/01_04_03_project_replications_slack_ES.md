@@ -1,4 +1,4 @@
-# ◾Reto 4.3: Replica una sección del sitio de Slack
+# ◾ Reto 4.3: Replica una sección del sitio de Slack
 
 **Dificultad:** 🌻🌻🌻 
 
@@ -8,13 +8,15 @@
 
 **Reacciona** con 👀 cuando comiences la lectura, actividad o reto.
 
+---
+
 ## Meta de Aprendizaje
 
 Practicar tus habilidades de diseño responsivo, utilizando HTML y CSS (Media Queries, unidades relativas y sistemas de diseño Flexbox o Grid)
 
 ## Descripción
 
-[Video : Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/38d429a4366a4c6dbeb258200b8d71cb)
+[📺 Video: Explicación de lo que hay que hacer 🌟](https://www.loom.com/share/38d429a4366a4c6dbeb258200b8d71cb)
 
 Este reto se trata de replicar la versión de la sección "Mensajería" del sitio web de Slack de la imagen que se adjunta, respetando la estructura y su comportamiento responsivo.
 

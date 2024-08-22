@@ -8,6 +8,8 @@
 
 **Reacciona** con 👀 cuando comiences la lectura, actividad o reto.
 
+---
+
 ## Meta de Aprendizaje
 
 Utilizar Media Queries para ajustar el diseño de un sitio web a 2 o más diferentes tamaños de pantalla de diferentes dispositivos. Las Media Queries son reglas `CSS` que permiten aplicar estilos específicos a un documento `HTML` y ajustar su diseño en función de las características del dispositivo en el que se muestra, como el ancho de la pantalla.
@@ -38,8 +40,8 @@ Trabajaremos en conseguirlo para, al menos, dos tamaños de pantalla: dispositiv
 
 ## Insumos para tu aprendizaje
 
-- [🖹 Texto: CodePen, fork o bifurcación](?lang=ES&track=DEV&skill=02_responsive&module=03_responsive_design&path=DEV/00_topics/editors_codepen_fork_ES.md)
-- [🖹 Texto: Media queries](?lang=ES&track=DEV&skill=02_responsive&module=03_responsive_design&path=DEV/00_topics/css_media_queries_ES.md)
+- [📄 Texto: CodePen, fork o bifurcación](?lang=ES&track=DEV&skill=02_responsive&module=03_responsive_design&path=DEV/00_topics/editors_codepen_fork_ES.md)
+- [📄 Texto: Media queries](?lang=ES&track=DEV&skill=02_responsive&module=03_responsive_design&path=DEV/00_topics/css_media_queries_ES.md)
 - :robot: **AI Tip:** Pregúntale a Gemini, ChatGPT o cualquier otro chat IA lo siguiente, ¿cómo simulo diferentes tamaños de pantalla en Google Chrome para ayudarme a verificar si mi diseño responsivo funciona correctamente?
 
 ## Pauta de trabajo

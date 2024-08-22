@@ -1,9 +1,14 @@
 # ◾ Reflexiona y comenta
 
-**Dificultad:** :sunflower:﻿
-**Aprendizaje:** :honey_pot:﻿
+**Dificultad:** 🌻 
+
+**Aprendizaje:** 🍯 
+
 **Tiempo:** ⏱ 45 min.
-**Reacciona** con :eyes:﻿ cuando comiences la lectura, actividad o reto.
+
+**Reacciona** con :eyes:﻿ cuando comiences la lectura, actividad o reto. 
+
+---
 
 Ahora que completaste el bloque introductorio, completa la siguiente actividad para terminar.
 

@@ -2,6 +2,8 @@
 
 **Tiempo:** ⏱ 5min
 
+---
+
 ## Introducción
 
 En este módulo, te sumergirás en una introducción al análisis exploratorio y en el manejo de variables categóricas. 

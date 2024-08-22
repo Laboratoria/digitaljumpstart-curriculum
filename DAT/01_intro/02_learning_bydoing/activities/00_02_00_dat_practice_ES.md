@@ -1,6 +1,8 @@
-# ◼️Aprende haciendo
+# ◼️ Aprende haciendo
 
 **Tiempo:** ⏱️ 5min
+
+---
 
 **Formato:** 
 

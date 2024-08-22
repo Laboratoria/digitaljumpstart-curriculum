@@ -2,6 +2,8 @@
 
 **Tiempo:** ⏱ 10min
 
+---
+
 ## Introducción
 
 Hay una gran variedad de herramientas que se suelen usar en el análisis de datos, desde aquellas de uso cotidiano para realizar operaciones básicas, cálculos y visualizaciones simples, como son **MS Excel** y **Hojas de Cálculo de Google**, hasta herramientas de IA generativa que incorporan capacidad de análisis de datos, como ChatGPT (code interpreter) y Google Gemini, por ejemplo.

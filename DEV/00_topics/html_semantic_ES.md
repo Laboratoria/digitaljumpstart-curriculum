@@ -110,4 +110,4 @@ La etiqueta `<footer>` representa el pie de página de una sección o documento.
 
 El uso de HTML semántico mejora significativamente la accesibilidad, el SEO y la mantenibilidad del código. Al utilizar etiquetas semánticas, no solo ayudas a los motores de búsqueda y tecnologías asistivas a entender mejor tu contenido, sino que también facilitas la lectura y el mantenimiento del código para ti y otros desarrolladores. Experimenta con estas etiquetas en tus proyectos para ver cómo pueden mejorar la estructura y claridad de tus páginas web.
 
-[Video : semántica y más - minutos 51 - 58](https://www.youtube.com/watch?v=3nYLTiY5skU&t=3230s&pp=ygUSIiBIVE1MIHNlbcOhbnRpY28i)
+[📺 Video: semántica y más - minutos 51 - 58](https://www.youtube.com/watch?v=3nYLTiY5skU&t=3230s&pp=ygUSIiBIVE1MIHNlbcOhbnRpY28i)
