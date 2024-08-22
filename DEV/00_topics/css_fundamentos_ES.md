@@ -8,7 +8,7 @@ En CSS, los píxeles (`px`) son una unidad de medida comúnmente utilizada para 
 
 ### Modelo de Caja
 
-![](../00_assets/CSS/BOXmODEL.png)
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DEV/00_assets/BOXmODEL.png)
 
 El modelo de caja en CSS es crucial para entender cómo se distribuye el espacio alrededor de los elementos en una página web. Cada elemento se considera una caja que consiste en cuatro áreas:
 
@@ -212,4 +212,3 @@ Extra. Solamente si quieres profundizar. Cuidado con meterte en un agujero del q
 
 - [Dar estilo a los enlaces - Aprende desarrollo web | MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links)
 
-- 
