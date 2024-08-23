@@ -4,7 +4,7 @@
 
 ---
 
-> :headphones: Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
+> 🎧 Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
 
 <div id="preview"> El desarrollo web es la disciplina dedicada a la creación, mantenimiento y optimización de soluciones digitales que operan a través de la web. </div> Esto abarca desde sitios web hasta aplicaciones complejas y servicios que facilitan interacciones digitales en múltiples plataformas, no solo entre personas y computadoras, sino también exclusivamente entre computadoras y otros dispositivos.
 

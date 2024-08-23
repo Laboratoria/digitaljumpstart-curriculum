@@ -200,7 +200,7 @@ En este caso, el texto del párrafo `<p>` será de color púrpura y usará la fu
 
 ---
 
-Extra. Solamente si quieres profundizar. Cuidado con meterte en un agujero del que te costará salir :seedling: :
+Extra. Solamente si quieres profundizar. Cuidado con meterte en un agujero del que te costará salir 🌱 :
 
 - [El modelo de caja - Aprende desarrollo web | MDN](https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/The_box_model)
 
