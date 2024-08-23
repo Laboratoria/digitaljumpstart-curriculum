@@ -1,4 +1,13 @@
 Sin cambios en: ./README.md
+Sin cambios en: ./LIF/README_ES.md
+Sin cambios en: ./LIF/01_intro/README_ES.md
+Sin cambios en: ./LIF/01_intro/01_baisc_knowledge/README_ES.md
+Archivo modificado: ./LIF/01_intro/01_baisc_knowledge/activities/00_01_00_LIF_enfoque_ES.md
+Archivo modificado: ./LIF/01_intro/01_baisc_knowledge/activities/00_01_03_LIF_wellbeign_intro_ES.md
+Archivo modificado: ./LIF/01_intro/01_baisc_knowledge/activities/00_01_02_LIF_teamwork_ES.md
+Archivo modificado: ./LIF/01_intro/01_baisc_knowledge/activities/00_01_01_LIF_selfawareness_intro_ES.md
+Archivo modificado: ./LIF/01_intro/01_baisc_knowledge/activities/00_01_04_LIF_overview_closing_ES.md
+Sin cambios en: ./LIF/03_wellbeign/learning_lif_digital_wb_00_intro.md
 Sin cambios en: ./DAT/README_ES.md
 Sin cambios en: ./DAT/01_intro/README_ES.md
 Sin cambios en: ./DAT/01_intro/02_learning_bydoing/README_ES.md
@@ -69,8 +78,11 @@ Sin cambios en: ./DEV/00_topics/html_forms_ES.md
 Sin cambios en: ./DEV/00_topics/css_relative_units_ES.md
 Sin cambios en: ./DEV/00_topics/css_flexbox_ES.md
 Sin cambios en: ./LEA/README_ES.md
-Sin cambios en: ./LEA/01_intro/lea_model_05_ai.md
-Sin cambios en: ./LEA/01_intro/lea_model_03_average.md
-Sin cambios en: ./LEA/01_intro/lea_model_04_philosophy.md
-Sin cambios en: ./LEA/01_intro/lea_model_02_work.md
-Sin cambios en: ./LEA/01_intro/lea_model_06_assessment.md
+Sin cambios en: ./LEA/01_intro/README_ES.md
+Sin cambios en: ./LEA/01_intro/01_baisc_knowledge/README_ES.md
+Archivo modificado: ./LEA/01_intro/01_baisc_knowledge/activities/lea_model_04_philosophy_ES.md
+Archivo modificado: ./LEA/01_intro/01_baisc_knowledge/activities/lea_model_02_work_ES.md
+Archivo modificado: ./LEA/01_intro/01_baisc_knowledge/activities/lea_model_05_ai_ES.md
+Archivo modificado: ./LEA/01_intro/01_baisc_knowledge/activities/lea_model_03_average_ES.md
+Archivo modificado: ./LEA/01_intro/01_baisc_knowledge/activities/lea_model_02_work.md
+Archivo modificado: ./LEA/01_intro/01_baisc_knowledge/activities/lea_model_06_assessment_ES.md
