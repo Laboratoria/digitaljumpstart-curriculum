@@ -1,4 +1,4 @@
-# ◾ Reto 1.3: HTML semántico
+# Reto 1.3: HTML semántico
 
 **Dificultad:** 🌻
 

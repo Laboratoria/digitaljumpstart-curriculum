@@ -1,4 +1,4 @@
-# ◾ Reflexiona y comenta
+# Reflexiona y comenta
 
 **Dificultad:** 🌻 
 

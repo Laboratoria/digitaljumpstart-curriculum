@@ -79,7 +79,7 @@ Los módulos son un “contenedor” de varias actividades y retos agrupamos par
 
 ---
 
-#### ◾ Reto o "actividad" (R)
+#### Reto o "actividad" (R)
 
 En Laboratoria, desde hace años creemos firmemente en el aprendizaje activo y en  "aprender haciendo" (*learning by doing*).
 

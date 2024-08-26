@@ -1,4 +1,4 @@
-# ◾ Reto 2.1 : Mi Primera Página HTML
+# Reto 2.1 : Mi Primera Página HTML
 
 **Dificultad:** 🌻 
 

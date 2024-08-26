@@ -1,4 +1,4 @@
-# ◾ Reto 1.2: Gráficos para el análisis exploratorio
+# Reto 1.2: Gráficos para el análisis exploratorio
 
 **Dificultad:** 🌻
 

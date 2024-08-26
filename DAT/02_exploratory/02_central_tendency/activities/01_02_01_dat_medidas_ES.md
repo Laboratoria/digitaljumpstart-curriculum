@@ -1,4 +1,4 @@
-# ◾ Reto 2.1: Conociendo las medidas de tendencia central
+# Reto 2.1: Conociendo las medidas de tendencia central
 
 **Dificultad:** 🌻
 

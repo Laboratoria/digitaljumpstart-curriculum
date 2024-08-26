@@ -1,4 +1,4 @@
-# ◾ Qué es el desarrollo web front-end y qué es el back-end
+# Qué es el desarrollo web front-end y qué es el back-end
 
 **Dificultad:** 🌻 
 

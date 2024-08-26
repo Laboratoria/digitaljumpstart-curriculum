@@ -1,4 +1,4 @@
-# ◾ Reto 3.1: Visualizar datos a lo largo del tiempo
+# Reto 3.1: Visualizar datos a lo largo del tiempo
 
 **Dificultad:** 🌻
 

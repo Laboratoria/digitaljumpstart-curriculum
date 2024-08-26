@@ -1,4 +1,4 @@
-# ◾ Herramientas IA generativa más comunes
+# Herramientas IA generativa más comunes
 
 **Dificultad:** 🌻
 

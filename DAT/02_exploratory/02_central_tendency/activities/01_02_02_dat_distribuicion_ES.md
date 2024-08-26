@@ -1,4 +1,4 @@
-# ◾ Reto 2.2: Conociendo la distribución de los datos
+# Reto 2.2: Conociendo la distribución de los datos
 
 **Dificultad:** 🌻
 

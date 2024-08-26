@@ -1,4 +1,4 @@
-# ◾ Reto 4.1: Replica un diseño web básico responsivo
+# Reto 4.1: Replica un diseño web básico responsivo
 
 **Dificultad:** 🌻🌻 
 

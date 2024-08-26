@@ -1,4 +1,4 @@
-# ◾ Herramientas No-code más comunes
+# Herramientas No-code más comunes
 
 **Dificultad:** 🌻
 

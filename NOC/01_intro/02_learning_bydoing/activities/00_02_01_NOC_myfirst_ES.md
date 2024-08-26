@@ -1,4 +1,4 @@
-# ◾ Reto 2.1 : Mi Primera Automatización
+# Reto 2.1 : Mi Primera Automatización
 
 **Dificultad:** 🌻 
 

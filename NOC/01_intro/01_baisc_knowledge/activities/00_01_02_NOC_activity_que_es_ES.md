@@ -1,4 +1,4 @@
-# ◾ Qué es el No-Code
+# Qué es el No-Code
 
 **Dificultad:** 🌻
 

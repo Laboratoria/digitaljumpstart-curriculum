@@ -1,4 +1,4 @@
-# ◾ Reto 1.1: Mi Primer Análisis  (continuación de tablas dinámicas)
+# Reto 1.1: Mi Primer Análisis  (continuación de tablas dinámicas)
 
 **Dificultad:** 🌻
 

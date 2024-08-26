@@ -1,4 +1,4 @@
-# ◾ Reto 3.1: Visualizar datos con gráficos combinados
+# Reto 3.1: Visualizar datos con gráficos combinados
 
 **Dificultad:** 🌻
 
