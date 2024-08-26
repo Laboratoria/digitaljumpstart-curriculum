@@ -84,5 +84,4 @@ Archivo modificado: ./LEA/01_intro/01_baisc_knowledge/activities/lea_model_04_ph
 Archivo modificado: ./LEA/01_intro/01_baisc_knowledge/activities/lea_model_02_work_ES.md
 Archivo modificado: ./LEA/01_intro/01_baisc_knowledge/activities/lea_model_05_ai_ES.md
 Archivo modificado: ./LEA/01_intro/01_baisc_knowledge/activities/lea_model_03_average_ES.md
-Archivo modificado: ./LEA/01_intro/01_baisc_knowledge/activities/lea_model_02_work.md
 Archivo modificado: ./LEA/01_intro/01_baisc_knowledge/activities/lea_model_06_assessment_ES.md
