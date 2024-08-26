@@ -1,6 +1,8 @@
 # Bienestar
 
-**Tiempo:** ⏱️ 30min
+**Tiempo:** ⏱️30 min
+
+---
 
 ## Introducción
 

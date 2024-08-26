@@ -1,16 +1,17 @@
-# Habilidades transversales o *core skills*
+# Habilidades transversales o 'core skills'
 
-**Tiempo :** ⏱️ 10min
+**Tiempo :** ⏱️️ 10min
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
 <p>Completa esto antes de comenzar cualquier ruta técnica.</p><p>Te tomará como máximo 5 horas de decicación.</p>
 <!-- preview:end -->
 
-
 ---
 
-> :headphones: Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
+> 🎧 Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
+
+---
 
 ![pasted image 0.png](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LIF/00_assets/cartero_2000.png)
 
@@ -27,9 +28,9 @@ Inevitablemente te has topado con todo tipo de predicciones que se hacen con un 
 ## Ruta
 
 <details>
-<summary>🔵 Bloque Introductorio, indispensable</summary>
+<summary>⚫ Introduccción, indispensable</summary>
 
-Diseñado para darte una visión clara del enfoque con el que tratamos el tema. En unas 2-3 horas en total, explorarás los aspectos introductorios de varias rutas que posteriormente desarrollaremos.ksla
+Diseñada para darte una visión clara del enfoque con el que tratamos el tema. En menos de 5 horas en total, explorarás los aspectos introductorios de varias rutas que posteriormente desarrollaremos.
 
 Conocimiento fundamental en formato de lecturas, videos, etc. + reflexión y participación en comentarios y foros de discusión. 
 
@@ -41,15 +42,15 @@ Lo que aprenderás:
 4. El bienestar como requisito para el aprendizaje y el desempeño en general.
 
 </details>
-
 <details>
-<summary>🔵 Bienestar</summary>
+<summary>⚫ Bienestar</summary>
 
-En preparación
+(En preparación...)
 
 </details>
-<summary>🔵 Finanzas personales</summary>
+<details>
+<summary>⚫ Finanzas personales</summary>
 
-En preparación
+(En preparación...)
 
 </details>

@@ -1,6 +1,6 @@
 # Bienestar Digital
 
-**Tiempo ⏱️ :** 5min
+**Tiempo ⏱️️ :** 5min
 
 ## Contexto
 

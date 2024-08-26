@@ -1,6 +1,6 @@
 # Desarrollo Web introductorio
 
-**Tiempo:** ⏱️ 5min
+**Tiempo:** ⏱️️ 5min
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
@@ -10,6 +10,8 @@
 ---
 
 > 🎧 Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
+
+---
 
 El desarrollo web es la disciplina dedicada a la creación, mantenimiento y optimización de soluciones digitales que operan a través de la web. Esto abarca desde sitios web hasta aplicaciones complejas y servicios que facilitan interacciones digitales en múltiples plataformas, no solo entre personas y computadoras, sino también exclusivamente entre computadoras y otros dispositivos.
 

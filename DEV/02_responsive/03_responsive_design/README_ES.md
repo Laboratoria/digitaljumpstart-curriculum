@@ -1,6 +1,6 @@
 # ◼️ Módulo 3 : Diseño web responsivo
 
-**Tiempo:** ⏱️ 5min
+**Tiempo:** ⏱️️ 5min
 
 ---
 

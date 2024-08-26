@@ -1,6 +1,6 @@
 # La transformación del trabajo y las oportunidades
 
-**Tiempo ⏱️ :** 15min
+**Tiempo:** ⏱️️ 15min
 
 ---
 

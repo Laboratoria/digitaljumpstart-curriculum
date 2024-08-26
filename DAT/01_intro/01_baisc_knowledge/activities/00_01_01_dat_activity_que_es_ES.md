@@ -4,7 +4,7 @@
 
 **Aprendizaje:** 🍯
 
-**Tiempo:** ⏱️ 30min
+**Tiempo:** ⏱️️ 30 min
 
 ---
 
@@ -34,7 +34,7 @@ El campo del análisis de datos está en constante evolución, impulsado por var
 
 ## Actividad
 
-Mira este video de 14 minutos: [📺 Video: ¿Qué hace un analista de datos? | Caterina Abanoni - YouTube](https://www.youtube.com/watch?v=pFbNK-S79qM)
+[📺 Video 14 minutos: ¿Qué hace un analista de datos? | Caterina Abanoni - YouTube](https://www.youtube.com/watch?v=pFbNK-S79qM)
 
 Considerando como referencia algunos de los ejemplos que te hemos estado dando y lo que encuentres en el video, **identifica 1 situación concreta de tu vida personal o laboral en la que te hubiera servido saber un poco de análisis de datos**. 
 

@@ -1,5 +1,10 @@
 # Herramientas y tecnologías básicas del Desarrollo Web
 
+**Tiempo:** ⏱️️ 5min
+
+---
+
+
 El desarrollo web front-end se basa en un conjunto de herramientas y tecnologías que permiten crear interfaces de usuario atractivas y funcionales en la web. Aquí te presentamos una breve introducción a las principales tecnologías utilizadas:
 
 ### HTML (HyperText Markup Language)

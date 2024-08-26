@@ -1,12 +1,12 @@
 # Filosofía de aprendizaje
 
-**Tiempo** ⏱️ **:** 10min
+**Tiempo:** ⏱️️ 15 min
 
-***
+---
 
 > 🎧 Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
 
-***
+---
 
 A la gran mayoría nos "educaron" para seguir instrucciones, a callar mientras un profesor hablaba y hablaba, a memorizar, sin saber por qué ni para qué, una lista de cosas que debíamos responder en un examen que cuantificaba nuestro “conocimiento” y que nos clasificaba en un _ranking_ de mejores y peores, comparándonos como si fuéramos ladrillos idénticos; una atroz negación de nuestra infinita diversidad. **Nuestros talentos individuales quedaron, muchas veces, ocultos para siempre por estar “fuera de la norma”.**
 

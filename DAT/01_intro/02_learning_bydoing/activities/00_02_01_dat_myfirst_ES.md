@@ -4,9 +4,9 @@
 
 **Aprendizaje:** 🍯🍯 
 
-**Tiempo:** ⏱️⏱️ 2-4 hrs.
+**Tiempo:** ⏱️⏱️⏱️ 2-4 hrs.
 
-**Reacciona** con :eyes:﻿ cuando comiences la lectura, actividad o reto.
+**Reacciona** con 👀 en Discord cuando comiences esta lectura, actividad o reto.
 
 ---
 
@@ -16,7 +16,7 @@ Utilizar tablas dinámicas de **Hojas de Cálculo de Google** para resumir datos
 
 #### Descripción
 
-**Video:** [Explicación de lo que hay que hacer](https://www.loom.com/share/a9b99254fa57421c9f843bfaa7e38289?sid=979ed125-3dde-4ac1-bd16-c897950ed328) 🌟
+[📺 Video: Explicación de lo que hay que hacer](https://www.loom.com/share/a9b99254fa57421c9f843bfaa7e38289?sid=979ed125-3dde-4ac1-bd16-c897950ed328) 🌟
 
 En este desafío práctico, trabajarás con un **conjunto de datos** (*dataset*) de una tienda de productos importados. Te proporcionaremos la tabla de clientes de esta tienda. Imagina que eres parte del equipo de la tienda y necesitas responder las siguientes preguntas:
 

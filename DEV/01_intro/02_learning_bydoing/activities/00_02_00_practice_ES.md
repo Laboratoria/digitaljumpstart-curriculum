@@ -1,6 +1,6 @@
 # ◼️ Aprende haciendo
 
-**Tiempo:** ⏱️️ 5min
+**Tiempo:** ⏱️️️ 5min
 
 ---
 

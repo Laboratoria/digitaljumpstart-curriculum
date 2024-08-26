@@ -1,6 +1,6 @@
 # Metodología y de aprendizaje
 
-**Tiempo ⏱️ :** 15min
+**Tiempo ⏱️️ :** 15min
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
@@ -10,6 +10,8 @@
 ---
 
 > 🎧 Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
+
+---
 
 ## ¿Cómo voy a aprender? Contexto
 
@@ -31,9 +33,9 @@ Seguramente te resultará mucha información para comenzar pero te irás acostum
 
 ![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LEA/00_assets/metodolog_01.png)
 
-### Bloque introductorio
+### Introducción
 
-Para cada área o "campo" técnico te ofrecemos un bloque introductorio diseñado para darte una visión clara y concreta, en un formato flexible y con poco compromiso de tiempo. 
+Para cada área o "campo" técnico te ofrecemos una Introducción diseñada para darte una visión clara y concreta, en un formato flexible y con poco compromiso de tiempo. 
 
 > En tan solo 2 semanas, dedicando un máximo de 5 horas por semana a tu propio ritmo, explorarás los aspectos introductorios de cada disciplina de tu elección. Puedes explorar y probar todo lo que quieras.
 
@@ -45,7 +47,7 @@ Es tu oportunidad de explorar libremente, con la mente abierta y sin la presión
 
 ### Desarrollo de habilidades
 
-Si después de completar el bloque introductorio, quieres continuar aprendiendo sobre eso, te encontrarás con que hemos agrupado todo en función de **habilidades concretas** de cada área. Así, para cada habilidad, te encontrarás con módulos que cubren aspectos específicos de la habilidad, y retos o actividades que es lo que irás completando poco a poco para conseguir desarrollar la habilidad indicada.
+Si después de completar la Introducción, quieres continuar aprendiendo sobre eso, te encontrarás con que hemos agrupado todo en función de **habilidades concretas** de cada área. Así, para cada habilidad, te encontrarás con módulos que cubren aspectos específicos de la habilidad, y retos o actividades que es lo que irás completando poco a poco para conseguir desarrollar la habilidad indicada.
 
 Encontrarás todo organizado de la siguiente manera. Es como una *matrioshka* o muñeca rusa 🪆. Las habilidades funcionan como un "contenedor" de módulos y los módulos como "contenedores" de actividades de todo tipo y/o retos que es lo que tendrás que "hacer" o ir completando.
 
@@ -93,7 +95,7 @@ Cada reto aborda una sola meta de aprendizaje, pero es posible que haya más de 
 
 Supongamos que te quieres convertir en ciclista (esta sería el área o "campo"). Para conseguirlo, deberás completar pasos intermedios que te llevarán, poco a poco, a la construcción y desarrollo de las habilidades necesarias. El área o campo se vería algo así:
 
-##### Bloque introductorio
+##### Introducción
 
 ###### **Módulo 1:**
 
@@ -146,3 +148,5 @@ Ya se entiende mejor, ¿verdad?
 > - 📢 💬 Si quieres abrir una discusión, puedes hacerlo en el [foro de aprendizaje transversal en Discord](https://discord.com/channels/1209273049304666113/1217834825260601407)
 
 ---
+
+

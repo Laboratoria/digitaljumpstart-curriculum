@@ -1,6 +1,6 @@
 # ◼️ Módulo 3: Análisis del Comportamiento Temporal
 
-**Tiempo:** ⏱️ 5min
+**Tiempo:** ⏱️️ 5min
 
 ---
 

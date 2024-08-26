@@ -4,13 +4,13 @@
 
 **Aprendizaje:** 🍯 
 
-**Tiempo:** ⏱️ 45 min.
+**Tiempo:** ⏱️️ 45 min.
 
-**Reacciona** con :eyes:﻿ cuando comiences la lectura, actividad o reto. 
+**Reacciona** con 👀 en Discord cuando comiences esta lectura, actividad o reto. 
 
 ---
 
-Ahora que completaste el bloque introductorio, completa la siguiente actividad para terminar.
+Ahora que completaste la Introducción, completa la siguiente actividad para terminar.
 
 Escribe un mensaje numerado en el hilo, de manera que cubras lo siguiente:
 

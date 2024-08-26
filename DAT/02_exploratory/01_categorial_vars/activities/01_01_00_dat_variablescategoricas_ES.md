@@ -1,6 +1,6 @@
 # ◼️ Módulo 1: Análisis Exploratorio de Datos y Variables Categóricas
 
-**Tiempo:** ⏱️ 5min
+**Tiempo:** ⏱️️ 5min
 
 ---
 

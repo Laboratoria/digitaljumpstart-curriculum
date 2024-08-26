@@ -1,0 +1,13 @@
+{
+  "difficulty": 1,
+  "learning": 2,
+  "time": 3,
+  "directions": {
+    "ES": "<p>💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de dar por terminado tu reto y compartir la URL en el hilo.</p><p>Al terminar, regresa a Discord, 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.</p>",
+    "PT": "null"
+  },
+  "discord_URL": {
+    "ES": "https://discord.com/channels/1209273049304666113/1238556097263177849",
+    "PT": "null"
+  }
+}

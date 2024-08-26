@@ -1,8 +1,12 @@
 # Enfoque
 
-**Tiempo :** ⏱️ 15min
+**Tiempo:** ⏱️️ 15min
 
-> :headphones: Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
+---
+
+> 🎧 Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
+
+---
 
 Una manera torpe de abordar este desafío sería hacer un curso para cada habilidad, darte ejercicios, un _quiz_ para cuantificar tu nivel de competencia y hacer un _ranking_ de mejores y peores. Ridículo, ¿no?.
 

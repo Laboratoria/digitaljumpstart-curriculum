@@ -4,7 +4,7 @@
 
 **Aprendizaje:** 🍯
 
-**Tiempo:** ⏱️ 45min
+**Tiempo:** ⏱️ 1 hr
 
 ---
 
@@ -88,6 +88,6 @@ No habrás cumplido con la actividad si:
 
 Opcional si quieres profundizar por tu cuenta::
 
-- [El futuro de la IA: Más allá del hype - Carlos Santana @DotCSV - #DigitalSummitIA - YouTube](https://youtu.be/kzloB10HgeY?si=ia76eNN9WMlhJlgL)
-- [La IA mejora la precisión de los diagnósticos de cáncer de piel en un estudio dirigido por Stanford Medicine](https://med-stanford-edu.translate.goog/news/all-news/2024/04/ai-skin-diagnosis.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-419&_x_tr_pto=wapp#:~:text=AI%20improves%20accuracy%20of%20skin%20cancer%20diagnoses%20in%20Stanford%20Medicine%2Dled%20study,-share&text=Artificial%20intelligence%20algorithms%20powered%20by,Stanford%20Center%20for%20Digital%20Health.)
+- [📺 Video: El futuro de la IA: Más allá del hype - Carlos Santana @DotCSV - #DigitalSummitIA - YouTube](https://youtu.be/kzloB10HgeY?si=ia76eNN9WMlhJlgL)
+- [📄 Texto: La IA mejora la precisión de los diagnósticos de cáncer de piel en un estudio dirigido por Stanford Medicine](https://med-stanford-edu.translate.goog/news/all-news/2024/04/ai-skin-diagnosis.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-419&_x_tr_pto=wapp#:~:text=AI%20improves%20accuracy%20of%20skin%20cancer%20diagnoses%20in%20Stanford%20Medicine%2Dled%20study,-share&text=Artificial%20intelligence%20algorithms%20powered%20by,Stanford%20Center%20for%20Digital%20Health.)
 - [Enlace](https://www-gov-uk.translate.goog/government/news/ai-technology-to-help-cut-cancer-waiting-lists?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-419&_x_tr_pto=wapp#:~:text=Cancer%20waiting%20times%20are%20set,million%20in%20new%20Government%20funding.)

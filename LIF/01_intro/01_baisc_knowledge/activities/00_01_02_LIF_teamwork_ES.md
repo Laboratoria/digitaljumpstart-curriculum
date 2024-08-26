@@ -1,8 +1,12 @@
 # Trabajo en equipo
 
-**Tiempo** ⏱️ **:** 12min
+**Tiempo:** ⏱️️ 12 min
 
-> :headphones: Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
+---
+
+> 🎧 Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
+
+---
 
 ### Introducción
 

@@ -1,12 +1,14 @@
 # IA como herramienta de aprendizaje
 
-**Tiempo** ⏱️ **:** 20min
+**Tiempo:** ⏱️️️ 20 min
 
-***
+**Reacciona** con 👀 en Discord cuando comiences esta lectura, actividad o reto.
+
+---
 
 > 🎧 Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
 
-***
+---
 
 Úsalas a tu favor (para aprender realmente) y no en tu contra (para tener sólo la ilusión del aprendizaje).
 

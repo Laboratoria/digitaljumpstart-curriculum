@@ -4,9 +4,9 @@
 
 **Aprendizaje:** 🍯🍯
 
-**Tiempo:** ⏱️⏱️ 1-2 hrs.
+**Tiempo:** ⏱️️⏱️️ 1-3 hrs.
 
-**Reacciona** con :eyes: cuando comiences la lectura y/o actividad.
+**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
 
 ---
 

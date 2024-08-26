@@ -1,6 +1,6 @@
 # El impacto del Desarrollo Web en la vida cotidiana
 
-**Tiempo:** ⏱️ 5min
+**Tiempo:** ⏱️️ 5min
 
 ---
 

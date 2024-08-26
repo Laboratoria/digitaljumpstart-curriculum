@@ -4,9 +4,9 @@
 
 **Aprendizaje:** 🍯🍯🍯
 
-**Tiempo:** ⏱️⏱️⏱️
+**Tiempo:** ⏱️️⏱️️⏱️️️⏱️️️⏱️️️ 4-6 hrs
 
-**Reacciona** con 👀 cuando comiences la lectura, actividad o reto.
+**Reacciona** con 👀 en Discord cuando comiences esta lectura, actividad o reto.
 
 ---
 

@@ -4,7 +4,7 @@
 
 **Aprendizaje:** 🍯 
 
-**Tiempo:** ⏱️ 30min
+**Tiempo:** ⏱️️ 30 min
 
 ---
 
@@ -36,7 +36,7 @@ La clave está en apalancar nuestras habilidades y conocimientos con estas nueva
 
 ## Actividad
 
-Mira este video de 8 minutos (recuerda activar los subtítulos en castellano): [📺 Video: Will AI Replace Data Scientists? - YouTube](https://www.youtube.com/watch?v=mLP4kdk3DoI) y/o este video de 4 minutos: [📺 Video: ¿Será el trabajo del analista de datos reemplazado por la IA?](https://www.youtube.com/watch?v=upBfy54-jmI) y reflexiona sobre la aparente tensión o dicotomía entre los temores hacia las nuevas tecnologías y el potencial que estas herramientas ofrecen. Elije una de estas dos preguntas y comenta:
+[📺 Video: Will AI Replace Data Scientists - 8 minutos?](https://www.youtube.com/watch?v=mLP4kdk3DoI) y/o este video de 4 minutos: [📺 Video: ¿Será el trabajo del analista de datos reemplazado por la IA?](https://www.youtube.com/watch?v=upBfy54-jmI) y reflexiona sobre la aparente tensión o dicotomía entre los temores hacia las nuevas tecnologías y el potencial que estas herramientas ofrecen. Elije una de estas dos preguntas y comenta:
 
 1. ¿Qué piensas sobre el temor hacia las nuevas tecnologías en el análisis de datos?
 
