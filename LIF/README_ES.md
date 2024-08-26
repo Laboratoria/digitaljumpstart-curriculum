@@ -1,4 +1,4 @@
-# Habilidades transversales o _core skills_
+# Habilidades transversales o *core skills*
 
 **Tiempo :** ⏱️ 10min
 
@@ -33,6 +33,7 @@ Lo que aprenderás:
 4. El bienestar como requisito para el aprendizaje y el desempeño en general.
 
 </details>
+
 <details>
 <summary>🔵 Bienestar</summary>
 

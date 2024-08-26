@@ -1,6 +1,12 @@
-# Análisis de Datos
+# Análisis de Datos para principiantes
 
 **Tiempo:** ⏱️ 5min
+
+<!-- El siguiente bloque de comentario se usa únicamente para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
+<!-- preview:start -->
+<p>Aprenderás sobre la importancia de esta disciplina para la toma de decisiones informadas y basadas en evidencia en cualquier ámbito del mundo laboral.</p><p>Desarrollarás las habilidades prácticas y aplicables para hacer análisis exploratorios, aplicar técnicas básicas de análisis y generar reportes y dashboards.</p><p>Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías comppletar el programa en XX semanas.</p>
+<!-- preview:end -->
+
 
 ---
 
@@ -68,6 +74,7 @@ La habilidad de hacer un análisis exploratorio de datos (AED) es una etapa cruc
 <details>
 <summary>⚫ Habilidad (H): Técnicas de análisis 1</summary>
 
+(en preparación...)
 Las técnicas de análisis pueden ser muy variadas, pues dependen del problema que se pretende solucionar, incluso se pueden utilizar distintas técnicas combinadas para llegar a un resultado o profundizar los hallazgos. En este caso vamos a aprender una técnica de análisis para segmentar clientes a través de lo que se conoce como RFM.
 
 </details>
@@ -75,6 +82,7 @@ Las técnicas de análisis pueden ser muy variadas, pues dependen del problema q
 <details>
 <summary>⚫ Habilidad (H): Reportes y dashboards 1</summary>
 
+(en preparación...)
 Un *dashboard* o panel de control es una herramienta de visualización de datos que proporciona una representación gráfica y resumida de información relevante y, en muchos casos, actualizada en tiempo real. Es una interfaz gráfica que presenta de manera clara y concisa métricas, indicadores clave de rendimiento (KPI), tendencias y otros datos importantes en un solo lugar. Aprenderás a crear un *dashboard* con los resultados de tu análisis. Trabajarás en Looker Studio/Power BI (revisar Mire)
 
 </details>

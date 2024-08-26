@@ -1,4 +1,4 @@
-# ¿Cómo voy a aprender?
+# Metodología y de aprendizaje
 
 **Tiempo ⏱️ :** 15min
 
@@ -6,7 +6,7 @@
 
 > 🎧 Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
 
-## Contexto
+## ¿Cómo voy a aprender? Contexto
 
 Sabemos que embarcarse en aprender algo nuevo puede ser un gran desafío, especialmente cuando no estás segura de cuánto interés o afinidad tienes en un área específica, ni cómo se alinea con tu contexto actual, ni qué nivel de aprendizaje realmente quieres o necesitas. 
 
