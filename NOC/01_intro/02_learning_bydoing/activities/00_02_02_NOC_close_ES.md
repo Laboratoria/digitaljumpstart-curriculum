@@ -4,7 +4,7 @@
 
 **Aprendizaje:** 🍯 
 
-**Tiempo:** ⏱️⏱️⏱️ 2-4 hrs.
+**Tiempo:** ⏱️⏱️ 1 hrs
 
 **Reacciona** con 👀 en Discord cuando comiences esta lectura, actividad o reto.
 
@@ -25,11 +25,5 @@ Escribe un mensaje numerado en el hilo, de manera que cubras lo siguiente:
 ## 3. Motivación
 
 En una oración, ¿qué tan motivada te sientes para seguir aprendiendo sobre desarrollo web?
-
----
-
-> :mega: 💬 **[Envía tu respuesta en Discord:](https://discord.com/channels/1209273049304666113/1238552202172436613)**
-> 
-> - 1... 2... y 3....
 
 ---

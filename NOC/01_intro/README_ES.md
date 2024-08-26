@@ -1,4 +1,4 @@
-# ⚫ Introducción a No-code e IA
+# ⚫ Introducción a No-code e IA (imprescindible)
 
 **Tiempo:** ⏱️️️ 5min
 
