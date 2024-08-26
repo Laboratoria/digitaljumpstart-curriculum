@@ -1,1 +1,1 @@
-# ◼️ Módulo 1: "Todo sobre" la metodología
+# ◼️ Módulo 1: "Todo sobre" la metodología (imprescindible)

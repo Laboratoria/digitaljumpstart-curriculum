@@ -2,6 +2,11 @@
 
 **Tiempo ⏱️ :** 15min
 
+<!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
+<!-- preview:start -->
+<p>Completa esto antes de comenzar cualquier ruta técnica.</p><p>Te tomará como máximo 5 horas de decicación.</p>
+<!-- preview:end -->
+
 ---
 
 > 🎧 Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.

@@ -1,12 +1,17 @@
-# Desarrollo Web
+# Desarrollo Web introductorio
 
 **Tiempo:** ⏱️ 5min
+
+<!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
+<!-- preview:start -->
+<p>Desarrollarás la habilidad de crear interfaces web responsivas usando HTML y CSS.</p><p>Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías comppletar el programa en 6 semanas.</p>
+<!-- preview:end -->
 
 ---
 
 > 🎧 Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
 
-<div id="preview"> El desarrollo web es la disciplina dedicada a la creación, mantenimiento y optimización de soluciones digitales que operan a través de la web. </div> Esto abarca desde sitios web hasta aplicaciones complejas y servicios que facilitan interacciones digitales en múltiples plataformas, no solo entre personas y computadoras, sino también exclusivamente entre computadoras y otros dispositivos.
+El desarrollo web es la disciplina dedicada a la creación, mantenimiento y optimización de soluciones digitales que operan a través de la web. Esto abarca desde sitios web hasta aplicaciones complejas y servicios que facilitan interacciones digitales en múltiples plataformas, no solo entre personas y computadoras, sino también exclusivamente entre computadoras y otros dispositivos.
 
 Esta disciplina es fundamental para la sociedad y la economía modernas, ya que no sólo facilita la presencia digital y la conexión entre organizaciones y usuarias o consumidoras de todo el mundo, sino que también asegura el funcionamiento óptimo de millones de dispositivos de diversa índoles en todo momento.
 

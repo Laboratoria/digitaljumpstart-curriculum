@@ -1,1 +1,1 @@
-# ◼️ Módulo 2 : Aprende haciendo
+# ◼️ Módulo 2 : Aprende haciendo (imprescindible)

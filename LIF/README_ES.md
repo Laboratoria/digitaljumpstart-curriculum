@@ -2,6 +2,14 @@
 
 **Tiempo :** ⏱️ 10min
 
+<!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
+<!-- preview:start -->
+<p>Completa esto antes de comenzar cualquier ruta técnica.</p><p>Te tomará como máximo 5 horas de decicación.</p>
+<!-- preview:end -->
+
+
+---
+
 > :headphones: Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
 
 ![pasted image 0.png](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LIF/00_assets/cartero_2000.png)
