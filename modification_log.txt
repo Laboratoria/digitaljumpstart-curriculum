@@ -13,49 +13,39 @@ Sin cambios en: ./DAT/01_intro/README_ES.md
 Sin cambios en: ./DAT/01_intro/02_learning_bydoing/README_ES.md
 Archivo modificado: ./DAT/01_intro/02_learning_bydoing/activities/00_02_02_dat_close_ES.md
 Archivo modificado: ./DAT/01_intro/02_learning_bydoing/activities/00_02_01_dat_myfirst_ES.md
-Archivo modificado: ./DAT/01_intro/02_learning_bydoing/activities/00_02_00_dat_practice_ES.md
 Sin cambios en: ./DAT/01_intro/01_baisc_knowledge/README_ES.md
-Archivo modificado: ./DAT/01_intro/01_baisc_knowledge/activities/00_01_00_dat_all_about_ES.md
 Archivo modificado: ./DAT/01_intro/01_baisc_knowledge/activities/00_01_05_dat_read_tools_ES.md
 Archivo modificado: ./DAT/01_intro/01_baisc_knowledge/activities/00_01_04_dat_activity_ai_que_es_ES.md
-Archivo modificado: ./DAT/01_intro/01_baisc_knowledge/activities/00_01_01_dat_activity_que_es_ES.md
+Archivo modificado: ./DAT/01_intro/01_baisc_knowledge/activities/00_01_01_dat_activity_quees_ES.md
 Archivo modificado: ./DAT/01_intro/01_baisc_knowledge/activities/00_01_03_dat_activity_ai_ES.md
 Sin cambios en: ./DAT/00_topics/variables_categóricas_ES.md
 Sin cambios en: ./DAT/02_exploratory/README_ES.md
 Sin cambios en: ./DAT/02_exploratory/03_time/README_ES.md
 Archivo modificado: ./DAT/02_exploratory/03_time/activities/01_03_02_dat_graficocombinado_ES.md
-Archivo modificado: ./DAT/02_exploratory/03_time/activities/01_03_00_dat_vizulizareneltiempo_ES.md
 Archivo modificado: ./DAT/02_exploratory/03_time/activities/01_03_01_dat_graficolinea_ES.md
 Sin cambios en: ./DAT/02_exploratory/01_categorial_vars/README_ES.md
 Archivo modificado: ./DAT/02_exploratory/01_categorial_vars/activities/01_01_02_dat_viewanalisis_ES.md
 Archivo modificado: ./DAT/02_exploratory/01_categorial_vars/activities/01_01_01_dat_myfirstanalisis_ES.md
-Archivo modificado: ./DAT/02_exploratory/01_categorial_vars/activities/01_01_00_dat_variablescategoricas_ES.md
 Sin cambios en: ./DAT/02_exploratory/02_central_tendency/README_ES.md
 Archivo modificado: ./DAT/02_exploratory/02_central_tendency/activities/01_02_01_dat_medidas_ES.md
-Archivo modificado: ./DAT/02_exploratory/02_central_tendency/activities/01_02_00_dat_tendenciacentral_ES.md
 Archivo modificado: ./DAT/02_exploratory/02_central_tendency/activities/01_02_02_dat_distribuicion_ES.md
 Sin cambios en: ./DEV/README_ES.md
 Sin cambios en: ./DEV/02_responsive/README_ES.md
 Sin cambios en: ./DEV/02_responsive/04_practice_replicate/README_ES.md
 Archivo modificado: ./DEV/02_responsive/04_practice_replicate/activities/01_04_02_project_replications_netflix_ES.md
 Archivo modificado: ./DEV/02_responsive/04_practice_replicate/activities/01_04_03_project_replications_slack_ES.md
-Archivo modificado: ./DEV/02_responsive/04_practice_replicate/activities/01_04_00_modulo_replications_ES.md
 Archivo modificado: ./DEV/02_responsive/04_practice_replicate/activities/01_04_01_project_replications_basic_ES.md
 Sin cambios en: ./DEV/02_responsive/02_your_first_form/README_ES.md
 Archivo modificado: ./DEV/02_responsive/02_your_first_form/activities/01_02_01_project_formulario_ES.md
-Archivo modificado: ./DEV/02_responsive/02_your_first_form/activities/01_02_00_modulo_form_ES.md
 Sin cambios en: ./DEV/02_responsive/01_your_first_web/README_ES.md
-Archivo modificado: ./DEV/02_responsive/01_your_first_web/activities/01_01_00_modulo_myFirstWeb_ES.md
 Archivo modificado: ./DEV/02_responsive/01_your_first_web/activities/01_01_02_project_add_CSS_ES.md
 Archivo modificado: ./DEV/02_responsive/01_your_first_web/activities/01_01_03_project_semantic_HTML_ES.md
 Archivo modificado: ./DEV/02_responsive/01_your_first_web/activities/01_01_01_project_myFirstWeb_ES.md
 Sin cambios en: ./DEV/02_responsive/03_responsive_design/README_ES.md
 Archivo modificado: ./DEV/02_responsive/03_responsive_design/activities/01_03_02_project_responsive_flexbox_ES.md
 Archivo modificado: ./DEV/02_responsive/03_responsive_design/activities/01_03_01_project_responsive_mediaqueries_ES.md
-Archivo modificado: ./DEV/02_responsive/03_responsive_design/activities/01_03_00_modulo_responsive_ES.md
 Sin cambios en: ./DEV/01_intro/README_ES.md
 Sin cambios en: ./DEV/01_intro/02_learning_bydoing/README_ES.md
-Archivo modificado: ./DEV/01_intro/02_learning_bydoing/activities/00_02_00_practice_ES.md
 Archivo modificado: ./DEV/01_intro/02_learning_bydoing/activities/00_02_02_close_ES.md
 Archivo modificado: ./DEV/01_intro/02_learning_bydoing/activities/00_02_01_myfirst_ES.md
 Sin cambios en: ./DEV/01_intro/01_baisc_knowledge/README_ES.md
@@ -64,7 +54,6 @@ Archivo modificado: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_li
 Archivo modificado: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends_ES.md
 Archivo modificado: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools_ES.md
 Archivo modificado: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_02_DEV_web_ES.md
-Archivo modificado: ./DEV/01_intro/01_baisc_knowledge/activities/00_01_00_DEV_all_about_ES.md
 Sin cambios en: ./DEV/00_topics/html_ES.md
 Sin cambios en: ./DEV/00_topics/css_media_queries_ES.md
 Sin cambios en: ./DEV/00_topics/editors_codepen_fork_ES.md
@@ -81,10 +70,8 @@ Sin cambios en: ./NOC/README_ES.md
 Sin cambios en: ./NOC/01_intro/README_ES.md
 Sin cambios en: ./NOC/01_intro/02_learning_bydoing/README_ES.md
 Archivo modificado: ./NOC/01_intro/02_learning_bydoing/activities/00_02_02_NOC_close_ES.md
-Sin cambios en: ./NOC/01_intro/02_learning_bydoing/activities/README_ES.md
 Archivo modificado: ./NOC/01_intro/02_learning_bydoing/activities/00_02_01_NOC_myfirst_ES.md
 Sin cambios en: ./NOC/01_intro/01_baisc_knowledge/README_ES.md
-Archivo modificado: ./NOC/01_intro/01_baisc_knowledge/activities/00_01_00_NOC_all_about_ES.md
 Archivo modificado: ./NOC/01_intro/01_baisc_knowledge/activities/00_01_03_AI_activity_que_es_ES.md
 Archivo modificado: ./NOC/01_intro/01_baisc_knowledge/activities/00_01_04_NOC_activity_tools_ES.md
 Archivo modificado: ./NOC/01_intro/01_baisc_knowledge/activities/00_01_01_NOC_internet_web_ES.md
