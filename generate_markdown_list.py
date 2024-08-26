@@ -25,7 +25,7 @@ def process_config_files(root_dir):
 
 def extract_preview(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
-        match = re.search(r'<!--\s*preview:start\s*-->(.*?)<!--\s*preview:end\s*-->', f.read(), re.DOTALL)
+        match = re.search(r'\[//\]:\s+#\s+\(preview:start\)(.*?)\[//\]:\s+#\s+\(preview:end\)', f.read(), re.DOTALL)
         return match.group(1).strip() if match else ""
 
 def modify_activity_links(content, lang, track, skill, module):

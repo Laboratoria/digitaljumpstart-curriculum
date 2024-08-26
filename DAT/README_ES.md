@@ -3,10 +3,9 @@
 **Tiempo:** ⏱️ 5min
 
 <!-- El siguiente bloque de comentario se usa únicamente para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
-<!-- preview:start -->
+[//]: # (preview:start)
 <p>Aprenderás sobre la importancia de esta disciplina para la toma de decisiones informadas y basadas en evidencia en cualquier ámbito del mundo laboral.</p><p>Desarrollarás las habilidades prácticas y aplicables para hacer análisis exploratorios, aplicar técnicas básicas de análisis y generar reportes y dashboards.</p><p>Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías comppletar el programa en XX semanas.</p>
-<!-- preview:end -->
-
+[//]: # (preview:end)
 
 ---
 
