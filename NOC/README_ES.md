@@ -78,7 +78,7 @@ Te proponemos la aplicación de parte de lo aprendido, y la reflexión sobre tu 
 </details>
 
 <details>
-<summary>🔵 Habilidad (H): Automatización de procesos/flujos de trabajo</summary>
+<summary>⚫ Habilidad (H): Automatización de procesos/flujos de trabajo</summary>
 
 Lo que aprenderás:
 
@@ -87,7 +87,7 @@ Lo que aprenderás:
 </details>
 
 <details>
-<summary>🔵 Habilidad (H): Prompting básico</summary>
+<summary>⚫ Habilidad (H): Prompting básico</summary>
 
 Lo que aprenderás:
 
@@ -96,7 +96,7 @@ Los fundamentos del prompting, la técnica de formular y ajustar solicitudes a m
 </details>
 
 <details>
-<summary>🔵 Habilidad (H): Implementación de AI en Soluciones No-Code, básica</summary>
+<summary>⚫ Habilidad (H): Implementación de AI en Soluciones No-Code, básica</summary>
 
 Lo que aprenderás:
 
@@ -105,6 +105,6 @@ Lo que aprenderás:
 2. Crear experiencias personalizadas: Utilizar AI para analizar datos de usuarios y personalizar la experiencia de las usuarias.
 
 <details>
-<summary>🔵 Habilidad (H): Uso de LLMs open source </summary>
+<summary>⚫ Habilidad (H): Uso de LLMs open source </summary>
 Aprenderás sobre los principales modelos LLM open source, cuándo usarlos, y cómo ejecutarlos localmente de forma 100% gratuita.
 </details>
