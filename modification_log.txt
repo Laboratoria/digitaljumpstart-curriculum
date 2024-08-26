@@ -77,6 +77,19 @@ Sin cambios en: ./DEV/00_topics/editors_codepen_ES.md
 Sin cambios en: ./DEV/00_topics/html_forms_ES.md
 Sin cambios en: ./DEV/00_topics/css_relative_units_ES.md
 Sin cambios en: ./DEV/00_topics/css_flexbox_ES.md
+Sin cambios en: ./NOC/README_ES.md
+Sin cambios en: ./NOC/01_intro/README_ES.md
+Sin cambios en: ./NOC/01_intro/02_learning_bydoing/README_ES.md
+Archivo modificado: ./NOC/01_intro/02_learning_bydoing/activities/00_02_02_NOC_close_ES.md
+Sin cambios en: ./NOC/01_intro/02_learning_bydoing/activities/README_ES.md
+Archivo modificado: ./NOC/01_intro/02_learning_bydoing/activities/00_02_01_NOC_myfirst_ES.md
+Sin cambios en: ./NOC/01_intro/01_baisc_knowledge/README_ES.md
+Archivo modificado: ./NOC/01_intro/01_baisc_knowledge/activities/00_01_00_NOC_all_about_ES.md
+Archivo modificado: ./NOC/01_intro/01_baisc_knowledge/activities/00_01_03_AI_activity_que_es_ES.md
+Archivo modificado: ./NOC/01_intro/01_baisc_knowledge/activities/00_01_04_NOC_activity_tools_ES.md
+Archivo modificado: ./NOC/01_intro/01_baisc_knowledge/activities/00_01_01_NOC_internet_web_ES.md
+Archivo modificado: ./NOC/01_intro/01_baisc_knowledge/activities/00_01_02_NOC_activity_que_es_ES.md
+Archivo modificado: ./NOC/01_intro/01_baisc_knowledge/activities/00_01_05_AI_activity_tools_ES.md
 Sin cambios en: ./LEA/README_ES.md
 Sin cambios en: ./LEA/01_intro/README_ES.md
 Sin cambios en: ./LEA/01_intro/01_baisc_knowledge/README_ES.md
