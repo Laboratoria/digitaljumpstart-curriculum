@@ -35,7 +35,7 @@ Salvo algunas excepciones (por ejemplo `<!DOCTYPE html>`), los elementos HTML c
 
 ![Ejemplo etiqueta](https://user-images.githubusercontent.com/25906896/39716065-df4e7158-51f4-11e8-9a4c-90f1e82bcd09.png)
 
-Como irás aprendiendo, para comunicarnos con las máquinas, es indispensable la precisión. De la misma manera que para terminar una oración, debes poner un punto, en HTML debes poner la etiqueta de "cierre" exactamente como se espera. 
+Como irás aprendiendo, para comunicarnos con las máquinas, es indispensble la precisión. De la misma manera que para terminar una oración, debes poner un punto, en HTML debes poner la etiqueta de "cierre" exactamente como se espera. 
 
 Si te equivocas de símbolos u omites ponerlos como se espera, el navegador "interpretará" tus instrucciones con "errores". 
 

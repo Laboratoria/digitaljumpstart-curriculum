@@ -12,7 +12,7 @@
 
 Poner en práctica tu capacidad de evaluar, no sólo refuerza tus habilidades prácticas, sino que también potencia **capacidades cognitivas** cruciales. Este proceso te permite desarrollar una **metacognición** efectiva, es decir, tu habilidad de observar críticamente el proceso de aprendizaje y el trabajo hecho, y a pensar de manera analítica al respecto. 
 
-Aprender a monitorear tu propio proceso es una habilidad indispensable para tu aprendizaje permanente (*lifelong learning*) y para tu vida profesional. Este enfoque también te prepara para enfrentar desafíos complejos y tomar decisiones informadas en situaciones diversas. 
+Aprender a monitorear tu propio proceso es una habilidad imprescindible para tu aprendizaje permanente (*lifelong learning*) y para tu vida profesional. Este enfoque también te prepara para enfrentar desafíos complejos y tomar decisiones informadas en situaciones diversas. 
 
 En esta experiencia de aprendizaje puedes optar por dos niveles de evaluación:
 

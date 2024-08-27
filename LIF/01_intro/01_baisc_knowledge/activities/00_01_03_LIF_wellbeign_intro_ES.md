@@ -14,7 +14,7 @@ Aprender de verdad, te enfrenta constantemente a problemas y tareas que requiere
 
 En el pasado, se consideraba que la emoción y la cognición eran cosas separadas y que para una cognición efectiva, hacía falta reprimir o ignorar las emociones. 
 
-A través de las investigaciones como la de Antonio Damasio, entendemos ahora que las emociones juegan un papel crucial en la toma de decisiones y en los procesos cognitivos. **La regulación emocional y un mínimo bienestar son requisitos indispensables para el aprendizaje.**
+A través de las investigaciones como la de Antonio Damasio, entendemos ahora que las emociones juegan un papel crucial en la toma de decisiones y en los procesos cognitivos. **La regulación emocional y un mínimo bienestar son requisitos imprescindibles para el aprendizaje.**
 
 En su libro "El error de Descartes", Damasio argumenta contra la idea dualista de René Descartes de que la mente y el cuerpo operan de manera separada. Damasio sugiere que las emociones y los sentimientos no solo son importantes para la cognición humana sino que son fundamentales para la racionalidad, proporcionando un sistema de señales que guían nuestras decisiones y pensamientos.
 

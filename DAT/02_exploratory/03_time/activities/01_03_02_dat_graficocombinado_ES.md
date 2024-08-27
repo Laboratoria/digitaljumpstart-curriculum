@@ -1,8 +1,8 @@
 # Reto 3.2: Visualizar datos con gráficos combinados
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻 
 
-**Aprendizaje:** 🍯🍯
+**Aprendizaje:** 🍯🍯 
 
 **Tiempo:** ⏱️️⏱️️ 1-3 hrs.
 

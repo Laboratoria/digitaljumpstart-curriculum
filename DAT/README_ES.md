@@ -40,7 +40,7 @@ En resumen, la aplicación del análisis de datos se adapta a diferentes perfile
 ## Ruta: Introducción al Análisis de Datos
 
 <details>
-<summary>⚫ Introdución, indispensable</summary>
+<summary>⚫ Introdución, imprescindible</summary>
 
 Esta introducción busca proporcionarte una comprensión clara y concisa de lo que trata esta disciplina, en un formato flexible y con poco compromiso. En tan solo 2 semanas, dedicando aproximadamente 5 horas por semana a tu propio ritmo, explorarás los conceptos básicos y tendrás la oportunidad de aplicar parte de lo aprendido en un reto o mini proyecto práctico.
 

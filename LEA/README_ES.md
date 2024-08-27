@@ -25,7 +25,7 @@ Te proponemos una experiencia de aprendizaje introductorio en la que puedes part
 
 ### Plataformas, materiales y sesiones en vivo.
 
-Aunque siempre te alentaremos a expandir y profundizar por tu cuenta, todo el "material" **mínimamente indispensable** para tu aprendizaje, en forma de lecturas, videos, diagramas, etc. lo encontrarás en este sitio. Por otro lado, todas las interacciones las tendremos en Discord, incluyendo eventos especiales, ayuda y colaboración entre compañeras, conversaciones, discusiones, y las sesiones en vivo de ayudantía con el equipo de Laboratoria.
+Aunque siempre te alentaremos a expandir y profundizar por tu cuenta, todo el "material" **mínimamente imprescindible** para tu aprendizaje, en forma de lecturas, videos, diagramas, etc. lo encontrarás en este sitio. Por otro lado, todas las interacciones las tendremos en Discord, incluyendo eventos especiales, ayuda y colaboración entre compañeras, conversaciones, discusiones, y las sesiones en vivo de ayudantía con el equipo de Laboratoria.
 
 Seguramente te resultará mucha información para comenzar pero te irás acostumbrando poco a poco.
 

@@ -1,8 +1,8 @@
 # ◾Reto 3.1: Diseño Responsivo con Media Queries
 
-**Dificultad:** 🌻🌻
+**Dificultad:** 🌻🌻 
 
-**Aprendizaje:** 🍯🍯🍯
+**Aprendizaje:** 🍯🍯🍯 
 
 **Tiempo:** ⏱️️⏱️️⏱️️️⏱️️️⏱️️️ 4-6 hrs
 

@@ -1,8 +1,8 @@
 # Reto 1.1: Mi Primera Página HTML (cont...)
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻 
 
-**Aprendizaje:** 🍯🍯
+**Aprendizaje:** 🍯🍯 
 
 **Tiempo:** ⏱️️⏱️️ 1-3 hrs
 

@@ -1,8 +1,8 @@
 # Qué es el No-Code
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻 
 
-**Aprendizaje:** 🍯
+**Aprendizaje:** 🍯 
 
 **Tiempo:** ⏱️ 45 min
 

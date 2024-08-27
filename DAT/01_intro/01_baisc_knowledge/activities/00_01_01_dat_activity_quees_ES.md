@@ -1,8 +1,8 @@
 # Importancia y aplicaciones del Análisis de Datos
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻 
 
-**Aprendizaje:** 🍯
+**Aprendizaje:** 🍯 
 
 **Tiempo:** ⏱️️ 30 min
 

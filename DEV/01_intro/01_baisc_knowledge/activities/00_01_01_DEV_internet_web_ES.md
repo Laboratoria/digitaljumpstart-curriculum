@@ -1,8 +1,8 @@
 # Entendiendo Internet y la Web
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻 
 
-**Aprendizaje:** 🍯
+**Aprendizaje:** 🍯 
 
 **Tiempo:** ⏱️️ 30min
 

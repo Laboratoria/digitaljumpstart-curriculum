@@ -28,7 +28,7 @@ Inevitablemente te has topado con todo tipo de predicciones que se hacen con un 
 ## Ruta
 
 <details>
-<summary>⚫ Introduccción, indispensable</summary>
+<summary>⚫ Introduccción, imprescindible</summary>
 
 Diseñada para darte una visión clara del enfoque con el que tratamos el tema. En menos de 5 horas en total, explorarás los aspectos introductorios de varias rutas que posteriormente desarrollaremos.
 
@@ -42,12 +42,14 @@ Lo que aprenderás:
 4. El bienestar como requisito para el aprendizaje y el desempeño en general.
 
 </details>
+
 <details>
 <summary>⚫ Bienestar</summary>
 
 (En preparación...)
 
 </details>
+
 <details>
 <summary>⚫ Finanzas personales</summary>
 

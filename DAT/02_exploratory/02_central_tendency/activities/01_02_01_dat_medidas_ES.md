@@ -1,8 +1,8 @@
 # Reto 2.1: Conociendo las medidas de tendencia central
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻 
 
-**Aprendizaje:** 🍯🍯
+**Aprendizaje:** 🍯🍯 
 
 **Tiempo:** ⏱️️️⏱️️️⏱️️ 2-4 hrs.
 

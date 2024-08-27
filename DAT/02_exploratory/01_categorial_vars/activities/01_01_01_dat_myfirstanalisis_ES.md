@@ -1,8 +1,8 @@
 # Reto 1.1: Mi Primer Análisis  (continuación de tablas dinámicas)
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻 
 
-**Aprendizaje:** 🍯🍯
+**Aprendizaje:** 🍯🍯 
 
 **Tiempo:** ⏱️️⏱️️⏱️️⏱️️ 3-5 hrs.
 

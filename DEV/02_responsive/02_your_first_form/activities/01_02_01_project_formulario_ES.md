@@ -1,8 +1,8 @@
 # Reto 2.1: Creación de un formulario
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻 
 
-**Aprendizaje:** 🍯🍯
+**Aprendizaje:** 🍯🍯 
 
 **Tiempo:** ⏱️️⏱️️⏱️️ 2-4 hrs
 

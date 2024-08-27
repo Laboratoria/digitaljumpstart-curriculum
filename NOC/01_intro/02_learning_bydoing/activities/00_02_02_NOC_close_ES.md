@@ -10,7 +10,7 @@
 
 ---
 
-Ahora que completaste el bloque introductorio, completa la siguiente actividad para terminar.
+Ahora que completaste la Introduccción, completa la siguiente actividad para terminar.
 
 Escribe un mensaje numerado en el hilo, de manera que cubras lo siguiente:
 

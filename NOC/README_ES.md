@@ -54,7 +54,7 @@ Nuevas herramientas y plataformas emergen constantemente, ofreciendo capacidades
 ## Ruta: Introducción a No-Code e IA
 
 <details>
-<summary>🔵 Bloque Introductorio, indispensable</summary>
+<summary>⚫ Introducción (imprescindible)</summary>
 
 Este bloque busca proporcionarte una comprensión clara y concisa, en un formato flexible y con poco compromiso. En tan solo 2 semanas, dedicando aproximadamente 5 horas por semana a tu propio ritmo, explorarás los conceptos básicos y tendrás la oportunidad de aplicar lo aprendido en un reto/mini proyecto.
 

@@ -1,8 +1,8 @@
 # Herramientas No-code más comunes
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻 
 
-**Aprendizaje:** 🍯
+**Aprendizaje:** 🍯 
 
 **Tiempo:** ⏱️ 1 hrs
 

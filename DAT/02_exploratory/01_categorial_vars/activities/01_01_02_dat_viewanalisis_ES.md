@@ -1,8 +1,8 @@
 # Reto 1.2: Gráficos para el análisis exploratorio
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻 
 
-**Aprendizaje:** 🍯🍯
+**Aprendizaje:** 🍯🍯 
 
 **Tiempo:** ⏱️️⏱️️️⏱️️️⏱️️ 3-5 hrs.
 

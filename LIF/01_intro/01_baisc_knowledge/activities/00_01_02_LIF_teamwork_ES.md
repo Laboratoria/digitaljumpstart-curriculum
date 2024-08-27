@@ -72,11 +72,11 @@ Tu objetivo es aprender. Si bien esperamos que forjes relaciones sanas con tus c
 
 ### ⛔ Mito 2: Trabajar en equipo implica siempre llegar a una solución que guste a todas.
 
-Elegir implica, necesariamente, descartar alternativas. Para eso es indispensable que alguien ceda en su posición. Te recomendamos que el análisis para tomar la decisión se haga de la manera más lógica y racional posible, dejando fuera las preferencias arbitrarias o basadas simplemente en “opiniones”. El simple hecho de pensar, considerar, discutir y comparar distintas alternativas ya es un gran aporte en términos de aprendizaje.
+Elegir implica, necesariamente, descartar alternativas. Para eso es imprescindible que alguien ceda en su posición. Te recomendamos que el análisis para tomar la decisión se haga de la manera más lógica y racional posible, dejando fuera las preferencias arbitrarias o basadas simplemente en “opiniones”. El simple hecho de pensar, considerar, discutir y comparar distintas alternativas ya es un gran aporte en términos de aprendizaje.
 
 ### ⛔ Mito 3: Trabajar en equipo implica estar siempre disponible para las demás.
 
-Está muy arraigada la dañina idea de que hay que esforzarse hasta el agotamiento y la enfermedad para “progresar”. No todas tenemos la misma energía, ni las mismas responsabilidades, ni los mismos horarios o disponibilidad, etc. y eso no está “mal”. Se trata de conseguir trabajar incluso con esas diferencias, y respetando el espacio y descanso que sea indispensable para cada quien según su respetable manera de vivir.
+Está muy arraigada la dañina idea de que hay que esforzarse hasta el agotamiento y la enfermedad para “progresar”. No todas tenemos la misma energía, ni las mismas responsabilidades, ni los mismos horarios o disponibilidad, etc. y eso no está “mal”. Se trata de conseguir trabajar incluso con esas diferencias, y respetando el espacio y descanso que sea indispensble para cada quien según su respetable manera de vivir.
 
 ### ⛔ Mito 4: Necesitamos “confianza” para hablar de los temas difíciles.
 

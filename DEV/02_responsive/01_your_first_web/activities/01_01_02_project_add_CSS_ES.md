@@ -1,8 +1,8 @@
 # Reto 1.2 : Agregando estilos con CSS
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻 
 
-**Aprendizaje:** 🍯🍯
+**Aprendizaje:** 🍯🍯 
 
 **Tiempo:** ⏱️️⏱️️⏱️️ 2-4 hrs
 

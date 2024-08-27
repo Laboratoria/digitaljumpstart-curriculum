@@ -1,8 +1,8 @@
 # Reto 2.2: Conociendo la distribución de los datos
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻 
 
-**Aprendizaje:** 🍯🍯
+**Aprendizaje:** 🍯🍯 
 
 **Tiempo:** ⏱️️⏱️️⏱️️ 2-4 hrs.
 

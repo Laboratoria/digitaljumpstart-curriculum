@@ -1,8 +1,8 @@
 # Reto 3.1: Visualizar datos a lo largo del tiempo
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻 
 
-**Aprendizaje:** 🍯🍯
+**Aprendizaje:** 🍯🍯 
 
 **Tiempo:** ⏱️️⏱️️ 1-3 hrs.
 
