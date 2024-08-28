@@ -1,6 +1,6 @@
-# No-Code y AI
+# No-Code e IA
 
-**Tiempo:** :stopwatch: 5min
+**Tiempo:** ⏱️ 5min
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
