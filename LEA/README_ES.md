@@ -4,7 +4,7 @@
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
-<p>Completa esto antes de comenzar cualquier ruta técnica.</p><p>Te tomará como máximo 5 horas de decicación.</p>
+<p>Antes de comenzar cualquier aprendizaje técnico, es importante que entiendas nuestra propuesta de aprendizaje.</p><p>Te tomará como máximo 5 horas de dedicación.</p>
 <!-- preview:end -->
 
 ---
@@ -59,7 +59,7 @@ Encontrarás todo organizado de la siguiente manera. Es como una *matrioshka* o 
 
 Una habilidad es una destreza para ejecutar o hacer algo concreto. Puedes comprender los conceptos de gravedad, velocidad, equilibrio, etc., pero eso no significa que tengas **la habilidad de andar en bicicleta**.
 
-La habilidad es esa capacidad práctica de aplicar lo que sabes, o incluso lo que intuyes,  para lograr hacer algo efectivamente: andar en bicicleta. Este es nuestro objetivo último, que puedas desarrollar habilidades que te permitan hacer cosas de verdad, en la practica, y que eso te permita acceder a más y mejores oportunidades.
+La habilidad es esa capacidad práctica de aplicar lo que sabes, o incluso lo que intuyes,  para lograr hacer algo efectivamente: andar en bicicleta. Este es nuestro objetivo último, que puedas desarrollar habilidades que te permitan hacer cosas de verdad, práctica, y que eso te permita acceder a más y mejores oportunidades.
 
 Una habilidad se desarrolla **completando todas las actividades y los retos de todos los módulos que se incluyen en cada habilidad**. 
 

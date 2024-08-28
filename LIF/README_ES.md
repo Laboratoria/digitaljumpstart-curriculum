@@ -4,7 +4,7 @@
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
-<p>Completa esto antes de comenzar cualquier ruta técnica.</p><p>Te tomará como máximo 5 horas de decicación.</p>
+<p>Te recomendamos completar al menos la Introducción, te tomará como máximo 5 horas de dedicación.</p><p>Luego puedes ir explorando y completando según tus intereses.</p><p>Periódicamente tendremos sesiones en vivo para tratar diversos temas relacionados, te invitamos a participar.</p>
 <!-- preview:end -->
 
 ---

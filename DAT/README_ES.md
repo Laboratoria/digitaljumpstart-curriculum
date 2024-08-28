@@ -1,10 +1,10 @@
-# Análisis de Datos para principiantes
+# Análisis de Datos
 
-**Tiempo:** ⏱️️ 5min
+**Tiempo:** ⏱️️ 5 min
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
-<p>Desarrollarás las habilidades prácticas para hacer análisis exploratorios, aplicar técnicas básicas de análisis y generar reportes y dashboards.</p><p>Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías comppletar el programa en XX semanas.</p>
+<p>Desarrolla habilidades para hacer análisis exploratorios, aplicar técnicas de análisis y generar reportes y dashboards.</p><p>Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La introducción en un máximo de 2 semanas y la ruta completa en un máximo de 16 semanas.</p>
 <!-- preview:end -->
 ---
 
