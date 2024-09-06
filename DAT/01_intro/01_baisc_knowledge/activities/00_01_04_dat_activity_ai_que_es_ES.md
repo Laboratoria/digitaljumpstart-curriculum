@@ -12,9 +12,11 @@
 
 ## Introducción
 
-La Inteligencia Artificial (IA) es una rama de la informática que se dedica al desarrollo de sistemas capaces de realizar tareas que normalmente requieren inteligencia humana. Esto incluye habilidades como el reconocimiento de voz, la toma de decisiones, la resolución de problemas, la comprensión del lenguaje natural y la percepción visual.
+La Inteligencia Artificial (IA) es un campo multidisciplinario de la informática y la ingeniería que se dedica al desarrollo de sistemas y algoritmos capaces de realizar tareas que tradicionalmente requieren inteligencia humana. Estas tareas incluyen una amplia gama de capacidades, desde las más simples hasta las más complejas, como la clasificación de datos, la elaboración de modelos predictivos, el reconocimiento de voz y rostros, la toma de decisiones automatizada, la resolución de problemas, la planificación y la comprensión del lenguaje natural.
 
-Es importante distinguir la IA en general de una subcategoría específica conocida como IA generativa, que incluye modelos de lenguaje grande (LLM) como ChatGPT, Gemini o Perplexity, etc. Mientras que la IA abarca un amplio espectro de tecnologías y aplicaciones, la IA generativa se centra en la generación de contenido como texto, imágenes y sonidos, basándose en patrones aprendidos de grandes cantidades de datos.
+Es importante destacar que la IA ha evolucionado significativamente en las últimas décadas. Inicialmente, se centraba en resolver problemas específicos mediante reglas explícitas y algoritmos diseñados a mano. Con el avance del aprendizaje automático, los sistemas de IA han adquirido la capacidad de aprender de grandes cantidades de datos, lo que ha permitido el desarrollo de tecnologías más flexibles y poderosas.
+
+Entre estas tecnologías más avanzadas se encuentra la IA generativa, que es capaz de crear contenido nuevo, como texto, imágenes o música, basándose en patrones aprendidos de datos existentes. Este tipo de IA ha ganado popularidad con el desarrollo de modelos de lenguaje grandes (LLM), como ChatGPT, que pueden generar respuestas coherentes y útiles en lenguaje natural, lo que representa una ampliación significativa del alcance y las capacidades de la inteligencia artificial.
 
 La actual revolución introducida por los LLMs se explica en parte por su gran capacidad para "interpretar" el lenguaje humano natural y desarrollar un discurso coherente, aunque no necesariamente exacto. Esta capacidad, combinada con otras funcionalidades como el análisis de datos y la generación de código de *software*, abre una puerta a infinitas posibilidades futuras.
 

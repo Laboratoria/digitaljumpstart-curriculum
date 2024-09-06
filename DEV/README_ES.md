@@ -1,4 +1,4 @@
-# Introducción al Desarrollo Web
+# Desarrollo Web
 
 **Tiempo:** ⏱️️ 5min
 
@@ -20,8 +20,6 @@ Esta disciplina es fundamental para la sociedad y la economía modernas, ya que 
 El desarrollo web se caracteriza por su constante evolución. Nuevas herramientas, librerías, patrones de trabajo, tendencias, etc.  emergen regularmente, lo que requiere que las profesionales se mantengan actualizadas a través del **aprendizaje permanente**. 
 
 En resumen, ofrece una variedad de roles y especializaciones que pueden adaptarse a diferentes intereses y habilidades, lo que la convierte en una carrera atractiva y prometedora. 
-
-**Esfuerzo hasta la competencia mínima:** 😅😅😅😅😅
 
 ## Ruta: Desarrollo Web Front-end
 
@@ -58,7 +56,7 @@ Lo que aprenderás:
 </details>
 
 <details>
-<summary>⚫ Habilidad (H): Funcionalidad Web, básica</summary>
+<summary>⚫ Habilidad (H): Fundamentos de la Funcionalidad Web</summary>
 
   en preparación....
 

@@ -1,6 +1,13 @@
-# ⚫ Habilidad (H): Maquetación Web, básica
+# ⚫ Habilidad (H): Maquetación Web responsiva
 
 **Tiempo:** ⏱️️ 5min
+
+<!-- El siguiente bloque de comentario se usa también para mostrar un preview o resumen del program, skill o module en thumbnails de FE-->
+<!-- preview:start -->
+<p>La habilidad de maquetación web se refiere a la destreza para crear y estructurar visualmente páginas web utilizando los lenguajes HTML y CSS (más adelante también JavaScript), para organizar el contenido y los elementos de diseño de manera efectiva y estética en un navegador web como Chrome, Firefox, Safari, etc.
+
+Esta habilidad es imprescindible para cualquier desarrolladora web porque te permitirá implementar diseños responsivos y precisos que funcionan en diferentes dispositivos (PC, teléfono, etc.), asegurando que el contenido sea accesible y utilizable para todas las usuarias.</p>
+<!-- preview:end -->
 
 ---
 

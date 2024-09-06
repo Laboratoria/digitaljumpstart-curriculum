@@ -64,7 +64,7 @@ Agrega cualquier otro comentario o aspecto que quieras y te parezca relevante.
 
 No habrás cumplido con la actividad si:
 
-- [x] No identificaste una oportunidad real en tu contexto para aplicar el enfoque no-code.
+- [x] No identificaste una oportunidad real en tu contexto para aplicar habilidades de Análisis de Datos.
 - [x] No comentas en el hilo de Discord según el formato propuesto.
 
 ---

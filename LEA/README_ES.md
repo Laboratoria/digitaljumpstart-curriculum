@@ -1,4 +1,4 @@
-# Metodología y de aprendizaje
+# Metodología de aprendizaje
 
 **Tiempo ⏱️️ :** 15min
 
@@ -17,15 +17,20 @@
 
 Sabemos que embarcarse en aprender algo nuevo puede ser un gran desafío, especialmente cuando no estás segura de cuánto interés o afinidad tienes en un área específica, ni cómo se alinea con tu contexto actual, ni qué nivel de aprendizaje realmente quieres o necesitas. 
 
-Quizás solamente buscas informarte un poco de las oportunidades de la **economía digital**, compartir ideas y experiencias en comunidad con otras mujeres. Quizás te sirve aprender a usar algunas herramientas para mejorar tu actual trabajo, automatizar procesos, etc. Quizás tienes claro que quieres un cambio radical de carrera y quieres en dar ese primer paso de aprendizaje.
+Quizás solamente buscas informarte un poco de las oportunidades de la **economía digital**, compartir ideas y experiencias en comunidad con otras mujeres. Quizás te sirve aprender a usar algunas herramientas para mejorar tu actual trabajo, automatizar procesos, etc. Quizás tienes claro que quieres un cambio radical de carrera y quieres en dar ese primer paso de aprendizaje... quizás lo descubras en el camino.
 
 En todos los casos eres bienvenida porque hemos diseñado la experiencia de manera que se adecue a cada persona. :smile:
 
-Te proponemos una experiencia de aprendizaje introductorio en la que puedes participar desde simplemente asistir a eventos en vivo, *online* o presenciales, con ponencias sobre diversos temas relacionados a las oportunidades para acceder y participar efectivamente de la economía digital.
+Si bien te proponemos una experiencia de aprendizaje introductorio práctica que se consigue completando actividades y retos o mini-proyectos (aprender haciendo), eres liibre de aprovechar el programa como mejor se adecue a ti. Puedes participar desde simplemente asistir a los eventos *online* en vivo, completar actividaddes y retos o mini-proyectos, intercamnbiar experiencias con otras compañeras, etc. 
+
+Buscamos facilitar un espacio seguro para generar conciencia e interés en las crecientes oportunidades de la economía digital y que ninguna se quede sin la oportunidad de explorar y dar sus primeros pasos de aprendizaje.
+
 
 ### Plataformas, materiales y sesiones en vivo.
 
-Aunque siempre te alentaremos a expandir y profundizar por tu cuenta, todo el "material" **mínimamente imprescindible** para tu aprendizaje, en forma de lecturas, videos, diagramas, etc. lo encontrarás en este sitio. Por otro lado, todas las interacciones las tendremos en Discord, incluyendo eventos especiales, ayuda y colaboración entre compañeras, conversaciones, discusiones, y las sesiones en vivo de ayudantía con el equipo de Laboratoria.
+Aunque siempre te alentaremos a expandir y profundizar por tu cuenta, todo el "material" **mínimamente imprescindible** para tu aprendizaje, en forma de lecturas, videos, diagramas, etc. lo encontrarás en este sitio. También un resumen de tu participación y tu progreso.
+
+Por otro lado, todas las interacciones las tendremos en Discord, incluyendo los eventos y sesiones de ayudantía "en vivo" con el equipo de Laboratoria o invitadas, la ayuda y colaboración entre compañeras, conversaciones, discusione, etc.
 
 Seguramente te resultará mucha información para comenzar pero te irás acostumbrando poco a poco.
 

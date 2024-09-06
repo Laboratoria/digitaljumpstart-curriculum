@@ -4,7 +4,7 @@
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
-<p>Desarrolla habilidades para hacer análisis exploratorios, aplicar técnicas de análisis y generar reportes y dashboards.</p><p>Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La introducción en un máximo de 2 semanas y la ruta completa en un máximo de 16 semanas.</p>
+<p>Desarrolla habilidades prácticas para hacer análisis exploratorios, aplicar técnicas de análisis específicas y generar reportes - dashboards.</p><p>Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La introducción en un máximo de 2 semanas y la ruta completa en un máximo de 16 semanas.</p>
 <!-- preview:end -->
 ---
 
@@ -30,10 +30,6 @@ En resumen, la aplicación del análisis de datos se adapta a diferentes perfile
 - **Comercio y Retail**: Análisis de comportamiento de compra, optimización de precios, gestión de inventarios, análisis de la efectividad de promociones, etc.
 - **Servicios de Hostelería y Turismo**: Análisis de tendencias de viaje, segmentación de clientes, optimización de operaciones, análisis de comentarios y reseñas, etc.
 - etc.
-
----
-
-**Esfuerzo hasta la competencia mínima:** 😅😅😅
 
 ---
 
@@ -70,7 +66,7 @@ La habilidad de hacer un análisis exploratorio de datos (AED) es una etapa cruc
 </details>
 
 <details>
-<summary>⚫ Habilidad (H): Técnicas de análisis 1</summary>
+<summary>⚫ Habilidad (H): Técnicas de análisis 1 (en preparación...)</summary>
 
 (en preparación...)
 Las técnicas de análisis pueden ser muy variadas, pues dependen del problema que se pretende solucionar, incluso se pueden utilizar distintas técnicas combinadas para llegar a un resultado o profundizar los hallazgos. En este caso vamos a aprender una técnica de análisis para segmentar clientes a través de lo que se conoce como RFM.
@@ -78,10 +74,10 @@ Las técnicas de análisis pueden ser muy variadas, pues dependen del problema q
 </details>
 
 <details>
-<summary>⚫ Habilidad (H): Reportes y dashboards 1</summary>
+<summary>⚫ Habilidad (H): Reportes y dashboards 1 (en preparación...)</summary>
 
 (en preparación...)
-Un *dashboard* o panel de control es una herramienta de visualización de datos que proporciona una representación gráfica y resumida de información relevante y, en muchos casos, actualizada en tiempo real. Es una interfaz gráfica que presenta de manera clara y concisa métricas, indicadores clave de rendimiento (KPI), tendencias y otros datos importantes en un solo lugar. Aprenderás a crear un *dashboard* con los resultados de tu análisis. Trabajarás en Looker Studio/Power BI (revisar Mire)
+Un *dashboard* o panel de control es una herramienta de visualización de datos que proporciona una representación gráfica y resumida de información relevante y, en muchos casos, actualizada en tiempo real. Es una interfaz gráfica que presenta de manera clara y concisa métricas, indicadores clave de rendimiento (KPI), tendencias y otros datos importantes en un solo lugar. Aprenderás a crear un *dashboard* con los resultados de tu análisis. Trabajarás en Looker Studio/Power BI.
 
 </details>
 

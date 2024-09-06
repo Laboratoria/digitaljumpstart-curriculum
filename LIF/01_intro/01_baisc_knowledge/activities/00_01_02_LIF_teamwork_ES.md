@@ -1,4 +1,4 @@
-# Trabajo en equipo
+# Colaboración y trabajo en equipo
 
 **Tiempo:** ⏱️️ 12 min
 
