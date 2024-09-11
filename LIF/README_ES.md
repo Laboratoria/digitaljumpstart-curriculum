@@ -6,7 +6,7 @@
 <!-- preview:start -->
 <p>Completa, al menos, la Introducción (imprescindible)</p>
 <p>Luego puedes ir explorando y completando según tus intereses</p>
-<p>Periódicamente tendremos sesiones en vivo para tratar diversos temas relacionados, te invitamos a participar.</p>
+<p><br>Periódicamente tendremos sesiones en vivo para tratar diversos temas relacionados, te invitamos a participar.</p>
 <p><br><b>Tiempo ⏱️️ :</b> Parte imprescindible, 3-5 horas de tu tiempo.</p>
 <!-- preview:end -->
 

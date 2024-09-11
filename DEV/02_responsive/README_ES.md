@@ -9,6 +9,16 @@
 Esta habilidad es imprescindible para cualquier desarrolladora web porque te permitirá implementar diseños responsivos y precisos que funcionan en diferentes dispositivos (PC, teléfono, etc.), asegurando que el contenido sea accesible y utilizable para todas las usuarias.</p>
 <!-- preview:end -->
 
+
+<!-- preview:start -->
+<p>Aprender de manera práctica a crear y estructurar visualmente páginas web utilizando los lenguajes HTML y CSS.</p>
+<p><br>Tu primera web con estilos básicos.</p>
+<p><br>Tu primer formulario web.</p>
+<p><br>Diseño web responsivo.</p>
+<p><br>Practica replicando sitios web reales.</p>
+<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar esta habilidad en 4-8 semanas.</p>
+<!-- preview:end -->
+
 ---
 
 **Programa** : [Desarrollo Web](https://discord.com/channels/1209273049304666113/1236067190466285650)

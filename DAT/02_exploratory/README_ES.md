@@ -4,11 +4,11 @@
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
-<p>Esfuerzo máximo: 2 semanas, 5 horas por semana.</p>
-<p>Obtén una visión clara del programa o ruta de aprendizaje.</p>
-<p>Adquiere los conocimientos básicos sobre no-code e IA.</p>
-<p>Aplica lo aprendido desarrollando tu primer mini-proyecto o reto práctico.</p>
-<p>Reflexiona sobre tu proceso de aprendizaje, evaluando tu capacidad y motivación para continuar avanzando.</p>
+<p>Es una práctica común en la ciencia de datos y la estadística, y se utiliza para descubrir patrones, tendencias, relaciones y anomalías en los datos de manera exploratoria e informal.</p>
+<p><br>Análisis Exploratorio de Datos y Variables Categóricas.</p>
+<p><br>Medidas de Tendencia Central y Distribución de Datos<./p>
+<p><br>Análisis del Comportamiento Temporal.</p>
+<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar esta habilidad en 3-6 semanas.</p>
 <!-- preview:end -->
 
 ---

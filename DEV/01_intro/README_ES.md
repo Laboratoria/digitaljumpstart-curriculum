@@ -4,11 +4,11 @@
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
-<p>Esfuerzo máximo: 2 semanas, 5 horas por semana.</p>
-<p>Obtén una visión clara del programa o ruta de aprendizaje.</p>
-<p>Adquiere los conocimientos iniciales-fundamentales sobre el Desarrollo Web.</p>
-<p>Aplica lo aprendido desarrollando tu primer mini-proyecto o reto práctico.</p>
-<p>Reflexiona sobre tu proceso de aprendizaje, evaluando tu capacidad y motivación para continuar avanzando.</p>
+<p>Obtén una visión clara del la ruta o programa.</p>
+<p><br>Adquiere los conocimientos básicos-introductorios sobre el Desarrollo Web.</p>
+<p><br>Aplica lo aprendido desarrollando tu primer mini-proyecto o reto práctico.</p>
+<p><br>Reflexiona sobre tu proceso de aprendizaje, evaluando tu capacidad y motivación para continuar avanzando.</p>
+<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La Introducción (imprescindible) en 1-2 semanas.</p>
 <!-- preview:end -->
 
 ---

@@ -4,10 +4,10 @@
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
-<p>Adquiere una visión clara de la metodología de aprendizaje.</p>
-<p>Entiende las mecánicas y dinámicas del programa.</p>
-<p>Despierta tu curiosidad e interés por el aprendizaje autodirigido y libre.</p>
-<p><b>Tiempo ⏱️:</b> 3-5 horas.</p>
+<p>Comprende claramente la metodología de aprendizaje.</p>
+<p><br>Entiende las mecánicas y dinámicas del programa.</p>
+<p><br>Despierta tu curiosidad e interés por el aprendizaje autodirigido.</p>
+<p><br><b>Tiempo ⏱️:</b> 3-5 horas.</p>
 <!-- preview:end -->
 
 ---

@@ -5,7 +5,7 @@
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
 <p>Completa, al menos, la Introducción (imprescindible)</p>
-<p>Antes de comenzar cualquier aprendizaje técnico, es importante que entiendas nuestra propuesta de aprendizaje.</p> 
+<p><br>Antes de comenzar cualquier aprendizaje técnico, es importante que entiendas nuestra propuesta de aprendizaje.</p> 
 <p><br><b>Tiempo ⏱️️ :</b> Parte imprescindible, 3-5 horas de tu tiempo.</p>
 <!-- preview:end -->
 

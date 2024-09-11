@@ -4,8 +4,11 @@
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
-<p>Desarrolla habilidades prácticas para hacer análisis exploratorios, aplicar técnicas de análisis específicas y generar reportes - dashboards.</p><p>Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La introducción en un máximo de 2 semanas y la ruta completa en un máximo de 16 semanas.</p>
+<p>Desarrolla habilidades prácticas para hacer análisis exploratorios, aplicar técnicas de análisis específicas y generar reportes - dashboards.</p>
+
+<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La Introducciòn (imprescindible) en 1-2 semanas y la ruta completa en un máximo de 16 semanas.</p>
 <!-- preview:end -->
+
 ---
 
 El análisis de datos es la disciplina dedicada a la recopilación, procesamiento y análisis de datos para extraer conocimientos valiosos y tomar decisiones informadas. Esta disciplina abarca desde la interpretación de datos numéricos y categóricos hasta el uso de técnicas avanzadas como el *Machine Learning* o aprendizaje automático para identificar patrones y prever tendencias.

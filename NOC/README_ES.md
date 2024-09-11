@@ -4,7 +4,9 @@
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
-<p>Aprenderás a automatizar tareas y proces tipicos de "oficina" y a sacar el máximo provecho de la IA generativa.</p><p>Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar el programa en 6 semanas.</p>
+<p>Aprenderás a automatizar tareas y proces tipicos del trabajo de "oficina", y a sacar el máximo provecho de la IA generativa.</p>
+
+<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La Introducciòn (imprescindible) en 1-2 semanas y la ruta completa en un máximo de 16 semanas.</p>
 <!-- preview:end -->
 
 ---
