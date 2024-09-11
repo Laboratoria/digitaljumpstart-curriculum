@@ -6,7 +6,7 @@
 <!-- preview:start -->
 <p>Completa, al menos, la Introducción (imprescindible)</p>
 <p><br>Antes de comenzar cualquier aprendizaje técnico, es importante que entiendas nuestra propuesta de aprendizaje.</p> 
-<p><br><b>Tiempo ⏱️️ :</b> Parte imprescindible, 3-5 horas de tu tiempo.</p>
+<p><br><b>Tiempo ⏱️️ :</b> Introducc. imprescindible, 3-5 horas de tu tiempo.</p>
 <!-- preview:end -->
 
 ---

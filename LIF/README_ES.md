@@ -4,10 +4,10 @@
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
-<p>Completa, al menos, la Introducción (imprescindible)</p>
-<p>Luego puedes ir explorando y completando según tus intereses</p>
+<p>Completa, al menos, la Introducción (imprescindible).</p>
+<p><br>Luego puedes ir explorando y completando según tus intereses.</p>
 <p><br>Periódicamente tendremos sesiones en vivo para tratar diversos temas relacionados, te invitamos a participar.</p>
-<p><br><b>Tiempo ⏱️️ :</b> Parte imprescindible, 3-5 horas de tu tiempo.</p>
+<p><br><b>Tiempo ⏱️️ :</b> Introducc. imprescindible, 3-5 horas de tu tiempo.</p>
 <!-- preview:end -->
 
 ---

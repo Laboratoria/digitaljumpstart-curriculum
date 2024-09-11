@@ -4,7 +4,7 @@
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
-  <p>Explora cómo desarrollar habilidades fundamentales para enfrentar los desafíos del mundo actual, desde la iniciativa hasta el pensamiento crítico.</p> 
+  <p>Explora sobre la importancia de habilidades fundamentales para enfrentar los desafíos del mundo actual, desde la iniciativa hasta el pensamiento crítico.</p> 
  <p><br>Comprende por qué estas habilidades transversales son clave para ayudarte en tu desarrollo, tanto profesional como personal, en un entorno de cambio constante.</p> 
  <p><br><b>Tiempo ⏱️️ :</b> 3-5 horas.</p>
 <!-- preview:end -->
