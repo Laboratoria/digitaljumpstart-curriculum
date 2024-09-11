@@ -6,7 +6,7 @@
 <!-- preview:start -->
 <p>Antes de comenzar cualquier aprendizaje técnico, es importante que entiendas nuestra propuesta de aprendizaje.</p> 
 
-<p>**Tiempo ⏱️️ :** máximo 5 horas de tu tiempo.</p>
+<p><b>>Tiempo ⏱️️ :</b> máximo 5 horas de tu tiempo.</p>
 <!-- preview:end -->
 
 ---
