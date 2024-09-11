@@ -4,7 +4,7 @@
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
-<p>Aprenderás a automatizar tareas y proces tipicos de "oficina" y a sacar el máximo provesho de la IA generativa.</p><p>Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar el programa en 6 semanas.</p>
+<p>Aprenderás a automatizar tareas y proces tipicos de "oficina" y a sacar el máximo provecho de la IA generativa.</p><p>Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar el programa en 6 semanas.</p>
 <!-- preview:end -->
 
 ---
@@ -87,7 +87,7 @@ Lo que aprenderás:
 </details>
 
 <details>
-<summary>⚫ Habilidad (H): Prompting básico</summary>
+<summary>⚫ Habilidad (H): Prompting básico (en preparación...)</summary>
 
 Lo que aprenderás:
 
@@ -96,7 +96,7 @@ Los fundamentos del prompting, la técnica de formular y ajustar solicitudes a m
 </details>
 
 <details>
-<summary>⚫ Habilidad (H): Implementación de AI en Soluciones No-Code, básica</summary>
+<summary>⚫ Habilidad (H): Implementación de AI en Soluciones No-Code, básica (en preparación...)</summary>
 
 Lo que aprenderás:
 
@@ -105,6 +105,7 @@ Lo que aprenderás:
 2. Crear experiencias personalizadas: Utilizar AI para analizar datos de usuarios y personalizar la experiencia de las usuarias.
 
 <details>
-<summary>⚫ Habilidad (H): Uso de LLMs open source </summary>
-Aprenderás sobre los principales modelos LLM open source, cuándo usarlos, y cómo ejecutarlos localmente de forma 100% gratuita.
+<summary>⚫ Habilidad (H): R.A.G.  (en preparación...)</summary>
+El concepto de RAG en inteligencia artificial se podría traducir al castellano como "Generación Aumentada por Recuperación". Este enfoque combina modelos generativos con técnicas de recuperación de información específica para mejorar la precisión y relevancia de las respuestas generadas por el modelo en contextos específicos.
 </details>
+

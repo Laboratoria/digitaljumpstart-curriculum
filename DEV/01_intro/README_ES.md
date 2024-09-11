@@ -1,14 +1,14 @@
-# ⚫ Introducción al Desarrollo Web
+# ⚫ Introducción al Desarrollo Web (imprescindible)
 
 **Tiempo de lectura:** ⏱️️️ 5min
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
 <p>Esfuerzo máximo: 2 semanas, 5 horas por semana.</p>
-<p>Adquiere una visión clara del programa o ruta de aprendizaje.</p>
-<p>Adquirir los conocimientos básicos sobre el Desarrollo Web.</p>
-<p>Aplicar lo aprendido desarrollando tu primer mini-proyecto o reto práctico.</p>
-<p>Reflexionar sobre tu proceso de aprendizaje, evaluando tu capacidad y motivación para continuar avanzando.</p>
+<p>Obtén una visión clara del programa o ruta de aprendizaje.</p>
+<p>Adquiere los conocimientos iniciales-fundamentales sobre el Desarrollo Web.</p>
+<p>Aplica lo aprendido desarrollando tu primer mini-proyecto o reto práctico.</p>
+<p>Reflexiona sobre tu proceso de aprendizaje, evaluando tu capacidad y motivación para continuar avanzando.</p>
 <!-- preview:end -->
 
 ---

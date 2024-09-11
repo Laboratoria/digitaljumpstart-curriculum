@@ -4,7 +4,7 @@
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
-<p>Antes de comenzar cualquier aprendizaje técnico, es importante que entiendas nuestra propuesta de aprendizaje.</p><p>Te tomará como máximo 5 horas de dedicación.</p>
+<p>Antes de comenzar cualquier aprendizaje técnico, es importante que entiendas nuestra propuesta de aprendizaje.</p><p>**Tiempo ⏱️️ :** máximo 5 horas de tu tiempo.</p>
 <!-- preview:end -->
 
 ---
