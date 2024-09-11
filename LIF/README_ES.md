@@ -4,7 +4,10 @@
 
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
-<p>Te recomendamos completar al menos la Introducción, te tomará como máximo 5 horas de dedicación.</p><p>Luego puedes ir explorando y completando según tus intereses.</p><p>Periódicamente tendremos sesiones en vivo para tratar diversos temas relacionados, te invitamos a participar.</p>
+<p>Completa, al menos, la Introducción (imprescindible)</p>
+<p>Luego puedes ir explorando y completando según tus intereses</p>
+<p>Periódicamente tendremos sesiones en vivo para tratar diversos temas relacionados, te invitamos a participar.</p>
+<p><br><b>Tiempo ⏱️️ :</b> Parte imprescindible, 3-5 horas de tu tiempo.</p>
 <!-- preview:end -->
 
 ---
