@@ -317,9 +317,9 @@
     "learning": 2,
     "time": 3,
     "directions": "<p>💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de dar por terminado tu reto.</p><p>Al terminar, regresa a Discord: 1) 💬 Comparte la URL de tu trabajo en el hilo. 2) Reacciona con ✅ para marcar tu progreso.</p>",
-    "discord_URL": "https://discord.com/channels/1209273049304666113/1214692430004359238",
+    "discord_URL": "https://discord.com/channels/1209273049304666113/1215721936777257060",
     "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1214692430004359238",
+    "discord_message_id": "1215721936777257060",
     "slug": "DEV-02_responsive-02_your_first_form-01_02_01_project_formulario_ES"
   },
   {
@@ -700,7 +700,7 @@
     "track": "DEV",
     "skill": "01_intro",
     "module": "02_learning_bydoing",
-    "title": "Reflexiona y comenta",
+    "title": "Actividad: Reflexiona y comenta",
     "type": "activity",
     "path": "DEV/01_intro/02_learning_bydoing/activities/00_02_02_close_ES.md",
     "lang": "ES",
@@ -768,7 +768,7 @@
     "track": "DEV",
     "skill": "01_intro",
     "module": "01_baisc_knowledge",
-    "title": "Qué es el desarrollo web front-end y qué es el back-end",
+    "title": "Actividad: Qué es el desarrollo web front-end y qué es el back-end",
     "type": "activity",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_02_DEV_web_ES.md",
     "lang": "ES",
@@ -802,7 +802,7 @@
     "track": "DEV",
     "skill": "01_intro",
     "module": "01_baisc_knowledge",
-    "title": "Entendiendo Internet y la Web",
+    "title": "Actividad: Entendiendo Internet y la Web",
     "type": "activity",
     "path": "DEV/01_intro/01_baisc_knowledge/activities/00_01_01_DEV_internet_web_ES.md",
     "lang": "ES",
@@ -1048,9 +1048,9 @@
     "learning": 2,
     "time": 2,
     "directions": "<p>💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de terminar tu reto y compartir la URL.</p><p>📢 Al terminar, regresa a Discord, 💬 Comparte el enlace a tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.</p><p>No olvides dejar el enlace público para que tus compañeras puedan verlo.</p>",
-    "discord_URL": "https://discord.com/channels/1209273049304666113/1276664061622353920",
+    "discord_URL": "https://discord.com/channels/1209273049304666113/1283914936312926259",
     "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1276664061622353920",
+    "discord_message_id": "1283914936312926259",
     "slug": "DAT-02_exploratory-03_time-01_03_02_dat_graficocombinado_ES"
   },
   {
@@ -1065,9 +1065,9 @@
     "learning": 2,
     "time": 2,
     "directions": "<p>💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de terminar tu reto y compartir la URL.</p><p>📢 Al terminar, regresa a Discord, 💬 Comparte el enlace a tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.</p><p>No olvides dejar el enlace público para que tus compañeras puedan verlo.</p>",
-    "discord_URL": "https://discord.com/channels/1209273049304666113/1276663948757962792",
+    "discord_URL": "https://discord.com/channels/1209273049304666113/1283914774693937314",
     "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1276663948757962792",
+    "discord_message_id": "1283914774693937314",
     "slug": "DAT-02_exploratory-03_time-01_03_01_dat_graficolinea_ES"
   },
   {
@@ -1099,9 +1099,9 @@
     "learning": 2,
     "time": 3,
     "directions": "<p>💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de terminar tu reto y compartir la URL.</p><p>📢 Al terminar, regresa a Discord, 💬 Comparte el enlace a tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.</p><p>No olvides dejar el enlace público para que tus compañeras puedan verlo.</p>",
-    "discord_URL": "https://discord.com/channels/1209273049304666113/1276663702384541798",
+    "discord_URL": "https://discord.com/channels/1209273049304666113/1283914220869648444",
     "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1276663702384541798",
+    "discord_message_id": "1283914220869648444",
     "slug": "DAT-02_exploratory-02_central_tendency-01_02_01_dat_medidas_ES"
   },
   {
@@ -1116,9 +1116,9 @@
     "learning": 2,
     "time": 3,
     "directions": "<p>💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de terminar tu reto y compartir la URL.</p><p>📢 Al terminar, regresa a Discord, 💬 Comparte el enlace a tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.</p><p>No olvides dejar el enlace público para que tus compañeras puedan verlo.</p>",
-    "discord_URL": "https://discord.com/channels/1209273049304666113/1276663812996730950",
+    "discord_URL": "https://discord.com/channels/1209273049304666113/1283914447647277107",
     "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1276663812996730950",
+    "discord_message_id": "1283914447647277107",
     "slug": "DAT-02_exploratory-02_central_tendency-01_02_02_dat_distribuicion_ES"
   },
   {
@@ -1150,9 +1150,9 @@
     "learning": 2,
     "time": 4,
     "directions": "<p>💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de terminar tu reto y compartir la URL.</p><p>📢 Al terminar, regresa a Discord, 💬 Comparte el enlace a tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.</p><p>No olvides dejar el enlace público para que tus compañeras puedan verlo.</p><p> Además, ¿quieres comentar algún aspecto de los datos que te haya llamado la atención solamente después de verlos representados en un gráfico?</p>",
-    "discord_URL": "https://discord.com/channels/1209273049304666113/1276663445835481149",
+    "discord_URL": "https://discord.com/channels/1209273049304666113/1283913571691921508",
     "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1276663445835481149",
+    "discord_message_id": "1283913571691921508",
     "slug": "DAT-02_exploratory-01_categorial_vars-01_01_02_dat_viewanalisis_ES"
   },
   {
@@ -1167,9 +1167,9 @@
     "learning": 2,
     "time": 4,
     "directions": "<p>💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de terminar tu reto y compartir la URL.</p><p>📢 Al terminar, regresa a Discord, 💬 Comparte el enlace a tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.</p><p>No olvides dejar el enlace público para que tus compañeras puedan verlo.</p>",
-    "discord_URL": "https://discord.com/channels/1209273049304666113/1276663284900040788",
+    "discord_URL": "https://discord.com/channels/1209273049304666113/1283906644970962954",
     "discord_channel_id": "1209273049304666113",
-    "discord_message_id": "1276663284900040788",
+    "discord_message_id": "1283906644970962954",
     "slug": "DAT-02_exploratory-01_categorial_vars-01_01_01_dat_myfirstanalisis_ES"
   },
   {
@@ -1227,7 +1227,7 @@
     "track": "DAT",
     "skill": "01_intro",
     "module": "02_learning_bydoing",
-    "title": "Reto 2.1 : Tablas dinámicas",
+    "title": "Reto 2.1 : Reto 2.1 : Mis primeras tablas dinámicas",
     "type": "activity",
     "path": "DAT/01_intro/02_learning_bydoing/activities/00_02_01_dat_myfirst_ES.md",
     "lang": "ES",
@@ -1244,7 +1244,7 @@
     "track": "DAT",
     "skill": "01_intro",
     "module": "02_learning_bydoing",
-    "title": "Reflexiona y comenta",
+    "title": "Actividad: Reflexiona y comenta",
     "type": "activity",
     "path": "DAT/01_intro/02_learning_bydoing/activities/00_02_02_dat_close_ES.md",
     "lang": "ES",
@@ -1312,7 +1312,7 @@
     "track": "DAT",
     "skill": "01_intro",
     "module": "01_baisc_knowledge",
-    "title": "Qué es la IA",
+    "title": "Actividad: Qué es la IA",
     "type": "activity",
     "path": "DAT/01_intro/01_baisc_knowledge/activities/00_01_04_dat_activity_ai_que_es_ES.md",
     "lang": "ES",
