@@ -1,5 +1,7 @@
 # Mecánica de la experiencia de aprendizaje
 
+**Tiempo:** ⏱️️ 10 min
+
 Esperamos que puedas encontrar una experiencia positiva y constructiva de aprendizaje que te incentive a seguir aprendiendo para buscar mejores oportunidades.
 
 Tu participación se verá reflejada en 2 indicadores imporatentes y complementarios:
@@ -17,16 +19,18 @@ Roles y pemisos según el **Nivel** conseguido:
 - **Niveles 6-10:** + Crear eventos | Asilar temporalmente usuarias (moderación) | Usar *stickers* externos | Tienes prioridad de palabra en canales de voz.
 - **Niveles 11-18:** + Silenciar usuarias (moderación) | Usar aplicaciones externas.
 
-¿Tienes ideas o sugerencias al respecto? La idea es que vayamos construyendo juntas el espacio 👉 [#💡│sugerencias](https://discord.com/channels/1209273049304666113/1209884130179809280)
+¿Tienes ideas o sugerencias al respecto? La propuesta es que vayamos construyendo juntas el espacio 👉 [#💡│sugerencias](https://discord.com/channels/1209273049304666113/1209884130179809280)
 
-## Identifica al equipo de Laboratoria.
+## 🪷 Identifica al equipo de Laboratoria.
 Nos encuentras en Discord con el rol "staff" que tiene este emoji 🪷.
 
 ## 🫣 Sobreponte a la vergüenza
-Sabemos que en muchas experiencias de aprendizaje está mal visto "no saber" o pedir ayuda. En Laboratoria buscamos crear un espacio de aprendizaje seguro y de confianza. Aprender, "no saber" y preguntar son 3 cosas completamente inseparables, además de naturales. Sabemos que tendrás vergüenza, que te sentirás insegura, que no querrás parecer "lenta" o "la que no sabe", te invitamos a que confíes en que juntas podemos crear un espacio de aprendizaje colaborativo y solidario, libre de prejuicios, discriminación y competencia salvaje-irracional. Pregunta, libérate.
+Sabemos que en muchas experiencias de aprendizaje está mal visto "no saber" o pedir ayuda. En Laboratoria buscamos crear un espacio de aprendizaje seguro y de confianza. Aprender, "no saber" y preguntar son 3 cosas completamente inseparables, además de naturales. 
+
+Sabemos que tendrás vergüenza, que te sentirás insegura, que no querrás parecer "lenta" o "la que no sabe", te invitamos a que confíes en que juntas podemos crear un espacio de aprendizaje colaborativo y solidario, libre de prejuicios, discriminación y competencia salvaje-irracional. Pregunta, libérate.
 
 ## ♀️ Espacio seguro y moderación
-Como ya viste, la idea es que sea un espacio de aprendizaje para mujeres en el que la ustedes mismas (la comunidad) tienen la responsabilidad de dar acceso a quienes vayan llegando. Por eso tenemos el mecanismo por el cual es necesario presentarse y tener la posibiliadd de comunicarse brevemente antes de dar la autorización. **Si todavía no puedes interactuar en nungún canal de Discord, es porque no has recibido autorización.**
+Como ya viste, la idea es que sea un espacio de aprendizaje para mujeres en el que ustedes mismas (la comunidad) tienen la responsabilidad de dar acceso a quienes vayan llegando. Por eso tenemos el mecanismo por el cual es necesario presentarse y tener la posibiliadd de comunicarse brevemente antes de dar la autorización. **Si todavía no puedes interactuar en nungún canal de Discord, es porque no has recibido autorización.**
 
 - El primer paso pare recibir autorización es presentarte en el canal [#⛺│recibidor](https://discord.com/channels/1209273049304666113/1211763521440714752), es indispensable.
 - Luego, una compañera tendrá que validar que te identificas como mujer para que puedas acceder a todos los canales e interactuar.
@@ -34,7 +38,7 @@ Como ya viste, la idea es que sea un espacio de aprendizaje para mujeres en el q
 - Tus ideas y sugerencias son siempre bienvenidas en [#💡│sugerencias](https://discord.com/channels/1209273049304666113/1209884130179809280) .
 
 ## 🗓️ Sesiones en vivo
-Todas las semanas hay sesiones en vivo por videollamada de Discord con el equipo de <Laboratoria>. 
+Todas las semanas hay sesiones en vivo por videollamada de Discord con el equipo de "<Laboratoria>". 
 Las fechas y horas exactas las encontrarás en **eventos** en la parte superior izquierda de Discord y en la página de inicio del sitio web. Siempre las verás en tu hora local.
 
 **Sesiones de ayudantía técnica:**
@@ -46,7 +50,7 @@ Las fechas y horas exactas las encontrarás en **eventos** en la parte superior 
 - También tendremos algunos eventos especiales con invitadas sobre temas como por ejemmplo "Finanzas personales".
 
 ## 🍯 ¿Cómo se vería tu aprendizaje en la práctica?
-Aunque como ves, consideramos que cada una debe aprender a su ritmo y según sus posibilidades (tiempo disponible, trabajo, otras responsabilidades, etc.), también puede suceder que se diluya tu un poco tu perseverancia. Por eso te recomendamos intentar completar en los rangos de tiempo indicados en los materiales.
+Aunque, como ya comentamos, consideramos que cada una debe aprender a su ritmo y según sus posibilidades (tiempo disponible, trabajo, otras responsabilidades, etc.), también puede suceder que se diluya tu un poco tu perseverancia. Por eso te recomendamos intentar completar en los rangos de tiempo indicados en los materiales.
 
 - Cada vez que inicies una actividad o un reto, reacciona con 👀 en el post correspondiente de Discord.
 
@@ -54,9 +58,12 @@ Aunque como ves, consideramos que cada una debe aprender a su ritmo y según sus
 
 - Para los retos, seguramente tendrás algún bloqueo o error y necesitarás ayuda para terminar. Puedes:
   - Asistir a la siguiente sesión de ayudantía en vivo.
-  - Preguntar por el canal "-ayuda" de la ruta correspondiente. Alguna compañera o alguien del equipo de <L> te ayudará.
+  - Preguntar por el canal "-ayuda" de la ruta correspondiente. Alguna compañera o alguien del equipo de "<Laboratoria>" te ayudará.
   - Siempre puedes usar los canales de "-reuniones" para hacer videollamadas y colaborar o aprender juno a otras.
 
 - Además de tu autoeveluación, puedes pedir la evaluación de una compañera antes de compartir la versión final de tu trabajo. Más adelante una pequeña guía sobre cómo hacerlo.
 
 - Cada vez que completes algo, reacciona con ✅ en el hilo correspondiente de Discord y comparte tu trabajo. Eso nos ayuda a monitorear tu progreso y acompañarte lo mejor posible.
+
+El resto se trata de particpar, proponer rutas nuevas, temas para sesiones, generar grupos o círculos de aprendizaje, etc. Esto es solamente el comienzo.
+

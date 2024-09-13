@@ -1,7 +1,6 @@
-
 # Plataformas, materiales y sesiones en vivo.
 
-**Tiempo:** ⏱️️ 5min
+**Tiempo:** ⏱️️ 5 min
 
 ---
 

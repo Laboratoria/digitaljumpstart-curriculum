@@ -1,7 +1,7 @@
 
-## Estructura
+# Estructura del contenido
 
-**Tiempo:** ⏱️️ 15min
+**Tiempo:** ⏱️️ 15 min
 
 ---
 
@@ -11,7 +11,7 @@
 
 ![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LEA/00_assets/metodolog_01.png)
 
-### Introducción
+## Introducción
 
 Para cada "ruta" o programa, te ofrecemos una **Introducción** diseñada para darte una visión clara y concreta, en un formato flexible y con poco compromiso de tiempo. 
 
@@ -23,7 +23,7 @@ Este bloque no sólo te informará, sino que te motivará a reflexionar sobre c�
 
 Es tu oportunidad de explorar libremente, con la mente abierta y sin la presión de una decisión o compromiso a largo plazo. ¿Lista para comenzar el viaje? 🚀
 
-### Desarrollo de habilidades
+## Desarrollo de habilidades
 
 Si después de completar la Introducción, quieres continuar aprendiendo sobre eso, te encontrarás con que hemos agrupado todo en forma de **habilidades concretas** de cada ruta o programa. Así, para cada habilidad, te encontrarás con módulos que cubren aspectos específicos de la habilidad, y retos o actividades que es lo que irás completando poco a poco para conseguir desarrollar la habilidad indicada.
 
@@ -33,7 +33,7 @@ Encontrarás todo organizado en una estructura de la siguiente manera. Es como u
 
 ---
 
-#### ⚫ Habilidad (H)
+### ⚫ Habilidad (H)
 
 Una habilidad es una destreza para ejecutar o hacer algo concreto. Puedes comprender los conceptos de gravedad, velocidad, equilibrio, etc., pero eso no significa que tengas **la habilidad de andar en bicicleta**.
 
@@ -43,7 +43,7 @@ Una habilidad se desarrolla **completando todas las actividades y los retos de t
 
 ---
 
-#### ◼️ Módulo (M)
+### ◼️ Módulo (M)
 
 Los módulos son un “contenedor” de varias actividades y retos agrupamos para:
 
@@ -57,7 +57,7 @@ Los módulos son un “contenedor” de varias actividades y retos agrupamos par
 
 ---
 
-#### ▪️ Reto o "actividad" (R)
+### ▪️ Reto o "actividad" (R)
 
 En Laboratoria, desde hace años creemos firmemente en el aprendizaje activo y en "aprender haciendo" (*learning by doing*). 
 
@@ -69,19 +69,19 @@ Cada reto aborda una sola meta de aprendizaje, pero es posible que haya más de 
 
 ---
 
-### Pongamos todo junto en un ejemplo
+## Pongamos todo junto en un ejemplo
 
 Supongamos que te quieres convertir en ciclista (esta sería el la "ruta"). Para conseguirlo, deberás completar pasos intermedios que te llevarán, poco a poco, a la construcción y desarrollo de las habilidades necesarias. En nuestro caso, se vería algo así:
 
-##### Introducción
+#### Introducción
 
-###### **Módulo 1:**
+##### **Módulo 1:**
 
 Información y contexto general. Las actividades son del tipo lecturas, vídeos, reflexión, participación en comentarios y foros de discusión.
 
 Definición clara y precisa de lo que implica aprender a andar en bicicleta ¿Qué problemas se busca resolver?, ¿para qué sirve en la vida cotidiana de la gente?, ¿cuáles son las perspectivas de futuro?, ¿cuáles son las herramientas, tecnologías o métodos clave que se utilizan? 
 
-###### Módulo 2:
+##### Módulo 2:
 
 Conocimiento fundamental. Las actividades son del tipo lecturas, vídeos, reflexión, participación en comentarios y foros de discusión + 1 reto práctico o mini-proyecto que contiene el 100% de todo lo necesario para completarlo. 
 
@@ -99,7 +99,7 @@ Si llegas solamente hasta acá está totalmente OK. Quizás probaste algo que ha
 
 Si quieres continuar, pasarías directamente al desarrollo de una primera habilidad.
 
-##### **Habilidad**: andar en bicicleta en la ciudad.
+#### **Habilidad**: andar en bicicleta en la ciudad.
 
 - **Módulo 1**: avanzar 100 metros en línea recta sin perder los dientes ni los anteojos.
   
@@ -115,7 +115,7 @@ Si quieres continuar, pasarías directamente al desarrollo de una primera habili
   
   - etc.
 
-##### **Habilidad**: ciclismo de montaña....
+#### **Habilidad**: ciclismo de montaña....
 
 Ya se entiende mejor, ¿verdad? 
 
