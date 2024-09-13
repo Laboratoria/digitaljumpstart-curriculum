@@ -1,4 +1,4 @@
-# Qué es la IA
+# Actividad: Qué es la IA
 
 **Dificultad:** 🌻 
 

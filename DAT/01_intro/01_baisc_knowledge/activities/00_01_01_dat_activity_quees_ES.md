@@ -1,4 +1,4 @@
-# Importancia y aplicaciones del Análisis de Datos
+# Importancia y aplicaciones del Análisis de Datos 
 
 **Dificultad:** 🌻 
 

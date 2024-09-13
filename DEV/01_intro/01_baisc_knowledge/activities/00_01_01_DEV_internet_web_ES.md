@@ -1,4 +1,4 @@
-# Entendiendo Internet y la Web
+# Actividad: Entendiendo Internet y la Web
 
 **Dificultad:** 🌻 
 

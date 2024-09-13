@@ -1,4 +1,4 @@
-# Reto 2.1 : Tablas dinámicas
+# Reto 2.1 : Reto 2.1 : Mis primeras tablas dinámicas
 
 **Dificultad:** 🌻 
 
