@@ -8,7 +8,7 @@
 
 ---
 
-> 🎧 Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra para escuchar la narración del texto en lugar de leerlo.
+> 🎧 Recuerda que puedes usar la extensión de [Speechify](https://speechify.com/es/extension-de-chrome/) o cualquier otra similar para escuchar la narración del texto en lugar de leerlo.
 
 ---
 
@@ -18,17 +18,17 @@ Poner en práctica tu capacidad de evaluar, no sólo refuerza tus habilidades pr
 
 Aprender a monitorear tu propio proceso es una habilidad imprescindible para tu aprendizaje permanente (*lifelong learning*) y para tu vida profesional. Este enfoque también te prepara para enfrentar desafíos complejos y tomar decisiones informadas en situaciones diversas. 
 
-En esta experiencia de aprendizaje puedes optar por dos niveles de evaluación:
+Si bien siempre podrás pedir guía, comentarios o recomendaciones del equipo ed Laboratoria, esta experiencia de aprendizaje se basa en dos niveles de indispensables de evaluación:
 
 ## 1. Autoevaluación solamente
 
-Está totalmente OK 👍 si optas únicamente por tu autoevaluación (evaluarte a ti misma) para monitorear tu aprendizaje. 
+Está totalmente OK 👍 si optas únicamente por tu autoevaluación para monitorear tu aprendizaje. 
 
 ### Para hacerlo:
 
-Cada actividad o reto contiene una **guía** que te permitirá evaluar si efectivamente conseguiste la meta de aprendizaje indicada. Tómate el tiempo suficiente para revisar tu trabajo siguiendo cada uno de los puntos de la guía.
+Cada actividad o reto contiene una **guía** que te permitirá evaluar si efectivamente conseguiste la meta de aprendizaje indicada. Tómate el tiempo suficiente para revisar tu trabajo siguiendo cada uno de los puntos de la guía. Pide ayuda siempre que lo necesites, no tengas vergüenza o pena de hacerlo, todas están acá para aprender.
 
-Cuando hayas completado tu autoevaluación, debes reaccionar con ✅ al enunciado en Discord. Recibirás una cantidad de 🍯 que representa la cantidad de aprendizaje conseguido por completar la actividad.
+Cuando hayas completado tu autoevaluación, debes reaccionar con ✅ al enunciado correspondiente en Discord. Recibirás una cantidad de 🍯 que representa la cantidad de aprendizaje conseguido por completar la actividad.
 
 Comparte la URL de tu trabajo en el hilo debajo del enunciado en Discord.
 
@@ -36,7 +36,7 @@ Comparte la URL de tu trabajo en el hilo debajo del enunciado en Discord.
 
 No obstante, seguro te has encontrado con la incógnita de saber si interpretaste correctamente la guía de autoevaluación, si en tu trabajo hay algún error o fallo que no hayas detectado o simplemente buscas una confirmación que te permita continuar con más confianza.
 
-Para responder estas incógnitas puedes optar, **además** de la autoevaluación y de la posibilidad de preguntar en las sesiones en vivo con el equipo de Laboratoria, por recibir la evaluación de una compañera. Es una oportunidad para ti de corroborar tu autoevaluación y es una oportunidad para tu compañera de validar su propio aprendizaje, poner en práctica su capacidad de evaluar el trabajo de otras personas y dar retroalimentación o *feedback*.
+Para responder estas incógnitas puedes optar, **además** de la autoevaluación y de la posibilidad de preguntar en las sesiones en vivo y en los canales de ayuda al equipo de Laboratoria, por recibir la evaluación de una compañera. Es una oportunidad para ti de corroborar tu autoevaluación y es una oportunidad para tu compañera de validar su propio aprendizaje, poner en práctica su capacidad de evaluar el trabajo de otras personas y dar retroalimentación o *feedback*.
 
 ### ¿Cómo pedir evaluación de una compañera?
 

@@ -1,4 +1,4 @@
-# ◾Reto 3.1: Diseño Responsivo con Media Queries
+# Reto 3.1: Diseño Responsivo con Media Queries
 
 **Dificultad:** 🌻🌻 
 

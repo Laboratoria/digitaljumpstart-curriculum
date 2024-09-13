@@ -1,4 +1,4 @@
-# El rol de las personas en la era de la IA para el Análisis de Datos
+# Actividad: El rol de las personas en la era de la IA para el Análisis de Datos
 
 **Dificultad:** 🌻 
 
