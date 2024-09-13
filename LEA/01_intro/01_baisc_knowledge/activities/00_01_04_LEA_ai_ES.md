@@ -1,5 +1,9 @@
 # IA como herramienta de aprendizaje
 
+**Dificultad:** 🌻 
+
+**Aprendizaje:** 🍯 
+
 **Tiempo:** ⏱️️️ 20 min
 
 **Reacciona** con 👀 en Discord cuando comiences esta lectura, actividad o reto.

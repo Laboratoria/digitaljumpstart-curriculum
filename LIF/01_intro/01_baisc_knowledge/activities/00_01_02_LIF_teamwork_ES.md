@@ -1,6 +1,10 @@
 # Colaboración y trabajo en equipo
 
-**Tiempo:** ⏱️️ 12 min
+**Dificultad:** 🌻 
+
+**Aprendizaje:** 🍯 
+
+**Tiempo:** ⏱️️ 15 min
 
 ---
 

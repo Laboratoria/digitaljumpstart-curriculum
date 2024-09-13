@@ -1,5 +1,9 @@
 # Evaluación
 
+**Dificultad:** 🌻 
+
+**Aprendizaje:** 🍯 
+
 **Tiempo:** ⏱️️ 15 min
 
 ---

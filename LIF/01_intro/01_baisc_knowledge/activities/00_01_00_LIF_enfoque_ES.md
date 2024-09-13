@@ -1,5 +1,9 @@
 # Enfoque
 
+**Dificultad:** 🌻 
+
+**Aprendizaje:** 🍯 
+
 **Tiempo:** ⏱️️ 15min
 
 ---

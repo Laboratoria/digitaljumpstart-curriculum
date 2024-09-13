@@ -1,5 +1,9 @@
 # Autoconocimiento
 
+**Dificultad:** 🌻 
+
+**Aprendizaje:** 🍯 
+
 **Tiempo :** ⏱️️ 30 min
 
 ---

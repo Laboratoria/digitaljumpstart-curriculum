@@ -1,5 +1,9 @@
 # La transformación del trabajo y las oportunidades
 
+**Dificultad:** 🌻 
+
+**Aprendizaje:** 🍯 
+
 **Tiempo:** ⏱️️ 15min
 
 ---

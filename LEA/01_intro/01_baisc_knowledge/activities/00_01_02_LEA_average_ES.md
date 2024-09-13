@@ -1,6 +1,10 @@
 # El mito de los promedios
 
-**Tiempo:** ⏱️️ 25 min
+**Dificultad:** 🌻 
+
+**Aprendizaje:** 🍯 
+
+**Tiempo:** ⏱️️ 30 min
 
 ---
 
