@@ -2,7 +2,7 @@ track,skill,module,title,type,lang,path,difficulty,learning,time,directions,disc
 README.md,,,Currícula prototipo,program,PT,README.md,,,,,,,,-README
 NOC,,,No-Code e IA,program,ES,NOC/README_ES.md,,,,"<p>Aprenderás a automatizar tareas y proces tipicos del trabajo de ""oficina"", y a sacar el máximo provecho de la IA generativa.</p>
 
-<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La Introducción (imprescindible) en 1-2 semanas y la ruta completa en un máximo de 16 semanas.</p>",,,,NOC-README_ES
+<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La Introducción (imprescindible) en 1-2 semanas. La primera habilidad en 3-6 semanas, y la ruta completa en un máximo de 16 semanas.</p>",,,,NOC-README_ES
 NOC,01_intro,,⚫ Introducción a No-code e IA (imprescindible),skill,ES,NOC/01_intro/README_ES.md,,,,"<p>Obtén una visión clara del la ruta o programa.</p>
 <p><br>Adquiere los conocimientos básicos-introductorios.</p>
 <p><br>Aplica lo aprendido desarrollando tu primer mini-proyecto o reto práctico.</p>
@@ -19,7 +19,7 @@ NOC,01_intro,01_baisc_knowledge,Herramientas No-code más comunes,activity,ES,NO
 NOC,01_intro,01_baisc_knowledge,Qué es la IA,activity,ES,NOC/01_intro/01_baisc_knowledge/activities/00_01_03_AI_activity_que_es_ES.md,1,1,1,"<p>Comparte 📢 💬  en el hilo de Discord sobre 1 o 2 respuestas a las preguntas de investigación que te parecieron particularmente interesantes o novedosas. No tengas miedo de parecer “que no sabes nada”, por algo estás acá ¿verdad?. Además, es hermoso aprender y compartir algo al respecto. Reacciona con ✅ para marcar tu progreso.</p>",https://discord.com/channels/1209273049304666113/1253005294485639250,1209273049304666113,1253005294485639250,NOC-01_intro-01_baisc_knowledge-00_01_03_AI_activity_que_es_ES
 DEV,,,Desarrollo Web,program,ES,DEV/README_ES.md,,,,"<p>Aprende a desarrollar interfaces web responsivas y a agregar funcionalidades básicas</p>
 
-<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La Introducción (imprescindible) en 1-2 semanas y la ruta completa en un máximo de 16 semanas.</p>",,,,DEV-README_ES
+<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La Introducción (imprescindible) en 1-2 semanas. La primera habilidad en 4-8 semanas, y la ruta completa en un máximo de 16 semanas.</p>",,,,DEV-README_ES
 DEV,02_responsive,,⚫ Habilidad (H): Maquetación Web responsiva,skill,ES,DEV/02_responsive/README_ES.md,,,,"<p>Aprender de manera práctica a crear y estructurar visualmente páginas web utilizando los lenguajes HTML y CSS.</p>
 <p><br>Tu primera web con estilos básicos.</p>
 <p><br>Tu primer formulario web.</p>
@@ -68,7 +68,7 @@ DEV,01_intro,01_baisc_knowledge,Herramientas y tecnologías básicas del Desarro
 LIF,,,Habilidades transversales o 'core skills',program,ES,LIF/README_ES.md,,,,"<p>Completa, al menos, la Introducción (imprescindible).</p>
 <p><br>Luego puedes ir explorando y completando según tus intereses.</p>
 <p><br>Periódicamente tendremos sesiones en vivo para tratar diversos temas relacionados, te invitamos a participar.</p>
-<p><br><b>Tiempo ⏱️️ :</b> Introducc. imprescindible, 3-5 horas de tu tiempo.</p>",,,,LIF-README_ES
+<p><br><b>Tiempo ⏱️️ :</b> La Introducción (imprescindible), te tomará un máximo de 3-5 horas de tu tiempo.</p>",,,,LIF-README_ES
 LIF,03_wellbeign,,Bienestar Digital,skill,PT,LIF/03_wellbeign/learning_lif_digital_wb_00_intro.md,,,,,,,,LIF-03_wellbeign-learning_lif_digital_wb_00_intro.md-learning_lif_digital_wb_00_intro
 LIF,01_intro,,⚫ Introducción al desarrollo de Habilidades Transversales (imprescindible),skill,ES,LIF/01_intro/README_ES.md,,,,"<p>Explora sobre la importancia de habilidades fundamentales para enfrentar los desafíos del mundo actual, desde la iniciativa hasta el pensamiento crítico.</p> 
  <p><br>Comprende por qué estas habilidades transversales son clave para ayudarte en tu desarrollo, tanto profesional como personal, en un entorno de cambio constante.</p> 
@@ -81,7 +81,7 @@ LIF,01_intro,01_baisc_knowledge,Reflexiona y comenta,activity,ES,LIF/01_intro/01
 LIF,01_intro,01_baisc_knowledge,Colaboración y trabajo en equipo,activity,ES,LIF/01_intro/01_baisc_knowledge/activities/00_01_02_LIF_teamwork_ES.md,1,1,1,"<p>📢 💬 Comenta en el hilo Discord sobre  las 2 ideas de la lectura que más sensaciones te generaron (positivas o negativas).</p><p>Al terminar, recuerda ir a Discord, reaccionar con el check ✅ para marcar tu progreso.</p>",https://discord.com/channels/1209273049304666113/1215434121623380018,1209273049304666113,1215434121623380018,LIF-01_intro-01_baisc_knowledge-00_01_02_LIF_teamwork_ES
 DAT,,,Análisis de Datos,program,ES,DAT/README_ES.md,,,,"<p>Desarrolla habilidades prácticas para hacer análisis exploratorios, aplicar técnicas de análisis específicas y generar reportes - dashboards.</p>
 
-<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La Introducción (imprescindible) en 1-2 semanas y la ruta completa en un máximo de 16 semanas.</p>",,,,DAT-README_ES
+<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La Introducción (imprescindible) en 1-2 semanas. La primera habilidad en 3-6 semanas, y la ruta completa en un máximo de 16 semanas.</p>",,,,DAT-README_ES
 DAT,02_exploratory,,⚫ Habilidad (H): Análisis exploratorio,skill,ES,DAT/02_exploratory/README_ES.md,,,,"<p>Es una práctica común en la ciencia de datos y la estadística, y se utiliza para descubrir patrones, tendencias, relaciones y anomalías en los datos de manera exploratoria e informal.</p>
 <p><br>Análisis Exploratorio de Datos y Variables Categóricas.</p>
 <p><br>Medidas de Tendencia Central y Distribución de Datos<./p>
@@ -112,7 +112,7 @@ DAT,01_intro,01_baisc_knowledge,Actividad: Qué es la IA,activity,ES,DAT/01_intr
 DAT,01_intro,01_baisc_knowledge,Actividad: Importancia y aplicaciones del Análisis de Datos,activity,ES,DAT/01_intro/01_baisc_knowledge/activities/00_01_01_dat_activity_quees_ES.md,1,1,1,"<p>Al terminar, recuerda ir a Discord, 💬 comparte en el hilo siguiendo el formato propuesto y reacciona con ✅ para marcar tu progreso.</p>",https://discord.com/channels/1209273049304666113/1260272464999481475,1209273049304666113,1260272464999481475,DAT-01_intro-01_baisc_knowledge-00_01_01_dat_activity_quees_ES
 LEA,,,Metodología de aprendizaje,program,ES,LEA/README_ES.md,,,,"<p>Completa, al menos, la Introducción (imprescindible)</p>
 <p><br>Antes de comenzar cualquier aprendizaje técnico, es importante que entiendas nuestra propuesta de aprendizaje.</p> 
-<p><br><b>Tiempo ⏱️️ :</b> Introducc. imprescindible, 3-5 horas de tu tiempo.</p>",,,,LEA-README_ES
+<p><br><b>Tiempo ⏱️️ :</b> La Introducción (imprescindible), te tomará un máximo de 3-5 horas de tu tiempo.</p>",,,,LEA-README_ES
 LEA,01_intro,,⚫ Introducción a la metodología de aprendizaje (imprescindible),skill,ES,LEA/01_intro/README_ES.md,,,,"<p>Comprende claramente la metodología de aprendizaje.</p>
 <p><br>Entiende las mecánicas y dinámicas del programa.</p>
 <p><br>Despierta tu curiosidad e interés por el aprendizaje autodirigido.</p>
