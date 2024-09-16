@@ -6,7 +6,7 @@
 <!-- preview:start -->
 <p>Desarrolla habilidades prácticas para hacer análisis exploratorios, aplicar técnicas de análisis específicas y generar reportes - dashboards.</p>
 
-<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La Introducciòn (imprescindible) en 1-2 semanas y la ruta completa en un máximo de 16 semanas.</p>
+<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La Introducción (imprescindible) en 1-2 semanas. La primera habilidad en 3-6 semanas, y la ruta completa en un máximo de 16 semanas.</p>
 <!-- preview:end -->
 
 ---

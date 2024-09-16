@@ -7,7 +7,7 @@
 <p>Completa, al menos, la Introducción (imprescindible).</p>
 <p><br>Luego puedes ir explorando y completando según tus intereses.</p>
 <p><br>Periódicamente tendremos sesiones en vivo para tratar diversos temas relacionados, te invitamos a participar.</p>
-<p><br><b>Tiempo ⏱️️ :</b> Introducc. imprescindible, 3-5 horas de tu tiempo.</p>
+<p><br><b>Tiempo ⏱️️ :</b> La Introducción (imprescindible), te tomará un máximo de 3-5 horas de tu tiempo.</p>
 <!-- preview:end -->
 
 ---

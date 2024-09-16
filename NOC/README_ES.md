@@ -6,7 +6,7 @@
 <!-- preview:start -->
 <p>Aprenderás a automatizar tareas y proces tipicos del trabajo de "oficina", y a sacar el máximo provecho de la IA generativa.</p>
 
-<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La Introducciòn (imprescindible) en 1-2 semanas y la ruta completa en un máximo de 16 semanas.</p>
+<p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar La Introducción (imprescindible) en 1-2 semanas. La primera habilidad en 3-6 semanas, y la ruta completa en un máximo de 16 semanas.</p>
 <!-- preview:end -->
 
 ---
