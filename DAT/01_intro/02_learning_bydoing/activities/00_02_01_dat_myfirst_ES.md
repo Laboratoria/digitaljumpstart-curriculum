@@ -42,7 +42,7 @@ Como todo en la vida, hay muchas maneras de resolver un mismo problema. No obsta
 #### Insumos para tu Aprendizaje
 
 - [Base de datos](https://docs.google.com/spreadsheets/d/1uNtn1U5l4sfnO8gi4-LjUVU9Yi8bONUzBHLStB8br6k/copy?)
-- [Concepto variables categóricas](../../../00_topics/variables_categóricas_ES.md)
+- [Concepto variables categóricas](?lang=ES&track=DEV&skill=01_intro&module=02_learning_bydoing&path=DAT/00_topics/variables_categóricas_ES.md)
 - [Conceptos - Tipos de datos - proyecto 1 | Loom](https://www.loom.com/share/afa56686810e46309761bc889364b2d9?sid=cabf587c-7ba1-4419-b501-32c98a73e191)
 - [Spreadsheets - tablas dinamicas - proyecto 1 | Loom](https://www.loom.com/share/5937ac5fb32c424285e952bc07097580?sid=44e51ec0-a90d-4657-ab8d-ed543513adff)
 - [Cómo crear y usar tablas dinámicas - Computadora - Ayuda de Editores de Documentos de Google](https://support.google.com/docs/answer/1272900?sjid=13953989927308243057-EU)
