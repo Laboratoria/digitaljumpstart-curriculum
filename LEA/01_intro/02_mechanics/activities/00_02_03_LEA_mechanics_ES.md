@@ -21,8 +21,8 @@ Roles y pemisos según el **Nivel** conseguido:
 
 ¿Tienes ideas o sugerencias al respecto? La propuesta es que vayamos construyendo juntas el espacio 👉 [#💡│sugerencias](https://discord.com/channels/1209273049304666113/1209884130179809280)
 
-## 🪷 Identifica al equipo de Laboratoria.
-Nos encuentras en Discord con el rol "staff" que tiene este emoji 🪷.
+## Identifica al equipo de Laboratoria.
+Nos encuentras en Discord con el rol "staff" que tiene esl emoji de Laboratoira.
 
 ## 🫣 Sobreponte a la vergüenza
 Sabemos que en muchas experiencias de aprendizaje está mal visto "no saber" o pedir ayuda. En Laboratoria buscamos crear un espacio de aprendizaje seguro y de confianza. Aprender, "no saber" y preguntar son 3 cosas completamente inseparables, además de naturales. 
@@ -52,9 +52,7 @@ Las fechas y horas exactas las encontrarás en **eventos** en la parte superior 
 ## 🍯 ¿Cómo se vería tu aprendizaje en la práctica?
 Aunque, como ya comentamos, consideramos que cada una debe aprender a su ritmo y según sus posibilidades (tiempo disponible, trabajo, otras responsabilidades, etc.), también puede suceder que se diluya tu un poco tu perseverancia. Por eso te recomendamos intentar completar en los rangos de tiempo indicados en los materiales.
 
-- Cada vez que inicies una actividad o un reto, reacciona con 👀 en el post correspondiente de Discord.
-
-- Las actividades incluyen siempre conmpartir alguna reflexión sobre el tema propuesto en el hilo correspondiente de Discord. Aprovecha de leer y comentar también sobre lo que dicen otras compañeras. Es una hermoasa manera de enriquecer nuestros puntos de vista y conocimiento.
+- A cada actividad o reto de la web, le correspnde un hilo de conversación en Discord. La idea es simple, comentar, opinar, compartir tu trabajo (en el caso de los retos), etc. queremos hacerlo en Discor para poder interactuar y aprender unas de otras. El enlace al hilo correspondiente lo encuentras en la paerte superior derecha de la página (en la vista de escritorio). 
 
 - Para los retos, seguramente tendrás algún bloqueo o error y necesitarás ayuda para terminar. Puedes:
   - Asistir a la siguiente sesión de ayudantía en vivo.

@@ -11,7 +11,7 @@
 ## Introducción
 Aunque siempre te alentaremos a expandir y profundizar en tu aprendizaje por tu propia cuenta, esta experiencia está pensada para la gran mayoría que tiene muy poco (y fragmentado) tiempo disponible para aprender. Por lo tanto, todo el "material" **mínimamente indispensable** para tu aprendizaje, en forma de lecturas, videos, enlaces de referencia, etc. lo encontrarás en este "sitio web".
 
-La otra parte fundamental del aprendizaje, que son todo tipo de interacciones con otras participantes y con el equipo de Laboratoria, incluyendo los eventos y sesiones de ayudantía "en vivo", la ayuda y colaboración entre compañeras, conversaciones, discusiones, compartir recursos adicionales, etc., las tendremos en Discord.
+La otra parte fundamental del aprendizaje, que son todo tipo de interacciones con otras participantes y con el equipo de Laboratoria, incluyendo los eventos y sesiones de ayudantía "en vivo", la ayuda y colaboración entre compañeras, conversaciones, discusiones, compartir recursos adicionales, etc., las tendremos en Discord. **También en Discord marcarás con un ✅ cada vez que completes una actividad o reto**, ¿por qué? porque queremos enfatizar que todas puedan acceder al pensamiento y el trabajo de las demás, y compartir el suyo.
 
 Si eres nueva en Discord, puede ser un poco abrumador al principio. Discord es una herramienta de mensajería usada por millones de personas alrededor del mundo. Si bien en sus inicios tuvo una orientación hacia "gamers" específicamente (videojuegos), ha continuado evolucoinando y hoy es usada hoy por millones para crear comunidades alrededor de algún tema de interés u objetivo en común. 
 
