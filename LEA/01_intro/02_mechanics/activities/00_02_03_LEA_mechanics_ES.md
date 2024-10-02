@@ -54,6 +54,8 @@ Aunque, como ya comentamos, consideramos que cada una debe aprender a su ritmo y
 
 - A cada actividad o reto de la web, le correspnde un hilo de conversación en Discord. La idea es simple, comentar, opinar, compartir tu trabajo (en el caso de los retos), etc. queremos hacerlo en Discor para poder interactuar y aprender unas de otras. El enlace al hilo correspondiente lo encuentras en la paerte superior derecha de la página (en la vista de escritorio). 
 
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LEA/00_assets/web_activity_screenshot_01.png)
+
 - Para los retos, seguramente tendrás algún bloqueo o error y necesitarás ayuda para terminar. Puedes:
   - Asistir a la siguiente sesión de ayudantía en vivo.
   - Preguntar por el canal "-ayuda" de la ruta correspondiente. Alguna compañera o alguien del equipo de "<Laboratoria>" te ayudará.
@@ -62,6 +64,8 @@ Aunque, como ya comentamos, consideramos que cada una debe aprender a su ritmo y
 - Además de tu autoeveluación, puedes pedir la evaluación de una compañera antes de compartir la versión final de tu trabajo. Más adelante una pequeña guía sobre cómo hacerlo.
 
 - Cada vez que completes algo, reacciona con ✅ en el hilo correspondiente de Discord y comparte tu trabajo. Eso nos ayuda a monitorear tu progreso y acompañarte lo mejor posible.
+
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LEA/00_assets/web_activity_screenshot_02.png)
 
 El resto se trata de particpar, proponer rutas nuevas, temas para sesiones, generar grupos o círculos de aprendizaje, etc. Esto es solamente el comienzo.
 
