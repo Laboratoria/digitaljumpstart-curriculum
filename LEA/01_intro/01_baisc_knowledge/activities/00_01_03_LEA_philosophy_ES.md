@@ -20,7 +20,7 @@ Nuestra filosofía de aprendizaje cambia el tradicional paradigma de “yo te en
 
 ![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LEA/00_assets/2024-03-07-16-22-25-image.png)
 
-Sea cual sea el tiempo que pases aquí, esperamos que te lleves una experiencia que te sume para desenvolverte en entornos de incertidumbre en los se requiere aprender y adaptarse al cambio permanentemente, en lugar de aquellos que requieren planificar y ejecutar las mismas tareas :t-rex:.
+Sea cual sea el tiempo que pases aquí, esperamos que te lleves una experiencia que te sume para desenvolverte en entornos de incertidumbre en los se requiere aprender y adaptarse al cambio permanentemente, en lugar de aquellos que requieren planificar y ejecutar las mismas tareas 🦖.
 
 ¿Por qué tenemos que aprender todas lo mismo y a la misma vez?, ¿por qué no podemos tomar decisiones conscientes sobre nuestro aprendizaje y hacernos cargo de ellas?, ¿qué tiene de extraordinario que cada quien aprenda a su ritmo?, ¿no es parte de la vida saber lidiar con que tenemos habilidades diferentes?, ¿no es la autonomía una habilidad esencial para trabajar y vivir?, ¿no es todo esto algo que deberíamos ejercitar tanto como podamos? Tú estás a cargo de tu propio aprendizaje verdadero y nadie más se hará responsable por eso.
 
@@ -30,7 +30,7 @@ Conocer algo no es lo mismo que tener una destreza para hacer algo. Como ya ejem
 
 ![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LEA/00_assets/2024-03-07-16-25-14-image.png)
 
-De la educación tradicional, muchas veces hemos quedado con la idea de que "recordar" para responder un cuestionario es lo más importante. Si bien eso puede ser valioso para muchos contextos y situaciones, aquí proponemos que eso son meros insumos para el **desarrollo de habilidades**. Buscamos que seas capaz de hacer algo concreto y real con lo que has aprendido, no solamente recordarlo hasta.... que se te olvide 😶.
+De la educación tradicional, muchas veces hemos quedado con la idea de que "recordar" para responder un cuestionario es lo más importante. Si bien eso puede ser valioso para muchos contextos y situaciones, aquí proponemos que eso son meros insumos para el **desarrollo de habilidades**. Buscamos que seas capaz de hacer algo concreto y real con lo que has aprendido, no solamente recordarlo hasta que... se te olvide 😶.
 
 Por eso, en lugar de que tengas "contenido" o "materia" que debes leer y memorizar para luego responder un cuestionario; el vehículo para desarrollar habilidades serán las **actividades** y **retos**. En cada caso encontrarás el requerimiento de lo que debes **conseguir hacer**, todos los insumos para adquirir el conocimiento necesario, ponerlo en práctica y evaluar tu propio aprendizaje.
 
@@ -52,7 +52,7 @@ Si consigues sintonizar, te llevarás una experiencia transformadora. Esperamos 
 
 ![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LEA/00_assets/2024-03-07-16-26-06-image.png)
 
-Además, ¡no te olvides que estarás rodeada de mujeres con perfiles diversos que estarán aprendiendo también! Es fundamental la comunidad para conseguir un aprendizaje colaborativo y efectivo.
+Además, ¡no olvides que estarás rodeada de mujeres con perfiles diversos que estarán aprendiendo también! Es fundamental la comunidad para conseguir un aprendizaje colaborativo y efectivo.
 
 ---
 > - 🤔 Plantea tus dudas sobre la metodología de aprendizaje por *chat* en el [canal #general de Discord](https://discord.com/channels/1209273049304666113/1209273050076291097)

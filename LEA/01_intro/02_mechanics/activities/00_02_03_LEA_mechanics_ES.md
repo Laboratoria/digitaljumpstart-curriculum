@@ -49,6 +49,22 @@ Las fechas y horas exactas las encontrarás en **eventos** en la parte superior 
 - Al menos 1 sesión cada 2 o 3 semanas. Por ejemplo: "Síndrome de la impostora y vulnerabilidad en la búsqueda de emploeo", "Aprender a aprender" o "Estereotipos y sesgos inconscientes de género en el trabajo y la búsqueda de empleo
 - También tendremos algunos eventos especiales con invitadas sobre temas como por ejemmplo "Finanzas personales".
 
+## ¿Dónde y cómo pedir ayuda?
+**Usa los canales de Discord:**
+⁠[🌐│general](https://discord.com/channels/1209273049304666113/1209273050076291097) - Úsalo para cualquier cosa relacionada al programa en general. Dudas sobre la mecánica, dónde encontrar las cosas, sobre sesiones en vivo, etc.
+
+**Para pedir ayuda sobre las actividades o retos, _feedback_ de tu trabajo, etc.:**
+[dev-ayuda](https://discord.com/channels/1209273049304666113/1210673338947739758) - Si estás siguiendo la ruta de Desarrollo Web.
+[dat-ayuda](https://discord.com/channels/1209273049304666113/1230553558823342120) - Si estás siguiendo la ruta de Análisis de Datos.
+[noc-ayuda](https://discord.com/channels/1209273049304666113/1230553734652887040) - Si estás siguiendo la ruta de No-code / IA.
+
+**Otros canales para otros propósitos:**
+⁠[🕵│pedir-mod](https://discord.com/channels/1209273049304666113/1209852669422870589)  Avísanos de cualquier problema de convivencia-comportamiento que sufras o presencies.
+⁠[📢│anuncios](https://discord.com/channels/1209273049304666113/1209867055126290442)  Lo usaremos para avisar cuando haya algo importante que debas saber. Por ejemplo, los próximos eventos en vivo .
+⁠[🪁│random](https://discord.com/channels/1209273049304666113/1212094514030972970) Para "un poco de todo". Memes, compartir recursos de cualquier tipo, noticias de interés, etc.
+⁠[🏅│gamificación](https://discord.com/channels/1209273049304666113/1210752479487070278) Todas las notificaciones de progreso de aprendizaje y de niveles-roles.
+⁠[💡│sugerencias](https://discord.com/channels/1209273049304666113/1209884130179809280) Tus ideas y sugerencias son siempre bienvenidas.
+
 ## 🍯 ¿Cómo se vería tu aprendizaje en la práctica?
 Aunque, como ya comentamos, consideramos que cada una debe aprender a su ritmo y según sus posibilidades (tiempo disponible, trabajo, otras responsabilidades, etc.), también puede suceder que se diluya tu un poco tu perseverancia. Por eso te recomendamos intentar completar en los rangos de tiempo indicados en los materiales.
 
