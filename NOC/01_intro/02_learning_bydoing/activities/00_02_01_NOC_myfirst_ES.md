@@ -52,24 +52,19 @@ No cumples con la meta de aprendizaje si:
 
 6. Prueba tu Zap sin publicar.
 
-7. Activar tu Zap y prueba nuevamente.
+7. Activar tu Zap y prueba.
+
+8. Aahora que ya corroboraste que funciona todo OK, prepara tu trabajo para compartirlo.
+  - Utiliza [Loom](https://www.loom.com/) para grabar una captura de 5 minutos mostrando tu Zap y haciendo una pequeña demostración de cómo funciona guardando los datos en el Google Sheet. Puedes hablar explicando rmientras haces la captura si así lo prefieres.
+  - Agrega el enlace a tu video de Loom en tu Google Sheets.
+  - Comparte la URL de tu Google Sheets en el hilo de Discord.
 
 #### Evaluación
 
+Comparte la URL de tu Google Sheets
 Recuerda que puedes pedir la evaluación de una compañera antes de terminar tu reto y compartir la URL.
+
 
 #### ¡Diviértete y disfruta del proceso de aprendizaje!
 
 No te olvides de que estar aturdida y confundida es parte natural del proceso de aprendizaje verdadero.
-
-💡 **Evaluación:** Recuerda que puedes pedir la evaluación de una compañera antes de terminar tu reto y compartir la URL.
-
-📣 Al terminar, regresa a Discord, 💬 comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.
-
----
-
-> - 💡 Evaluación: Recuerda que puedes pedir la [evaluación de una compañera](../curruculum_model/lea_model_06_assessment.md) antes de terminar tu reto y compartir la URL.
-> 
-> - :mega: Al terminar, [**regresa a Discord**](https://discord.com/channels/1209273049304666113/1253057799961968671) , 💬 Comparte la URL de tu trabajo en el hilo y reacciona con ✅ para marcar tu progreso.
-
----
