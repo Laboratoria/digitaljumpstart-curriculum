@@ -37,7 +37,7 @@ Trabajando en un _fork_ de tu página de perfil/personal, agregarás un formular
 ## Insumos para tu aprendizaje
 
 - [📄 Texto: CodePen, fork o bifurcación](?lang=ES&track=DEV&skill=02_responsive&module=02_your_first_form&path=DEV/00_topics/editors_codepen_fork_ES.md)
-- [📄 Texto: Formularios en HTML](?lang=ES&track=DEV&skill=02_responsive&module=02_your_first_form&path=DEV/topicos/html_forms_ES.md)
+- [📄 Texto: Formularios en HTML](?lang=ES&track=DEV&skill=02_responsive&module=02_your_first_form&path=DEV/topics/html_forms_ES.md)
 - [📺 Video: Atributos en HTML](https://youtu.be/yMX901oVtn8?si=J0SX7nqPv877CANi)
 
 ## Pauta de trabajo
