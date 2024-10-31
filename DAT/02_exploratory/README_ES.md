@@ -6,7 +6,7 @@
 <!-- preview:start -->
 <p>Es una práctica común en la ciencia de datos y la estadística, y se utiliza para descubrir patrones, tendencias, relaciones y anomalías en los datos de manera exploratoria e informal.</p>
 <p><br>Análisis Exploratorio de Datos y Variables Categóricas.</p>
-<p><br>Medidas de Tendencia Central y Distribución de Datos<./p>
+<p><br>Medidas de Tendencia Central y Distribución de Datos.</p>
 <p><br>Análisis del Comportamiento Temporal.</p>
 <p><br><b>Tiempo ⏱️️ :</b> Dedicando al menos 5 horas por semana y, dependiendo de tu ritmo único de aprendizaje, podrías completar esta habilidad en 3-6 semanas.</p>
 <!-- preview:end -->
