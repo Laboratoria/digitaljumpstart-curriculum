@@ -1,4 +1,4 @@
-# Plataformas, materiales y sesiones en vivo.
+# Plataformas
 
 **Tiempo:** ⏱️️ 5 min
 
@@ -8,17 +8,12 @@
 
 ---
 
-## Introducción
-Aunque siempre te alentaremos a expandir y profundizar en tu aprendizaje por tu propia cuenta, esta experiencia está pensada para la gran mayoría que tiene muy poco (y fragmentado) tiempo disponible para aprender. Por lo tanto, todo el "material" **mínimamente indispensable** para tu aprendizaje, en forma de lecturas, videos, enlaces de referencia, etc. lo encontrarás en este "sitio web".
-
-La otra parte fundamental del aprendizaje, que son todo tipo de interacciones con otras participantes y con el equipo de Laboratoria, incluyendo los eventos y sesiones de ayudantía "en vivo", la ayuda y colaboración entre compañeras, conversaciones, discusiones, compartir recursos adicionales, etc., las tendremos en Discord. **También en Discord marcarás con un ✅ cada vez que completes una actividad o reto**, ¿por qué? porque queremos enfatizar que todas puedan acceder al pensamiento y el trabajo de las demás, y compartir el suyo.
-
-Si eres nueva en Discord, puede ser un poco abrumador al principio. Discord es una herramienta de mensajería usada por millones de personas alrededor del mundo. Si bien en sus inicios tuvo una orientación hacia "gamers" específicamente (videojuegos), ha continuado evolucoinando y hoy es usada hoy por millones para crear comunidades alrededor de algún tema de interés u objetivo en común. 
-
 ## ¿Por qué tener dos plataformas?
 Básicamente porque nos permite aprovechar lo mejor de cada una. 
 
-EN Discord podrás pedir ayuda cuando la necesites, compartir tus avances para recibir comentarios, podrás participar de dicusiones sobre diversos temas, compartir tu avance y ver el trabajo de las demás, etc. ALgunas de los aspectos que buscamos explotar de Discord:
+En Discord podrás pedir ayuda cuando la necesites, compartir tus avances para recibir comentarios, podrás participar de dicusiones sobre diversos temas, compartir tu avance y ver el trabajo de las demás, etc. 
+
+Algunas de las características que buscamos explotar de Discord:
 
 1. **Flexibilidad de Comunicación**: Permite interacciones sincrónicas y asincrónicas, desde chat en tiempo real hasta mensajes que pueden revisarse más tarde, ajustándose a las necesidades de distintos tipos de estudiantes. En una sola plataforma podemos tener chat, canales de videollamada libres para las participantes, eventos "masivos", compartir archivos, etc. 
 
@@ -28,3 +23,17 @@ EN Discord podrás pedir ayuda cuando la necesites, compartir tus avances para r
 
 4. **Accesibilidad y Usabilidad**: Discord es accesible desde múltiples dispositivos y sistemas operativos, lo que permite participar desde cualquier lugar con facilidad.
 
+## Discord
+Discord funciona directamente en el navegador (Chrome, Safari, Edge, etc.) o instalando la aplicación en tu teléfono y/o computador/a. 
+
+Discord es una plataforma de mensajería que permite chatear, hacer llamadas de voz y video y compartir archivos en grupos llamados **servidores**. Los servidores están organizados en **canales**, que son espacios donde las personas pueden hablar sobre temas específicos. Por ejemplo, un servidor puede tener un canal de "general" para resolver dudas.
+
+Dentro de Discord, las usuarias pueden tener **roles** que determinan qué pueden hacer en ese servidor. Un rol puede otorgar permisos como escribir en ciertos canales, moderar conversaciones, o acceder a canales exclusivos. Estos roles ayudan a organizar y gestionar la comunidad, ya que permiten asignar diferentes **permisos** a cada persona. Por ejemplo, alguien con el rol de "moderador"a podría borrar mensajes o expulsar miembros si es necesario.
+
+Discord es popular para comunidades de juegos, trabajo y aprendizaje, ya que combina herramientas de comunicación con opciones de organización flexibles, permitiendo a cada servidor adaptarse a sus necesidades.
+
+ [📺 Video: Guía básica para entender Discord](https://youtu.be/GxmmJjcRLOI?si=4plc4hCnRnJKHss4)
+
+Algunas compañeras que ya son usuarias de Discord, se han ofrecido voluntariamente para ayudarte si as{i lo necesitas. Las encontrarás con el rol "👩‍🚒 SOS Discord".
+
+Sabemos que puede ser abrumador si no has usando antes ninguna herramienta similar, ten paciencia contigo misma, no tienes que saber usarlo todo antes de comenzar. Primero únete, comienza y, naturalmente, irás aprendiendo y sacándole el mejor provecho un día a la vez.
