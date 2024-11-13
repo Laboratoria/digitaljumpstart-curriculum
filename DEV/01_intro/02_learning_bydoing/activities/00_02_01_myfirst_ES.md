@@ -6,7 +6,6 @@
 
 **Tiempo:** ⏱️️⏱️️⏱️️⏱️️️️ 3-5 hrs.
 
-**Reacciona** con 👀 en Discord cuando comiences esta lectura, actividad o reto.
 
 ---
 
@@ -54,7 +53,7 @@ Como todo en la vida, hay muchas maneras de resolver un mismo problema, se hará
 - No tengas miedo de experimentar y probar cosas nuevas. 
 - No dudes ni un instante en buscar ayuda u opinión de alguna compañera.
 - Recuerda que puedes pedir [la evaluación de una compañera antes de terminar tu reto](https://laboratoria1.gitbook.io/codigom/curriculum_model/lea_model_06_assessment.md).
-- ¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que estar aturdida y confundida es parte natural del proceso.
+- ¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que estar aturdida y  confundida es parte natural del proceso.
 - [📺 Video: Tutorial o solución](https://www.loom.com/share/e23a5d140e53454a85db47c0c0d8f628?sid=38b96ce5-6ef2-4d31-aace-45fa355523b0)
 
 ---

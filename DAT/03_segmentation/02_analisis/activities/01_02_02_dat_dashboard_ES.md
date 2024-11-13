@@ -6,7 +6,6 @@
 
 **Tiempo:** ⏱️️⏱️️️⏱️️️⏱️️ 3-5 hrs.
 
-**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
 
 
 ---
@@ -34,10 +33,14 @@ Vas a crear un dashboard que incluya gráficos y tablas para comunicar las concl
 
 ## Pauta de Trabajo
 
-- Crea una nueva pestaña en blanco para organizar los gráficos y tablas dinámicas.
+- Al mismo archivo del reto anterior, agrégale una hoja (sheet) en blanco con el nombre de este para organizar los gráficos y tablas dinámicas.
+  
 - Organiza las secciones para presentar los resultados. Por ejemplo, comienza mostrando los números generales (cantidad de clientes, ventas totales en línea y en tienda, monto total, etc.).
+
 - Utiliza gráficos o tablas para mostrar las características de los clientes, como el porcentaje de casados, el promedio de ingresos, etc.
+
 - Con gráficos, presenta los resultados de la segmentación, incluyendo una breve descripción de cada categoría creada para dividir a los clientes según el análisis RFM.
+
 - Incluye una sección con tus conclusiones y hallazgos.
 
 - Tienes libertad para experimentar y analizar los datos como prefieras.
@@ -49,7 +52,7 @@ Aquí tienes un ejemplo de dashboard para representar los datos del análisis RF
 ![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/ejemplo_dashboard.png)
 
 
-¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirte confundido o aturdido es una parte natural del proceso.
+¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirte confundida o aturdida es una parte natural del proceso.
 
 ---
 

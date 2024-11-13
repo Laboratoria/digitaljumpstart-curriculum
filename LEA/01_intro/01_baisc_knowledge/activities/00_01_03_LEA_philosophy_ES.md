@@ -46,7 +46,7 @@ No estamos diciendo que con esfuerzo y disciplina se puede conseguir “todo en 
 
 ## Aprendizaje significativo
 
-Vas a dudar pero recuerda que el aprendizaje no es lineal. Te vas a sentir atascada, confundida, "tonta", frustrada, vas a querer salir corriendo y decir "esto no es para mí". Ten paciencia, confía en la manera que te proponemos para aprender. Saber tolerar la frustración que causan las barreras y retrasar la satisfacción de conseguirlo, es imprescindible para volverte experta en aprender a aprender.
+Vas a dudar pero recuerda que el aprendizaje no es lineal. Te vas a sentir atascada, , "tonta", frustrada, vas a querer salir corriendo y decir "esto no es para mí". Ten paciencia, confía en la manera que te proponemos para aprender. Saber tolerar la frustración que causan las barreras y retrasar la satisfacción de conseguirlo, es imprescindible para volverte experta en aprender a aprender.
 
 Si consigues sintonizar, te llevarás una experiencia transformadora. Esperamos que así sea :black_heart:.
 

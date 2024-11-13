@@ -6,7 +6,6 @@
 
 **Tiempo:** ⏱️️⏱️️⏱️️⏱️️ 3-5 hrs.
 
-**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
 
 ---
 
@@ -43,8 +42,12 @@ Aquí tienes el texto mejorado:
 
 ## Pauta de Trabajo
 
+- Al mismo archivo del reto anterior, agrégale una hoja (sheet) con el nombre de este. 
+
 - Utiliza gráficos y tablas dinámicas para explorar y visualizar los datos según los resultados de la segmentación RFM.
+
 - Analiza las variables de cada grupo de clientes identificado en el RFM.
+
 - Extrae conclusiones y elabora recomendaciones para mantener a los clientes en cada grupo. ¿Qué estrategias podrían reactivar a los clientes inactivos ("dormidos") y motivarlos a comprar nuevamente?
 
 - Tienes libertad para experimentar y analizar los datos como prefieras.
@@ -58,4 +61,4 @@ A continuación, se presentan algunos resultados de referencia para ayudarte a v
 
 ---
 
-¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirte confundido o desorientado es parte natural del proceso.
+¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirte confundida o desorientada es parte natural del proceso.

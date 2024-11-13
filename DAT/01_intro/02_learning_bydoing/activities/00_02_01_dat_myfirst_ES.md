@@ -6,7 +6,7 @@
 
 **Tiempo:** ⏱️⏱️⏱️ 2-4 hrs.
 
-**Reacciona** con 👀 en Discord cuando comiences esta lectura, actividad o reto.
+
 
 ---
 
@@ -73,6 +73,6 @@ Como todo en la vida, hay muchas maneras de resolver un mismo problema. No obsta
 
 #### ¡Diviértete y disfruta del proceso de aprendizaje!
 
-No te olvides de que estar aturdida y confundida es parte natural del proceso de aprendizaje verdadero.
+No te olvides de que estar aturdida y  confundida es parte natural del proceso de aprendizaje verdadero.
 
 ---

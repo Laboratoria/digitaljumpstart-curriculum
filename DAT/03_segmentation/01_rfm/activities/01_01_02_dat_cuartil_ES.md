@@ -1,4 +1,4 @@
-# Reto 1.2: Cálculo de cuartiles y puntuación RFM
+# Reto 1.2: Cálculo de cuartiles para puntuación RFM 
 
 **Dificultad:** 🌻 
 
@@ -6,25 +6,23 @@
 
 **Tiempo:** ⏱️️⏱️️️⏱️️️⏱️️ 3-5 hrs.
 
-**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
 
 ---
 
-
 ## Meta de Aprendizaje
 
-Aprenderás qué son los cuartiles, para qué se utilizan y cómo dividir el RFM en grupos a través de cuartiles.
+Aprenderás a asignar puntuaciones a cada variable RFM para poder separar clientes en grupos. Para lograrlo, primero tendrás que entender qué son los cuartiles, cómo y para qué se utilizan y cómo aplicarlos en esta técnica de segmentación de clientes.
 
 ## Descripción
 
-Vas a calcular los cuartiles para cada una de las variables que utilizamos para clasificar a los clientes según el RFM y asignar a cada cliente y a cada variable su cuartil correspondiente. Todo esto se hará mediante fórmulas como **CUARTIL** y **IF**.
+Vas a calcular los cuartiles para cada una de las variables (R, F y M) que utilizamos para clasificar a los clientes según RFM y asignar a cada variable de cada cliente, su cuartil correspondiente. Todo esto se hará mediante fórmulas como **CUARTIL** e **IF**.
+
+Los cuartiles dividen un conjunto de datos ordenados en cuatro partes iguales. Son útiles para analizar distribuciones y detectar patrones en datos.
 
 ### Cumples con la meta de aprendizaje si:
 
 - [x] Calculas los cuartiles para Recencia, Frecuencia y Monto.
 - [x] Asignas a cada cliente el cuartil correspondiente de Recencia, Frecuencia y Monto.
-
-
 
 ## Insumos para tu aprendizaje
 
@@ -34,20 +32,20 @@ Vas a calcular los cuartiles para cada una de las variables que utilizamos para 
 - [📄 Texto: Documentación fórmula IF](https://support.google.com/docs/answer/3093364?hl=es).
 - [📄 Texto: Documentación fórmula IFS](https://support.google.com/docs/answer/7014145?hl=es).
 
-
-
 ## Pauta de Trabajo
 
-- Crea una tabla donde puedas calcular los cuartiles para Recencia, Frecuencia y Monto, como en este ejemplo:
+- Al mismo archivo del reto anterior, agrégale una hoja (sheet) con el nombre de este. 
 
+- Crea una tabla donde puedas calcular los cuartiles para Recencia, Frecuencia y Monto, como en este ejemplo:
 ![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/ejemplo_cuartil.png)
 
-
 - Usa la fórmula **IF** ou **IFS** para asignar el cuartil correspondiente a cada cliente.
-
+  
 - Tienes libertad para probar y analizar los datos como prefieras.
-
+  
 - **Asegúrate de comprender lo que estás haciendo.** No te limites solo a las preguntas planteadas; analiza, prueba y explora.
+  
+- Pon especial atenci{on en entender cuándo debes asignar la puntuación más alta y cuándo la más baja para cada variable.
 
 Aquí tienes un ejemplo para que puedas verificar cómo va tu progreso:
 
@@ -55,7 +53,7 @@ Aquí tienes un ejemplo para que puedas verificar cómo va tu progreso:
 
 ---
 
-¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirte confundido o aturdido es una parte natural del proceso.
+¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirte confundida o aturdida es una parte natural del proceso.
 
 ---
 

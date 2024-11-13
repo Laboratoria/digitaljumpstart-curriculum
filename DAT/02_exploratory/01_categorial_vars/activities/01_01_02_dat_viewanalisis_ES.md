@@ -6,7 +6,6 @@
 
 **Tiempo:** ⏱️️⏱️️️⏱️️️⏱️️ 3-5 hrs.
 
-**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
 
 ---
 
@@ -59,7 +58,7 @@ Aquí tienes un ejemplo de dos gráficos que pueden ser utilizados para responde
 
 Estos gráficos pueden servirte de referencia para verificar que tus cálculos y análisis son correctos.
 
-¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdido y confundido es una parte natural del proceso.
+¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdida y confundida es una parte natural del proceso.
 
 ---
 

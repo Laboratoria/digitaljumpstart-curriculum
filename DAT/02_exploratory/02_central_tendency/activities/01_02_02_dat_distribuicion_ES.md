@@ -46,6 +46,6 @@ Aquí tienes un ejemplo de histograma para la variable compras en linea:
 
 Estos gráfico puede servirte de referencia para verificar que tus cálculos y análisis son correctos.
 
-¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdido y confundido es una parte natural del proceso.
+¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdida y confundida es una parte natural del proceso.
 
 ---

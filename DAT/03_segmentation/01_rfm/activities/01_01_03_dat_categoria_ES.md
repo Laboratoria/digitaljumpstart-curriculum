@@ -6,25 +6,20 @@
 
 **Tiempo:** ⏱️️⏱️️️⏱️️️⏱️️ 3-5 hrs.
 
-**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
-
-
 ---
 
 ## Meta de Aprendizaje
 
-Aprenderás a crear categorías y segmentar a los clientes según sus características de RFM, para identificar sus perfiles y diseñar estrategias más efectivas.
+Aprenderás a identificar pefiles de clientes con el objetivo de diseñar estrategias de negocio más efectivas y específicas. Para conseguirlo, segmentarás a los clientes según sus características de RFM.
 
 ## Descripción
 
-Usando los cuartiles asignados a las variables de RFM, crea un código identificador (o un score) que permita clasificar a los clientes en diferentes categorías. Analiza los códigos generados y los cuartiles para desarrollar categorías que indiquen quiénes son los principales clientes, los clientes inactivos, entre otros.
+Usa los cuartiles asignados a las variables de RFM (Recencia, Frecuencia y Monto) para crear un "score" combinando valores de 1 a 4 según el cuartil de cada cliente (4 para el cuartil más alto, 1 para el más bajo). Este código resultante, como 444 o 111. Analiza estos códigos y cuartiles para identificar grupos de clientes clave: los principales clientes, los clientes inactivos, entre otros.
 
 ### Cumples con la meta de aprendizaje si:
 
 - [x] Creas al menos cuatro categorías de clientes.
 - [x] Utilizas fórmulas, como la fórmula IF, para asignar categorías a los clientes.
-
-
 
 ## Insumos para tu aprendizaje
 
@@ -33,8 +28,9 @@ Usando los cuartiles asignados a las variables de RFM, crea un código identific
 - [📄 Texto: Documentación CONCATENATE](https://support.google.com/docs/answer/3094123?hl=es&sjid=13643531532267330533-EU).
 - [📄 Texto: Tips sobre el proyecto](https://docs.google.com/document/d/1iuNR8rRj1mu-squcY7BgBjZggOm8Bor6jkT_OEffWkg/edit?usp=sharing).
 
-
 ## Pauta de Trabajo
+
+- Al mismo archivo del reto anterior, agrégale una hoja (sheet) con el nombre de este. 
 
 - Define si trabajarás el RFM con un puntaje o un código identificador. Si eliges usar un puntaje promedio de RFM, recuerda invertir los cuartiles de la **recencia** para que el cuartil 4 represente a los clientes más recientes; esto mejorará la precisión en la representación del promedio RFM.
 
@@ -48,7 +44,7 @@ Aquí tienes un ejemplo de cómo podrías realizar la segmentación:
 
 ![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/ejemplo_solucion_segmentacion.png)
 
-¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdido o confundido es una parte natural del aprendizaje.
+¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdida o confundida es una parte natural del aprendizaje.
 
 --- 
 

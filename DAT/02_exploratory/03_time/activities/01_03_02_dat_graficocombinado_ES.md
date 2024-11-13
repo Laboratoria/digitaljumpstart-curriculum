@@ -6,7 +6,6 @@
 
 **Tiempo:** ⏱️️⏱️️ 1-3 hrs.
 
-**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
 
 ---
 
@@ -41,6 +40,6 @@ Este es un ejemplo de gráfico combinado que muestra la suma de compras de vino 
 
 ![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/350095241-65aec943-78f7-46ea-a122-329ee3aa82ee.png)
 
-¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdido y confundido es una parte natural del proceso.
+¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdida y confundida es una parte natural del proceso.
 
 ---
