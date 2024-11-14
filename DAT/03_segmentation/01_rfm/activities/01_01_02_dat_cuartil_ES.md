@@ -45,7 +45,7 @@ Los cuartiles dividen un conjunto de datos ordenados en cuatro partes iguales. S
   
 - **Asegúrate de comprender lo que estás haciendo.** No te limites solo a las preguntas planteadas; analiza, prueba y explora.
   
-- Pon especial atenci{on en entender cuándo debes asignar la puntuación más alta y cuándo la más baja para cada variable.
+- Pon especial atención en entender cuándo debes asignar la puntuación más alta y cuándo la más baja para cada variable.
 
 Aquí tienes un ejemplo para que puedas verificar cómo va tu progreso:
 
