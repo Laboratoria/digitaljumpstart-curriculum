@@ -6,7 +6,6 @@
 
 **Tiempo:** ⏱️️⏱️️ 1-3 hrs
 
-**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
 
 ---
 
@@ -58,7 +57,7 @@ Utilizando un nuevo proyecto de CodePen, crea una página `HTML` simple que func
 - Recuerda que en CodePen no necesitas crear la estructura básica de HTML : `<html>`, `<head>` y `<body>` porque CodePen ya incluye esas etiquetas aunque no las veas.
 - Para la etiqueta de la imagen, utiliza la URL de una que ya esté "en línea". Puedes subir la que quieras a https://imgur.com/ y obtener la URL con el botón "Grab Link".
 - Recuerda que puedes pedir [la evaluación de una compañera antes de terminar tu reto](https://laboratoria1.gitbook.io/codigom/curriculum_model/lea_model_06_assessment.md).
-- ¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que estar aturdida y confundida es parte natural del proceso.
+- ¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que estar aturdida y  confundida es parte natural del proceso.
 - [📺 Video: Tutorial o solución](https://www.loom.com/share/e23a5d140e53454a85db47c0c0d8f628?sid=38b96ce5-6ef2-4d31-aace-45fa355523b0)
 
 ---

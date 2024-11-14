@@ -6,7 +6,6 @@
 
 **Tiempo:** ⏱️️⏱️️ 1-3 hrs.
 
-**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
 
 ---
 
@@ -41,6 +40,6 @@ Prueba crear una columna con el año y el mes utilizando las fórmulas CONCATENA
 
 ![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/350093985-a687c14e-72d3-42ef-8cf0-c92f28641394.png)
 
-¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdido y confundido es una parte natural del proceso.
+¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdida y confundida es una parte natural del proceso.
 
 ---

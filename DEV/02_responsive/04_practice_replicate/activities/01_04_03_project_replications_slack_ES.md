@@ -6,7 +6,7 @@
 
 **Tiempo:** ⏱️️⏱️️⏱️️⏱️️ 3-5 hrs
 
-**Reacciona** con 👀 en Discord cuando comiences esta lectura, actividad o reto.
+
 
 ---
 

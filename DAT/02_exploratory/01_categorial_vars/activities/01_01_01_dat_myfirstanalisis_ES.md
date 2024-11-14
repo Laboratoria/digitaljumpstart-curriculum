@@ -6,7 +6,6 @@
 
 **Tiempo:** ⏱️️⏱️️⏱️️⏱️️ 3-5 hrs.
 
-**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
 
 ---
 
@@ -66,6 +65,6 @@ Aquí tienes algunos resultados de referencia para asegurarte de que estás en e
 - 864 clientes están casados y 483 son solteros.
 - El ingreso anual mínimo es 0 y el máximo es 162,397.
 
-¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdida y confundida es una parte natural del proceso.
+¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdida y  confundida es una parte natural del proceso.
 
 ---

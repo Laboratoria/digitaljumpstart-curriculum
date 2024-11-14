@@ -6,7 +6,7 @@
 
 **Tiempo:** ⏱️⏱️⏱️ 2-4 hrs
 
-**Reacciona** con 👀 en Discord cuando comiences esta lectura, actividad o reto.
+
 
 ---
 
@@ -67,4 +67,4 @@ Recuerda que puedes pedir la evaluación de una compañera antes de terminar tu 
 
 #### ¡Diviértete y disfruta del proceso de aprendizaje!
 
-No te olvides de que estar aturdida y confundida es parte natural del proceso de aprendizaje verdadero.
+No te olvides de que estar aturdida y  confundida es parte natural del proceso de aprendizaje verdadero.
