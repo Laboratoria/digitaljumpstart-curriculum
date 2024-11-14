@@ -4,7 +4,7 @@ La verbalización del aprendizaje, es decir, expresar en palabras lo que hemos a
 
 **Metacognición y autorregulación:** Expresar el conocimiento en palabras nos permite reflexionar sobre nuestro propio proceso de aprendizaje, identificar vacíos en la comprensión y ajustar nuestras estrategias cognitivas. Este monitoreo metacognitivo es fundamental para un aprendizaje efectivo y autónomo.
 
-Si bien pensamos que en muchos casos lo idea, es hacer este ejercicio junto a otra(s) persona(s), una manera simple y efectiva de hacerlo de manera individual es usar un modelo LLM de IA. Acá te dejamos uns propuesta/ejemplo de "prompt" (instrucci{on para el modelo LLM) con 5 preguntas enfocadas para principiantes sobre el método RFM:
+Si bien pensamos que en muchos casos lo idea, es hacer este ejercicio junto a otra(s) persona(s), una manera simple y efectiva de hacerlo de manera individual es usar un modelo LLM de IA. Acá te dejamos uns propuesta/ejemplo de "prompt" (instrucción para el modelo LLM) con 5 preguntas enfocadas para principiantes sobre el método RFM:
 
 > Actúa como una tutora o instructora que evalúa la comprensión del concepto RFM en una estudiante principiante. Haz las siguientes preguntas, una a la vez, y da retroalimentación inmediata y simple para cada respuesta de la estudiante:
 > 
