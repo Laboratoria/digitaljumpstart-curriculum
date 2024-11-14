@@ -33,7 +33,7 @@ Revisa los contenidos disponibles en los materiales proporcionados, así como la
 
 
 ## Insumos para tu aprendizaje
-<!-- Los enlaces a topics, hay que ponerlos usando este patrón  //PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//rfm_prompt_ES.md-->
+<!-- Los enlaces a topics, hay que ponerlos usando este patrón  ?lang=ES&track=DAT&skill=03_segmentation&module=01_rfmrfm_prompt_ES.md-->
 <!-- luego será compeltado por el script en python del repo en GH -->
 - [📄 Texto: Base de Datos 1 y descripción de Variables](https://docs.google.com/spreadsheets/d/1nE1yZuE-bzZ2Ot4xjbq3zADqTcNXnNA4_ksE7uYE2JI/copy?).
 - [📄 Texto: Base de Datos 2 con la fecha de la ultima compra del cliente](https://docs.google.com/spreadsheets/d/1lM0f0Pu78rq4t-eHCHnPo0T8lIS0F4bs22WS4gtCQWk/copy?).
@@ -42,7 +42,7 @@ Revisa los contenidos disponibles en los materiales proporcionados, así como la
 - [📄 Texto: Unir tablas en Google Sheets](https://docs.google.com/document/d/1mPYh7wmMmqUl5k8lACskw7Jav315NVZHrNymf6NwJss/edit?usp=sharing).
 - [📄 Texto: Documentación VLOOKUP](https://support.google.com/docs/answer/3093318?hl=es).
 - [📄 Video: El uso de las fórmulas INDEX + MATCH](https://www.youtube.com/watch?v=QzCVTurf5vs).
-- [🤖 🤝 Texto: Usando IA para entender mejor RFM](//PATH_TO_THIS_SCRIPT:?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//rfm_prompt_ES.md)
+- [🤖 🤝 Texto: Usando IA para entender mejor RFM](?lang=ES&track=DAT&skill=03_segmentation&module=01_rfmrfm_prompt_ES.md)
 
 
 ## Pauta de Trabajo

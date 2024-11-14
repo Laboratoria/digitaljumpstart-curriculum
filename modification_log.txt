@@ -10,6 +10,7 @@ Archivo modificado: ./DAT/02_exploratory/02_central_tendency/activities/01_02_01
 Sin cambios en: ./DAT/02_exploratory/01_categorial_vars/README_ES.md
 Archivo modificado: ./DAT/02_exploratory/01_categorial_vars/activities/01_01_02_dat_viewanalisis_ES.md
 Archivo modificado: ./DAT/02_exploratory/01_categorial_vars/activities/01_01_01_dat_myfirstanalisis_ES.md
+Sin cambios en: ./DAT/00_desafio_datos/00_01_desafiospotify/00_01_desafiospotfy_ES.md
 Sin cambios en: ./DAT/01_intro/README_ES.md
 Sin cambios en: ./DAT/01_intro/02_learning_bydoing/README_ES.md
 Archivo modificado: ./DAT/01_intro/02_learning_bydoing/activities/00_02_01_dat_myfirst_ES.md
@@ -19,7 +20,16 @@ Archivo modificado: ./DAT/01_intro/01_baisc_knowledge/activities/00_01_03_dat_ac
 Archivo modificado: ./DAT/01_intro/01_baisc_knowledge/activities/00_01_05_dat_read_tools_ES.md
 Archivo modificado: ./DAT/01_intro/01_baisc_knowledge/activities/00_01_01_dat_activity_quees_ES.md
 Archivo modificado: ./DAT/01_intro/01_baisc_knowledge/activities/00_01_04_dat_activity_ai_que_es_ES.md
+Sin cambios en: ./DAT/03_segmentation/README_ES.md
+Sin cambios en: ./DAT/03_segmentation/02_analisis/README_ES.md
+Archivo modificado: ./DAT/03_segmentation/02_analisis/activities/01_02_02_dat_dashboard_ES.md
+Archivo modificado: ./DAT/03_segmentation/02_analisis/activities/01_02_01_dat_resultados_ES.md
+Sin cambios en: ./DAT/03_segmentation/01_rfm/README_ES.md
+Archivo modificado: ./DAT/03_segmentation/01_rfm/activities/01_01_03_dat_categoria_ES.md
+Archivo modificado: ./DAT/03_segmentation/01_rfm/activities/01_01_01_dat_conceptorfm_ES.md
+Archivo modificado: ./DAT/03_segmentation/01_rfm/activities/01_01_02_dat_cuartil_ES.md
 Sin cambios en: ./DAT/00_topics/variables_categóricas_ES.md
+Sin cambios en: ./DAT/00_topics/rfm_prompt_ES.md
 Sin cambios en: ./LEA/README_ES.md
 Sin cambios en: ./LEA/01_intro/README_ES.md
 Sin cambios en: ./LEA/01_intro/01_baisc_knowledge/README_ES.md
