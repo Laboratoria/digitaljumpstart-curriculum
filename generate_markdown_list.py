@@ -53,11 +53,12 @@ def get_file_type(file_path, subdir, file):
     normalized_path = os.path.normpath(file_path).upper()
     if "COURSES" in normalized_path:
         parts = os.path.relpath(file_path, root_dir).split(os.sep)
-        # Si el archivo está en la raíz del curso (e.g. COURSES/ZENDESK_01/README_ES.md)
-        if len(parts) == 2 and file.startswith("README"):
+        # Si el archivo está en la raíz del curso, debe tener exactamente 3 partes:
+        # Ej: ["COURSES", "ZENDESK_01", "README_ES.md"]
+        if len(parts) == 3 and file.startswith("README"):
             return "course"
-        # Si el archivo es el README de un módulo (e.g. COURSES/ZENDESK_01/01_intro/README_ES.md)
-        if len(parts) >= 3 and file.startswith("README"):
+        # Si el archivo es el README de un módulo (Ej: COURSES/ZENDESK_01/01_intro/README_ES.md)
+        if len(parts) >= 4 and file.startswith("README"):
             return "module"
         # Si el archivo está en una subcarpeta "activities" o "activity" y no es README, es activity
         if ("activities" in subdir.lower() or "activity" in subdir.lower()) and not file.startswith("README"):
@@ -101,7 +102,7 @@ def generate_markdown_list(root_dir):
                         course_readme = os.path.join(root_dir, "COURSES", course_id, "README_ES.md")
                         track = get_track_from_course(course_readme)
                         skill = course_id   # El identificador del curso se usa como "skill"
-                        module = module_id  # El nombre del módulo
+                        module = module_id  # El nombre del módulo (o README del curso si se está en la raíz)
                     else:
                         track, skill, module = get_levels(file_path, root_dir)
                     
