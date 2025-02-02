@@ -32,6 +32,57 @@ def modify_activity_links(content, lang, track, skill, module):
     replacement_base = f"?lang={lang}&track={track or ''}&skill={skill or ''}&module={module or ''}"
     return re.sub(r"//PATH_TO_THIS_SCRIPT:\?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//", replacement_base, content)
 
+def get_track_from_course(course_readme_path):
+    try:
+        with open(course_readme_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        match = re.search(r'<!--\s*track:\s*(\w+)\s*-->', content)
+        return match.group(1).strip() if match else None
+    except Exception as e:
+        return None
+
+def get_levels(file_path, root_dir):
+    parts = os.path.relpath(file_path, root_dir).split(os.sep)
+    if parts[0].upper() == "COURSES":
+        # En courses: parts[1] = identificador del curso, parts[2] = módulo (si existe)
+        return (None, parts[1], parts[2] if len(parts) >= 3 else None)
+    else:
+        return (parts[0], parts[1] if len(parts) > 1 else None, parts[2] if len(parts) > 2 else None)
+
+def get_file_type(file_path, subdir, file):
+    normalized_path = os.path.normpath(file_path).upper()
+    if "COURSES" in normalized_path:
+        parts = os.path.relpath(file_path, root_dir).split(os.sep)
+        # Si el archivo está en la raíz del curso (e.g. COURSES/ZENDESK_01/README_ES.md)
+        if len(parts) == 2 and file.startswith("README"):
+            return "course"
+        # Si el archivo es el README de un módulo (e.g. COURSES/ZENDESK_01/01_intro/README_ES.md)
+        if len(parts) >= 3 and file.startswith("README"):
+            return "module"
+        # Si el archivo está en una subcarpeta "activities" o "activity" y no es README, es activity
+        if ("activities" in subdir.lower() or "activity" in subdir.lower()) and not file.startswith("README"):
+            return "activity"
+        return "unknown_course"
+    else:
+        if "topics" in subdir:
+            return "topic"
+        if "activities" in subdir and not file.endswith(("README_ES.md", "README_PT.md")):
+            return "activity"
+        depth = len(os.path.relpath(subdir, root_dir).split(os.sep))
+        return "program" if depth == 1 else "skill" if depth == 2 else "module"
+
+def get_title(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        match = re.search(r'#\s*(.+)', f.read())
+        return {"title": match.group(1).strip(), "lang": "ES" if file_path.endswith("_ES.md") else "PT"} if match else {"title": "Sin título", "lang": "ES" if file_path.endswith("_ES.md") else "PT"}
+
+def read_config_data(config_file):
+    try:
+        with open(config_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (json.JSONDecodeError, FileNotFoundError):
+        return {}
+
 def generate_markdown_list(root_dir):
     markdown_list = []
     log_file = "modification_log.txt"
@@ -41,7 +92,19 @@ def generate_markdown_list(root_dir):
             for file in files:
                 file_path = os.path.join(subdir, file)
                 if file.endswith(".md"):
-                    track, skill, module = get_levels(file_path, root_dir)
+                    parts = os.path.relpath(file_path, root_dir).split(os.sep)
+                    # Verificar si el archivo pertenece a COURSES
+                    if parts[0].upper() == "COURSES":
+                        # En COURSES: get_levels devuelve (None, course_id, module_id)
+                        _, course_id, module_id = get_levels(file_path, root_dir)
+                        # Ubicar el README del curso para extraer el track (tag: <!-- track: DAT -->)
+                        course_readme = os.path.join(root_dir, "COURSES", course_id, "README_ES.md")
+                        track = get_track_from_course(course_readme)
+                        skill = course_id   # El identificador del curso se usa como "skill"
+                        module = module_id  # El nombre del módulo
+                    else:
+                        track, skill, module = get_levels(file_path, root_dir)
+                    
                     file_type = get_file_type(file_path, subdir, file)
                     lang = "ES" if file.endswith("_ES.md") else "PT" if file.endswith("_PT.md") else None
                     titles = get_title(file_path)
@@ -79,7 +142,7 @@ def generate_markdown_list(root_dir):
                         "module": module,
                         "title": titles.get("title", "Sin título"),
                         "type": file_type,
-                        "path": file_path[2:],  # Quitar "./" del comienzo de la ruta del archivo
+                        "path": file_path[2:],  # Quita "./" del comienzo
                         "lang": lang or titles.get("lang"),
                         "difficulty": config_data.get("difficulty", ""),
                         "learning": config_data.get("learning", ""),
@@ -91,42 +154,19 @@ def generate_markdown_list(root_dir):
                         "slug": slug
                     }
 
-                    path_parts = os.path.relpath(file_path, root_dir).split(os.sep)
-                    if file_type == "program":
-                        markdown_dict.update({"track": path_parts[0], "skill": None, "module": None})
-                    elif file_type == "skill":
-                        markdown_dict.update({"track": path_parts[0], "skill": path_parts[1], "module": None})
-                    elif file_type == "module":
-                        markdown_dict.update({"track": path_parts[0], "skill": path_parts[1], "module": path_parts[2]})
-
+                    # Para la estructura original (no COURSES), actualizar niveles según la profundidad
+                    if parts[0].upper() != "COURSES":
+                        if file_type == "program":
+                            markdown_dict.update({"track": parts[0], "skill": None, "module": None})
+                        elif file_type == "skill":
+                            markdown_dict.update({"track": parts[0], "skill": parts[1], "module": None})
+                        elif file_type == "module":
+                            markdown_dict.update({"track": parts[0], "skill": parts[1], "module": parts[2]})
+                    
                     markdown_list.append(markdown_dict)
     
     print(f"Log de modificaciones creado en {log_file}")
     return markdown_list
-
-def get_levels(file_path, root_dir):
-    parts = os.path.relpath(file_path, root_dir).split(os.sep)
-    return (parts[0], None, None) if len(parts) == 2 else (parts[0], parts[1], parts[2]) if len(parts) >= 3 else (None, None, None)
-
-def get_file_type(file_path, subdir, file):
-    if "topics" in subdir:
-        return "topic"
-    if "activities" in subdir and not file.endswith(("README_ES.md", "README_PT.md")):
-        return "activity"
-    depth = len(os.path.relpath(subdir, root_dir).split(os.sep))
-    return "program" if depth == 1 else "skill" if depth == 2 else "module"
-
-def get_title(file_path):
-    with open(file_path, 'r', encoding='utf-8') as f:
-        match = re.search(r'#\s*(.+)', f.read())
-        return {"title": match.group(1).strip(), "lang": "ES" if file_path.endswith("_ES.md") else "PT"} if match else {"title": "Sin título", "lang": "ES" if file_path.endswith("_ES.md") else "PT"}
-
-def read_config_data(config_file):
-    try:
-        with open(config_file, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except (json.JSONDecodeError, FileNotFoundError):
-        return {}
 
 def save_data(data, filename, format="csv"):
     if format == "csv":
