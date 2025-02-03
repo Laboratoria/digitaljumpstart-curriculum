@@ -5,7 +5,7 @@ import csv
 import requests
 import logging
 
-# --- Funciones de utilidad ---
+# --- Utilidades para limpiar y procesar JSON de configuración ---
 
 def clean_control_characters(json_str):
     return re.sub(r'[\x00-\x1F\x7F]', '', json_str.replace('\\_', '_').replace(r'\\(?!["\\/bfnrtu])', r'\\\\'))
@@ -25,6 +25,8 @@ def process_config_files(root_dir):
             if file.endswith('_CONFIG.json'):
                 escape_json_config(os.path.join(subdir, file))
 
+# --- Funciones para procesar el contenido de los archivos ---
+
 def extract_preview(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -35,17 +37,17 @@ def modify_activity_links(content, lang, track, skill, module):
     replacement_base = f"?lang={lang}&track={track or ''}&skill={skill or ''}&module={module or ''}"
     return re.sub(r"//PATH_TO_THIS_SCRIPT:\?lang=XX&track=XXX&skill=XXXXXX&module=XXXXXX//", replacement_base, content)
 
-# --- Funciones para extraer niveles y tipos según la estructura unificada ---
+# --- Funciones para extraer niveles y determinar el tipo, usando estructura unificada ---
 
 def get_levels(file_path, root_dir):
     """
-    Se espera que la ruta relativa tenga la siguiente forma:
-      Para TRACKS: TRACKS/<track_id>/<skill>/<module>/... (opcionalmente actividades)
-      Para COURSES: COURSES/<track_id>/<course_id>/<module>/... 
-    Devuelve una tupla (track, skill, module) extraída de la posición fija.
+    Se asume que la ruta relativa tiene esta forma:
+      - Para TRACKS: TRACKS/<track_id>/<skill>/<module>/... (con posible carpeta de actividades)
+      - Para COURSES: COURSES/<track_id>/<course_id>/<module>/... 
+    Devuelve (track, skill, module) extraídos de posiciones fijas.
     """
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
-    cat = parts[0].upper()  # Debe ser "TRACKS" o "COURSES"
+    cat = parts[0].upper()  # "TRACKS" o "COURSES"
     if cat in ["TRACKS", "COURSES"]:
         track = parts[1] if len(parts) > 1 else None
         skill = parts[2] if len(parts) > 2 else None
@@ -56,23 +58,26 @@ def get_levels(file_path, root_dir):
 
 def get_file_type(file_path, subdir, file):
     """
-    Asume que la estructura es la misma para TRACKS y COURSES:
-      - Si el archivo se encuentra en una carpeta "activities" y no es README → activity
-      - Para el README principal de la entidad:
-         * Para TRACKS: "TRACKS/<track>/README_ES.md" se interpreta como type "program"
-         * "TRACKS/<track>/<skill>/README_ES.md" → type "skill"
-         * "TRACKS/<track>/<skill>/<module>/README_ES.md" → type "module"
-         * Para COURSES: se hace de forma similar, por ejemplo:
-             "COURSES/<track>/<course>/README_ES.md" → type "course"
-             "COURSES/<track>/<course>/<module>/README_ES.md" → type "skill" (o "module" según convenga)
-         Aquí se decide usando la cantidad de niveles (parts).
+    Determina el tipo de archivo basándose en la estructura de la ruta.
+    Se usa la cantidad de elementos (parts) para diferenciar:
+      Para TRACKS:
+         - len(parts)==3: e.g. TRACKS/LEA/README_ES.md           -> "program"
+         - len(parts)==4: e.g. TRACKS/LEA/01_intro/README_ES.md       -> "skill"
+         - len(parts)==5: e.g. TRACKS/LEA/01_intro/02_mechanics/README_ES.md -> "module"
+      Para COURSES:
+         - len(parts)==3: e.g. COURSES/ZENDESK_01/README_ES.md         -> "course"
+         - len(parts)==4: e.g. COURSES/ZENDESK/01_zendesk_01/README_ES.md  -> "skill"
+         - len(parts)==5: e.g. COURSES/ZENDESK/01_zendesk_01/01_modulo_01/README_ES.md -> "module"
+      Además, si el archivo está en una carpeta de actividades y no es README, se asigna "activity".
     """
     parts = os.path.relpath(file_path, root_dir).split(os.sep)
     cat = parts[0].upper()
-    # Si estamos en una carpeta de actividades (sin ser README)
-    if "ACTIVITIES" in subdir.upper() and not file.startswith("README"):
-        return "activity"
-    # Para TRACKS
+    
+    # Si se trata de una actividad (archivo no README dentro de carpeta "activities" o "activity")
+    if "ACTIVITIES" in subdir.upper() or "ACTIVITY" in subdir.upper():
+        if not file.startswith("README"):
+            return "activity"
+    
     if cat == "TRACKS":
         if len(parts) == 3 and file.startswith("README"):
             return "program"    # Ej: TRACKS/LEA/README_ES.md
@@ -80,15 +85,17 @@ def get_file_type(file_path, subdir, file):
             return "skill"      # Ej: TRACKS/LEA/01_intro/README_ES.md
         elif len(parts) >= 5 and file.startswith("README"):
             return "module"     # Ej: TRACKS/LEA/01_intro/02_mechanics/README_ES.md
-    # Para COURSES
     elif cat == "COURSES":
-        if len(parts) == 4 and file.startswith("README"):
-            return "course"     # Ej: COURSES/DAT/COURSE01/README_ES.md
+        if len(parts) == 3 and file.startswith("README"):
+            return "course"     # Ej: COURSES/ZENDESK_01/README_ES.md
+        elif len(parts) == 4 and file.startswith("README"):
+            return "skill"      # Ej: COURSES/ZENDESK/01_zendesk_01/README_ES.md
         elif len(parts) == 5 and file.startswith("README"):
-            return "skill"      # Ej: COURSES/DAT/COURSE01/01_module/README_ES.md
+            return "module"     # Ej: COURSES/ZENDESK/01_zendesk_01/01_modulo_01/README_ES.md
         elif len(parts) >= 6 and file.startswith("README"):
-            return "module"     # Ej: COURSES/DAT/COURSE01/01_module/02_submodule/README_ES.md
-    # Caso por defecto: usar la profundidad de la carpeta (para estructuras heredadas)
+            return "module"
+    
+    # Caso por defecto: usar la profundidad del directorio
     depth = len(os.path.relpath(subdir, root_dir).split(os.sep))
     return "program" if depth == 1 else "skill" if depth == 2 else "module"
 
@@ -106,7 +113,7 @@ def read_config_data(config_file):
     except (json.JSONDecodeError, FileNotFoundError):
         return {}
 
-# --- Generación de la lista Markdown unificada ---
+# --- Generación de la lista de archivos Markdown ---
 
 def generate_markdown_list(root_dir):
     markdown_list = []
@@ -119,7 +126,6 @@ def generate_markdown_list(root_dir):
                 if file.endswith(".md"):
                     parts = os.path.relpath(file_path, root_dir).split(os.sep)
                     cat = parts[0].upper()
-                    # Extraemos niveles de forma unificada
                     (track, skill, module) = get_levels(file_path, root_dir)
                     
                     file_type = get_file_type(file_path, subdir, file)
@@ -149,7 +155,6 @@ def generate_markdown_list(root_dir):
                     else:
                         discord_channel_id, discord_message_id = None, None
                     
-                    # Construcción del slug (ajústalo según tus convenciones)
                     slug = f"{track or ''}{'-' + skill if skill else ''}{'-' + module if module else ''}-{os.path.splitext(file)[0]}"
                     
                     directions = (extract_preview(file_path)
@@ -162,7 +167,7 @@ def generate_markdown_list(root_dir):
                         "module": module,
                         "title": titles.get("title", "Sin título"),
                         "type": file_type,
-                        "path": file_path[2:],  # quitar "./" inicial si existe
+                        "path": file_path[2:],  # Quitar "./" inicial si existe
                         "lang": lang or titles.get("lang"),
                         "difficulty": config_data.get("difficulty", ""),
                         "learning": config_data.get("learning", ""),
@@ -173,6 +178,15 @@ def generate_markdown_list(root_dir):
                         "discord_message_id": discord_message_id,
                         "slug": slug
                     }
+                    
+                    # Para contenidos que no sean de TRACKS o COURSES, se puede actualizar según la profundidad
+                    if cat not in ["TRACKS", "COURSES"]:
+                        if file_type == "program":
+                            markdown_dict.update({"track": parts[0], "skill": None, "module": None})
+                        elif file_type == "skill":
+                            markdown_dict.update({"track": parts[0], "skill": parts[1], "module": None})
+                        elif file_type == "module":
+                            markdown_dict.update({"track": parts[0], "skill": parts[1], "module": parts[2]})
                     
                     markdown_list.append(markdown_dict)
     
