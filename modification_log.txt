@@ -9,17 +9,17 @@ Archivo modificado: ./COURSES/ZENDESK/01_zendesk_01/01_modulo_01/activities/01_0
 Archivo modificado: ./COURSES/ZENDESK/01_zendesk_01/01_modulo_01/activities/01_01_02_zen_activity_01_ES.md
 Sin cambios en: ./COURSES/ZENDESK/01_intro/README_ES.md
 Sin cambios en: ./COURSES/ZENDESK/01_intro/01_baisc_knowledge/README_ES.md
-Sin cambios en: ./COURSES/MARKETING/README_00.md
-Sin cambios en: ./COURSES/MARKETING/03_dashboard/README_03.md
-Sin cambios en: ./COURSES/MARKETING/03_dashboard/03_01_dashboard/README_0301.md
-Sin cambios en: ./COURSES/MARKETING/01_intro/README_01.md
-Sin cambios en: ./COURSES/MARKETING/01_intro/01_02_exploracion/README_0102.md
-Sin cambios en: ./COURSES/MARKETING/01_intro/01_01_intro/README_0101.md
-Sin cambios en: ./COURSES/MARKETING/04_desafio/README_04.md
-Sin cambios en: ./COURSES/MARKETING/04_desafio/04_01_desafio/README_0401.md
-Sin cambios en: ./COURSES/MARKETING/02_calculo/README_02.md
-Sin cambios en: ./COURSES/MARKETING/02_calculo/02_02_interpretacion/README_0202.md
-Sin cambios en: ./COURSES/MARKETING/02_calculo/02_01_calculo/README_0201.md
+Sin cambios en: ./COURSES/MARKETING/README_ES.md
+Sin cambios en: ./COURSES/MARKETING/03_dashboard/README_ES.md
+Archivo modificado: ./COURSES/MARKETING/03_dashboard/activities/03_01_dashboard.md
+Sin cambios en: ./COURSES/MARKETING/01_intro/README_ES.md
+Archivo modificado: ./COURSES/MARKETING/01_intro/activities/01_01_intro.md
+Archivo modificado: ./COURSES/MARKETING/01_intro/activities/01_02_exploracion.md
+Sin cambios en: ./COURSES/MARKETING/04_desafio/README_ES.md
+Archivo modificado: ./COURSES/MARKETING/04_desafio/activities/04_01_desafio.md
+Sin cambios en: ./COURSES/MARKETING/02_calculo/README_ES.md
+Archivo modificado: ./COURSES/MARKETING/02_calculo/activities/02_02_interpretacion.md
+Archivo modificado: ./COURSES/MARKETING/02_calculo/activities/02_01_calculo.md
 Sin cambios en: ./TRACKS/LEA/README_ES.md
 Sin cambios en: ./TRACKS/LEA/01_intro/README_ES.md
 Sin cambios en: ./TRACKS/LEA/01_intro/02_mechanics/README_ES.md
@@ -42,6 +42,14 @@ Archivo modificado: ./TRACKS/LIF/01_intro/01_baisc_knowledge/activities/00_01_02
 Archivo modificado: ./TRACKS/LIF/01_intro/01_baisc_knowledge/activities/00_01_03_LIF_wellbeign_intro_ES.md
 Archivo modificado: ./TRACKS/LIF/01_intro/01_baisc_knowledge/activities/00_01_01_LIF_selfawareness_intro_ES.md
 Sin cambios en: ./TRACKS/DAT/README_ES.md
+Sin cambios en: ./TRACKS/DAT/03_segmentation/README_ES.md
+Sin cambios en: ./TRACKS/DAT/03_segmentation/01_rfm/README_ES.md
+Archivo modificado: ./TRACKS/DAT/03_segmentation/01_rfm/activities/01_01_01_dat_conceptorfm_ES.md
+Archivo modificado: ./TRACKS/DAT/03_segmentation/01_rfm/activities/01_01_02_dat_cuartil_ES.md
+Archivo modificado: ./TRACKS/DAT/03_segmentation/01_rfm/activities/01_01_03_dat_categoria_ES.md
+Sin cambios en: ./TRACKS/DAT/03_segmentation/02_analisis/README_ES.md
+Archivo modificado: ./TRACKS/DAT/03_segmentation/02_analisis/activities/01_02_01_dat_resultados_ES.md
+Archivo modificado: ./TRACKS/DAT/03_segmentation/02_analisis/activities/01_02_02_dat_dashboard_ES.md
 Sin cambios en: ./TRACKS/DAT/02_exploratory/README_ES.md
 Sin cambios en: ./TRACKS/DAT/02_exploratory/01_categorial_vars/README_ES.md
 Archivo modificado: ./TRACKS/DAT/02_exploratory/01_categorial_vars/activities/01_01_01_dat_myfirstanalisis_ES.md
