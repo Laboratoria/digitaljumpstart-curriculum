@@ -1,25 +1,16 @@
 Sin cambios en: ./README.md
-Sin cambios en: ./COURSES/ZENDESK/README_ES.md
-Sin cambios en: ./COURSES/ZENDESK/01_zendesk_01/README_ES.md
-Sin cambios en: ./COURSES/ZENDESK/01_zendesk_01/02_modulo_02/README_ES.md
-Archivo modificado: ./COURSES/ZENDESK/01_zendesk_01/02_modulo_02/activities/01_02_02_zen_activity_01_ES.md
-Archivo modificado: ./COURSES/ZENDESK/01_zendesk_01/02_modulo_02/activities/01_02_01_zen_activity_01_ES.md
-Sin cambios en: ./COURSES/ZENDESK/01_zendesk_01/01_modulo_01/README_ES.md
-Archivo modificado: ./COURSES/ZENDESK/01_zendesk_01/01_modulo_01/activities/01_01_01_zen_activity_01_ES.md
-Archivo modificado: ./COURSES/ZENDESK/01_zendesk_01/01_modulo_01/activities/01_01_02_zen_activity_01_ES.md
-Sin cambios en: ./COURSES/ZENDESK/01_intro/README_ES.md
-Sin cambios en: ./COURSES/ZENDESK/01_intro/01_baisc_knowledge/README_ES.md
-Sin cambios en: ./COURSES/MARKETING/README_ES.md
-Sin cambios en: ./COURSES/MARKETING/03_dashboard/README_ES.md
-Archivo modificado: ./COURSES/MARKETING/03_dashboard/activities/03_01_dashboard.md
-Sin cambios en: ./COURSES/MARKETING/01_intro/README_ES.md
-Archivo modificado: ./COURSES/MARKETING/01_intro/activities/01_01_intro.md
-Archivo modificado: ./COURSES/MARKETING/01_intro/activities/01_02_exploracion.md
-Sin cambios en: ./COURSES/MARKETING/04_desafio/README_ES.md
-Archivo modificado: ./COURSES/MARKETING/04_desafio/activities/04_01_desafio.md
-Sin cambios en: ./COURSES/MARKETING/02_calculo/README_ES.md
-Archivo modificado: ./COURSES/MARKETING/02_calculo/activities/02_02_interpretacion.md
-Archivo modificado: ./COURSES/MARKETING/02_calculo/activities/02_01_calculo.md
+Sin cambios en: ./COURSES/DATA/README_ES.md
+Sin cambios en: ./COURSES/DATA/01_marketing/README_ES.md
+Sin cambios en: ./COURSES/DATA/01_marketing/03_dashboard/README_ES.md
+Archivo modificado: ./COURSES/DATA/01_marketing/03_dashboard/activities/03_01_dashboard_ES.md
+Sin cambios en: ./COURSES/DATA/01_marketing/01_intro/README_ES.md
+Archivo modificado: ./COURSES/DATA/01_marketing/01_intro/activities/01_01_intro_ES.md
+Archivo modificado: ./COURSES/DATA/01_marketing/01_intro/activities/01_02_exploracion_ES.md
+Sin cambios en: ./COURSES/DATA/01_marketing/04_desafio/README_ES.md
+Archivo modificado: ./COURSES/DATA/01_marketing/04_desafio/activities/04_01_desafio_ES.md
+Sin cambios en: ./COURSES/DATA/01_marketing/02_calculo/README_ES.md
+Archivo modificado: ./COURSES/DATA/01_marketing/02_calculo/activities/02_02_interpretacion_ES.md
+Archivo modificado: ./COURSES/DATA/01_marketing/02_calculo/activities/02_01_calculo_ES.md
 Sin cambios en: ./TRACKS/LEA/README_ES.md
 Sin cambios en: ./TRACKS/LEA/01_intro/README_ES.md
 Sin cambios en: ./TRACKS/LEA/01_intro/02_mechanics/README_ES.md
