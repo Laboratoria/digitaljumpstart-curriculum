@@ -1,4 +1,4 @@
-# Reto 1.2: Interpretación de KPIs para la toma de decisiones
+# Reto 2.2: Interpretación de KPIs para la toma de decisiones
 
 
 **Dificultad:** 🌻🌻🌻

@@ -1,4 +1,4 @@
-# Reto 1.1: Cálculo de KPIs fundamentales
+# Reto 2.1: Cálculo de KPIs fundamentales
 
 
 **Dificultad:** 🌻🌻

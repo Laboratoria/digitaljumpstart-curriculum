@@ -1,4 +1,4 @@
-# Reto 1.1: Construcción del dashboard
+# Reto 3.1: Construcción del dashboard
 
 
 **Dificultad:** 🌻🌻🌻
