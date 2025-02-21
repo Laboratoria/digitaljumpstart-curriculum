@@ -41,18 +41,18 @@ Revisa los conceptos relacionados con la construcción de dashboards y responde 
 
 
 ## Insumos para tu aprendizaje
-🔗 [Link para acceder a Looker Studio](https://lookerstudio.google.com/navigation/reporting) </li><li>
-📺 [Video como empezar en Looker Studio](https://www.youtube.com/watch?v=P5WLaeSQK7s&t=3s)
-📺 [Video Como conectar datos en Looker Studio](https://www.loom.com/share/0cce98d5bbc7482ea421444e2f850cc1) 
-📺 [Video visión general Looker Studio](https://www.loom.com/share/9c7505eb3c2a4612bdfb7c9d43c40051) 
-📺 [Video como crear un dashboard en data studio](https://www.youtube.com/watch?v=Sprmb4W82sk)
-📄 [Tutorial de Google Como crear un informe en Looker Studio](https://support.google.com/looker-studio/answer/6292570?hl=ES#zippy=%2Csecciones-de-este-art%C3%ADculo) 
-⚠️Recientemente, Data Studio ha cambiado de nombre a Looker Studio, por lo que es posible que encuentres referencias a Data Studio en algunos contenidos. Sin embargo, se trata del mismo producto. 
-📺 [Video como crear graficos de barras](https://www.youtube.com/watch?v=B3hPsl-8u3A)
-📺 [Video tablas en Looker Studio](https://www.youtube.com/watch?v=7CLCz3PgJ5s)
-💡 Las tablas dinámicas en Looker Studio son similares a las tablas dinámicas de Google Sheets que ya conoces. 
-📺 [Video filtros en Looker Studio](https://www.youtube.com/watch?v=HZMZcNf1jdk) 
-📺 [Tips para crear un Dashboard en Looker Studio](https://www.youtube.com/watch?v=DU0JFpO2Bcs)
+- 🔗 [Link para acceder a Looker Studio](https://lookerstudio.google.com/navigation/reporting) </li><li>
+- 📺 [Video como empezar en Looker Studio](https://www.youtube.com/watch?v=P5WLaeSQK7s&t=3s)
+- 📺 [Video Como conectar datos en Looker Studio](https://www.loom.com/share/0cce98d5bbc7482ea421444e2f850cc1) 
+- 📺 [Video visión general Looker Studio](https://www.loom.com/share/9c7505eb3c2a4612bdfb7c9d43c40051) 
+- 📺 [Video como crear un dashboard en data studio](https://www.youtube.com/watch?v=Sprmb4W82sk)
+- 📄 [Tutorial de Google Como crear un informe en Looker Studio](https://support.google.com/looker-studio/answer/6292570?hl=ES#zippy=%2Csecciones-de-este-art%C3%ADculo) 
+- ⚠️Recientemente, Data Studio ha cambiado de nombre a Looker Studio, por lo que es posible que encuentres referencias a Data Studio en algunos contenidos. Sin embargo, se trata del mismo producto. 
+- 📺 [Video como crear graficos de barras](https://www.youtube.com/watch?v=B3hPsl-8u3A)
+- 📺 [Video tablas en Looker Studio](https://www.youtube.com/watch?v=7CLCz3PgJ5s)
+- 💡 Las tablas dinámicas en Looker Studio son similares a las tablas dinámicas de Google Sheets que ya conoces. 
+- 📺 [Video filtros en Looker Studio](https://www.youtube.com/watch?v=HZMZcNf1jdk) 
+- 📺 [Tips para crear un Dashboard en Looker Studio](https://www.youtube.com/watch?v=DU0JFpO2Bcs)
 
 ## Pauta de Trabajo
 - Crea gráficos en Looker Studio para cada KPI, utilizando barras, líneas o tablas dinámicas según la mejor representación visual para cada indicador. 
@@ -60,7 +60,7 @@ Revisa los conceptos relacionados con la construcción de dashboards y responde 
 - Optimiza el diseño visual de tu dashboard, utilizando colores, tamaños y fuentes adecuadas para facilitar la lectura y comprensión de los datos. 
 - Personaliza el dashboard según el público objetivo, priorizando la simplicidad y claridad. Considera incluir títulos, leyendas y explicaciones donde sea necesario. 
 - Haz pruebas interactivas para asegurarte de que los filtros y gráficos respondan correctamente a las diferentes interacciones. 
-Tip: Utiliza colores contrastantes para resaltar las métricas clave y asegúrate de que los usuarios puedan navegar fácilmente entre las diferentes vistas del dashboard.
+- Tip: Utiliza colores contrastantes para resaltar las métricas clave y asegúrate de que los usuarios puedan navegar fácilmente entre las diferentes vistas del dashboard.
 ¡Aquí te dejamos un pequeño ejemplo para inspirarte!:
 [imagen3](https://drive.google.com/uc?id=1u25D1K9TmYPzfkfkZx1HfBTcMXB30I6m)
 ---
