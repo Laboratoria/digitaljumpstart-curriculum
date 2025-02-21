@@ -55,14 +55,14 @@ Revisa los datos disponibles en la base de datos proporcionada en  "Insumos para
 - [x] Creas gráficos adecuados que representen la información de manera clara y comprensible.
 
 ## Insumos para tu aprendizaje
-📈[Base de datos](https://docs.google.com/spreadsheets/d/1WZQDO4b-CrXtiYbgGk__mcmtKofkP6q3_AuFcJ6xkcw/copy?)
+- 📈[Base de datos](https://docs.google.com/spreadsheets/d/1WZQDO4b-CrXtiYbgGk__mcmtKofkP6q3_AuFcJ6xkcw/copy?)
 *Haz una copia del dataset para comenzar tu análisis. Recuerda que debes estar registrada en tu cuenta de Google.
-📺[Video: Tablas dinámicas](https://www.loom.com/share/5937ac5fb32c424285e952bc07097580?sid=44e51ec0-a90d-4657-ab8d-ed543513adff)
-📄[Texto: Cómo crear y usar tablas dinámicas](https://support.google.com/docs/answer/1272900?sjid=13953989927308243057-EU)
-📄 [Texto: Documentación Gráficos](https://support.google.com/docs/answer/63824?hl=es&co=GENIE.Platform%3DDesktop)
-📄 [Texto: Artículo sobre gráficos de barras](https://tipshojasdecalculo.com/grafico-de-barras-en-google-sheets/)
-📄 [Texto: Documentación tipos de gráficos](https://support.google.com/docs/answer/190718?hl=es-419)
-📺 [Video: como crear y personalizar gráficos](https://www.youtube.com/watch?v=Ws2cTgMTPQE&t=17s)
+- 📺[Video: Tablas dinámicas](https://www.loom.com/share/5937ac5fb32c424285e952bc07097580?sid=44e51ec0-a90d-4657-ab8d-ed543513adff)
+- 📄[Texto: Cómo crear y usar tablas dinámicas](https://support.google.com/docs/answer/1272900?sjid=13953989927308243057-EU)
+- 📄 [Texto: Documentación Gráficos](https://support.google.com/docs/answer/63824?hl=es&co=GENIE.Platform%3DDesktop)
+- 📄 [Texto: Artículo sobre gráficos de barras](https://tipshojasdecalculo.com/grafico-de-barras-en-google-sheets/)
+- 📄 [Texto: Documentación tipos de gráficos](https://support.google.com/docs/answer/190718?hl=es-419)
+- 📺 [Video: como crear y personalizar gráficos](https://www.youtube.com/watch?v=Ws2cTgMTPQE&t=17s)
 
 
 
