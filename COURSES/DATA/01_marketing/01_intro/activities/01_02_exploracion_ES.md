@@ -24,15 +24,25 @@ Para darte un poco de contexto, en este proyecto trabajaremos con una base de da
 
 
 1.) ad_id: Identificador único para cada anuncio (el ID del anuncio es único, pero la campaña puede haber sido anunciada varias veces).
+
 2.) xyz_campaign_id: ID asociado a cada campaña publicitaria de la empresa XYZ.
+
 3.) fb_campaign_id: ID utilizado por Facebook para rastrear cada campaña.
+
 4.) age: Edad de la persona a la que se muestra el anuncio.
+
 5.) gender: Género de la persona a la que se muestra el anuncio.
+
 6.) interest: Código que especifica la categoría de interés del usuario (según su perfil público en Facebook).
+
 7.) Impressions: Número de veces que se mostró el anuncio.
+
 8.) Clicks: Número de clics recibidos por el anuncio.
+
 9.) Spent: Monto pagado por la empresa XYZ a Facebook para mostrar el anuncio.
+
 10.) Total conversion: Número total de personas que solicitaron información sobre el producto después de ver el anuncio.
+
 11.) Approved conversion: Número total de personas que compraron el producto después de ver el anuncio.
 
 
@@ -40,6 +50,7 @@ Como ya estudiaste en el reto anterior, aquí tenemos las principales métricas 
 
 
 Teniendo esto en cuenta, exploraremos aún más la base de datos para conocer en detalle la información contenida en cada variable. Esto nos permitirá obtener un conocimiento profundo que será clave en los próximos retos. Comprender los datos disponibles y su origen es una parte fundamental del análisis de datos, ya que nos ayuda a realizar un mejor estudio y tomar decisiones más informadas.
+
 Revisa los datos disponibles en la base de datos proporcionada en  "Insumos para tu aprendizaje" y responde a las siguientes preguntas:
 - ¿Cuáles son los principales datos disponibles en la base de datos y qué representan?
 - ¿Cómo se pueden calcular los números totales de anuncios, clics, impresiones, gasto y conversiones? 
