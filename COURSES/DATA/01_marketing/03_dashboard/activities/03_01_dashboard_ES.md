@@ -42,7 +42,7 @@ Revisa los conceptos relacionados con la construcción de dashboards y responde 
 
 ## Insumos para tu aprendizaje
 - 🔗 [Link para acceder a Looker Studio](https://lookerstudio.google.com/navigation/reporting) </li><li>
-- 📺 [Video como empezar en Looker Studio](https://www.youtube.com/watch?v=P5WLaeSQK7s&t=3s)
+📺 [Video como empezar en Looker Studio](https://www.youtube.com/watch?v=P5WLaeSQK7s&t=3s)
 - 📺 [Video Como conectar datos en Looker Studio](https://www.loom.com/share/0cce98d5bbc7482ea421444e2f850cc1) 
 - 📺 [Video visión general Looker Studio](https://www.loom.com/share/9c7505eb3c2a4612bdfb7c9d43c40051) 
 - 📺 [Video como crear un dashboard en data studio](https://www.youtube.com/watch?v=Sprmb4W82sk)
