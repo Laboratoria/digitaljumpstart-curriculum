@@ -48,8 +48,8 @@ Utiliza los KPIs calculados previamente para responder a las siguientes pregunta
 
 
 ## Insumos para tu aprendizaje
-📺 [Video: Cómo interpretar métricas de marketing digital para mejorar campañas](https://www.youtube.com/watch?v=PciThfujlD0)
-📺 [Qué KPIs Analizar en Redes Sociales](https://www.youtube.com/watch?v=u_BmGi4RxRQ).
+- 📺 [Video: Cómo interpretar métricas de marketing digital para mejorar campañas](https://www.youtube.com/watch?v=PciThfujlD0)
+- 📺 [Qué KPIs Analizar en Redes Sociales](https://www.youtube.com/watch?v=u_BmGi4RxRQ).
 
 ## Pauta de Trabajo
 - Organiza los datos por campaña y calcula el promedio de cada KPI.
