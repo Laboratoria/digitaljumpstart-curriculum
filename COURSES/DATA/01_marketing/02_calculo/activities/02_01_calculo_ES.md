@@ -36,12 +36,12 @@ Revisa los conceptos y fórmulas de los KPIs fundamentales y responde a esta pre
 - [x] Calculas correctamente los KPIs utilizando la base de datos proporcionada.
 
 ## Insumos para tu aprendizaje
-📄 [Texto: Definición y cálculo de KPIs (CTR, CPC, CPA, CR,y ROI)](https://docs.google.com/document/d/1wFkWk1OzjN3mQ9Re2_d94r4ujUFF0nsOS2aiuyLJ9Xc/edit?usp=sharing).
+- 📄 [Texto: Definición y cálculo de KPIs (CTR, CPC, CPA, CR,y ROI)](https://docs.google.com/document/d/1wFkWk1OzjN3mQ9Re2_d94r4ujUFF0nsOS2aiuyLJ9Xc/edit?usp=sharing).
 
 ## Pauta de Trabajo
 - Revisa la base de datos y familiarízate con las variables necesarias para calcular cada KPI.
 - Aplica las fórmulas de CTR, CPC, CPA y CR en los datos disponibles.
-Tip: Crea una columna para cada KPI y utiliza los operadores matemáticos para aplicar las fórmulas. Recuerda que podemos usar la función IFERROR para evitar errores de división y mostrar 0 en las celdas donde corresponda.
+- Tip: Crea una columna para cada KPI y utiliza los operadores matemáticos para aplicar las fórmulas. Recuerda que podemos usar la función IFERROR para evitar errores de división y mostrar 0 en las celdas donde corresponda.
 
 
 ---
