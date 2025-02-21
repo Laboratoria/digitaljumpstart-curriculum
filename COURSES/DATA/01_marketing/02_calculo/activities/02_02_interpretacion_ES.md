@@ -26,11 +26,17 @@ Reflexiona sobre los resultados y revisa el significado de cada KPI, analizando 
 Utiliza los KPIs calculados previamente para responder a las siguientes preguntas: 
 
 ¿Cuál es el promedio de cada KPI (CTR, CPC, CPA, CR) por campaña?
+
 ¿Qué campaña muestra un mejor rendimiento general?
+
 ¿Cuáles son las características de la audiencia con el mejor CPA y mayor cantidad de conversiones? (Género, edad, intereses).
+
 ¿Cómo se comparan las tres campañas analizadas y cuál fue la más efectiva en términos de conversiones y costo? 
+
 ¿Qué decisiones estratégicas podrían tomarse para mejorar el rendimiento de futuras campañas?
+
 ¿Cómo influyen estos indicadores en la evaluación del rendimiento de una campaña de marketing digital?
+
 ¿Qué valores ideales o de referencia pueden considerarse para cada KPI en el contexto de redes sociales?
 
 ### Cumples con la meta de aprendizaje si:
