@@ -22,8 +22,11 @@ Aprenderás a calcular e interpretar los principales KPIs del marketing digital 
 
 ## Descripción
 Ahora que ya conocemos nuestros datos, sabemos cuántas campañas ha realizado la empresa, cuál es la representación de cada género y que nuestro público objetivo incluye diversas edades e intereses, podemos calcular nuestros KPIs. En esta base de datos, probablemente hayas notado que no podemos calcular el ROI (pero te dejo un *spoiler*: en el módulo 4 profundizaremos más sobre este indicador).
-Además de comprender los datos, es fundamental entender, antes de hacer los cálculos, qué es lo que queremos observar y analizar. Nuestro objetivo es evaluar el impacto en los posibles clientes o en aquellos que ya han completado una compra y se han convertido en clientes efectivos. Por eso, es importante prestar atención: al calcular los indicadores, debemos elegir una de dos perspectivas: utilizar la variable total_conversion o approved_conversion. Estás libre para elegir (o hacer las dos), pero es esencial mantener la consistencia al calcular los indicadores con el mismo enfoque para lograr una mejor comparabilidad (Si vas a utilizar total_conversion, utilizas para todos los KPI para poder comparar después).
+
+Además de comprender los datos, es fundamental entender, antes de hacer los cálculos, qué es lo que queremos observar y analizar. Nuestro objetivo es evaluar el impacto en los posibles clientes o en aquellos que ya han completado una compra y se han convertido en clientes efectivos. Por eso, es importante prestar atención: al calcular los indicadores, debemos elegir una de dos perspectivas (utilizar la variable total_conversion o approved_conversion). Eres libre de elegir (o hacer las dos), pero es esencial mantener la consistencia al calcular los indicadores con el mismo enfoque para lograr una mejor comparabilidad (si vas a utilizar total_conversion, la utilizarás para todos los KPI para poder comparar después).
+
 Revisa los conceptos y fórmulas de los KPIs fundamentales y responde a esta pregunta:
+
 ¿Qué significa cada uno de los siguientes KPIs y cómo se calculan?
 - CTR (Click-Through Rate)
 - CPC (Cost per Click)
