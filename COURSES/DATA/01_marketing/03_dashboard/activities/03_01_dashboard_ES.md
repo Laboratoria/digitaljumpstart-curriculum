@@ -22,11 +22,11 @@ Aprenderás a construir un dashboard interactivo utilizando los KPIs calculados,
 
 ## Descripción
 Revisa los conceptos relacionados con la construcción de dashboards y responde a las siguientes preguntas: 
-¿Cómo se crean gráficos de barras, líneas y tablas dinámicas para visualizar KPIs como CTR, CPC, CPA y CR? 
-¿Cómo se aplican filtros por campaña, género y edad para segmentar los datos y facilitar su análisis? 
-¿Qué elementos de diseño visual son importantes al crear un dashboard para que sea claro y efectivo? 
-¿Cómo personalizas un dashboard para que sea fácilmente interpretable por los usuarios que lo consultarán? 
-¿Qué elementos deben considerarse para mejorar la interactividad del dashboard y hacer que sea útil para diferentes necesidades analíticas?
+- ¿Cómo se crean gráficos de barras, líneas y tablas dinámicas para visualizar KPIs como CTR, CPC, CPA y CR? 
+- ¿Cómo se aplican filtros por campaña, género y edad para segmentar los datos y facilitar su análisis? 
+- ¿Qué elementos de diseño visual son importantes al crear un dashboard para que sea claro y efectivo? 
+- ¿Cómo personalizas un dashboard para que sea fácilmente interpretable por los usuarios que lo consultarán? 
+- ¿Qué elementos deben considerarse para mejorar la interactividad del dashboard y hacer que sea útil para diferentes necesidades analíticas?
 
 
 
