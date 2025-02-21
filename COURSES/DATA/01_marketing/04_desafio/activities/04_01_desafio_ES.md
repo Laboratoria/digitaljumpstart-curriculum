@@ -25,28 +25,28 @@ En esta nueva base de datos, analizarás los datos de dos campañas de una empre
 En esta base de datos, encontrarás las siguientes variables:
 
 
-1.) ad_id: Identificador único para cada anuncio (el ID del anuncio es único, pero la campaña puede haber sido anunciada varias veces).
-2.) xyz_campaign_id: ID asociado a cada campaña publicitaria de la empresa XYZ.
-3.) fb_campaign_id: ID utilizado por Facebook para rastrear cada campaña.
-4.) age: Edad de la persona a la que se muestra el anuncio.
-5.) gender: Género de la persona a la que se muestra el anuncio.
-6.) interest: Código que especifica la categoría de interés del usuario (según su perfil público en Facebook).
-7.) Impressions: Número de veces que se mostró el anuncio.
-8.) Clicks: Número de clics recibidos por el anuncio.
-9.) Spent: Monto pagado por la empresa XYZ a Facebook para mostrar el anuncio.
-10.) Total conversion: Número total de personas que solicitaron información sobre el producto después de ver el anuncio.
-11.) Approved conversion: Número total de personas que compraron el producto después de ver el anuncio.
-12.) revenue: (ingresos) total de dinero generado por la venta.
+- 1.) ad_id: Identificador único para cada anuncio (el ID del anuncio es único, pero la campaña puede haber sido anunciada varias veces).
+- 2.) xyz_campaign_id: ID asociado a cada campaña publicitaria de la empresa XYZ.
+- 3.) fb_campaign_id: ID utilizado por Facebook para rastrear cada campaña.
+- 4.) age: Edad de la persona a la que se muestra el anuncio.
+- 5.) gender: Género de la persona a la que se muestra el anuncio.
+- 6.) interest: Código que especifica la categoría de interés del usuario (según su perfil público en Facebook).
+- 7.) Impressions: Número de veces que se mostró el anuncio.
+- 8.) Clicks: Número de clics recibidos por el anuncio.
+- 9.) Spent: Monto pagado por la empresa XYZ a Facebook para mostrar el anuncio.
+- 10.) Total conversion: Número total de personas que solicitaron información sobre el producto después de ver el anuncio.
+- 11.) Approved conversion: Número total de personas que compraron el producto después de ver el anuncio.
+- 12.) revenue: (ingresos) total de dinero generado por la venta.
 
 Con la nueva base de datos disponible en "Insumos para tu aprendizaje", tendrás que responder a las siguientes preguntas clave, mientras pones en práctica todo lo aprendido en los módulos anteriores: 
-¿Cuál es el ROI promedio de las campañas?
-¿Qué resultados has obtenido para los KPIs en las campañas?
-¿Cuál es el promedio de cada KPI (CTR, CPC, CPA, CR) por campaña?
-¿Qué campaña muestra un mejor rendimiento general?
-¿Cuáles son las características de la audiencia con el mejor CPA y mayor cantidad de conversiones? (Género, edad, intereses).
-¿Cómo puedes segmentar los datos utilizando filtros (por ejemplo, por campaña, género, edad, interés) para obtener una vista más granular del rendimiento?
-¿Cómo utilizar los gráficos y filtros del dashboard en Looker Studio para visualizar estos resultados de manera clara y comprensible?
-¿Qué decisiones de marketing o cambios podrías sugerir basándote en los datos obtenidos?
+- ¿Cuál es el ROI promedio de las campañas?
+- ¿Qué resultados has obtenido para los KPIs en las campañas?
+- ¿Cuál es el promedio de cada KPI (CTR, CPC, CPA, CR) por campaña?
+- ¿Qué campaña muestra un mejor rendimiento general?
+- ¿Cuáles son las características de la audiencia con el mejor CPA y mayor cantidad de conversiones? (Género, edad, intereses).
+- ¿Cómo puedes segmentar los datos utilizando filtros (por ejemplo, por campaña, género, edad, interés) para obtener una vista más granular del rendimiento?
+- ¿Cómo utilizar los gráficos y filtros del dashboard en Looker Studio para visualizar estos resultados de manera clara y comprensible?
+- ¿Qué decisiones de marketing o cambios podrías sugerir basándote en los datos obtenidos?
 
 ### Cumples con la meta de aprendizaje si:
 - [x] Calculas correctamente el ROI y otras métricas clave de marketing.
