@@ -23,27 +23,27 @@ Desarrollarás habilidades para explorar y analizar una base de datos de marketi
 Para darte un poco de contexto, en este proyecto trabajaremos con una base de datos real extraída del repositorio de datasets de Kaggle. Hemos realizado algunas modificaciones con fines didácticos. En esta base de datos podemos encontrar las siguientes variables:
 
 
-1.) ad_id: Identificador único para cada anuncio (el ID del anuncio es único, pero la campaña puede haber sido anunciada varias veces).
+1. ad_id: Identificador único para cada anuncio (el ID del anuncio es único, pero la campaña puede haber sido anunciada varias veces).
 
-2.) xyz_campaign_id: ID asociado a cada campaña publicitaria de la empresa XYZ.
+2. xyz_campaign_id: ID asociado a cada campaña publicitaria de la empresa XYZ.
 
-3.) fb_campaign_id: ID utilizado por Facebook para rastrear cada campaña.
+3. fb_campaign_id: ID utilizado por Facebook para rastrear cada campaña.
 
-4.) age: Edad de la persona a la que se muestra el anuncio.
+4. age: Edad de la persona a la que se muestra el anuncio.
 
-5.) gender: Género de la persona a la que se muestra el anuncio.
+5. gender: Género de la persona a la que se muestra el anuncio.
 
-6.) interest: Código que especifica la categoría de interés del usuario (según su perfil público en Facebook).
+6. interest: Código que especifica la categoría de interés del usuario (según su perfil público en Facebook).
 
-7.) Impressions: Número de veces que se mostró el anuncio.
+7. Impressions: Número de veces que se mostró el anuncio.
 
-8.) Clicks: Número de clics recibidos por el anuncio.
+8. Clicks: Número de clics recibidos por el anuncio.
 
-9.) Spent: Monto pagado por la empresa XYZ a Facebook para mostrar el anuncio.
+9. Spent: Monto pagado por la empresa XYZ a Facebook para mostrar el anuncio.
 
-10.) Total conversion: Número total de personas que solicitaron información sobre el producto después de ver el anuncio.
+10. Total conversion: Número total de personas que solicitaron información sobre el producto después de ver el anuncio.
 
-11.) Approved conversion: Número total de personas que compraron el producto después de ver el anuncio.
+11. Approved conversion: Número total de personas que compraron el producto después de ver el anuncio.
 
 
 Como ya estudiaste en el reto anterior, aquí tenemos las principales métricas que nos permitirán calcular algunos KPIs en los siguientes retos. Además, con el conocimiento adquirido hasta ahora, podemos comprender mejor el origen de los datos, como por ejemplo, cómo se extrajeron los datos de clics, cómo se identificó que cada campaña era distinta y cómo se pueden definir distintos "targets" para posteriormente analizar el comportamiento de cada perfil de cliente.
@@ -67,15 +67,20 @@ Revisa los datos disponibles en la base de datos proporcionada en  "Insumos para
 
 ## Insumos para tu aprendizaje
 - 📈[Base de datos](https://docs.google.com/spreadsheets/d/1WZQDO4b-CrXtiYbgGk__mcmtKofkP6q3_AuFcJ6xkcw/copy?)
+
 *Haz una copia del dataset para comenzar tu análisis. Recuerda que debes estar registrada en tu cuenta de Google.
+
 - 📺[Video: Tablas dinámicas](https://www.loom.com/share/5937ac5fb32c424285e952bc07097580?sid=44e51ec0-a90d-4657-ab8d-ed543513adff)
+
 - 📄[Texto: Cómo crear y usar tablas dinámicas](https://support.google.com/docs/answer/1272900?sjid=13953989927308243057-EU)
+
 - 📄 [Texto: Documentación Gráficos](https://support.google.com/docs/answer/63824?hl=es&co=GENIE.Platform%3DDesktop)
+
 - 📄 [Texto: Artículo sobre gráficos de barras](https://tipshojasdecalculo.com/grafico-de-barras-en-google-sheets/)
+
 - 📄 [Texto: Documentación tipos de gráficos](https://support.google.com/docs/answer/190718?hl=es-419)
+
 - 📺 [Video: como crear y personalizar gráficos](https://www.youtube.com/watch?v=Ws2cTgMTPQE&t=17s)
-
-
 
 
 
@@ -89,9 +94,11 @@ Revisa los datos disponibles en la base de datos proporcionada en  "Insumos para
 
 Tip: Usa herramientas como tablas dinámicas y gráficos en Google Sheets para facilitar la segmentación y el análisis de datos. Aquí dejamos un pequeño ejemplo de como puedes utilizar tablas dinámicas y gráficos para resumir informaciones.
 
-![imagen1](https://drive.google.com/uc?id=1Rn6GuS28FmVbQr6AE_jwGQkJt4c31ahM)
+![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/COURSES/DATA/00_assets/imgen_mkt_0102_01.png)
 
-![imagen2](https://drive.google.com/uc?id=1R18idIhUQgmmSN_JalgmS48A5KKOSA24xd)
+
+![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/COURSES/DATA/00_assets/imgen_mkt_0102_02.png)
+
 
 ---
 

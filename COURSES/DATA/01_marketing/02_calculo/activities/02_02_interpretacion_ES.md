@@ -1,4 +1,4 @@
-# Reto 1.2: Interpretación de KPIs para la toma de decisiones
+# Reto 2.2: Interpretación de KPIs para la toma de decisiones
 
 
 **Dificultad:** 🌻🌻🌻
@@ -49,6 +49,7 @@ Utiliza los KPIs calculados previamente para responder a las siguientes pregunta
 
 ## Insumos para tu aprendizaje
 - 📺 [Video: Cómo interpretar métricas de marketing digital para mejorar campañas](https://www.youtube.com/watch?v=PciThfujlD0)
+
 - 📺 [Qué KPIs Analizar en Redes Sociales](https://www.youtube.com/watch?v=u_BmGi4RxRQ).
 
 ## Pauta de Trabajo

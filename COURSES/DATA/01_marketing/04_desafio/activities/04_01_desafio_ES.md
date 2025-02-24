@@ -1,4 +1,4 @@
-# Reto 1.1: Haz tu primer análisis de indicadores de marketing
+# Reto 4.1: Haz tu primer análisis de indicadores de marketing
 
 
 **Dificultad:** 🌻🌻🌻
@@ -25,29 +25,29 @@ En esta nueva base de datos, analizarás los datos de dos campañas de una empre
 En esta base de datos, encontrarás las siguientes variables:
 
 
-1.) ad_id: Identificador único para cada anuncio (el ID del anuncio es único, pero la campaña puede haber sido anunciada varias veces).
+1. ad_id: Identificador único para cada anuncio (el ID del anuncio es único, pero la campaña puede haber sido anunciada varias veces).
 
-2.) xyz_campaign_id: ID asociado a cada campaña publicitaria de la empresa XYZ.
+2. xyz_campaign_id: ID asociado a cada campaña publicitaria de la empresa XYZ.
 
-3.) fb_campaign_id: ID utilizado por Facebook para rastrear cada campaña.
+3. fb_campaign_id: ID utilizado por Facebook para rastrear cada campaña.
 
-4.) age: Edad de la persona a la que se muestra el anuncio.
+4. age: Edad de la persona a la que se muestra el anuncio.
 
-5.) gender: Género de la persona a la que se muestra el anuncio.
+5. gender: Género de la persona a la que se muestra el anuncio.
 
-6.) interest: Código que especifica la categoría de interés del usuario (según su perfil público en Facebook).
+6. interest: Código que especifica la categoría de interés del usuario (según su perfil público en Facebook).
 
-7.) Impressions: Número de veces que se mostró el anuncio.
+7. Impressions: Número de veces que se mostró el anuncio.
 
-8.) Clicks: Número de clics recibidos por el anuncio.
+8. Clicks: Número de clics recibidos por el anuncio.
 
-9.) Spent: Monto pagado por la empresa XYZ a Facebook para mostrar el anuncio.
+9. Spent: Monto pagado por la empresa XYZ a Facebook para mostrar el anuncio.
 
-10.) Total conversion: Número total de personas que solicitaron información sobre el producto después de ver el anuncio.
+10. Total conversion: Número total de personas que solicitaron información sobre el producto después de ver el anuncio.
 
-11.) Approved conversion: Número total de personas que compraron el producto después de ver el anuncio.
+11. Approved conversion: Número total de personas que compraron el producto después de ver el anuncio.
 
-12.) revenue: (ingresos) total de dinero generado por la venta.
+12. revenue: (ingresos) total de dinero generado por la venta.
 
 Con la nueva base de datos disponible en "Insumos para tu aprendizaje", tendrás que responder a las siguientes preguntas clave, mientras pones en práctica todo lo aprendido en los módulos anteriores: 
 - ¿Cuál es el ROI promedio de las campañas?
@@ -67,6 +67,7 @@ Con la nueva base de datos disponible en "Insumos para tu aprendizaje", tendrás
 
 ## Insumos para tu aprendizaje
 📈[Base de datos](https://docs.google.com/spreadsheets/d/1R9whmGqq4SKVFVAuCUhv87hBUvkKG5Zc5a7kVfDjCwY/copy?)
+
 
 ## Pauta de Trabajo
 - Realiza una copia del dataset y calcula los indicadores como lo hiciste con los datos anteriores. Además, ahora también puedes calcular el ROI.  
