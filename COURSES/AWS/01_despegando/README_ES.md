@@ -17,10 +17,10 @@
 
 ---
 
-Antes de partir: algunos pasos importantes
-1. Debes crearte un usuario en la web de [AWS + Laboratoria] (https://aws-laboratoria.ontidwit.com/#/login?returnUrl=%2Fcontent-items%3Fid%3Db9579974-ca31-4f23-8c9f-1ce317485dcd%26b%3Db.a7c3ebaf3cec4fb3ac9df61e33abafbd.z%26lpid%3D881e76d7-724c-4cae-a722-55b91f49367f%26campaignId) aquí estará alojado el material teórico y práctico del curso.
+## Antes de partir: algunos pasos importantes
+1. Debes crearte un usuario en la web de - [AWS + Laboratoria](https://aws-laboratoria.ontidwit.com/#/login?returnUrl=%2Fcontent-items%3Fid%3Db9579974-ca31-4f23-8c9f-1ce317485dcd%26b%3Db.a7c3ebaf3cec4fb3ac9df61e33abafbd.z%26lpid%3D881e76d7-724c-4cae-a722-55b91f49367f%26campaignId) (aquí estará alojado el material teórico y práctico del curso).
 
-2. Debes crear un usuario en [AWS Educate] (https://www.awseducate.com/registration/s/?language=en_US) (esto te permitirá realizar los módulos 2, 3 y 4 del curso).
+2. Debes crear un usuario en - [AWS Educate](https://www.awseducate.com/registration/s/?language=en_US) (esto te permitirá realizar los módulos 2, 3 y 4 del curso).
 
 3. Una vez ahí seleccionarás estos 3 módulos:
 </p>Introduction to the AWS Management Console.</p>
@@ -30,9 +30,9 @@ Antes de partir: algunos pasos importantes
 
 
 
-Cuando hayas terminado una actividad tienes dos opciones para marcar tu progreso:
-Opción A: da clic en el botón verde a tu derecha: “marcar como completada” esto nos ayuda a identificar  el progreso de tu avance.
-Opción B: da clic en el botón “ir a Discord” y reacciona con “check” en la conversación correspondiente a la actividad.
+## Cuando hayas terminado una actividad tienes dos opciones para marcar tu progreso:
+</p>Opción A: da clic en el botón verde a tu derecha: “marcar como completada” esto nos ayuda a identificar  el progreso de tu avance.</p>
+</p>Opción B: da clic en el botón “ir a Discord” y reacciona con “check” en la conversación correspondiente a la actividad.</p>
 
-Ahora sí, ya estás lista para comenzar.
+## Ahora sí ¡Ya estás lista para comenzar!
 
