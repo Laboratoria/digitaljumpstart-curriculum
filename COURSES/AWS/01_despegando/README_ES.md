@@ -18,7 +18,7 @@
 ---
 
 Antes de partir: algunos pasos importantes
-1. Debes crearte un usuario en la web de  [AWS + <L>] (https://aws-laboratoria.ontidwit.com/#/login?returnUrl=%2Fcontent-items%3Fid%3Db9579974-ca31-4f23-8c9f-1ce317485dcd%26b%3Db.a7c3ebaf3cec4fb3ac9df61e33abafbd.z%26lpid%3D881e76d7-724c-4cae-a722-55b91f49367f%26campaignId) aquí estará alojado el material teórico y práctico del curso.
+1. Debes crearte un usuario en la web de [AWS + Laboratoria] (https://aws-laboratoria.ontidwit.com/#/login?returnUrl=%2Fcontent-items%3Fid%3Db9579974-ca31-4f23-8c9f-1ce317485dcd%26b%3Db.a7c3ebaf3cec4fb3ac9df61e33abafbd.z%26lpid%3D881e76d7-724c-4cae-a722-55b91f49367f%26campaignId) aquí estará alojado el material teórico y práctico del curso.
 
 2. Debes crear un usuario en [AWS Educate] (https://www.awseducate.com/registration/s/?language=en_US) (esto te permitirá realizar los módulos 2, 3 y 4 del curso).
 
