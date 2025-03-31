@@ -1,4 +1,4 @@
-# Reto 2.1: Introducción a Consola de Administración de AWS (teórico-práctico)
+# 2.1: Introducción a Consola de Administración de AWS (teórico-práctico)
 
 
 
