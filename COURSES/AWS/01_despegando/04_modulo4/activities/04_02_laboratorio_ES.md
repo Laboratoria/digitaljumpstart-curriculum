@@ -1,4 +1,4 @@
-# Reto 4.2: Me falta un título, dame una identidad
+# 4.2: Introducción al cómputo (práctica)
 
 
 **Dificultad:** 🌻
