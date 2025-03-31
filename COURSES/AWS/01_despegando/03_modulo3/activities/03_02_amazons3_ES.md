@@ -1,46 +1,48 @@
-# Reto 3.2: Me falta un título, dame una identidad
+# 3.2: Introducción al almacenamiento (práctica)
 
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻🌻🌻
 
 
-**Aprendizaje:** 🍯
+**Aprendizaje:** 🍯🍯🍯
 
 
-**Tiempo:** ⏱️ 1-2 hrs.
+**Tiempo:** ⏱️ 1 hr.
 
 ---
 
 ## Meta de Aprendizaje
-<!- Tiene que haber una meta de aprendizaje explícita, por simple que sea.-->
-Al completar esta actividad serás capaz de....
+Al completar esta actividad serás capaz de reforzar tu comprensión de algunos conceptos básicos de Amazon S3.
+
 
 ## Descripción
-Revisar la sección Guía de laboratorio de Introducción a Amazon Simple Storage Service (Amazon S3)
+En esta sección tendrás acceso a una consola de administración de AWS para practicar los aprendido en la actividad teórica. Podrás interactuar con esta consola para usar Amazon S3 y completar las tareas solicitadas en el laboratorio. 
 
-Esta sección presenta un PDF con la guía para el laboratorio práctico.
+Además, este apartado cuenta con un PDF con la guía para el laboratorio práctico.
 
-Cuando hayas terminado una actividad tienes dos opciones para marcar tu progreso:
-Opción A: da clic en el botón verde a tu derecha: “marcar como completada” esto nos ayuda a identificar  el progreso de tu avance.
-Opción B: da clic en el botón “ir a Discord” y reacciona con “check” en la conversación correspondiente a la actividad.
 
 
 ### Cumples con la meta de aprendizaje si:
-<!- Debes proveer hechos concretos, observables, objetivos que permitan a la estudiante auto-evaluar su aprendizaje en esta actividad..-->
+Comprendes los siguientes conceptos básicos de Amazon:
 
-- [x] Puedes entender correctamente cada uno de los KPIs mencionados.
-- [x] Etc.
+
+- [ ] Tipos y clases de almacenamiento.
+- [ ] Administración de buckets y objetos.
+- [ ] Configuraciones de Amazon S3 para ahorrar costos y agregar seguridad.
 
 ## Insumos para tu aprendizaje
-<!- La actividad debe ser autocontenida, es decir que el 100% de insumos necesarios deben estar listados y disponibles acá.-->
-- 📄 [Texto: Dummy Ejemplo)](https://www.google.com/)
+Aquí encontrarás todos los recursos necesarios para hacer este módulo: 
+- 📄 [Link](https://awseducate.instructure.com/courses/914/modules)
 
-- 📺 [Vídeo: AWS.](https://www.youtube.com)
 
 ## Pauta de Trabajo
-<!- Para bajar la ambiguedad. Damos una pauta de trabajo/solución que no implique que la estudiante sea una autómata.-->
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+- Revisar la sección Guía de laboratorio de Introducción a Amazon Simple Storage Service (Amazon S3)
+
+- Luego presiona “Next” y da clic en el botón “Cargar introducción al almacenamiento en otra ventana”.
+  
+- Sigue los pasos que te indica la guía.
+ 
 
 ---
 
