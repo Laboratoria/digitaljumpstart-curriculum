@@ -7,12 +7,13 @@
 <!-- El siguiente bloque de comentario se usa también  para mostrar un preview o resumen del program, skill o module en thumbnails de FE (por ejemplo) -->
 <!-- preview:start -->
 <p>En este curso exploraremos el concepto de la nube de AWS. Aprenderás los fundamentos de Amazon Web Services, incluyendo cómo proporciona servicios de almacenamiento y cómputo a través de la nube. Adquirirás conocimientos básicos para utilizar Amazon S3 y EC2. Así como lo que necesitas saber para operar con la consola de administración de AWS.</p>
-<p><br>Fundamentos de la nube AWS.</p>
-<p><br>Introducción a Consola de Administración de AWS.</p>
-<p><br>Introducción al almacenamiento.</p>
-<p><br>Introducción al cómputo.
+<p><br>Módulos:
+<p>Fundamentos de la nube AWS.</p>
+<p>Introducción a Consola de Administración de AWS.</p>
+<p>Introducción al almacenamiento.</p>
+<p>Introducción al cómputo.
 </p>
-<p><br><b>Tiempo ⏱️️ :</b> Al dedicar 5 horas por semana y ajustando según tu ritmo, podrás completar esta habilidad en 5 semanas.</p>
+<p><br><b>Tiempo ⏱️️ :</b> Al dedicar 5 horas por semana y ajustando según tu ritmo, podrás completar este curso en 5 semanas.</p>
 <!-- preview:end -->
 
 ---
