@@ -1,4 +1,4 @@
-# ◼️ Módulo 3: Dame un título, una identidad
+# ◼️ Módulo 3:  Introducción al almacenamiento
 
 
 **Tiempo de lectura:** ⏱️️ 5min
