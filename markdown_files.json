@@ -300,9 +300,9 @@
     "learning": 0,
     "time": 0,
     "directions": "<p>Puedes registrar tu progreso de dos maneras: Opción A: da clic en el botón 'Marcar como completada' Opción B: dirígete a Discord y reacciona con ✅ en el enunciado de la actividad.</p><p>💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de terminar tu reto y compartir la URL.</p><p>📢 Al terminar, regresa a Discord 💬 y comparte el enlace a tu trabajo en el hilo.</p><p>No olvides dejar el enlace público para que tus compañeras puedan verlo.</p>",
-    "discord_URL": "https://discord.com",
-    "discord_channel_id": "",
-    "discord_message_id": "discord.com",
+    "discord_URL": "https://discord.com/channels/1209273049304666113/1355253304883675296/threads/1355303864169005060",
+    "discord_channel_id": "threads",
+    "discord_message_id": "1355303864169005060",
     "slug": "AWS-01_despegando-03_modulo3-03_01_introalmacena_ES"
   },
   {
