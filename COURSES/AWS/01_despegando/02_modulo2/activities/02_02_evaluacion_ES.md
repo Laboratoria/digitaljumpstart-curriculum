@@ -13,7 +13,7 @@
 ---
 
 ## Descripción
-En esta actividad realizarás la sección: evaluación final del módulo, la cual te servirá para identificar qué aspectos has comprendido mejor en la actividad anterior y cuáles puedes seguir reforzando. 
+En esta actividad realizarás la sección: "Evaluación final del módulo", la cual te servirá para identificar qué aspectos has comprendido mejor en la actividad anterior y cuáles puedes seguir reforzando. 
 Deberás obtener una puntuación mínima de 70.0 para que se considere como completada esta actividad. Puedes intentar la evaluación las veces que sea necesario.
 
 
