@@ -1,4 +1,4 @@
-# Reto 4.1: Me falta un título, dame una identidad
+# 4.1: Introducción al cómputo (teoría)
 
 
 **Dificultad:** 🌻
