@@ -27,7 +27,6 @@ Archivo modificado: ./COURSES/AWS/01_despegando/02_modulo2/activities/02_02_eval
 Archivo modificado: ./COURSES/AWS/01_despegando/02_modulo2/activities/02_01_consola_ES.md
 Sin cambios en: ./COURSES/AWS/01_despegando/01_fundamentos/README_ES.md
 Archivo modificado: ./COURSES/AWS/01_despegando/01_fundamentos/activities/01_01_computacion_ES.md
-Archivo modificado: ./COURSES/AWS/01_despegando/01_fundamentos/activities/01_02_quees_ES.md
 Sin cambios en: ./TRACKS/LIF/README_ES.md
 Sin cambios en: ./TRACKS/LIF/01_intro/README_ES.md
 Sin cambios en: ./TRACKS/LIF/01_intro/01_baisc_knowledge/README_ES.md

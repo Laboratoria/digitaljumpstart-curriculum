@@ -493,23 +493,6 @@
     "slug": "AWS-01_despegando-01_fundamentos-01_01_computacion_ES"
   },
   {
-    "track": "AWS",
-    "skill": "01_despegando",
-    "module": "01_fundamentos",
-    "title": "Reto 1.2: Me falta un título, dame una identidad",
-    "type": "activity",
-    "path": "COURSES/AWS/01_despegando/01_fundamentos/activities/01_02_quees_ES.md",
-    "lang": "ES",
-    "difficulty": 0,
-    "learning": 0,
-    "time": 0,
-    "directions": "<p>Puedes registrar tu progreso de dos maneras: Opción A: da clic en el botón 'Marcar como completada' Opción B: dirígete a Discord y reacciona con ✅ en el enunciado de la actividad.</p><p>💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de terminar tu reto y compartir la URL.</p><p>📢 Al terminar, regresa a Discord 💬 y comparte el enlace a tu trabajo en el hilo.</p><p>No olvides dejar el enlace público para que tus compañeras puedan verlo.</p>",
-    "discord_URL": "https://discord.com",
-    "discord_channel_id": "",
-    "discord_message_id": "discord.com",
-    "slug": "AWS-01_despegando-01_fundamentos-01_02_quees_ES"
-  },
-  {
     "track": "LIF",
     "skill": "README_ES.md",
     "module": null,
