@@ -17,7 +17,6 @@ Sin cambios en: ./COURSES/AWS/01_despegando/03_modulo3/README_ES.md
 Archivo modificado: ./COURSES/AWS/01_despegando/03_modulo3/activities/03_03_revisionalmacena_ES.md
 Archivo modificado: ./COURSES/AWS/01_despegando/03_modulo3/activities/03_01_introalmacena_ES.md
 Archivo modificado: ./COURSES/AWS/01_despegando/03_modulo3/activities/03_02_amazons3_ES.md
-Archivo modificado: ./COURSES/AWS/01_despegando/03_modulo3/activities/03_04_evaluacion_ES.md
 Sin cambios en: ./COURSES/AWS/01_despegando/04_modulo4/README_ES.md
 Archivo modificado: ./COURSES/AWS/01_despegando/04_modulo4/activities/04_02_laboratorio_ES.md
 Archivo modificado: ./COURSES/AWS/01_despegando/04_modulo4/activities/04_01_introcomputo_ES.md
