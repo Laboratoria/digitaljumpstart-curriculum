@@ -1,47 +1,51 @@
-# Reto 3.1: Me falta un título, dame una identidad
+# 3.1: Introducción al almacenamiento (teoría)
 
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻🌻🌻
 
 
-**Aprendizaje:** 🍯
+**Aprendizaje:** 🍯🍯🍯
 
 
-**Tiempo:** ⏱️ 1-2 hrs.
+**Tiempo:** ⏱️ 3 hrs.
 
 ---
+## Introducción
+
+
+En este módulo te centrarás en los elementos clave de Amazon Simple Storage Service (Amazon S3), un servicio de almacenamiento que ofrece escalabilidad, disponibilidad de datos, seguridad y rendimiento.
+
+En este [video](https://www.loom.com/share/33479b3942e74bff9d82715dc07a6de2?sid=951783bf-8099-4805-a62c-b1b4cf66ae5c)  te explicamos el paso a paso para realizar las actividades del módulo.
+
 
 ## Meta de Aprendizaje
-<!- Tiene que haber una meta de aprendizaje explícita, por simple que sea.-->
-Al completar esta actividad serás capaz de....
+Al completar esta actividad serás capaz de comprender de algunos conceptos básicos de Amazon S3.
+
 
 ## Descripción
-Revisar la sección Contenido de Introducción al almacenamiento.
-
 En esta sección teórica se presentan conceptos básicos de Amazon S3: tipos y clases de almacenamiento, administración de buckets y objetos, y configuraciones de Amazon S3 para ahorrar costos y agregar seguridad.
 
-Cuando hayas terminado una actividad tienes dos opciones para marcar tu progreso:
-Opción A: da clic en el botón verde a tu derecha: “marcar como completada” esto nos ayuda a identificar  el progreso de tu avance.
-Opción B: da clic en el botón “ir a Discord” y reacciona con “check” en la conversación correspondiente a la actividad.
 
 
 ### Cumples con la meta de aprendizaje si:
-<!- Debes proveer hechos concretos, observables, objetivos que permitan a la estudiante auto-evaluar su aprendizaje en esta actividad..-->
+Comprendes los siguientes conceptos básicos de Amazon:
 
-- [x] Puedes entender correctamente cada uno de los KPIs mencionados.
-- [x] Etc.
+- [ ] Tipos y clases de almacenamiento.
+- [ ] Administración de buckets y objetos.
+- [ ] Configuraciones de Amazon S3 para ahorrar costos y agregar seguridad.
+
 
 ## Insumos para tu aprendizaje
-<!- La actividad debe ser autocontenida, es decir que el 100% de insumos necesarios deben estar listados y disponibles acá.-->
 
-- 📄 [Texto: Dummy Ejemplo)](https://www.google.com/)
+Aquí encontrarás todos los recursos necesarios para hacer este módulo:
 
-- 📺 [Vídeo: AWS.](https://www.youtube.com)
+
+- 📄 [Link](https://awseducate.instructure.com/courses/914/modules)
+
 
 ## Pauta de Trabajo
-<!- Para bajar la ambiguedad. Damos una pauta de trabajo/solución que no implique que la estudiante sea una autómata.-->
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Revisa la sección "Contenido de Introducción al almacenamiento" y sigue las indicaciones que se encuentran en ese material.
 
 ---
 
