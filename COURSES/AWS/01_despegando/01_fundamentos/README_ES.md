@@ -15,8 +15,8 @@
 </p>2. Explorar los fundamentos de Amazon Web Services, incluyendo cómo proporciona servicios de almacenamiento, cómputo y más a través de la nube.
 
 
-<p>Aquí encuentras todas los recursos disponibles en este módulo: - [link](https://aws-laboratoria.ontidwit.com/#/libraries?id=881e76d7-724c-4cae-a722-55b91f49367f) 
-<p>No olvides dar clic en el botón "Inscribirse" para desbloquear los contenidos de aprendizaje.
+<p><br>Aquí encuentras todas los recursos disponibles en este módulo: - [link](https://aws-laboratoria.ontidwit.com/#/libraries?id=881e76d7-724c-4cae-a722-55b91f49367f) 
+<p><br>No olvides dar clic en el botón "Inscribirse" para desbloquear los contenidos de aprendizaje.
 
 
 
