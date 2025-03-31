@@ -11,6 +11,23 @@ Sin cambios en: ./COURSES/DATA/01_marketing/04_desafio/README_ES.md
 Archivo modificado: ./COURSES/DATA/01_marketing/04_desafio/activities/04_01_desafio_ES.md
 Sin cambios en: ./COURSES/DATA/01_marketing/03_dashboard/README_ES.md
 Archivo modificado: ./COURSES/DATA/01_marketing/03_dashboard/activities/03_01_dashboard_ES.md
+Sin cambios en: ./COURSES/AWS/README_ES.md
+Sin cambios en: ./COURSES/AWS/01_despegando/README_ES.md
+Sin cambios en: ./COURSES/AWS/01_despegando/03_modulo3/README_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/03_modulo3/activities/03_03_revisionalmacena_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/03_modulo3/activities/03_01_introalmacena_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/03_modulo3/activities/03_02_amazons3_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/03_modulo3/activities/03_04_evaluacion_ES.md
+Sin cambios en: ./COURSES/AWS/01_despegando/04_modulo4/README_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/04_modulo4/activities/04_02_laboratorio_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/04_modulo4/activities/04_01_introcomputo_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/04_modulo4/activities/04_03_evaluacion_ES.md
+Sin cambios en: ./COURSES/AWS/01_despegando/02_modulo2/README_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/02_modulo2/activities/02_02_evaluacion_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/02_modulo2/activities/02_01_consola_ES.md
+Sin cambios en: ./COURSES/AWS/01_despegando/01_fundamentos/README_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/01_fundamentos/activities/01_01_computacion_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/01_fundamentos/activities/01_02_quees_ES.md
 Sin cambios en: ./TRACKS/LIF/README_ES.md
 Sin cambios en: ./TRACKS/LIF/01_intro/README_ES.md
 Sin cambios en: ./TRACKS/LIF/01_intro/01_baisc_knowledge/README_ES.md
