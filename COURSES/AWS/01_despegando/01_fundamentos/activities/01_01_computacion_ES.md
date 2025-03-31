@@ -10,37 +10,46 @@
 **Tiempo:** ⏱️ 1-2 hrs.
 
 ---
+## Introducción
 
-## Meta de Aprendizaje
-<!- Tiene que haber una meta de aprendizaje explícita, por simple que sea.-->
-Al completar esta actividad serás capaz de....
+
+<p><br>Tendremos 2 objetivos:
+<p>1. Entender el concepto de la nube de AWS. 
+</p>2. Explorar los fundamentos de Amazon Web Services, incluyendo cómo proporciona servicios de almacenamiento, cómputo y más a través de la nube.
+
+
+<p><br>Aquí encuentras todas los recursos disponibles en este módulo: 
+  
+- [Link](https://aws-laboratoria.ontidwit.com/#/libraries?id=881e76d7-724c-4cae-a722-55b91f49367f)
+  
+<p><br>No olvides dar clic en el botón "Inscribirse" para desbloquear los contenidos de aprendizaje.
+
+  ## Meta de Aprendizaje
+Al completar esta actividad serás capaz de tener una noción de qué es la nube de AWS y para qué sirve.
 
 ## Descripción
-Revisa el video: ¿Qué es computación en la nube de AWS? 
-
-En este webinar aprenderás qué es la computación en la nube y específicamente qué es AWS mediante una sencilla analogía de un cliente de una cafetería.
-
-Cuando hayas terminado una actividad tienes dos opciones para marcar tu progreso:
-Opción A: da clic en el botón verde a tu derecha: “marcar como completada” esto nos ayuda a identificar  el progreso de tu avance.
-Opción B: da clic en el botón “ir a Discord” y reacciona con “check” en la conversación correspondiente a la actividad.
+En esta actividad abordaremos una introducción a AWS y sus servicios básicos de computación, almacenamiento, redes y mensajería. Aprenderás conceptos básicos de seguridad, escalabilidad y alta disponibilidad de aplicación que hacen uso de servicios en la nube. Finalmente entenderás sobre la definición de precios y soporte de AWS.
 
 
 ### Cumples con la meta de aprendizaje si:
-<!- Debes proveer hechos concretos, observables, objetivos que permitan a la estudiante auto-evaluar su aprendizaje en esta actividad..-->
 
-- [x] Puedes entender correctamente cada uno de los KPIs mencionados.
-- [x] Etc.
+- [x] Puedes explicar con tus palabras y a grandes rasgos qué es y para qué sirve la nube AWS.
 
 ## Insumos para tu aprendizaje
-<!- La actividad debe ser autocontenida, es decir que el 100% de insumos necesarios deben estar listados y disponibles acá.-->
-- 📄 [Texto: Dummy Ejemplo)](https://www.google.com/)
 
-- 📺 [Vídeo: AWS.](https://www.youtube.com)
+- 📺 [Video: ¿Qué es la computación en la nube?](https://aws-laboratoria.ontidwit.com/#/content-items?id=b9579974-ca31-4f23-8c9f-1ce317485dcd&b=b.96af845e96e4419cb9afddd49f6c616d.z&lpid=881e76d7-724c-4cae-a722-55b91f49367f&campaignId)
+
+- 📺 [Vídeo: ¿Qué es la nube AWS?](https://aws-laboratoria.ontidwit.com/#/content-items?id=f3b0ea5e-aac3-4655-8142-38700b15e3a9&lpid=881e76d7-724c-4cae-a722-55b91f49367f)
 
 ## Pauta de Trabajo
-<!- Para bajar la ambiguedad. Damos una pauta de trabajo/solución que no implique que la estudiante sea una autómata.-->
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+- Revisa el video: ¿Qué es computación en la nube de AWS? 
+En este webinar aprenderás qué es la computación en la nube y específicamente qué es AWS mediante una sencilla analogía de un cliente de una cafetería.
+
+- Revisa el video: ¿Qué es la Nube de AWS? 
+Este video es una introducción a AWS y sus servicios básicos de computación, almacenamiento, redes y mensajería. Aprenderás conceptos básicos de seguridad, escalabilidad y alta disponibilidad de aplicación que hacen uso de servicios en la nube. Finalmente entenderás sobre la definición de precios y soporte de AWS.
+
+- Opcional: si quieres saber más acerca de la brecha de talento en la región y los trabajos del futuro, puedes revisar el Video:
+[¿Por qué entrenarse en la nube?](https://aws-laboratoria.ontidwit.com/#/content-items?id=4d39c7bd-58e3-4d72-b5e4-93b1e7d3107b&lpid=881e76d7-724c-4cae-a722-55b91f49367f)
 
 ---
 
