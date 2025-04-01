@@ -40,7 +40,7 @@ En esta actividad abordaremos una introducción a AWS y sus servicios básicos d
 
 ## Cumples con la meta de aprendizaje si:
 
-- [x] Puedes explicar con tus palabras y a grandes rasgos qué es y para qué sirve la nube AWS.
+- Puedes explicar con tus palabras y a grandes rasgos qué es y para qué sirve la nube AWS.
 
 ## Insumos para tu aprendizaje
 
