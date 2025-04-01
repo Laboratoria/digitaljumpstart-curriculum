@@ -26,9 +26,12 @@
 <p><br>No olvides dar clic en el botón "Inscribirse" para desbloquear los contenidos de aprendizaje.
 
 
+
 ## Meta de Aprendizaje
+
   
 Al completar esta actividad serás capaz de tener una noción de qué es la nube de AWS y para qué sirve.
+
 
 ## Descripción
 
