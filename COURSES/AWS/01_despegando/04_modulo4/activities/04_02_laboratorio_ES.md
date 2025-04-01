@@ -1,46 +1,37 @@
 # 4.2: Introducción al cómputo (práctica)
 
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻🌻🌻
 
 
-**Aprendizaje:** 🍯
+**Aprendizaje:** 🍯🍯🍯
 
 
-**Tiempo:** ⏱️ 1-2 hrs.
+**Tiempo:** ⏱️ 1 hr.
 
 ---
 
 ## Meta de Aprendizaje
-<!- Tiene que haber una meta de aprendizaje explícita, por simple que sea.-->
-Al completar esta actividad serás capaz de....
+Al completar esta actividad serás capaz de reforzar tu comprensión de algunos conceptos básicos de Amazon EC2.
 
 ## Descripción
-Revisar la sección Laboratorio del curso Introducción al Cómputo.
-
-En esta sección tendrás acceso a una consola de administración de AWS para practicar los aprendido en las secciones teóricas. Podrás interactuar con esta consola para usar Amazon EC2 y completar las tareas solicitadas en el laboratorio. 
-
-Cuando hayas terminado una actividad tienes dos opciones para marcar tu progreso:
-Opción A: da clic en el botón verde a tu derecha: “marcar como completada” esto nos ayuda a identificar  el progreso de tu avance.
-Opción B: da clic en el botón “ir a Discord” y reacciona con “check” en la conversación correspondiente a la actividad.
+En esta sección tendrás acceso a un simulador de consola de administración de AWS para practicar lo aprendido en las secciones teóricas. Podrás interactuar con el mismo para aprender a usar Amazon EC2 y completar las tareas solicitadas en la actividad. 
 
 
 ### Cumples con la meta de aprendizaje si:
-<!- Debes proveer hechos concretos, observables, objetivos que permitan a la estudiante auto-evaluar su aprendizaje en esta actividad..-->
+Comprendes los siguientes conceptos básicos de Amazon EC2: 
 
-- [x] Puedes entender correctamente cada uno de los KPIs mencionados.
-- [x] Etc.
+- [x] Tipos de instancias EC2  .
+- [x] Cómo utilizar Amazon EC2 para iniciar y configurar una instancia.
 
 ## Insumos para tu aprendizaje
-<!- La actividad debe ser autocontenida, es decir que el 100% de insumos necesarios deben estar listados y disponibles acá.-->
-- 📄 [Texto: Dummy Ejemplo)](https://www.google.com/)
-
-- 📺 [Vídeo: AWS.](https://www.youtube.com)
+Aquí encontrarás todos los recursos necesarios para hacer este módulo: 
+- 📄 [Link](https://awseducate.instructure.com/courses/935/modules)
 
 ## Pauta de Trabajo
-<!- Para bajar la ambiguedad. Damos una pauta de trabajo/solución que no implique que la estudiante sea una autómata.-->
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+- Revisar la sección "Laboratorio del curso Introducción al cómputo" y sigue los pasos que te indica la guía.
+- Presiona el botón “Instrucciones de simulación” arriba y a la derecha para obtener la guía PDF con el paso a paso.
+
 
 ---
 
