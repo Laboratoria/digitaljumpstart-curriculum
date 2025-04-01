@@ -18,7 +18,9 @@
 
 ---
 
+
 ## Antes de partir: algunos pasos importantes
+
 
 1. Debes crearte un usuario en la web:
    
