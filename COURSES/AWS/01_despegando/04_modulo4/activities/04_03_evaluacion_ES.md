@@ -1,44 +1,26 @@
 # 4.3: Evaluación de lo aprendido en el módulo 4
 
 
-**Dificultad:** 🌻
+**Dificultad:** 🌻🌻🌻
 
 
-**Aprendizaje:** 🍯
+**Aprendizaje:** 🍯 🍯 🍯
 
 
-**Tiempo:** ⏱️ 1-2 hrs.
+**Tiempo:** ⏱️ 1 hr.
 
 ---
 
-## Meta de Aprendizaje
-<!- Tiene que haber una meta de aprendizaje explícita, por simple que sea.-->
-Al completar esta actividad serás capaz de....
-
 ## Descripción
-Realizar la evaluación final
 
-Cuando hayas terminado una actividad tienes dos opciones para marcar tu progreso:
-Opción A: da clic en el botón verde a tu derecha: “marcar como completada” esto nos ayuda a identificar  el progreso de tu avance.
-Opción B: da clic en el botón “ir a Discord” y reacciona con “check” en la conversación correspondiente a la actividad.
+En esta actividad realizarás la sección "evaluación final del módulo", la cual te servirá para identificar qué aspectos has comprendido mejor en la actividad anterior y cuáles puedes seguir reforzando. 
+Deberás obtener una puntuación mínima de 70.0 para que se considere como completada esta actividad. Puedes intentar la evaluación las veces que sea necesario.
 
-
-### Cumples con la meta de aprendizaje si:
-<!- Debes proveer hechos concretos, observables, objetivos que permitan a la estudiante auto-evaluar su aprendizaje en esta actividad..-->
-
-- [x] Puedes entender correctamente cada uno de los KPIs mencionados.
-- [x] Etc.
 
 ## Insumos para tu aprendizaje
-<!- La actividad debe ser autocontenida, es decir que el 100% de insumos necesarios deben estar listados y disponibles acá.-->
-- 📄 [Texto: Dummy Ejemplo)](https://www.google.com/)
+Aquí encontrarás todos los recursos necesarios para hacer este módulo: 
+- 📄 [Link](https://awseducate.instructure.com/courses/935/modules)
 
-- 📺 [Vídeo: AWS.](https://www.youtube.com)
-
-## Pauta de Trabajo
-<!- Para bajar la ambiguedad. Damos una pauta de trabajo/solución que no implique que la estudiante sea una autómata.-->
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ---
 
