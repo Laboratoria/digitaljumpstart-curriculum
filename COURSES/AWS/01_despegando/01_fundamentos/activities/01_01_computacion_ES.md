@@ -19,12 +19,6 @@
 </p>2. Explorar los fundamentos de Amazon Web Services, incluyendo cómo proporciona servicios de almacenamiento, cómputo y más a través de la nube.
 
 
-<p><br>Aquí encuentras todas los recursos disponibles en este módulo: 
-  
-- [Link](https://aws-laboratoria.ontidwit.com/#/libraries?id=881e76d7-724c-4cae-a722-55b91f49367f)
-  
-<p><br>No olvides dar clic en el botón "Inscribirse" para desbloquear los contenidos de aprendizaje.
-
 
 
 ## Meta de Aprendizaje
@@ -44,7 +38,8 @@ En esta actividad abordaremos una introducción a AWS y sus servicios básicos d
 
 ## Insumos para tu aprendizaje
 
-
+<p><br>No olvides dar clic en el botón "Inscribirse" para desbloquear los contenidos de aprendizaje.
+  
 - 📺 [Video: ¿Qué es la computación en la nube?](https://aws-laboratoria.ontidwit.com/#/content-items?id=b9579974-ca31-4f23-8c9f-1ce317485dcd&b=b.96af845e96e4419cb9afddd49f6c616d.z&lpid=881e76d7-724c-4cae-a722-55b91f49367f&campaignId)
   
 
