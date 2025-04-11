@@ -7,7 +7,7 @@
 **Aprendizaje:** 🍯🍯🍯
 
 
-**Tiempo:** ⏱️ 3 hrs.
+**Tiempo:** ⏱️⏱️ 3 hrs.
 
 ---
 
