@@ -74,9 +74,5 @@ Seguramente estaremos hablando y utilizando mucho más todo esto para acelerar y
 
 ![image.png](https://codahosted.io/docs/e8wmWdSwLD/blobs/bl-5fUVyjHL8x/89ddf7521ad05b9be177c88db99e0664549653badeeaeb8631d3efd69d7d0fa27f5e1c1da8e38a5fd57fd563f4a6a01bd266b19ec662b9727ded6ccdc7c7a9f38298006e66b32df4bc725211f5833cf63d66ee65e3677a7c45412e3f82f2b60bc43f92dd)
 
----
-> - 🤔 Plantea tus dudas sobre la metodología de aprendizaje por *chat* en el [canal #general de Discord](https://discord.com/channels/1209273049304666113/1209273050076291097)
-> 
-> - 💬  Si quieres abrir una discusión más profunda y asíncrona, puedes hacerlo en el [foro de aprendizaje transversal en Discord](https://discord.com/channels/1209273049304666113/1217834825260601407)
 
 --- 
