@@ -6,13 +6,11 @@
 
 **Tiempo:** ⏱️️ 30 min.
 
-**Reacciona** con 👀 en Discord cuando comiences esta lectura, actividad o reto.
-
 ---
 
 Ahora que llegaste al final de la Introducción, completa la siguiente actividad para terminar.
 
-Escribe un mensaje numerado en el hilo, de manera que cubras lo siguiente:
+Responde a las siguientes preguntas:
 
 ## 1. Integración
 
