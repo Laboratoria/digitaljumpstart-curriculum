@@ -26,11 +26,6 @@ En lo que respecta a la educación, la importancia del trabajo de Rose radica en
 
 Su trabajo es relevante porque desafía conceptos arraigados sobre la igualdad y la justicia en la educación, argumentando que la verdadera equidad no se consigue al tratar a todas las personas de la misma manera, sino de reconocer y valorar nuestras infinitas diferencias individuales. Esto tiene implicaciones profundas no solo para la educación, sino también para cómo concebimos el trabajo, el éxito y el desarrollo personal en una sociedad **verdaderamente diversa**.
 
----
-> - 🤔 Plantea tus dudas sobre la metodología de aprendizaje por *chat* en el [canal #general de Discord](https://discord.com/channels/1209273049304666113/1209273050076291097)
-> 
-> - 💬  Si quieres abrir una discusión más profunda y asíncrona, puedes hacerlo en el [foro de aprendizaje transversal en Discord](https://discord.com/channels/1209273049304666113/1217834825260601407)
-
 --- 
 
 Opcional si quieres profundizar por tu cuenta:
