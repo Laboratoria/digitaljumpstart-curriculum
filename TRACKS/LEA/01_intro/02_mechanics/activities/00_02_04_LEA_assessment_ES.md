@@ -28,7 +28,7 @@ Está totalmente OK 👍 si optas únicamente por tu autoevaluación para monito
 
 Cada actividad o reto contiene una **guía** que te permitirá evaluar si efectivamente conseguiste la meta de aprendizaje indicada. Tómate el tiempo suficiente para revisar tu trabajo siguiendo cada uno de los puntos de la guía. Pide ayuda siempre que lo necesites, no tengas vergüenza o pena de hacerlo, todas están acá para aprender.
 
-Cuando hayas completado tu autoevaluación, debes reaccionar con ✅ al enunciado correspondiente en Discord. Recibirás una cantidad de 🍯 que representa la cantidad de aprendizaje conseguido por completar la actividad.
+Cuando hayas completado tu autoevaluación, debes oprimir el botón "marcar como completada" a la actidad correspondiente. De esa forma irás registrando tu avance.
 
 Comparte la URL de tu trabajo en el hilo debajo del enunciado en Discord.
 
@@ -40,29 +40,8 @@ Para responder estas incógnitas puedes optar, **además** de la autoevaluación
 
 ### ¿Cómo pedir evaluación de una compañera?
 
-Sigue los siguientes pasos para participar de la dinámica:  
-
-1. Deja un mensaje según corresponda en 🔵[dev-ayuda](https://discord.com/channels/1209273049304666113/1210673338947739758) |🟢[noc-ayuda](https://discord.com/channels/1209273049304666113/1230553558823342120) | 🟠[dat-ayuda](https://discord.com/channels/1209273049304666113/1232000787719262270) pidiendo evaluaciónde una compañera y un enlace/liga al recurso para que todas puedan acceder.  
+Sigue los siguientes pasos para participar de la dinámica:  Deja un mensaje según corresponda en 🔵[dev-ayuda](link) pidiendo evaluaciónde una compañera y un enlace/liga al recurso para que todas puedan acceder.  También puedes contactar directamnete a alguna una compañera de la que quieres recibir  evaluación si así lo prefieres.
    
-    ![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LEA/00_assets/2024-04-24%2017-06-47.png)
-   
-   También puedes etiquetar o "arrobar" a una compañera de la que quieres recibir  evaluación si así lo prefieres.
-   
-    ![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LEA/00_assets/2024-04-24%2017-09-04.png)
-
-2. Cuando una compañera responda a tu mensaje podrás decidir si quieres recompensarla por su ayuda. Sé justa y responsable con tu decisión. 
-   
-   Para hacerlo, reacciona a su respuesta con un emoji de 🍯. De esa manera, das 5🍯 y ella recibe 8🍯.
-
-    ![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LEA/00_assets/2024-04-24%2017-24-01.png)
-
-3. Tú también puedes mejorar tu aprendizaje evaluando el trabajo de otras y, además, obtener más 🍯. Usa la misma dedicación y cuidado que pones para evaluar tu propio trabajo.
-
----
-> - 🤔 Plantea tus dudas sobre la metodología de aprendizaje por *chat* en el [canal #general de Discord](https://discord.com/channels/1209273049304666113/1209273050076291097)
-> 
-> - 💬  Si quieres abrir una discusión más profunda y asíncrona, puedes hacerlo en el [foro de aprendizaje transversal en Discord](https://discord.com/channels/1209273049304666113/1217834825260601407)
-
 --- 
 
 Extra:
