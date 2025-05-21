@@ -54,11 +54,6 @@ Si consigues sintonizar, te llevarás una experiencia transformadora. Esperamos 
 
 Además, ¡no olvides que estarás rodeada de mujeres con perfiles diversos que estarán aprendiendo también! Es fundamental la comunidad para conseguir un aprendizaje colaborativo y efectivo.
 
----
-> - 🤔 Plantea tus dudas sobre la metodología de aprendizaje por *chat* en el [canal #general de Discord](https://discord.com/channels/1209273049304666113/1209273050076291097)
-> 
-> - 💬  Si quieres abrir una discusión más profunda y asíncrona, puedes hacerlo en el [foro de aprendizaje transversal en Discord](https://discord.com/channels/1209273049304666113/1217834825260601407)
-
 --- 
 
 Opcional si quieres profundizar por tu cuenta:
