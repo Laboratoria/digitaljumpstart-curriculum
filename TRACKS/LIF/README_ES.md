@@ -68,9 +68,4 @@ Lo que aprenderás:
 
 </details>
 
-<details>
-<summary>⚫ Finanzas personales (en preparación...)</summary>
 
-(En preparación...)
-
-</details>
