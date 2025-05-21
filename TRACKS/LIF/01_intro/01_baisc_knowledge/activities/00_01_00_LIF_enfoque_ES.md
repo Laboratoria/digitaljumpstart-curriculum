@@ -18,8 +18,6 @@ Esto ignora el contexto en el que se desenvuelven estas habilidades. Puede ser q
 
 **Te proponemos un cambio de paradigma desde la “calificación” y "cuantificación" de habilidades hacia el auto-conocimiento basado en la observación y reflexión constantes.**
 
-![pasted image 0.png](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LIF/00_assets/lifeskills_dinamica.png)
-
 ## Pilares
 
 ### Autoconocimiento (como meta-habilidad)
