@@ -3,8 +3,7 @@
   "learning": 1,
   "time": 1,
   "directions": {
-    "ES": "<p>Puedes registrar tu progreso de dos maneras: Opción A: da clic en el botón 'Marcar como completada' Opción B: dirígete a Discord y reacciona con ✅ en el enunciado de la actividad.</p><p>📢 💬 Comenta en el hilo Discord sobre algo que te haya llamado la atención sobre el tema.</p><p>¿Quieres compartir tu tipo de personalidad?</p>",
-    "PT": "null"
+    "ES": ""<p>Para registrar tu progreso da clic en el botón 'Marcar como completada'</p><p>💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de terminar tu reto.</p>",
   },
   "discord_URL": {
     "ES": "https://discord.com/channels/1209273049304666113/1210727974484185178",
