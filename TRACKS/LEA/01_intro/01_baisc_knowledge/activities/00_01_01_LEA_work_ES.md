@@ -56,12 +56,6 @@ Así, no solo se está redefiniendo quién puede participar en el espacio tradic
 
 Piensa la cantidad inmensa de trabajo manual que se hace en miles de empleos y podría ser perfectamente "automatizable" con un mínimo de habilidades digitales y con servicios de bajo costo que abundan en Internet. Actualizar planillas, documentos, envío de mensajes, concatenar procesos de unas plataformas o herramientas con otras, vuelve a las empresas y a las personas mucho más eficientes y libera su capacidad cognitiva de solución de problemas y creatividad para las que, por ahora, no hay tecnología que sustituya.
 
----
-
-> - 🤔 Plantea tus dudas sobre la metodología de aprendizaje por *chat* en el [canal #general de Discord](https://discord.com/channels/1209273049304666113/1209273050076291097)
-> 
-> - 💬  Si quieres abrir una discusión más profunda y asíncrona, puedes hacerlo en el [foro de aprendizaje transversal en Discord](https://discord.com/channels/1209273049304666113/1217834825260601407)
-
 --- 
 
 Opcional si quieres profundizar por tu cuenta:
