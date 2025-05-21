@@ -28,9 +28,3 @@ Si bien te proponemos una experiencia de aprendizaje introductorio práctica que
 Buscamos facilitar un espacio seguro para generar conciencia e interés en las crecientes oportunidades de la economía digital y que ninguna se quede sin la oportunidad de explorar y dar sus primeros pasos de aprendizaje.
 
 ---
-
-> - 🤔 Plantea tus dudas por *chat* en el [canal #general de Discord](https://discord.com/channels/1209273049304666113/1209273050076291097)
-> 
-> - 📢 💬 Si quieres abrir una discusión, puedes hacerlo en el [foro de aprendizaje transversal en Discord](https://discord.com/channels/1209273049304666113/1217834825260601407)
-
----
