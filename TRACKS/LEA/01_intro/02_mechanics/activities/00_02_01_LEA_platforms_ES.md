@@ -35,3 +35,5 @@ Aquí ocurrirán las videollamadas. Tendremos un link para el turno mañana y un
 - [Link-turno mañana](https://laboratoria-la.zoom.us/j/81844245238)
 - [Link-turno tarde](https://laboratoria-la.zoom.us/j/88359592033)
 
+- En este [Calendario](https://calendar.google.com/calendar/u/0?cid=Y185YTA5ZWI0MzExZDExNjUyMGY1ZTc5ZTQwYTVkOGUyYzI3ZjhhNDk0OWU3MWUxMTAxYTY0NzVjMGJjNDMyZWQyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) podrás consultar cuándo habrá sesiones en vivo.
+
