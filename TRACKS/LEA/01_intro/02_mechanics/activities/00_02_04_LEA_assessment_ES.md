@@ -30,8 +30,6 @@ Cada actividad o reto contiene una **guía** que te permitirá evaluar si efecti
 
 Cuando hayas completado tu autoevaluación, debes oprimir el botón "marcar como completada" a la actidad correspondiente. De esa forma irás registrando tu avance.
 
-Comparte la URL de tu trabajo en el hilo debajo del enunciado en Discord.
-
 ## 2. Agregar evaluación de pares
 
 No obstante, seguro te has encontrado con la incógnita de saber si interpretaste correctamente la guía de autoevaluación, si en tu trabajo hay algún error o fallo que no hayas detectado o simplemente buscas una confirmación que te permita continuar con más confianza.
@@ -40,7 +38,7 @@ Para responder estas incógnitas puedes optar, **además** de la autoevaluación
 
 ### ¿Cómo pedir evaluación de una compañera?
 
-Sigue los siguientes pasos para participar de la dinámica:  Deja un mensaje según corresponda en 🔵[dev-ayuda](link) pidiendo evaluaciónde una compañera y un enlace/liga al recurso para que todas puedan acceder.  También puedes contactar directamnete a alguna una compañera de la que quieres recibir  evaluación si así lo prefieres.
+Sigue los siguientes pasos para participar de la dinámica:  Deja un mensaje según corresponda en el canal del WhatsApp del módulo que estés resolviendo, pidiendo evaluaciónde una compañera y un enlace/link al recurso para que todas puedan acceder.  También puedes contactar directamnete a alguna una compañera de la que quieres recibir  evaluación si así lo prefieres.
    
 --- 
 
