@@ -18,9 +18,9 @@ Todas las semanas hay sesiones en vivo por videollamada en Zoom con el equipo de
 
 ## ¿Dónde y cómo pedir ayuda?
 **Usa los canales de WhatsApp:**
-⁠[General](https://chat.whatsapp.com/KgqYecKTK8SJ2GoJ3y6IDw) - Úsalo para cualquier cosa relacionada al programa en general. Dudas sobre la mecánica, dónde encontrar el material para aprender, sobre sesiones en vivo, etc.
+- ⁠[General](https://chat.whatsapp.com/KgqYecKTK8SJ2GoJ3y6IDw) - Úsalo para cualquier cosa relacionada al programa en general. Dudas sobre la mecánica, dónde encontrar el material para aprender, sobre sesiones en vivo, etc.
 
-**Para pedir ayuda sobre las actividades o retos, _feedback_ de tu trabajo, etc.:**
+- **Para pedir ayuda sobre las actividades o retos, _feedback_ de tu trabajo, etc.:**
 Usaremos los canales por módulo de un curso.
 
 ## 🍯 ¿Cómo se vería tu aprendizaje en la práctica?
