@@ -13,22 +13,21 @@ Sabemos que tendrás vergüenza, que te sentirás insegura, que no querrás pare
 Todas las semanas hay sesiones en vivo por videollamada en Zoom con el equipo de "<Laboratoria>". 
 
 **Sesiones de ayudantía técnica:**
-- Al menos 1 o 2 veces por semana para cada ruta o tema técnico. Por ejemplo, auyudantía para las que está aprendiendo Análisis de Datos, etc.
+- Al menos 1 o 2 veces por semana para cada curso o tema técnico.
 - Si bien a veces habrá algunos temas pre-definidos para cada sesión, el máximo valor de un espacio en vivo es que podamos interactuar, aprovecha este espacio para preguntarnos, mostrar tu avance, resolver dudas, errores, etc.
 
 ## ¿Dónde y cómo pedir ayuda?
 **Usa los canales de WhatsApp:**
-⁠[│general](link) - Úsalo para cualquier cosa relacionada al programa en general. Dudas sobre la mecánica, dónde encontrar las cosas, sobre sesiones en vivo, etc.
+⁠[General](https://chat.whatsapp.com/KgqYecKTK8SJ2GoJ3y6IDw) - Úsalo para cualquier cosa relacionada al programa en general. Dudas sobre la mecánica, dónde encontrar el material para aprender, sobre sesiones en vivo, etc.
 
 **Para pedir ayuda sobre las actividades o retos, _feedback_ de tu trabajo, etc.:**
-[dev-ayuda](link) - Si estás siguiendo la ruta de Desarrollo Web.
+Usaremos los canales por módulo de un curso.
 
 ## 🍯 ¿Cómo se vería tu aprendizaje en la práctica?
-Aunque, como ya comentamos, consideramos que cada una debe aprender a su ritmo y según sus posibilidades (tiempo disponible, trabajo, otras responsabilidades, etc.), también puede suceder que se diluya tu un poco tu perseverancia. Por eso te recomendamos intentar completar en los rangos de tiempo indicados en los materiales.
+Aunque, como ya comentamos, consideramos que cada una debe aprender a su ritmo y según sus posibilidades (tiempo disponible, trabajo, otras responsabilidades, etc.), también puede suceder que se diluya un poco tu perseverancia. Por eso te recomendamos intentar completar en los rangos de tiempo indicados en los materiales.
 
 - Para los retos, seguramente tendrás algún bloqueo o error y necesitarás ayuda para terminar. Puedes:
   - Asistir a la siguiente sesión de ayudantía en vivo.
-  - Preguntar por el canal correspondiente. Alguna compañera o alguien del equipo de "<Laboratoria>" te ayudará.
+  - Preguntar por el canal correspondiente al módulo que estés trabajando. Alguna compañera o alguien del equipo de "<Laboratoria>" te ayudará.
 
-El resto se trata de particpar, proponer rutas nuevas, temas para sesiones, generar grupos o círculos de aprendizaje, etc. Esto es solamente el comienzo.
 
