@@ -28,6 +28,6 @@ Aunque, como ya comentamos, consideramos que cada una debe aprender a su ritmo y
 
 - Para los retos, seguramente tendrás algún bloqueo o error y necesitarás ayuda para terminar. Puedes:
   - Asistir a la siguiente sesión de ayudantía en vivo.
-  - Preguntar por el canal correspondiente al módulo que estés trabajando. Alguna compañera o alguien del equipo de "<Laboratoria>" te ayudará.
+  - Preguntar por el canal correspondiente al módulo que estés trabajando. Alguna compañera o alguien del equipo de Laboratoria te ayudará.
 
 
