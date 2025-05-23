@@ -10,7 +10,7 @@
 **Tiempo:** ⏱️️⏱️️⏱️️ 3-5 hrs.
 
 
-**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
+
 
 
 ---
@@ -70,11 +70,13 @@ Con la nueva base de datos disponible en "Insumos para tu aprendizaje", tendrás
 
 
 ## Pauta de Trabajo
-- Realiza una copia del dataset y calcula los indicadores como lo hiciste con los datos anteriores. Además, ahora también puedes calcular el ROI.  
-- Carga la nueva base de datos con los datos procesados en Looker Studio.  
-- Segmenta los datos por diferentes criterios (género, edad, interés, etc.) utilizando filtros y gráficos interactivos para obtener insights más detallados sobre el rendimiento de las campañas.  
-- Diseña el dashboard de manera intuitiva y fácil de interpretar, asegurándote de que los filtros y gráficos sean interactivos y permitan un análisis profundo.  
-- Analiza los datos obtenidos para responder a las preguntas clave del negocio y propone acciones estratégicas para optimizar las campañas publicitarias.
+- Realiza una copia del dataset y calcula los indicadores en la spreadsheet como lo hiciste con los datos anteriores. Además, ahora también puedes calcular el ROI.  
+- Carga la nueva base de datos con los datos procesados en Looker Studio. **Recuerda, vas a calcular los indicadores en la base de datos completa sin resumir los datos y esta pestaña que vas a conectar en Looker Studio.**
+   
+- En Looker Studio segmenta los datos por diferentes criterios (género, edad, interés, etc.) utilizando filtros y gráficos interactivos para obtener insights más detallados sobre el rendimiento de las campañas.  
+- En Looker Studio  diseña el dashboard de manera intuitiva y fácil de interpretar, asegurándote de que los filtros y gráficos sean interactivos y permitan un análisis profundo.  
+- En Looker Studio analiza los datos obtenidos para responder a las preguntas clave del negocio y propone acciones estratégicas para optimizar las campañas publicitarias.
+- Grabe un video de máximo 5 minutos para explicar sus conclusiones. Utiliza la herramienta loom para grabarte a ti y tu pantalla.
 
 
 ---

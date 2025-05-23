@@ -10,7 +10,6 @@
 **Tiempo:** ⏱️️⏱️️⏱️️ 2-3 hrs.
 
 
-**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
 
 
 ---
@@ -20,43 +19,28 @@
 Desarrollarás habilidades para explorar y analizar una base de datos de marketing digital, identificando las principales métricas disponibles. Aprenderás a calcular números totales y segmentados por campaña, así como a visualizar los datos mediante gráficos para facilitar su interpretación.
 
 ## Descripción
-Para darte un poco de contexto, en este proyecto trabajaremos con una base de datos real extraída del repositorio de datasets de Kaggle. Hemos realizado algunas modificaciones con fines didácticos. En esta base de datos podemos encontrar las siguientes variables:
+Para darte un poco de contexto, en este proyecto trabajaremos con una base de datos real extraída del repositorio de datasets de Kaggle. Hemos realizado algunas modificaciones con fines didácticos.
+
+Vamos a imaginar que eres parte del equipo de marketing que ha lanzado algunas campañas con el objetivo de que más personas se interesen por su producto.
+
+En esta base de datos podemos observar que han lanzado 3 campañas diferentes en redes sociales: CAM01, CAM02, CAM03. Y de cada una podemos analizar diferentes variables como: el ID de la campaña (la misma campaña se puede haber lanzado varias veces y para cada vez tenemos un código para identificarla); la edad, el género, el interés del público al que llegó cada campaña; las impresiones (las veces que que las personas vieron el anuncio;  la cantidad de clics que se hicieron en el anuncio); el costo que tuvo para la empresa cada clic realizado y las conversiones (el número total de personas que solicitaron información sobre el producto después de ver el anuncio)."
+
+A continuación te tocará entregarle a tu líder una primera exploración de la base de datos en donde deberás:
+
+- Identificar los principales datos disponibles en la base de datos y reflejar qué representa cada uno.
 
 
-1. ad_id: Identificador único para cada anuncio (el ID del anuncio es único, pero la campaña puede haber sido anunciada varias veces).
-
-2. xyz_campaign_id: ID asociado a cada campaña publicitaria de la empresa XYZ.
-
-3. fb_campaign_id: ID utilizado por Facebook para rastrear cada campaña.
-
-4. age: Edad de la persona a la que se muestra el anuncio.
-
-5. gender: Género de la persona a la que se muestra el anuncio.
-
-6. interest: Código que especifica la categoría de interés del usuario (según su perfil público en Facebook).
-
-7. Impressions: Número de veces que se mostró el anuncio.
-
-8. Clicks: Número de clics recibidos por el anuncio.
-
-9. Spent: Monto pagado por la empresa XYZ a Facebook para mostrar el anuncio.
-
-10. Total conversion: Número total de personas que solicitaron información sobre el producto después de ver el anuncio.
-
-11. Approved conversion: Número total de personas que compraron el producto después de ver el anuncio.
+- Calcular con fórmulas o tablas dinámicas los totales de anuncios, clics, impresiones, gasto y conversiones.
 
 
-Como ya estudiaste en el reto anterior, aquí tenemos las principales métricas que nos permitirán calcular algunos KPIs en los siguientes retos. Además, con el conocimiento adquirido hasta ahora, podemos comprender mejor el origen de los datos, como por ejemplo, cómo se extrajeron los datos de clics, cómo se identificó que cada campaña era distinta y cómo se pueden definir distintos "targets" para posteriormente analizar el comportamiento de cada perfil de cliente.
+- Segmentar con tablas dinámicas los datos por campaña para obtener los mismos indicadores.
 
 
-Teniendo esto en cuenta, exploraremos aún más la base de datos para conocer en detalle la información contenida en cada variable. Esto nos permitirá obtener un conocimiento profundo que será clave en los próximos retos. Comprender los datos disponibles y su origen es una parte fundamental del análisis de datos, ya que nos ayuda a realizar un mejor estudio y tomar decisiones más informadas.
+- Agrupar con tablas dinámicas los anuncios por género, edad e intereses para realizar un análisis detallado.
 
-Revisa los datos disponibles en la base de datos proporcionada en  "Insumos para tu aprendizaje" y responde a las siguientes preguntas:
-- ¿Cuáles son los principales datos disponibles en la base de datos y qué representan?
-- ¿Cómo se pueden calcular los números totales de anuncios, clics, impresiones, gasto y conversiones? 
-- ¿Cómo se pueden segmentar los datos para obtener estos mismos indicadores por campaña? 
-- ¿Cómo se pueden agrupar los anuncios por género, edad e intereses para un análisis más detallado? 
-- ¿Qué tipo de gráficos pueden ayudar a visualizar mejor la información por género en términos de clics y conversiones?
+
+- Crear gráficos para visualizar clics y conversiones según género.
+
 
 
 ### Cumples con la meta de aprendizaje si:
@@ -66,9 +50,18 @@ Revisa los datos disponibles en la base de datos proporcionada en  "Insumos para
 - [x] Creas gráficos adecuados que representen la información de manera clara y comprensible.
 
 ## Insumos para tu aprendizaje
+
+Recomendado:
+
 - 📈[Base de datos](https://docs.google.com/spreadsheets/d/1WZQDO4b-CrXtiYbgGk__mcmtKofkP6q3_AuFcJ6xkcw/copy?)
 
 *Haz una copia del dataset para comenzar tu análisis. Recuerda que debes estar registrada en tu cuenta de Google.
+
+- 📺[Video: Conociendo a los datos](https://www.loom.com/share/8853d43f94c840a49090675979c8bb52?sid=685d6b73-f010-4fba-8ce0-544cd2779b76)
+
+- 📺[Video: Explorando con tablas dinámicas y gráficos](https://www.loom.com/share/29f67d8f8cf54c8d8e43d05e14492735?sid=9e6d4fd2-c9ed-4646-9240-185c1a90b721)
+
+Extras:
 
 - 📺[Video: Tablas dinámicas](https://www.loom.com/share/5937ac5fb32c424285e952bc07097580?sid=44e51ec0-a90d-4657-ab8d-ed543513adff)
 

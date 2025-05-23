@@ -10,8 +10,6 @@
 **Tiempo:** ⏱️️⏱️️⏱️️ 3-5 hrs.
 
 
-**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
-
 
 ---
 
@@ -41,8 +39,13 @@ Revisa los conceptos relacionados con la construcción de dashboards y responde 
 
 
 ## Insumos para tu aprendizaje
+
+Recomendado:
 - 🔗 [Link para acceder a Looker Studio](https://lookerstudio.google.com/navigation/reporting) 
 
+- 📺 [Video como subir los datos a Looker Studio](https://www.loom.com/share/1d4c81845a464c1aa68e6afba93e1705?sid=27ee6507-fb1f-4058-a6b4-202d2d96dcdb)
+
+Extras:
 - 📺 [Video como empezar en Looker Studio](https://www.youtube.com/watch?v=P5WLaeSQK7s&t=3s)
 
 - 📺 [Video Como conectar datos en Looker Studio](https://www.loom.com/share/0cce98d5bbc7482ea421444e2f850cc1) 
