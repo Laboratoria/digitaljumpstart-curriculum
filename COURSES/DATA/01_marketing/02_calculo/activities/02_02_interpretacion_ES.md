@@ -10,7 +10,6 @@
 **Tiempo:** ⏱️️⏱️️⏱️️ 2-3 hrs.
 
 
-**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
 
 
 ---
@@ -21,7 +20,7 @@ Desarrollarás la capacidad de interpretar los KPIs calculados para evaluar el r
 
 
 ## Descripción
-Reflexiona sobre los resultados y revisa el significado de cada KPI, analizando si es mejor tener un valor más alto o más bajo. Recuerda tu objetivo: si estás evaluando el total de conversiones, identifica qué anuncio de la campaña tuvo la mayor conversión y el menor CPA. Esto te ayudará a comprender el perfil del cliente (género, edad, interés) que generó estos números, lo que podría indicar dónde se encuentran tus clientes. Además, compara este mismo perfil con el desempeño de los anuncios en otras campañas.
+Reflexiona sobre los resultados y revisa el significado de cada KPI, analizando si es mejor tener un valor más alto o más bajo. Identifica qué anuncio de la campaña tuvo la mayor conversión y el menor CPA. Esto te ayudará a comprender el perfil del cliente (género, edad, interés) que generó estos números, lo que podría indicar dónde se encuentran tus clientes. Además, compara este mismo perfil con el desempeño de los anuncios en otras campañas.
 
 Utiliza los KPIs calculados previamente para responder a las siguientes preguntas: 
 
@@ -48,6 +47,12 @@ Utiliza los KPIs calculados previamente para responder a las siguientes pregunta
 
 
 ## Insumos para tu aprendizaje
+
+Recomendado:
+- 📺 [Video: Cómo interpretar métricas de marketing digital y responder a las preguntas con tablas dinamicas](https://www.loom.com/share/89fc4658624f462e9d1fd1a6ce8dcade?sid=ef0e18e7-68cf-422b-9b50-ce95502e10bc)
+
+Extras:
+
 - 📺 [Video: Cómo interpretar métricas de marketing digital para mejorar campañas](https://www.youtube.com/watch?v=PciThfujlD0)
 
 - 📺 [Qué KPIs Analizar en Redes Sociales](https://www.youtube.com/watch?v=u_BmGi4RxRQ).

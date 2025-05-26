@@ -1,0 +1,13 @@
+{
+  "difficulty": 1,
+  "learning": 2,
+  "time": 2,
+  "directions": {
+    "ES": "<p>Para registrar tu progreso da clic en el botón 'Marcar como completada'</p><p>💡 Evaluación: Recuerda que puedes pedir la evaluación de una compañera antes de terminar tu reto.</p>",
+    "PT": "null"
+  },
+  "discord_URL": {
+    "ES": "https://discord.com/channels/1209273049304666113/1340108390168264724",
+    "PT": "null"
+  }
+}

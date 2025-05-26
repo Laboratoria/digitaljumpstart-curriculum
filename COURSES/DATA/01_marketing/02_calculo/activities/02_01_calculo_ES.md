@@ -10,8 +10,6 @@
 **Tiempo:** ⏱️️⏱️️⏱️️ 1-2 hrs.
 
 
-**Reacciona** con 👀 cuando comiences la lectura y/o actividad.
-
 
 ---
 
@@ -21,9 +19,9 @@ Aprenderás a calcular e interpretar los principales KPIs del marketing digital 
 
 
 ## Descripción
-Ahora que ya conocemos nuestros datos, sabemos cuántas campañas ha realizado la empresa, cuál es la representación de cada género y que nuestro público objetivo incluye diversas edades e intereses, podemos calcular nuestros KPIs. En esta base de datos, probablemente hayas notado que no podemos calcular el ROI (pero te dejo un *spoiler*: en el módulo 4 profundizaremos más sobre este indicador).
+Ahora que ya conocemos nuestros datos, sabemos cuántas campañas ha realizado la empresa, cuál es la representación de cada género y que nuestro público objetivo incluye diversas edades e intereses, podemos calcular nuestros KPIs. En esta base de datos, probablemente hayas notado que no podemos calcular el ROI (pero te dejo un *spoiler*: en el módulo 4 (opcional) profundizaremos más sobre este indicador).
 
-Además de comprender los datos, es fundamental entender, antes de hacer los cálculos, qué es lo que queremos observar y analizar. Nuestro objetivo es evaluar el impacto en los posibles clientes o en aquellos que ya han completado una compra y se han convertido en clientes efectivos. Por eso, es importante prestar atención: al calcular los indicadores, debemos elegir una de dos perspectivas (utilizar la variable total_conversion o approved_conversion). Eres libre de elegir (o hacer las dos), pero es esencial mantener la consistencia al calcular los indicadores con el mismo enfoque para lograr una mejor comparabilidad (si vas a utilizar total_conversion, la utilizarás para todos los KPI para poder comparar después).
+Además de comprender los datos, es fundamental entender, antes de hacer los cálculos, qué es lo que queremos observar y analizar. Nuestro objetivo es evaluar el impacto en los posibles clientes o en aquellos que ya han completado una compra y se han convertido en clientes efectivos. 
 
 Revisa los conceptos y fórmulas de los KPIs fundamentales y responde a esta pregunta:
 
@@ -39,6 +37,10 @@ Revisa los conceptos y fórmulas de los KPIs fundamentales y responde a esta pre
 - [x] Calculas correctamente los KPIs utilizando la base de datos proporcionada.
 
 ## Insumos para tu aprendizaje
+
+Recomendado
+- 📺[Video: Conociendo a los indicadores y como calculalos](https://www.loom.com/share/25e10d20114f4970890e1d132e03f0ae?sid=dac29005-fa30-4cef-8169-7771c7cb3965)
+
 - 📄 [Texto: Definición y cálculo de KPIs (CTR, CPC, CPA, CR,y ROI)](https://docs.google.com/document/d/1wFkWk1OzjN3mQ9Re2_d94r4ujUFF0nsOS2aiuyLJ9Xc/edit?usp=sharing).
 
 ## Pauta de Trabajo
