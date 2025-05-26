@@ -6,6 +6,9 @@ Archivo modificado: ./COURSES/DATA/01_marketing/01_intro/activities/01_02_explor
 Archivo modificado: ./COURSES/DATA/01_marketing/01_intro/activities/01_01_intro_ES.md
 Sin cambios en: ./COURSES/DATA/01_marketing/03_dashboard/README_ES.md
 Archivo modificado: ./COURSES/DATA/01_marketing/03_dashboard/activities/03_01_dashboard_ES.md
+Sin cambios en: ./COURSES/DATA/01_marketing/00_firststeps/README_ES.md
+Archivo modificado: ./COURSES/DATA/01_marketing/00_firststeps/activities/00_02_tablas_ES.md
+Archivo modificado: ./COURSES/DATA/01_marketing/00_firststeps/activities/00_01_formulas_ES.md
 Sin cambios en: ./COURSES/DATA/01_marketing/02_calculo/README_ES.md
 Archivo modificado: ./COURSES/DATA/01_marketing/02_calculo/activities/02_02_interpretacion_ES.md
 Archivo modificado: ./COURSES/DATA/01_marketing/02_calculo/activities/02_01_calculo_ES.md
