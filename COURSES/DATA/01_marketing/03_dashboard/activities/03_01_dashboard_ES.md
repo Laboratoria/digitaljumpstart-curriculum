@@ -30,7 +30,7 @@ Aprenderás a construir un dashboard interactivo utilizando los KPIs calculados,
 
 ![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/COURSES/DATA/00_assets/imgen_mkt_0301_01.png)
 
-- Para repasar, revisa los conceptos relacionados con la construcción de dashboards y responde a las siguientes preguntas: 
+Para repasar, revisa los conceptos relacionados con la construcción de dashboards y responde a las siguientes preguntas: 
 - ¿Cómo se crean gráficos de barras, líneas y tablas dinámicas para visualizar KPIs como CTR, CPC, CPA y CR? 
 - ¿Cómo se aplican filtros por campaña, género y edad para segmentar los datos y facilitar su análisis? 
 - ¿Qué elementos de diseño visual son importantes al crear un dashboard para que sea claro y efectivo? 
