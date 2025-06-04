@@ -19,7 +19,18 @@ Aprenderás a construir un dashboard interactivo utilizando los KPIs calculados,
 
 
 ## Descripción
-Revisa los conceptos relacionados con la construcción de dashboards y responde a las siguientes preguntas: 
+- Revisa el material que recomendado en la sección "Insumos de aprendizaje".
+- Crea gráficos en Looker Studio para cada KPI, utilizando barras, líneas o tablas dinámicas según la mejor representación visual para cada indicador. 
+- Aplica filtros en los gráficos para permitir la segmentación de datos por campaña, género y edad. Asegúrate de que los filtros sean interactivos y fáciles de usar. 
+- Optimiza el diseño visual de tu dashboard, utilizando colores, tamaños y fuentes adecuadas para facilitar la lectura y comprensión de los datos. 
+- Personaliza el dashboard según el público objetivo, priorizando la simplicidad y claridad. Considera incluir títulos, leyendas y explicaciones donde sea necesario. 
+- Haz pruebas interactivas para asegurarte de que los filtros y gráficos respondan correctamente a las diferentes interacciones. 
+- Tip: Utiliza colores contrastantes para resaltar las métricas clave y asegúrate de que los usuarios puedan navegar fácilmente entre las diferentes vistas del dashboard.
+- ¡Aquí te dejamos un pequeño ejemplo para inspirarte!:
+
+![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/COURSES/DATA/00_assets/imgen_mkt_0301_01.png)
+
+- Para repasar, revisa los conceptos relacionados con la construcción de dashboards y responde a las siguientes preguntas: 
 - ¿Cómo se crean gráficos de barras, líneas y tablas dinámicas para visualizar KPIs como CTR, CPC, CPA y CR? 
 - ¿Cómo se aplican filtros por campaña, género y edad para segmentar los datos y facilitar su análisis? 
 - ¿Qué elementos de diseño visual son importantes al crear un dashboard para que sea claro y efectivo? 
@@ -27,15 +38,11 @@ Revisa los conceptos relacionados con la construcción de dashboards y responde 
 - ¿Qué elementos deben considerarse para mejorar la interactividad del dashboard y hacer que sea útil para diferentes necesidades analíticas?
 
 
-
-
 ### Cumples con la meta de aprendizaje si:
 - [x] Creas gráficos interactivos y visualmente efectivos para cada KPI (barras, líneas, tablas dinámicas).
 - [x] Aplicas filtros adecuados para segmentar los datos por campaña, género y edad.
 - [x] Diseñas un dashboard claro y funcional, priorizando la accesibilidad y facilidad de uso.
 - [x] Personalizas el dashboard según las necesidades de los usuarios y los objetivos de la campaña.
-
-
 
 
 ## Insumos para tu aprendizaje
@@ -70,15 +77,11 @@ Extras:
 
 
 ## Pauta de Trabajo
-- Crea gráficos en Looker Studio para cada KPI, utilizando barras, líneas o tablas dinámicas según la mejor representación visual para cada indicador. 
-- Aplica filtros en los gráficos para permitir la segmentación de datos por campaña, género y edad. Asegúrate de que los filtros sean interactivos y fáciles de usar. 
-- Optimiza el diseño visual de tu dashboard, utilizando colores, tamaños y fuentes adecuadas para facilitar la lectura y comprensión de los datos. 
-- Personaliza el dashboard según el público objetivo, priorizando la simplicidad y claridad. Considera incluir títulos, leyendas y explicaciones donde sea necesario. 
-- Haz pruebas interactivas para asegurarte de que los filtros y gráficos respondan correctamente a las diferentes interacciones. 
-- Tip: Utiliza colores contrastantes para resaltar las métricas clave y asegúrate de que los usuarios puedan navegar fácilmente entre las diferentes vistas del dashboard.
-¡Aquí te dejamos un pequeño ejemplo para inspirarte!:
+- Revisa el material recomendado.
+- Sigue los pasos indicados en la descripción de la actividad.
+- Responde a las preguntas de repaso.
+- Consulta tus dudas en el canal de la comunidad de WhatsApp “Módulo 3”.
 
-![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/COURSES/DATA/00_assets/imgen_mkt_0301_01.png)
 
 ---
 
