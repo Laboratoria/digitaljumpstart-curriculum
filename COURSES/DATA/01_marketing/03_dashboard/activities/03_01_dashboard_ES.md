@@ -48,7 +48,7 @@ Para repasar, revisa los conceptos relacionados con la construcción de dashboar
 ## Insumos para tu aprendizaje
 
 Recomendado:
-- 🔗 [Link para acceder a Looker Studio](https://lookerstudio.google.com/navigation/reporting) 
+- 🔗 [Link para acceder a Looker Studio](https://lookerstudio.google.com/) 
 
 - 📺 [Video como subir los datos a Looker Studio](https://www.loom.com/share/1d4c81845a464c1aa68e6afba93e1705?sid=27ee6507-fb1f-4058-a6b4-202d2d96dcdb)
 
