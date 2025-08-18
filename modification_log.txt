@@ -1,129 +1,129 @@
 Sin cambios en: ./README.md
-Sin cambios en: ./TRACKS/NOC/README_ES.md
-Sin cambios en: ./TRACKS/NOC/01_intro/README_ES.md
-Sin cambios en: ./TRACKS/NOC/01_intro/02_learning_bydoing/README_ES.md
-Archivo modificado: ./TRACKS/NOC/01_intro/02_learning_bydoing/activities/00_02_01_NOC_myfirst_ES.md
-Archivo modificado: ./TRACKS/NOC/01_intro/02_learning_bydoing/activities/00_02_02_NOC_close_ES.md
-Sin cambios en: ./TRACKS/NOC/01_intro/01_baisc_knowledge/README_ES.md
-Archivo modificado: ./TRACKS/NOC/01_intro/01_baisc_knowledge/activities/00_01_02_NOC_activity_que_es_ES.md
-Archivo modificado: ./TRACKS/NOC/01_intro/01_baisc_knowledge/activities/00_01_01_NOC_internet_web_ES.md
-Archivo modificado: ./TRACKS/NOC/01_intro/01_baisc_knowledge/activities/00_01_05_AI_activity_tools_ES.md
-Archivo modificado: ./TRACKS/NOC/01_intro/01_baisc_knowledge/activities/00_01_03_AI_activity_que_es_ES.md
-Archivo modificado: ./TRACKS/NOC/01_intro/01_baisc_knowledge/activities/00_01_04_NOC_activity_tools_ES.md
 Sin cambios en: ./TRACKS/DAT/README_ES.md
-Sin cambios en: ./TRACKS/DAT/01_intro/README_ES.md
-Sin cambios en: ./TRACKS/DAT/01_intro/02_learning_bydoing/README_ES.md
-Archivo modificado: ./TRACKS/DAT/01_intro/02_learning_bydoing/activities/00_02_01_dat_myfirst_ES.md
-Archivo modificado: ./TRACKS/DAT/01_intro/02_learning_bydoing/activities/00_02_02_dat_close_ES.md
-Sin cambios en: ./TRACKS/DAT/01_intro/01_baisc_knowledge/README_ES.md
-Archivo modificado: ./TRACKS/DAT/01_intro/01_baisc_knowledge/activities/00_01_01_dat_activity_quees_ES.md
-Archivo modificado: ./TRACKS/DAT/01_intro/01_baisc_knowledge/activities/00_01_05_dat_read_tools_ES.md
-Archivo modificado: ./TRACKS/DAT/01_intro/01_baisc_knowledge/activities/00_01_04_dat_activity_ai_que_es_ES.md
-Archivo modificado: ./TRACKS/DAT/01_intro/01_baisc_knowledge/activities/00_01_03_dat_activity_ai_ES.md
-Sin cambios en: ./TRACKS/DAT/03_segmentation/README_ES.md
-Sin cambios en: ./TRACKS/DAT/03_segmentation/01_rfm/README_ES.md
-Archivo modificado: ./TRACKS/DAT/03_segmentation/01_rfm/activities/01_01_01_dat_conceptorfm_ES.md
-Archivo modificado: ./TRACKS/DAT/03_segmentation/01_rfm/activities/01_01_02_dat_cuartil_ES.md
-Archivo modificado: ./TRACKS/DAT/03_segmentation/01_rfm/activities/01_01_03_dat_categoria_ES.md
-Sin cambios en: ./TRACKS/DAT/03_segmentation/02_analisis/README_ES.md
-Archivo modificado: ./TRACKS/DAT/03_segmentation/02_analisis/activities/01_02_02_dat_dashboard_ES.md
-Archivo modificado: ./TRACKS/DAT/03_segmentation/02_analisis/activities/01_02_01_dat_resultados_ES.md
 Sin cambios en: ./TRACKS/DAT/02_exploratory/README_ES.md
-Sin cambios en: ./TRACKS/DAT/02_exploratory/03_time/README_ES.md
-Archivo modificado: ./TRACKS/DAT/02_exploratory/03_time/activities/01_03_02_dat_graficocombinado_ES.md
-Archivo modificado: ./TRACKS/DAT/02_exploratory/03_time/activities/01_03_01_dat_graficolinea_ES.md
 Sin cambios en: ./TRACKS/DAT/02_exploratory/02_central_tendency/README_ES.md
 Archivo modificado: ./TRACKS/DAT/02_exploratory/02_central_tendency/activities/01_02_02_dat_distribuicion_ES.md
 Archivo modificado: ./TRACKS/DAT/02_exploratory/02_central_tendency/activities/01_02_01_dat_medidas_ES.md
+Sin cambios en: ./TRACKS/DAT/02_exploratory/03_time/README_ES.md
+Archivo modificado: ./TRACKS/DAT/02_exploratory/03_time/activities/01_03_02_dat_graficocombinado_ES.md
+Archivo modificado: ./TRACKS/DAT/02_exploratory/03_time/activities/01_03_01_dat_graficolinea_ES.md
 Sin cambios en: ./TRACKS/DAT/02_exploratory/01_categorial_vars/README_ES.md
-Archivo modificado: ./TRACKS/DAT/02_exploratory/01_categorial_vars/activities/01_01_01_dat_myfirstanalisis_ES.md
 Archivo modificado: ./TRACKS/DAT/02_exploratory/01_categorial_vars/activities/01_01_02_dat_viewanalisis_ES.md
+Archivo modificado: ./TRACKS/DAT/02_exploratory/01_categorial_vars/activities/01_01_01_dat_myfirstanalisis_ES.md
 Sin cambios en: ./TRACKS/DAT/00_topics/variables_categóricas_ES.md
+Sin cambios en: ./TRACKS/DAT/01_intro/README_ES.md
+Sin cambios en: ./TRACKS/DAT/01_intro/01_baisc_knowledge/README_ES.md
+Archivo modificado: ./TRACKS/DAT/01_intro/01_baisc_knowledge/activities/00_01_04_dat_activity_ai_que_es_ES.md
+Archivo modificado: ./TRACKS/DAT/01_intro/01_baisc_knowledge/activities/00_01_05_dat_read_tools_ES.md
+Archivo modificado: ./TRACKS/DAT/01_intro/01_baisc_knowledge/activities/00_01_03_dat_activity_ai_ES.md
+Archivo modificado: ./TRACKS/DAT/01_intro/01_baisc_knowledge/activities/00_01_01_dat_activity_quees_ES.md
+Sin cambios en: ./TRACKS/DAT/01_intro/02_learning_bydoing/README_ES.md
+Archivo modificado: ./TRACKS/DAT/01_intro/02_learning_bydoing/activities/00_02_01_dat_myfirst_ES.md
+Archivo modificado: ./TRACKS/DAT/01_intro/02_learning_bydoing/activities/00_02_02_dat_close_ES.md
+Sin cambios en: ./TRACKS/DAT/03_segmentation/README_ES.md
+Sin cambios en: ./TRACKS/DAT/03_segmentation/02_analisis/README_ES.md
+Archivo modificado: ./TRACKS/DAT/03_segmentation/02_analisis/activities/01_02_02_dat_dashboard_ES.md
+Archivo modificado: ./TRACKS/DAT/03_segmentation/02_analisis/activities/01_02_01_dat_resultados_ES.md
+Sin cambios en: ./TRACKS/DAT/03_segmentation/01_rfm/README_ES.md
+Archivo modificado: ./TRACKS/DAT/03_segmentation/01_rfm/activities/01_01_01_dat_conceptorfm_ES.md
+Archivo modificado: ./TRACKS/DAT/03_segmentation/01_rfm/activities/01_01_03_dat_categoria_ES.md
+Archivo modificado: ./TRACKS/DAT/03_segmentation/01_rfm/activities/01_01_02_dat_cuartil_ES.md
+Sin cambios en: ./TRACKS/LEA/README_ES.md
+Sin cambios en: ./TRACKS/LEA/01_intro/README_ES.md
+Sin cambios en: ./TRACKS/LEA/01_intro/02_mechanics/README_ES.md
+Archivo modificado: ./TRACKS/LEA/01_intro/02_mechanics/activities/00_02_02_LEA_structure_ES.md
+Archivo modificado: ./TRACKS/LEA/01_intro/02_mechanics/activities/00_02_01_LEA_platforms_ES.md
+Archivo modificado: ./TRACKS/LEA/01_intro/02_mechanics/activities/00_02_04_LEA_assessment_ES.md
+Archivo modificado: ./TRACKS/LEA/01_intro/02_mechanics/activities/00_02_03_LEA_mechanics_ES.md
+Sin cambios en: ./TRACKS/LEA/01_intro/01_baisc_knowledge/README_ES.md
+Archivo modificado: ./TRACKS/LEA/01_intro/01_baisc_knowledge/activities/00_01_01_LEA_work_ES.md
+Archivo modificado: ./TRACKS/LEA/01_intro/01_baisc_knowledge/activities/00_01_02_LEA_average_ES.md
+Archivo modificado: ./TRACKS/LEA/01_intro/01_baisc_knowledge/activities/00_01_04_LEA_ai_ES.md
+Archivo modificado: ./TRACKS/LEA/01_intro/01_baisc_knowledge/activities/00_01_03_LEA_philosophy_ES.md
 Sin cambios en: ./TRACKS/DEV/README_ES.md
+Sin cambios en: ./TRACKS/DEV/00_topics/css_fundamentos_ES.md
+Sin cambios en: ./TRACKS/DEV/00_topics/css_flexbox_ES.md
+Sin cambios en: ./TRACKS/DEV/00_topics/css_units_ES.md
+Sin cambios en: ./TRACKS/DEV/00_topics/css_intro_ES.md
+Sin cambios en: ./TRACKS/DEV/00_topics/editors_codepen_fork_ES.md
+Sin cambios en: ./TRACKS/DEV/00_topics/css_media_queries_ES.md
+Sin cambios en: ./TRACKS/DEV/00_topics/editors_codepen_ES.md
+Sin cambios en: ./TRACKS/DEV/00_topics/editors_codepen_doctype_ES.md
+Sin cambios en: ./TRACKS/DEV/00_topics/html_semantic_ES.md
+Sin cambios en: ./TRACKS/DEV/00_topics/html_ES.md
+Sin cambios en: ./TRACKS/DEV/00_topics/css_relative_units_ES.md
+Sin cambios en: ./TRACKS/DEV/00_topics/html_forms_ES.md
 Sin cambios en: ./TRACKS/DEV/02_responsive/README_ES.md
-Sin cambios en: ./TRACKS/DEV/02_responsive/04_practice_replicate/README_ES.md
-Archivo modificado: ./TRACKS/DEV/02_responsive/04_practice_replicate/activities/01_04_02_project_replications_netflix_ES.md
-Archivo modificado: ./TRACKS/DEV/02_responsive/04_practice_replicate/activities/01_04_01_project_replications_basic_ES.md
-Archivo modificado: ./TRACKS/DEV/02_responsive/04_practice_replicate/activities/01_04_03_project_replications_slack_ES.md
 Sin cambios en: ./TRACKS/DEV/02_responsive/03_responsive_design/README_ES.md
 Archivo modificado: ./TRACKS/DEV/02_responsive/03_responsive_design/activities/01_03_01_project_responsive_mediaqueries_ES.md
 Archivo modificado: ./TRACKS/DEV/02_responsive/03_responsive_design/activities/01_03_02_project_responsive_flexbox_ES.md
-Sin cambios en: ./TRACKS/DEV/02_responsive/02_your_first_form/README_ES.md
-Archivo modificado: ./TRACKS/DEV/02_responsive/02_your_first_form/activities/01_02_01_project_formulario_ES.md
 Sin cambios en: ./TRACKS/DEV/02_responsive/01_your_first_web/README_ES.md
 Archivo modificado: ./TRACKS/DEV/02_responsive/01_your_first_web/activities/01_01_02_project_add_CSS_ES.md
 Archivo modificado: ./TRACKS/DEV/02_responsive/01_your_first_web/activities/01_01_03_project_semantic_HTML_ES.md
 Archivo modificado: ./TRACKS/DEV/02_responsive/01_your_first_web/activities/01_01_01_project_myFirstWeb_ES.md
+Sin cambios en: ./TRACKS/DEV/02_responsive/02_your_first_form/README_ES.md
+Archivo modificado: ./TRACKS/DEV/02_responsive/02_your_first_form/activities/01_02_01_project_formulario_ES.md
+Sin cambios en: ./TRACKS/DEV/02_responsive/04_practice_replicate/README_ES.md
+Archivo modificado: ./TRACKS/DEV/02_responsive/04_practice_replicate/activities/01_04_03_project_replications_slack_ES.md
+Archivo modificado: ./TRACKS/DEV/02_responsive/04_practice_replicate/activities/01_04_01_project_replications_basic_ES.md
+Archivo modificado: ./TRACKS/DEV/02_responsive/04_practice_replicate/activities/01_04_02_project_replications_netflix_ES.md
 Sin cambios en: ./TRACKS/DEV/01_intro/README_ES.md
+Sin cambios en: ./TRACKS/DEV/01_intro/01_baisc_knowledge/README_ES.md
+Archivo modificado: ./TRACKS/DEV/01_intro/01_baisc_knowledge/activities/00_01_01_DEV_internet_web_ES.md
+Archivo modificado: ./TRACKS/DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends_ES.md
+Archivo modificado: ./TRACKS/DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life_ES.md
+Archivo modificado: ./TRACKS/DEV/01_intro/01_baisc_knowledge/activities/00_01_02_DEV_web_ES.md
+Archivo modificado: ./TRACKS/DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools_ES.md
 Sin cambios en: ./TRACKS/DEV/01_intro/02_learning_bydoing/README_ES.md
 Archivo modificado: ./TRACKS/DEV/01_intro/02_learning_bydoing/activities/00_02_01_myfirst_ES.md
 Archivo modificado: ./TRACKS/DEV/01_intro/02_learning_bydoing/activities/00_02_02_close_ES.md
-Sin cambios en: ./TRACKS/DEV/01_intro/01_baisc_knowledge/README_ES.md
-Archivo modificado: ./TRACKS/DEV/01_intro/01_baisc_knowledge/activities/00_01_05_dev_tools_ES.md
-Archivo modificado: ./TRACKS/DEV/01_intro/01_baisc_knowledge/activities/00_01_03_dev_life_ES.md
-Archivo modificado: ./TRACKS/DEV/01_intro/01_baisc_knowledge/activities/00_01_04_dev_trends_ES.md
-Archivo modificado: ./TRACKS/DEV/01_intro/01_baisc_knowledge/activities/00_01_01_DEV_internet_web_ES.md
-Archivo modificado: ./TRACKS/DEV/01_intro/01_baisc_knowledge/activities/00_01_02_DEV_web_ES.md
-Sin cambios en: ./TRACKS/DEV/00_topics/editors_codepen_fork_ES.md
-Sin cambios en: ./TRACKS/DEV/00_topics/editors_codepen_doctype_ES.md
-Sin cambios en: ./TRACKS/DEV/00_topics/css_intro_ES.md
-Sin cambios en: ./TRACKS/DEV/00_topics/html_forms_ES.md
-Sin cambios en: ./TRACKS/DEV/00_topics/css_relative_units_ES.md
-Sin cambios en: ./TRACKS/DEV/00_topics/editors_codepen_ES.md
-Sin cambios en: ./TRACKS/DEV/00_topics/css_units_ES.md
-Sin cambios en: ./TRACKS/DEV/00_topics/css_media_queries_ES.md
-Sin cambios en: ./TRACKS/DEV/00_topics/html_semantic_ES.md
-Sin cambios en: ./TRACKS/DEV/00_topics/css_flexbox_ES.md
-Sin cambios en: ./TRACKS/DEV/00_topics/css_fundamentos_ES.md
-Sin cambios en: ./TRACKS/DEV/00_topics/html_ES.md
 Sin cambios en: ./TRACKS/LIF/README_ES.md
 Sin cambios en: ./TRACKS/LIF/01_intro/README_ES.md
 Sin cambios en: ./TRACKS/LIF/01_intro/01_baisc_knowledge/README_ES.md
-Archivo modificado: ./TRACKS/LIF/01_intro/01_baisc_knowledge/activities/00_01_00_LIF_enfoque_ES.md
-Archivo modificado: ./TRACKS/LIF/01_intro/01_baisc_knowledge/activities/00_01_04_LIF_overview_closing_ES.md
 Archivo modificado: ./TRACKS/LIF/01_intro/01_baisc_knowledge/activities/00_01_02_LIF_teamwork_ES.md
+Archivo modificado: ./TRACKS/LIF/01_intro/01_baisc_knowledge/activities/00_01_00_LIF_enfoque_ES.md
 Archivo modificado: ./TRACKS/LIF/01_intro/01_baisc_knowledge/activities/00_01_03_LIF_wellbeign_intro_ES.md
 Archivo modificado: ./TRACKS/LIF/01_intro/01_baisc_knowledge/activities/00_01_01_LIF_selfawareness_intro_ES.md
+Archivo modificado: ./TRACKS/LIF/01_intro/01_baisc_knowledge/activities/00_01_04_LIF_overview_closing_ES.md
 Sin cambios en: ./TRACKS/LIF/03_wellbeign/learning_lif_digital_wb_00_intro.md
-Sin cambios en: ./TRACKS/LEA/README_ES.md
-Sin cambios en: ./TRACKS/LEA/01_intro/README_ES.md
-Sin cambios en: ./TRACKS/LEA/01_intro/01_baisc_knowledge/README_ES.md
-Archivo modificado: ./TRACKS/LEA/01_intro/01_baisc_knowledge/activities/00_01_04_LEA_ai_ES.md
-Archivo modificado: ./TRACKS/LEA/01_intro/01_baisc_knowledge/activities/00_01_02_LEA_average_ES.md
-Archivo modificado: ./TRACKS/LEA/01_intro/01_baisc_knowledge/activities/00_01_03_LEA_philosophy_ES.md
-Archivo modificado: ./TRACKS/LEA/01_intro/01_baisc_knowledge/activities/00_01_01_LEA_work_ES.md
-Sin cambios en: ./TRACKS/LEA/01_intro/02_mechanics/README_ES.md
-Archivo modificado: ./TRACKS/LEA/01_intro/02_mechanics/activities/00_02_03_LEA_mechanics_ES.md
-Archivo modificado: ./TRACKS/LEA/01_intro/02_mechanics/activities/00_02_01_LEA_platforms_ES.md
-Archivo modificado: ./TRACKS/LEA/01_intro/02_mechanics/activities/00_02_04_LEA_assessment_ES.md
-Archivo modificado: ./TRACKS/LEA/01_intro/02_mechanics/activities/00_02_02_LEA_structure_ES.md
+Sin cambios en: ./TRACKS/NOC/README_ES.md
+Sin cambios en: ./TRACKS/NOC/01_intro/README_ES.md
+Sin cambios en: ./TRACKS/NOC/01_intro/01_baisc_knowledge/README_ES.md
+Archivo modificado: ./TRACKS/NOC/01_intro/01_baisc_knowledge/activities/00_01_05_AI_activity_tools_ES.md
+Archivo modificado: ./TRACKS/NOC/01_intro/01_baisc_knowledge/activities/00_01_04_NOC_activity_tools_ES.md
+Archivo modificado: ./TRACKS/NOC/01_intro/01_baisc_knowledge/activities/00_01_01_NOC_internet_web_ES.md
+Archivo modificado: ./TRACKS/NOC/01_intro/01_baisc_knowledge/activities/00_01_02_NOC_activity_que_es_ES.md
+Archivo modificado: ./TRACKS/NOC/01_intro/01_baisc_knowledge/activities/00_01_03_AI_activity_que_es_ES.md
+Sin cambios en: ./TRACKS/NOC/01_intro/02_learning_bydoing/README_ES.md
+Archivo modificado: ./TRACKS/NOC/01_intro/02_learning_bydoing/activities/00_02_02_NOC_close_ES.md
+Archivo modificado: ./TRACKS/NOC/01_intro/02_learning_bydoing/activities/00_02_01_NOC_myfirst_ES.md
 Sin cambios en: ./COURSES/AWS/README_ES.md
 Sin cambios en: ./COURSES/AWS/01_despegando/README_ES.md
-Sin cambios en: ./COURSES/AWS/01_despegando/04_modulo4/README_ES.md
-Archivo modificado: ./COURSES/AWS/01_despegando/04_modulo4/activities/04_02_laboratorio_ES.md
-Archivo modificado: ./COURSES/AWS/01_despegando/04_modulo4/activities/04_03_evaluacion_ES.md
-Archivo modificado: ./COURSES/AWS/01_despegando/04_modulo4/activities/04_01_introcomputo_ES.md
-Sin cambios en: ./COURSES/AWS/01_despegando/03_modulo3/README_ES.md
-Archivo modificado: ./COURSES/AWS/01_despegando/03_modulo3/activities/03_01_introalmacena_ES.md
-Archivo modificado: ./COURSES/AWS/01_despegando/03_modulo3/activities/03_03_revisionalmacena_ES.md
-Archivo modificado: ./COURSES/AWS/01_despegando/03_modulo3/activities/03_02_amazons3_ES.md
+Sin cambios en: ./COURSES/AWS/01_despegando/02_modulo2/README_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/02_modulo2/activities/02_02_evaluacion_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/02_modulo2/activities/02_01_consola_ES.md
 Sin cambios en: ./COURSES/AWS/01_despegando/01_fundamentos/README_ES.md
 Archivo modificado: ./COURSES/AWS/01_despegando/01_fundamentos/activities/01_01_computacion_ES.md
-Sin cambios en: ./COURSES/AWS/01_despegando/02_modulo2/README_ES.md
-Archivo modificado: ./COURSES/AWS/01_despegando/02_modulo2/activities/02_01_consola_ES.md
-Archivo modificado: ./COURSES/AWS/01_despegando/02_modulo2/activities/02_02_evaluacion_ES.md
+Sin cambios en: ./COURSES/AWS/01_despegando/03_modulo3/README_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/03_modulo3/activities/03_03_revisionalmacena_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/03_modulo3/activities/03_02_amazons3_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/03_modulo3/activities/03_01_introalmacena_ES.md
+Sin cambios en: ./COURSES/AWS/01_despegando/04_modulo4/README_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/04_modulo4/activities/04_03_evaluacion_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/04_modulo4/activities/04_02_laboratorio_ES.md
+Archivo modificado: ./COURSES/AWS/01_despegando/04_modulo4/activities/04_01_introcomputo_ES.md
 Sin cambios en: ./COURSES/DATA/README_ES.md
 Sin cambios en: ./COURSES/DATA/01_marketing/README_ES.md
-Sin cambios en: ./COURSES/DATA/01_marketing/01_intro/README_ES.md
-Archivo modificado: ./COURSES/DATA/01_marketing/01_intro/activities/01_01_intro_ES.md
-Archivo modificado: ./COURSES/DATA/01_marketing/01_intro/activities/01_02_exploracion_ES.md
-Sin cambios en: ./COURSES/DATA/01_marketing/03_dashboard/README_ES.md
-Archivo modificado: ./COURSES/DATA/01_marketing/03_dashboard/activities/03_01_dashboard_ES.md
 Sin cambios en: ./COURSES/DATA/01_marketing/02_calculo/README_ES.md
 Archivo modificado: ./COURSES/DATA/01_marketing/02_calculo/activities/02_02_interpretacion_ES.md
 Archivo modificado: ./COURSES/DATA/01_marketing/02_calculo/activities/02_01_calculo_ES.md
 Sin cambios en: ./COURSES/DATA/01_marketing/04_desafio/README_ES.md
 Archivo modificado: ./COURSES/DATA/01_marketing/04_desafio/activities/04_01_desafio_ES.md
+Sin cambios en: ./COURSES/DATA/01_marketing/03_dashboard/README_ES.md
+Archivo modificado: ./COURSES/DATA/01_marketing/03_dashboard/activities/03_01_dashboard_ES.md
+Sin cambios en: ./COURSES/DATA/01_marketing/01_intro/README_ES.md
+Archivo modificado: ./COURSES/DATA/01_marketing/01_intro/activities/01_02_exploracion_ES.md
+Archivo modificado: ./COURSES/DATA/01_marketing/01_intro/activities/01_01_intro_ES.md
 Sin cambios en: ./COURSES/DATA/01_marketing/00_firststeps/README_ES.md
-Archivo modificado: ./COURSES/DATA/01_marketing/00_firststeps/activities/00_02_tablas_ES.md
 Archivo modificado: ./COURSES/DATA/01_marketing/00_firststeps/activities/00_01_formulas_ES.md
+Archivo modificado: ./COURSES/DATA/01_marketing/00_firststeps/activities/00_02_tablas_ES.md
