@@ -38,7 +38,7 @@ Para responder estas incógnitas puedes optar, **además** de la autoevaluación
 
 ### ¿Cómo pedir evaluación de una compañera?
 
-Sigue los siguientes pasos para participar de la dinámica:  Deja un mensaje en el canal del WhatsApp pidiendo evaluación de una compañera y un enlace/link al recurso para que todas puedan acceder.  También puedes contactar directamnete a alguna una compañera de la que quieres recibir  evaluación si así lo prefieres.
+Sigue los siguientes pasos para participar de la dinámica:  Deja un mensaje en el canal del WhatsApp pidiendo evaluación de una compañera y un enlace/link al recurso para que todas puedan acceder.  También puedes contactar directamente a alguna una compañera de la que quieres recibir  evaluación si así lo prefieres.
    
 --- 
 
