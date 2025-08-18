@@ -18,7 +18,7 @@ Poner en práctica tu capacidad de evaluar, no sólo refuerza tus habilidades pr
 
 Aprender a monitorear tu propio proceso es una habilidad imprescindible para tu aprendizaje permanente (*lifelong learning*) y para tu vida profesional. Este enfoque también te prepara para enfrentar desafíos complejos y tomar decisiones informadas en situaciones diversas. 
 
-Si bien siempre podrás pedir guía, comentarios o recomendaciones del equipo ed Laboratoria, esta experiencia de aprendizaje se basa en dos niveles de indispensables de evaluación:
+Si bien siempre podrás pedir guía, comentarios o recomendaciones del equipo de Laboratoria, esta experiencia de aprendizaje se basa en dos niveles de indispensables de evaluación:
 
 ## 1. Autoevaluación solamente
 
@@ -38,7 +38,7 @@ Para responder estas incógnitas puedes optar, **además** de la autoevaluación
 
 ### ¿Cómo pedir evaluación de una compañera?
 
-Sigue los siguientes pasos para participar de la dinámica:  Deja un mensaje según corresponda en el canal del WhatsApp del módulo que estés resolviendo, pidiendo evaluaciónde una compañera y un enlace/link al recurso para que todas puedan acceder.  También puedes contactar directamnete a alguna una compañera de la que quieres recibir  evaluación si así lo prefieres.
+Sigue los siguientes pasos para participar de la dinámica:  Deja un mensaje en el canal del WhatsApp pidiendo evaluación de una compañera y un enlace/link al recurso para que todas puedan acceder.  También puedes contactar directamnete a alguna una compañera de la que quieres recibir  evaluación si así lo prefieres.
    
 --- 
 
