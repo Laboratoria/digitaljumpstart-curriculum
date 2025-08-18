@@ -23,7 +23,7 @@ Quizás solamente buscas informarte un poco de las oportunidades de la **econom�
 
 En todos los casos eres bienvenida porque hemos diseñado la experiencia de manera que se adecue a cada persona. :smile:
 
-Si bien te proponemos una experiencia de aprendizaje introductorio práctica que se consigue completando actividades y retos o mini-proyectos (aprender haciendo), eres liibre de aprovechar el programa como mejor se adecue a ti. Puedes participar desde simplemente asistir a los eventos *online* en vivo, completar actividaddes y retos o mini-proyectos, intercamnbiar experiencias con otras compañeras, etc. 
+Si bien te proponemos una experiencia de aprendizaje introductorio práctica que se consigue completando actividades y retos o mini-proyectos (aprender haciendo), eres liibre de aprovechar el programa como mejor se adecue a ti. Puedes participar desde completar actividaddes y retos o mini-proyectos, hasta intercamnbiar experiencias con otras compañeras. 
 
 Buscamos facilitar un espacio seguro para generar conciencia e interés en las crecientes oportunidades de la economía digital y que ninguna se quede sin la oportunidad de explorar y dar sus primeros pasos de aprendizaje.
 
