@@ -33,7 +33,7 @@ Incluye las etiquetas `<header>`, `<section>`, `<article>`, y `<footer>` y organ
 
 ## Insumos para tu aprendizaje
 
-- [📄 Texto: HTML semántico](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=DEV/00_topics/html_semantic_ES.md)
+- [📄 Texto: HTML semántico](?lang=ES&track=DEV&skill=02_responsive&module=01_your_first_web&path=TRACKS/DEV/00_topics/html_semantic_ES.md)
 
 ## Pauta de trabajo
 
