@@ -46,7 +46,7 @@ Usando los cuartiles asignados a las variables de RFM, crea un código identific
 
 Aquí tienes un ejemplo de cómo podrías realizar la segmentación: 
 
-![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/ejemplo_solucion_segmentacion.png)
+![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DAT/00_assets/ejemplo_solucion_segmentacion.png)
 
 ¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdido o confundido es una parte natural del aprendizaje.
 
