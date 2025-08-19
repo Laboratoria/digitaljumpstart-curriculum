@@ -14,8 +14,6 @@
 
 ---
 
-**Programa** : [Desarrollo Web](https://discord.com/channels/1209273049304666113/1236067190466285650)
-
 ## Introducción
 
 La habilidad de maquetación web se refiere a la destreza para crear y estructurar visualmente páginas web utilizando los lenguajes HTML y CSS (más adelante también JavaScript), para organizar el contenido y los elementos de diseño de manera efectiva y estética en un navegador web como Chrome, Firefox, Safari, etc.
