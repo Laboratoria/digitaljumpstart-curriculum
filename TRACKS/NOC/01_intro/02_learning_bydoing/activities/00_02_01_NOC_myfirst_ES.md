@@ -34,7 +34,7 @@ No cumples con la meta de aprendizaje si:
 
 #### Insumos para tu Aprendizaje
 
-- [Tutorial de integración de Zapier para principiantes | Cómo automatizar tareas con Zapier 2024 - YouTube](https://www.youtube.com/watch?v=5ZnL0XxQeM0)
+- [Video: Como Usar Zapier | Zapier Tutorial Español (2025) - YouTube](https://www.youtube.com/watch?v=LGV2EHZxfF8)
 
 #### Pauta de Trabajo
 
