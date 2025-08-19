@@ -18,7 +18,7 @@ La educación “industrial” del sXX funcionó muy bien para proveer de “fue
 
 ### Así se entendía el aprendizaje en el pasado
 
-![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LEA/00_assets/2024-03-07-11-27-38-image.png)
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/LEA/00_assets/2024-03-07-11-27-38-image.png)
 
 ### Así se entiende hoy en día
 
