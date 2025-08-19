@@ -69,7 +69,7 @@ Revisa los contenidos disponibles en los materiales proporcionados, así como la
 
 Aquí tienes algunos resultados de referencia para asegurarte de que vas por buen camino con tu análisis.
 
-![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/image_solucion_rfm.png)
+![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DAT/00_assets/image_solucion_rfm.png)
 
 Tip: Utiliza la fórmula DATE y la fecha del último día del año de 2023 para calcular la Recencia.
 
