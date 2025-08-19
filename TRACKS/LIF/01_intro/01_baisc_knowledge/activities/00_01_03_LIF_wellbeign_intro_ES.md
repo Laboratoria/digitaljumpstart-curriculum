@@ -38,19 +38,5 @@ En sus divulgaciones, Nazareth Castellanos utiliza evidencia científica, destac
 
 [¿Cómo influye tu cuerpo en tus emociones? Nazareth Castellanos, neurocientífica - YouTube](https://youtu.be/aUCK9QvbMec?si=NRvEWL445Qq8IQYr)
 
-## Lo que aprenderás
-
-Más adelante nos ocuparemos de abordar brevemente:
-
-- Habilidades de autorregulación emocional.
-
-- Autocuidado.
-
-- Higiene del sueño.
-
-- Bienestar digital
-
-- etc.
-
 ---
 
