@@ -38,7 +38,7 @@ No cumples con la meta de aprendizaje si:
 
 #### Pauta de Trabajo
 
-1. Crear una Cuenta en Zapier.
+1. Crear una [Cuenta en Zapier](https://zapier.com/).
 
 2. Crear la Automatización (Zap).
 
