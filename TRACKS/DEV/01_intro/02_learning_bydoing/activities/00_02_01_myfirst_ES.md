@@ -40,9 +40,9 @@ Como todo en la vida, hay muchas maneras de resolver un mismo problema, se hará
 
 ## Insumos para tu aprendizaje
 
-- [CodePen como tu primer editor de código](https://github.com/Laboratoria/codigom/blob/f42ac5f383494a8b76d36c89b94661a60259ae49/curriculum_dev/topics/editors_codepen.md)
-- [Ignorar el error DOCTYPE de CodePen](?lang=ES&track=DEV&skill=01_intro&module=02_learning_bydoing&path=DEV/00_topics/editors_codepen_doctype_ES.md)
-- [📄 Texto: introducción a HTML](?lang=ES&track=DEV&skill=01_intro&module=02_learning_bydoing&path=DEV/00_topics/html_ES.md)
+- [CodePen como tu primer editor de código](?lang=ES&track=DEV&skill=01_intro&module=02_learning_bydoing&path=TRACKS/DEV/00_topics/editors_codepen_ES.md)
+- [Ignorar el error DOCTYPE de CodePen](?lang=ES&track=DEV&skill=01_intro&module=02_learning_bydoing&path=TRACKS/DEV/00_topics/editors_codepen_doctype_ES.md)
+- [📄 Texto: introducción a HTML](?lang=ES&track=DEV&skill=01_intro&module=02_learning_bydoing&path=TRACKS/DEV/00_topics/html_ES.md)
 - [📺 Video: introducción al HTML](https://youtu.be/ewZ_YWbIWXI?si=FEGJuPSPf-WUh-2P)
 - [📺 Video: elementos HTML](https://www.youtube.com/watch?v=vIoO52MdZFE)
 
