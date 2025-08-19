@@ -53,7 +53,7 @@ Aquí tienes el texto mejorado:
 
 A continuación, se presentan algunos resultados de referencia para ayudarte a verificar el rumbo de tu análisis. Recuerda que estos valores pueden variar según las categorías y los criterios que hayas definido para cada una.
 
-![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/ejemplo_solucion_piechartm.png)
+![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DAT/00_assets/ejemplo_solucion_piechartm.png)
 
 
 ---
