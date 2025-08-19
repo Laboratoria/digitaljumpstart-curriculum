@@ -24,17 +24,17 @@ En CodePen, se le llaman "Pen" a un proyecto individual que consta de HTML, CSS,
 
 Cuando estés lista para comenzar a "codear", crea tu primer "Pen" 
 
-![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DEV/00_assets/2024-03-11-14-45-32-codePen_03.png)
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DEV/00_assets/2024-03-11-14-45-32-codePen_03.png)
 
 ## Tu primer Pen
 
 Así se verá tu primer "proyecto" completamente en blanco.
 
-![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DEV/00_assets/2024-03-11-14-53-55-codePen_04.png)
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DEV/00_assets/2024-03-11-14-53-55-codePen_04.png)
 
 Ponle un nombre para que te sea fácil identificar qué harás acá.
 
-![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DEV/00_assets/2024-03-11-14-54-34-codePen_05.png)
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DEV/00_assets/2024-03-11-14-54-34-codePen_05.png)
 
 > En CodePen, no necesitas vincular manualmente los archivos de HTML, CSS y JS porque la plataforma lo hace automáticamente por ti. Sólo tienes que escribir el código correspondiente en cada una de las cajas de código (HTML, CSS, JS) en su interfaz. CodePen se encarga de combinar y mostrar el resultado en tiempo real.
 > 
@@ -44,31 +44,31 @@ Ponle un nombre para que te sea fácil identificar qué harás acá.
 
 Este espacio es donde escribirás tu código HTML
 
-![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DEV/00_assets/2024-03-11-14-54-51-codePen_06.png)
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DEV/00_assets/2024-03-11-14-54-51-codePen_06.png)
 
 ### CSS
 
 Y acá escribirás tu código CSS.
 
-![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DEV/00_assets/2024-03-11-14-55-26-codePen_07.png)
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DEV/00_assets/2024-03-11-14-55-26-codePen_07.png)
 
 ### Guarda tu primer "Pen"
 
-![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DEV/00_assets/2024-03-11-14-55-59-codePen_08.png)
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DEV/00_assets/2024-03-11-14-55-59-codePen_08.png)
 
 ### Todos tus "Pens"
 
 A partir de ahora, acá encontrarás todos los "Pens" que hayas creado.
 
-![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DEV/00_assets/2024-03-11-14-56-27-codePen_09.png)
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DEV/00_assets/2024-03-11-14-56-27-codePen_09.png)
 
 ### Comparte tu trabajo
 
 Cuando quieras compartir tu trabajo para mostrar el resultado o pedir comentarios/ayuda de alguna compañera :sunglasses:, debes obtener el enlace/*link* al "Pen" con el botón "share" (compartir).
 
-![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DEV/00_assets/2024-03-11-14-57-03-codePen_10.png)
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DEV/00_assets/2024-03-11-14-57-03-codePen_10.png)
 
-![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DEV/00_assets/2024-03-11-14-57-10-codePen_11.png)
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DEV/00_assets/2024-03-11-14-57-10-codePen_11.png)
 
 Una vez hayas copiado el enlace con el botón "Copy/link", puedes pegarlo en donde necesites para que tras personas puedan acceder a ver tu trabajo.
 
