@@ -16,8 +16,6 @@ Aprenderás a configurar una automatización básica en Zapier integrando dos ap
 
 #### Descripción
 
-**Video:** Explicación de lo que hay que hacer 🌟 (TBD)
-
 En este reto práctico, crearás una automatización que se encargará de enviar un correo electrónico desde tu cuenta de Gmail cada vez que se agregue una nueva fila en un documento de Google Sheets. Este podría ser, por ejemplo, el caso en el que necesitas simular una respuesta automática a un cliente que ha solicitado información o soporte telefónico en un pequeño negocio.
 
 #### Guía de Evaluación
