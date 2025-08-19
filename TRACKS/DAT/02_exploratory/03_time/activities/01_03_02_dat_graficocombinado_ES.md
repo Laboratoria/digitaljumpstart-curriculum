@@ -39,7 +39,7 @@ Utiliza la variable "fecha_entrada" para entender el patrón de registro de nuev
 
 Este es un ejemplo de gráfico combinado que muestra la suma de compras de vino según los clientes con fecha de entrada en el mismo mes y el total de clientes que se registraron en ese mes:
 
-![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/350095241-65aec943-78f7-46ea-a122-329ee3aa82ee.png)
+![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DAT/00_assets/350095241-65aec943-78f7-46ea-a122-329ee3aa82ee.png)
 
 ¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirse aturdido y confundido es una parte natural del proceso.
 
