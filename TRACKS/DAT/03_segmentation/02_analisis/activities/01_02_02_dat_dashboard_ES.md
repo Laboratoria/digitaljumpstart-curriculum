@@ -46,7 +46,7 @@ Vas a crear un dashboard que incluya gráficos y tablas para comunicar las concl
 
 Aquí tienes un ejemplo de dashboard para representar los datos del análisis RFM. Ten en cuenta que este es solo una referencia para inspirarte en cómo presentar la información; los datos y cifras de este ejemplo corresponden a otra base de datos:
 
-![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/ejemplo_dashboard.png)
+![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DAT/00_assets/ejemplo_dashboard.png)
 
 
 ¡Diviértete y disfruta del proceso de aprendizaje! Recuerda que sentirte confundido o aturdido es una parte natural del proceso.
