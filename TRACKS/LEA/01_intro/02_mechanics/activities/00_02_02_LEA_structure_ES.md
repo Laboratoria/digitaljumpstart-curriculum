@@ -9,7 +9,7 @@
 
 ---
 
-![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LEA/00_assets/metodolog_01.png)
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/LEA/00_assets/metodolog_01.png)
 
 ## Introducción
 
@@ -29,7 +29,7 @@ Si después de completar la Introducción, quieres continuar aprendiendo sobre e
 
 Encontrarás todo organizado en una estructura de la siguiente manera. Es como una *matrioshka* o muñeca rusa 🪆. Las habilidades funcionan como un "contenedor" de módulos y los módulos como "contenedores" de actividades y/o retos de todo tipo que tendrás que ir completando.
 
-![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/LEA/00_assets/metodolog_02.png)
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/LEA/00_assets/metodolog_02.png)
 
 ---
 
