@@ -16,7 +16,7 @@ Anda al sitio de [CodePen](https://codepen.io/) y crea tu cuenta. Quizás te aco
 
 El único inconveniente es que no hay una versión en castellano ni portugués. Felizmente son pocos elementos de la interfaz con los que tendrás que lidiar. Acá te dejamos capturas de pantalla paso a paso para guiarte.
 
-![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DEV/00_assets/2024-03-11-14-44-08-codePen_01.png)
+![](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DEV/00_assets/2024-03-11-14-44-08-codePen_01.png)
 
 ### Crea tu primer "Pen"
 
