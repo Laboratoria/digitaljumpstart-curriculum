@@ -103,7 +103,6 @@ Investiga brevemente sobre las siguientes preguntas. **Elije 1 o 2 respuestas qu
 
 - AI: ChatGPT, Gemini, Perplexity, Bing, etc.. Recuerda que pueden alucinar y mentirte descaradamente, verifica siempre.
 
-- [📺 Video: ¿Cómo funciona Internet?](https://www.youtube.com/watch?v=-InB0vz_Mec)
 
 ## Guía de Autoevaluación
 
