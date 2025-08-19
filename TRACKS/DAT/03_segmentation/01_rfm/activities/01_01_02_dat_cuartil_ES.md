@@ -40,7 +40,7 @@ Vas a calcular los cuartiles para cada una de las variables que utilizamos para 
 
 - Crea una tabla donde puedas calcular los cuartiles para Recencia, Frecuencia y Monto, como en este ejemplo:
 
-![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/ejemplo_cuartil.png)
+![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DAT/00_assets/ejemplo_cuartil.png)
 
 
 - Usa la fórmula **IF** ou **IFS** para asignar el cuartil correspondiente a cada cliente.
@@ -51,7 +51,7 @@ Vas a calcular los cuartiles para cada una de las variables que utilizamos para 
 
 Aquí tienes un ejemplo para que puedas verificar cómo va tu progreso:
 
-![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/DAT/00_assets/image_solucion_rfm.png)
+![image](https://raw.githubusercontent.com/Laboratoria/digitaljumpstart-curriculum/main/TRACKS/DAT/00_assets/image_solucion_rfm.png)
 
 ---
 
